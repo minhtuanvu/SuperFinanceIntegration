@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_PreLogin_Support",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachPreLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "RB/Droid/PreLogin/PreLogin_VerifyAppVersion.js",
+        "RB/Droid/PreLogin/PreLogin_VerifyFAQ.js",
+        "RB/Droid/PreLogin/PreLogin_VerifyPrivacyPolicy.js",
+        "RB/Droid/PreLogin/PreLogin_VerifyTermsnConditions.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js",
+        "Droid_RB_SME_Suite.js",
+        "TestPlanAndroid_RB_Sanity.js"
+    ]
+}

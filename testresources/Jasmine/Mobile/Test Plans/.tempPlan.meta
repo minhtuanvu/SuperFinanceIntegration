@@ -1,0 +1,20 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "tempPlan",
+    "testSuiteInfo": [
+        "Droid/T24RB/Login.js",
+        "Droid/T24RB/ManageBeneficiaries.js",
+        "Droid/T24RB/PaymentsinT24Transact.js",
+        "Droid/T24RB/Payments.js",
+        "Droid/T24RB/AllAccounts.js",
+        "Droid/T24RB/AccountsOverview.js",
+        "Droid/T24RB/CombinedStatement.js",
+        "Droid/T24RB/TransferbetweenAccountinT24Transact.js",
+        "Droid/T24RB/PostLoginSupport.js",
+        "Droid/T24RB/AccountPreference.js",
+        "Droid/T24RB/ProfileSettings.js",
+        "Droid/T24RB/ConsentManagement.js",
+        "Droid/T24RB/ExchangeRates.js",
+        "Droid/T24RB/MyMoney.js"
+    ]
+}

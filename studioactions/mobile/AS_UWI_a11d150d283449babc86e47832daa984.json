@@ -1,0 +1,25 @@
+{
+    "AS_UWI_a11d150d283449babc86e47832daa984": {
+        "id": "AS_UWI_a11d150d283449babc86e47832daa984",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h65c10a2cabc493c8ac9ef9c703d1486"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a51132379d0349b0939aead7465f8222",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mfaComponentsOnLogout",
+            "display": "mfaComponentsOnLogout",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s029e861d0cb422badfa63cb64d1b1f4",
+    "_text_": "CHECK-IN",
+    "_width_": {
+        "type": "string",
+        "value": "26%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s029e861d0cb422badfa63cb64d1b1f4",
+    "id": "btnCheckInSF",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "edc103cb2c114bc482894e02ba29e8f5",
+    "name": "kony.ui.Button",
+    "parent": "flxV2SF",
+    "pf": "frmWorkSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

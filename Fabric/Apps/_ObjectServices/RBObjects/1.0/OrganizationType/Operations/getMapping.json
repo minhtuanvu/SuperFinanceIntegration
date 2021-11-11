@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getOrganisationTypes4184",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"OgranizationTypes\" outputpath=\"OgranizationTypes\">    \t      <set-param inputpath=\"id\" outputpath=\"id\"/>    \t      <set-param inputpath=\"Name\" outputpath=\"Name\"/>    \t      <set-param inputpath=\"Description\" outputpath=\"Description\"/>      </map>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"OrganizationType\",\"xy\":\"770 100\",\"__gohashid\":283},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices (1.0).getOrganisationTypes\",\"xy\":\"150 100\",\"__gohashid\":284}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:OrganizationType\",\"fromPort\":\"target\",\"toPort\":\"target:OrganizationType\",\"visible\":true,\"common\":false,\"__gohashid\":3652},{\"from\":\"target:OrganizationType\",\"to\":\"target:OrganizationType:fields\",\"fromPort\":\"target:OrganizationType\",\"toPort\":\"target:OrganizationType:fields\",\"visible\":true,\"common\":false,\"__gohashid\":3653},{\"from\":\"target:OrganizationType:fields\",\"to\":\"target:OrganizationType:Description:\",\"fromPort\":\"target:OrganizationType:fields\",\"toPort\":\"target:OrganizationType:Description:\",\"visible\":true,\"common\":false,\"__gohashid\":3654},{\"from\":\"target:OrganizationType:fields\",\"to\":\"target:OrganizationType:id:\",\"fromPort\":\"target:OrganizationType:fields\",\"toPort\":\"target:OrganizationType:id:\",\"visible\":true,\"common\":false,\"__gohashid\":3655},{\"from\":\"target:OrganizationType:fields\",\"to\":\"target:OrganizationType:Name:\",\"fromPort\":\"target:OrganizationType:fields\",\"toPort\":\"target:OrganizationType:Name:\",\"visible\":true,\"common\":false,\"__gohashid\":3656},{\"from\":\"source\",\"to\":\"source:OgranizationTypes\",\"fromPort\":\"source\",\"toPort\":\"source:OgranizationTypes\",\"visible\":true,\"common\":false,\"__gohashid\":3657},{\"from\":\"source:OgranizationTypes\",\"to\":\"source:OgranizationTypes:parameters\",\"fromPort\":\"source:OgranizationTypes\",\"toPort\":\"source:OgranizationTypes:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":3658},{\"from\":\"source:OgranizationTypes:parameters\",\"to\":\"source:OgranizationTypes:Description:\",\"fromPort\":\"source:OgranizationTypes:parameters\",\"toPort\":\"source:OgranizationTypes:Description:\",\"visible\":true,\"common\":false,\"__gohashid\":3659},{\"from\":\"source:OgranizationTypes:parameters\",\"to\":\"source:OgranizationTypes:id:\",\"fromPort\":\"source:OgranizationTypes:parameters\",\"toPort\":\"source:OgranizationTypes:id:\",\"visible\":true,\"common\":false,\"__gohashid\":3660},{\"from\":\"source:OgranizationTypes:parameters\",\"to\":\"source:OgranizationTypes:Name:\",\"fromPort\":\"source:OgranizationTypes:parameters\",\"toPort\":\"source:OgranizationTypes:Name:\",\"visible\":true,\"common\":false,\"__gohashid\":3661}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getOrganisationTypes"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "OrganizationType",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "testCaseName": "verifyAdvanceSearch",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingCreditCard",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingCreditCard.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "47cf1cdf-70f8-6611-cdb1-88ed75dff5a4",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await verifyAccountLanding(accountsLanding.creditCard);\nawait advanceSearchAccountsDetail();\nawait goToDashboardFromAccounts();\n",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

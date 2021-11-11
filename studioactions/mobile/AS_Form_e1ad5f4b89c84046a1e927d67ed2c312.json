@@ -1,0 +1,23 @@
+{
+    "AS_Form_e1ad5f4b89c84046a1e927d67ed2c312": {
+        "id": "AS_Form_e1ad5f4b89c84046a1e927d67ed2c312",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardReview",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c0dacdd69fb1492a8179b65e2a543553"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_ee2d5ef5d9454c51b99c798bc4d28f13",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

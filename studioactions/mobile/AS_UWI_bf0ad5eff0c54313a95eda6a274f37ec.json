@@ -1,0 +1,31 @@
+{
+    "AS_UWI_bf0ad5eff0c54313a95eda6a274f37ec": {
+        "id": "AS_UWI_bf0ad5eff0c54313a95eda6a274f37ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "rememberDeviceReg",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h65c10a2cabc493c8ac9ef9c703d1486"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a839b13db7bd421486170f95b0414df2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setRememberDeviceRegFlag",
+            "display": "setRememberDeviceRegFlag",
+            "inputparams": [{
+                "name": "flag",
+                "value": " rememberDeviceReg"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "testCaseName": "Transfers",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_SanitySuite.js",
+        "IOS/RB/RB_AccountsLandingSavings.js",
+        "IOS/RB/RB_AccountsLandingChecking.js",
+        "IOS/RB/RB_AccountsLandingDeposit.js",
+        "IOS/RB/RB_ManageRecipientExternalAccount.js",
+        "IOS/RB/RB_ManageRecipientSameBank.js",
+        "IOS/RB/RB_ManageRecipientInternationalAccount.js",
+        "IOS/RB/RB_AccountsLandingLoan.js",
+        "IOS/RB/RB_ManageRecipientP2P.js",
+        "IOS/RB/RB_MyBills.js",
+        "IOS/RB/RB_TransferOwnAccount.js",
+        "IOS/RB/RB_TransferSameBankAccount.js",
+        "IOS/RB/RB_TransferExternalAccount.js",
+        "IOS/RB/RB_TransferInternationalAccount.js",
+        "IOS/RB/RB_TransferP2PAccount.js"
+    ]
+}

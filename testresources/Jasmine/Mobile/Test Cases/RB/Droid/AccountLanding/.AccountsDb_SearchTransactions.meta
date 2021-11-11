@@ -1,0 +1,131 @@
+{
+    "testCaseName": "AccountsDb_SearchTransactions",
+    "testSuiteName": "Test Cases/AccountLanding",
+    "channelName": "Mobile",
+    "usedBy": [
+        "AccountsDashboard.js",
+        "Droid/Demo_2021.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmPFMCategorisedTransactions.tbxSearch",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "394d0c5d-d24f-32d3-57c5-8e9fb29cb79a",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmPFMCategorisedTransactions.tbxSearch"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmPFMCategorisedTransactions.tbxSearch",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmPFMCategorisedTransactions.tbxSearch",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "fee"
+                    }
+                },
+                "UUID": "55723c0b-74c4-4021-8312-98a94eb708e2",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "fee",
+            "metaEditable": true
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "2000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "2ced2baf-908e-5275-7449-11f63fc24fc1",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmPFMCategorisedTransactions.segTransactions[0,0]",
+            "contextMenu": {
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmPFMCategorisedTransactions.segTransactions[0,0]",
+                    "widgetType": "segmentedui",
+                    "actionType": "click"
+                },
+                "UUID": "17eeceac-1e55-4aca-84b9-7d9cc60a875d"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmPFMTransactionDetails.customHeader.flxBack",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmPFMTransactionDetails.customHeader.flxBack",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "9e0f1306-ad34-488c-a386-256c7abe24a8"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        }
+    ],
+    "timeout": 0
+}

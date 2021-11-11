@@ -1,0 +1,31 @@
+{
+  "operationConfig" : {
+    "name" : "getInformationContent3223",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"infoType\" outputpath=\"infoType\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"informationcontent\" outputpath=\"Informationcontent\">      <set-param inputpath=\"informationContent\" outputpath=\"infoContent\"/>      <set-param inputpath=\"informationType\" outputpath=\"infoType\"/>    </map>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Informationcontent\",\"xy\":\"770 100\",\"__gohashid\":95655},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getInformationContent\",\"xy\":\"150 100\",\"__gohashid\":95656}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:Informationcontent\",\"fromPort\":\"target\",\"toPort\":\"target:Informationcontent\",\"visible\":true,\"common\":false,\"__gohashid\":95669},{\"from\":\"target:Informationcontent\",\"to\":\"target:Informationcontent:fields\",\"fromPort\":\"target:Informationcontent\",\"toPort\":\"target:Informationcontent:fields\",\"visible\":true,\"common\":false,\"__gohashid\":95670},{\"from\":\"target:Informationcontent:fields\",\"to\":\"target:Informationcontent:infoContent:\",\"fromPort\":\"target:Informationcontent:fields\",\"toPort\":\"target:Informationcontent:infoContent:\",\"visible\":true,\"common\":false,\"__gohashid\":95671},{\"from\":\"target:Informationcontent:fields\",\"to\":\"target:Informationcontent:infoType:\",\"fromPort\":\"target:Informationcontent:fields\",\"toPort\":\"target:Informationcontent:infoType:\",\"visible\":true,\"common\":false,\"__gohashid\":95672},{\"from\":\"target:Informationcontent:fields\",\"to\":\"target:Informationcontent:categoryName:\",\"fromPort\":\"target:Informationcontent:fields\",\"toPort\":\"target:Informationcontent:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":95673},{\"from\":\"source\",\"to\":\"source:Informationcontent\",\"fromPort\":\"source\",\"toPort\":\"source:Informationcontent\",\"visible\":true,\"common\":false,\"__gohashid\":95674},{\"from\":\"source:Informationcontent\",\"to\":\"source:Informationcontent:parameters\",\"fromPort\":\"source:Informationcontent\",\"toPort\":\"source:Informationcontent:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":95675},{\"from\":\"source:Informationcontent:parameters\",\"to\":\"source:Informationcontent:infoContent:\",\"fromPort\":\"source:Informationcontent:parameters\",\"toPort\":\"source:Informationcontent:infoContent:\",\"visible\":true,\"common\":false,\"__gohashid\":95676},{\"from\":\"source:Informationcontent:parameters\",\"to\":\"source:Informationcontent:infoType:\",\"fromPort\":\"source:Informationcontent:parameters\",\"toPort\":\"source:Informationcontent:infoType:\",\"visible\":true,\"common\":false,\"__gohashid\":95677},{\"category\":\"Mapping\",\"from\":\"source:Informationcontent:infoContent:\",\"to\":\"target:Informationcontent:infoContent:\",\"fromPort\":\"source:Informationcontent:infoContent:\",\"toPort\":\"target:Informationcontent:infoContent:\",\"visible\":true,\"common\":true,\"__gohashid\":98024},{\"category\":\"Mapping\",\"from\":\"source:Informationcontent:infoType:\",\"to\":\"target:Informationcontent:infoType:\",\"fromPort\":\"source:Informationcontent:infoType:\",\"toPort\":\"target:Informationcontent:infoType:\",\"visible\":true,\"common\":true,\"__gohashid\":98031}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getInformationContent"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Informationcontent",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

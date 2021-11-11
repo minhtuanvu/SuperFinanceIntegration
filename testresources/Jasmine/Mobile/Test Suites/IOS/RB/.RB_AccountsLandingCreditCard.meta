@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_AccountsLandingCreditCard",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/AccountsLanding.js",
+        "Common/IOS/RB/MyBills.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyCreditCardAccountLandingPage.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyAccountInfoCreditCard.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyTransactionDetails.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyAdvanceSearch.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyOptions_CreditCardAccount.js",
+        "RB/IOS/AccountsLandingCreditCard/verifyScrollTransactions_CreditCard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "addRecipient" : "addRecipientMapping",
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "saveRecipientAfterWireTransfer" : "saveRecipientAfterWireTransferMapping",
+    "partialupdate" : "partialupdateMapping",
+    "updateRecipient" : "updateRecipientMapping",
+    "delete" : "deleteMapping",
+    "getRecentPayee" : "getRecentPayeeMapping",
+    "LinkPayeetoTransaction" : "LinkPayeetoTransactionMapping",
+    "getWireTransferRecipient" : "getWireTransferRecipientMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

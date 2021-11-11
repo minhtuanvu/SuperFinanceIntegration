@@ -1,0 +1,85 @@
+{
+    "testCaseName": "Accounts_SavingsMoreoption",
+    "testSuiteName": "Test Cases/AccountLanding",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmAccountDetails.btnThreeDots",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "b9b38379-a710-9ebf-3006-ba69ba93fdc2",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmAccountDetails.btnThreeDots"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmAccountDetails.btnThreeDots",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmAccountDetails.btnThreeDots",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "8cb0aacc-2662-4c7b-b9d5-adac4a14f5f8"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmAccountDetails.flxCancel",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmAccountDetails.flxCancel",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            179,
+                            29
+                        ],
+                        "move": null,
+                        "end": null
+                    }
+                },
+                "UUID": "476dd6f5-0ffb-44a8-9193-c903eb6129a7"
+            },
+            "codeNotReady": false,
+            "dispMeta": "",
+            "metaEditable": false
+        }
+    ],
+    "usedBy": [],
+    "timeout": 0
+}

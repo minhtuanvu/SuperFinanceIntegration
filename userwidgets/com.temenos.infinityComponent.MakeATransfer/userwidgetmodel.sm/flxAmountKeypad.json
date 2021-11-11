@@ -1,0 +1,59 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "34%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4bae23c2dbc4074bb1b6d9b2c7d4fec",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxKeypadRowOne",
+        "flxKeypadRowTwo",
+        "flxKeypadRowThree",
+        "flxKeypadRowFour"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAmountKeypad",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f60311e9d4d746dcbbb254dae9a35128",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxAmount",
+    "pf": "userwidgetmodel",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

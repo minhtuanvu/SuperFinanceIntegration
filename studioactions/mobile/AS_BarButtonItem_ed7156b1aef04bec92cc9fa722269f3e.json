@@ -1,0 +1,22 @@
+{
+    "AS_BarButtonItem_ed7156b1aef04bec92cc9fa722269f3e": {
+        "id": "AS_BarButtonItem_ed7156b1aef04bec92cc9fa722269f3e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b88b646e5c1541eaa308daa701e1458f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "clearSelection",
+            "display": "clearSelection",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

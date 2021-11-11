@@ -1,0 +1,36 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.kony.dbputilities.objpreprocessors.UsernamePasswordPolicyPreProcessorsDMS"
+  },
+  "operationConfig" : {
+    "name" : "createDemoData1750",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"adminUsername\" outputpath=\"adminUsername\"/><set-param inputpath=\"countryCode\" outputpath=\"countryCode\"/><set-param inputpath=\"newUsername\" outputpath=\"newUsername\"/><set-param inputpath=\"newPassword\" outputpath=\"newPassword\"/><set-param inputpath=\"email\" outputpath=\"email\"/><set-param inputpath=\"adminPassword\" outputpath=\"adminPassword\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDemoServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createDemoData"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DemoData",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

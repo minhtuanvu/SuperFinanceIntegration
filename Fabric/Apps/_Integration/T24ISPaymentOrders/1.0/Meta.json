@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.t24irisintegration.jar",
+    "type" : "jar"
+  }, {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "jar"
+  } ],
+  "description" : "The T24 Payments Integration Service provides the Online banking and PSD2 related APIs."
+}

@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_TransferOwnAccountSchedule_DailyDateRange",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachIT.js",
+        "Common/IOS/SME/Transfers.js",
+        "SME/IOS/Transfer/TransferOwnAccountSchedule_DailyDateRange.js"
+    ],
+    "usedBy": []
+}

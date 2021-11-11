@@ -1,0 +1,178 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "brwInvestmentChart": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f3a115c662244f609d8c5a96ac779faa",
+                "srcKUID": "f5d944f919e041e4929a11bbbb7fca06",
+                "wType": "Browser"
+            },
+            "localURL": "chartist/linechart.html"
+        },
+        "flxInvesmentChartContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b0591c3076a544dca1d0206b92869825",
+                "srcKUID": "ja559cd225f843b0b401d4fbca43888c",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "280dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "98%"
+                }
+            }
+        },
+        "flxInvestmentContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f58a1b937d1c475fa0e82941b1e96e8d",
+                "srcKUID": "h7cdba9106fb426d8ee26cc93338b80f",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "350dp"
+                }
+            }
+        },
+        "flxlineChartFilter": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jd0e0cc1b6834e0ea26590e49a582f26",
+                "srcKUID": "e3c38f734843485aa8c445592568fc38",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxlineChartFilterContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c9633677b69a4a86adf4ab91d8bc61f2",
+                "srcKUID": "j8f27162d3ba423ab23448198c4de917",
+                "wType": "FlexContainer"
+            }
+        },
+        "investmentLineChart": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ffa5b37aa1b149dca2fca832b768516a",
+                "srcKUID": "j1f76e269faa42fb90fa433f0774a056",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 1
+            },
+            "height": {
+                "Default": {
+                    "type": "ref",
+                    "value": "preferred"
+                }
+            }
+        },
+        "lblDate": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e798691635db434e85fe964d9879840a",
+                "srcKUID": "g7ae414c1ce7448dab016c0bde989157",
+                "wType": "Label"
+            }
+        },
+        "lblFiveYear": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h3a605cc28fb471f9a930d8b6ab431d5",
+                "srcKUID": "b79909cba4884f1da161619569dcf7a6",
+                "wType": "Label"
+            }
+        },
+        "lblOneYear": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i44b7d8ad0944f1f9e63786de7fb4adf",
+                "srcKUID": "beb54aba81eb4f35b0fd3ce37af908cf",
+                "wType": "Label"
+            }
+        },
+        "lblStartYear": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e8cb3c73fce746ab9e55e8ba2fbdc02c",
+                "srcKUID": "j9190697598448938edcff19b65db84b",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "currencyChart",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "ffa5b37aa1b149dca2fca832b768516a",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxCurrencyChart",
+    "pf": "frmInstrumentDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "j1f76e269faa42fb90fa433f0774a056",
+    "wType": "UserWidgetInstance"
+}

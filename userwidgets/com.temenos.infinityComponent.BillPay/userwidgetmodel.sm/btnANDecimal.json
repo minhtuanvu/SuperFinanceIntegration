@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf2e7c0b2ddb4fe2b1e8513edcece16b",
+    "_text_": ",",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.30%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "7"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sf7a6c04a27643f1a3c1f0a1ace7010a",
+    "id": "btnANDecimal",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ef5c417f51294874b885f086b33420dd",
+    "name": "kony.ui.Button",
+    "parent": "flxAccNumKeypadRowFour",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

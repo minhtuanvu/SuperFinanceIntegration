@@ -1,0 +1,9 @@
+{
+    "testCaseName": "verifyDepositAccountLandingPage",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingDeposit",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingDeposit.js"
+    ]
+}

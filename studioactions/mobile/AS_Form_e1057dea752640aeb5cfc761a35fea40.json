@@ -1,0 +1,23 @@
+{
+    "AS_Form_e1057dea752640aeb5cfc761a35fea40": {
+        "id": "AS_Form_e1057dea752640aeb5cfc761a35fea40",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "flxDomesticAcknowledgement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "afa85cf3e96f419f9f1fdf8fbe500a62"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e18816c9fea045518e40f7ffa242a111",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Back Navigation Disabled\");",
+            "parentId": null
+        }]
+    }
+}

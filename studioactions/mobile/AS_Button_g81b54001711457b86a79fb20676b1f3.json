@@ -1,0 +1,23 @@
+{
+    "AS_Button_g81b54001711457b86a79fb20676b1f3": {
+        "id": "AS_Button_g81b54001711457b86a79fb20676b1f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardPin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ec984773becc4c34ac07bb248a6c6085"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_e933e6e37fd84b42aef4b2a8dd99a8ce",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.btnNextOnClick();",
+            "callbackType": null
+        }]
+    }
+}

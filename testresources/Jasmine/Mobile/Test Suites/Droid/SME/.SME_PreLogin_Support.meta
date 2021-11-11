@@ -1,0 +1,19 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_PreLogin_Support",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachPreLogin.js",
+        "SME/Droid/PreLogin/PreLogin_Support_VerifyAppVersion.js",
+        "SME/Droid/PreLogin/PreLogin_VerifyLanguage_French.js",
+        "SME/Droid/PreLogin/PreLogin_VerifyLanguage_German.js",
+        "SME/Droid/PreLogin/PreLogin_VerifyLanguage_Spanish.js",
+        "SME/Droid/PreLogin/PreLogin_VerifyLanguage_UK_English.js",
+        "SME/Droid/PreLogin/PreLogin_VerifyLanguage_US_English.js",
+        "SME/Droid/PreLogin/VerifyFAQTnC.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Regression.js",
+        "Droid_RB_SME_Suite.js",
+        "TestPlanAndroid_SME_Sanity.js"
+    ]
+}

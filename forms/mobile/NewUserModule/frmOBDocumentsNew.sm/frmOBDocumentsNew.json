@@ -1,0 +1,120 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Personal Info",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxPopupDocuments",
+        "flxPersonalInfo",
+        "flxViewDocument",
+        "flxGradient"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOBDocumentsNewController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhoneXS",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmOBDocumentsNew",
+    "id": "frmOBDocumentsNew",
+    "ide_init": "AS_Form_c090961e4fb54452bfb59f3aad05f4e7",
+    "ide_preShow": "AS_Form_j571d78723ca42fe9c27641c0eb12321",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "ae19cbf4393e4a2eaf65383822b6fcfa",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": false,
+                "kuid": "b141d2c650cc46489a2ac1af96608b06",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_dab426696aa14a6186f3a0117693c7c2",
+                        "info": {
+                            "title": "Close"
+                        },
+                        "kuid": "b3f18d6001fb49339dd218bc1b0dad24",
+                        "onClick": "AS_BarButtonItem_dab426696aa14a6186f3a0117693c7c2",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "ibaead2d4efb4aee80b1e6365a91333c",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhoneSE",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneXS",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "texti18n": "kony.mb.NAOReviewProduct.PersonalInfo",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

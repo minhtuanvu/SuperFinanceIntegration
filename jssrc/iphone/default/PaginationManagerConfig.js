@@ -1,0 +1,14 @@
+PaginationManagerConfig = {
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "PaginationManager/BusinessControllers/BusinessController"
+    },
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "PaginationManager/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {},
+    "ModuleName": "PaginationManager"
+};

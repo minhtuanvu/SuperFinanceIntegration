@@ -1,0 +1,38 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "ManageBeneficiaries",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/ManageBeneficiary/VerifyBeneficiaryList.js",
+        "RB/T24Droid/ManageBeneficiary/AddDomesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/AddDomesticRecipitent_SameName.js",
+        "RB/T24Droid/ManageBeneficiary/AddInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/AddInternationalRecipitent_SameName.js",
+        "RB/T24Droid/ManageBeneficiary/AddSameBankRecipient_SameName.js",
+        "RB/T24Droid/ManageBeneficiary/AddSameBankRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/EditDomesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/EditInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/EditSameBankRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/MakePaymentDomesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/MakePaymentInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/MakePaymentSameBankRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/ModifiyDemesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/ModifyInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/SearchBy_AccountNumber.js",
+        "RB/T24Droid/ManageBeneficiary/SearchBy_BeneficiaryName.js",
+        "RB/T24Droid/ManageBeneficiary/VerifyBankName_AddDemesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/VerifyBankName_AddInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteDomesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteSameBankRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/AddDomesticRecipient_OneTimePayment.js",
+        "RB/T24Droid/ManageBeneficiary/AddInternationalRecipient_OneTimePayment.js",
+        "RB/T24Droid/ManageBeneficiary/AddSameBankRecipient_OneTimePayment.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

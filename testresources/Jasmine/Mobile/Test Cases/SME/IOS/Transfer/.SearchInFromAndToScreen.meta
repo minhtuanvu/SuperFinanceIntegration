@@ -1,0 +1,88 @@
+{
+    "testCaseName": "SearchInFromAndToScreen",
+    "testSuiteName": "Test Cases/SME/IOS/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/SME/SME_TransfersSuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "5 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "cf3928e2-539e-4c52-1a93-19e4aa39a9cd",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(\"Business\", \"Credit\");\nawait kony.automation.device.deviceBack();\nawait kony.automation.device.deviceBack();\nawait kony.automation.device.deviceBack();",
+                        "comment": "// - [5 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "0de24fb7-10c9-1836-17d1-817d5c4088f1",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmUnifiedDashboard.customFooter.imgTransfer",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "4963d064-407a-d628-11ab-53c547fb7f64",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmUnifiedDashboard.customFooter.imgTransfer"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

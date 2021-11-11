@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e96acc37c6433384321ab444392007",
+    "_text_": "Enroll / Activate",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.50%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "ENROLL"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sae2e4475aa3419b8c89d14cf90383cb",
+    "id": "btnEnroll",
+    "ide_onClick": "AS_Button_f7fa01f6196a476bab10b8b1a1f46fd6",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ed569f6a4b4045cd8f288a1272f455d0",
+    "name": "kony.ui.Button",
+    "parent": "flxFooter",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

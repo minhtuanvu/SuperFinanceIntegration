@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "PostLoginSupport",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/PostLogin.js",
+        "RB/T24Droid/PostLoginSupport/PostLogin_VerifyAppVersion.js",
+        "RB/T24Droid/PostLoginSupport/PostLogin_VerifyFAQ.js",
+        "RB/T24Droid/PostLoginSupport/PostLogin_VerifyPrivacyPolicy.js",
+        "RB/T24Droid/PostLoginSupport/PostLogin_VerifyTermsnConditions.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

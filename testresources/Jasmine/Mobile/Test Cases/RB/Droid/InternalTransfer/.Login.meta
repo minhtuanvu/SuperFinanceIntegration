@@ -1,0 +1,109 @@
+{
+    "testCaseName": "Login",
+    "testSuiteName": "Test Cases/InternalTransfer",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxUsername",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmLogin.tbxUsername",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "dbxJasmine1234"
+                    }
+                },
+                "UUID": "b95810f9-13b3-42d4-ba1a-ebca289f8449",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "dbxJasmine1234",
+            "metaEditable": true
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmLogin.tbxPassword",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmLogin.tbxPassword",
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "metadata": {
+                        "text": "Kony@1234"
+                    }
+                },
+                "UUID": "ae0a7d69-8e20-4dc1-ab1f-fbf5dde5077f",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "Kony@1234",
+            "metaEditable": true
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmLogin.btnLogIn",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "5c3b6852-6b6a-95eb-211b-8c587399f0a9",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmLogin.btnLogIn"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmLogin.btnLogIn",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmLogin.btnLogIn",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "7748cb07-5617-4fa2-a7b5-f8a936dc9b96"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        }
+    ],
+    "usedBy": [
+        "InternaltransferSuite.js"
+    ],
+    "timeout": 0
+}

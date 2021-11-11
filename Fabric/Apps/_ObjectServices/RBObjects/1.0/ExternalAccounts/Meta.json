@@ -1,0 +1,29 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getSameBankAccount" : "getSameBankAccountMapping",
+    "getAllExternalAccountsWithPagination" : "getAllExternalAccountsWithPaginationMapping",
+    "getFrequentSameBankAccount" : "getFrequentSameBankAccountMapping",
+    "getUnverifiedExternalAccounts" : "getUnverifiedExternalAccountsMapping",
+    "getFrequentInternationalExternalAccounts" : "getFrequentInternationalExternalAccountsMapping",
+    "deleteExternalAccount" : "deleteExternalAccountMapping",
+    "createExternalAccount" : "createExternalAccountMapping",
+    "getDomesticAccount" : "getDomesticAccountMapping",
+    "editExternalAccount" : "editExternalAccountMapping",
+    "getAllInternationalExternalAccounts" : "getAllInternationalExternalAccountsMapping",
+    "getOtherBankAccount" : "getOtherBankAccountMapping",
+    "get" : "getMapping",
+    "getFrequentOtherBankAccount" : "getFrequentOtherBankAccountMapping",
+    "create" : "createMapping",
+    "getFrequentOtherBankAccounts" : "getFrequentOtherBankAccountsMapping",
+    "getBeneficiaryName" : "getBeneficiaryNameMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

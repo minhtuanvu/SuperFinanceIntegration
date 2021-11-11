@@ -1,0 +1,68 @@
+{
+    "testCaseName": "SearchSameBankRecipient",
+    "testSuiteName": "Test Cases/Common/IOS/Util/ManageRecipient",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmManageRecipientList.tbxSearch",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "metadata": {
+                        "start": [
+                            113,
+                            18
+                        ],
+                        "move": null,
+                        "end": null
+                    },
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "widgetPath": "frmManageRecipientList.tbxSearch"
+                },
+                "UUID": "18E3C398-E5F6-4229-B1FC-076484A3C08A",
+                "messageType": "Record"
+            },
+            "codeNotReady": false,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Type Text",
+            "actionIconClassName": "assets/widget_icons/text_box.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetext_box.svg",
+            "entity": "frmManageRecipientList.customSearchbox.tbxSearch",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "metadata": {
+                        "text": "samebank"
+                    },
+                    "widgetType": "textbox",
+                    "actionType": "enterText",
+                    "widgetPath": "frmManageRecipientList.customSearchbox.tbxSearch"
+                },
+                "UUID": "F2A4EC25-6004-4F56-AB5A-808E20319F3E",
+                "messageType": "Record",
+                "_cached": true
+            },
+            "codeNotReady": false,
+            "_cached": true,
+            "dispMeta": "samebank",
+            "metaEditable": true
+        }
+    ],
+    "timeout": 0
+}

@@ -1,0 +1,537 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        },
+        {
+            "lblDaily": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Daily"
+            },
+            "lblDailyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblLimitsType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Individual Tranaction Limits"
+            },
+            "lblPerTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Per Transaction"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Customer Name :"
+            },
+            "lblTransactionVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            },
+            "lblVal1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TEMENOS UK"
+            },
+            "lblVal2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ACTIVE"
+            },
+            "lblWeekly": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Weekly"
+            },
+            "lblWeeklyVal": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$10,000"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segUserDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": true
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "f3b44bd69d4640749936fbe57c314dd7",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMain",
+    "pf": "frmUserDetailsNew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a326afb400864f1cbbdf4ed1a9f14dc6",
+    "rowcounter": 9,
+    "rowfocusskin": "sec47134c53840738acea176209ff716",
+    "rowskin": "s18472307db04580a2a9cb6f4681ebec",
+    "rowtemplate": "flxUserDetNew",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxDaily": "flxDaily",
+        "flxInner1": "flxInner1",
+        "flxInner2": "flxInner2",
+        "flxLimits": "flxLimits",
+        "flxPerTransaction": "flxPerTransaction",
+        "flxSep": "flxSep",
+        "flxUserDetNew": "flxUserDetNew",
+        "flxValue": "flxValue",
+        "flxWeekly": "flxWeekly",
+        "lblDaily": "lblDaily",
+        "lblDailyVal": "lblDailyVal",
+        "lblLimitsType": "lblLimitsType",
+        "lblPerTransaction": "lblPerTransaction",
+        "lblTitle": "lblTitle",
+        "lblTransactionVal": "lblTransactionVal",
+        "lblVal1": "lblVal1",
+        "lblVal2": "lblVal2",
+        "lblWeekly": "lblWeekly",
+        "lblWeeklyVal": "lblWeeklyVal"
+    },
+    "zindex": 1
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_b93df700081f4aa386a53aa3a3c3fb39": {
+        "id": "AS_FlexContainer_b93df700081f4aa386a53aa3a3c3fb39",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWealthSF",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c5d511d012ab43249ac2822088a1d18d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e78569bfaa6642fa85d1902f2e3e3038",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToWork();",
+            "parentId": null
+        }]
+    }
+}

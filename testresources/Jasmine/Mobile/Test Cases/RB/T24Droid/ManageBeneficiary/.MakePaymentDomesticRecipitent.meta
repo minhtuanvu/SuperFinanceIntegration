@@ -1,0 +1,10 @@
+{
+    "testCaseName": "MakePaymentDomesticRecipitent",
+    "testSuiteName": "Test Cases/RB/T24Droid/ManageBeneficiary",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/ManageBeneficiaries.js",
+        "Droid/T24RB/HealthCheck.js"
+    ]
+}

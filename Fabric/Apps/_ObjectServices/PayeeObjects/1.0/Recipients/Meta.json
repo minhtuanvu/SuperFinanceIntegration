@@ -1,0 +1,37 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getBillPayPayees" : "getBillPayPayeesMapping",
+    "createWireTransfersPayee" : "createWireTransfersPayeeMapping",
+    "getIntraInterBankPayee" : "getIntraInterBankPayeeMapping",
+    "getAllBICsAndBankDetails" : "getAllBICsAndBankDetailsMapping",
+    "validateIBANandGetBankDetails" : "validateIBANandGetBankDetailsMapping",
+    "getBankDetailsFromBIC" : "getBankDetailsFromBICMapping",
+    "editBillPayPayee" : "editBillPayPayeeMapping",
+    "createP2PPayee" : "createP2PPayeeMapping",
+    "getInterBankPayees" : "getInterBankPayeesMapping",
+    "createBillPayPayee" : "createBillPayPayeeMapping",
+    "editWireTransfersPayee" : "editWireTransfersPayeeMapping",
+    "getExternalPayees" : "getExternalPayeesMapping",
+    "deleteP2PPayee" : "deleteP2PPayeeMapping",
+    "getIntraBankPayees" : "getIntraBankPayeesMapping",
+    "deleteExternalPayee" : "deleteExternalPayeeMapping",
+    "editExternalPayee" : "editExternalPayeeMapping",
+    "deleteBillPayPayee" : "deleteBillPayPayeeMapping",
+    "getWireTransfersPayee" : "getWireTransfersPayeeMapping",
+    "createExternalPayee" : "createExternalPayeeMapping",
+    "editP2PPayee" : "editP2PPayeeMapping",
+    "deleteWireTransfersPayee" : "deleteWireTransfersPayeeMapping",
+    "getInternationalPayees" : "getInternationalPayeesMapping",
+    "getBeneficiaryNameFromAccountId" : "getBeneficiaryNameFromAccountIdMapping",
+    "getP2PPayee" : "getP2PPayeeMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

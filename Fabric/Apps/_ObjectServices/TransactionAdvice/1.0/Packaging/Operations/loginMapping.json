@@ -1,0 +1,28 @@
+{
+  "operationConfig" : {
+    "name" : "login8711",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "private",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "TransactionAdviceJSON",
+      "serviceVersion" : "1.0",
+      "operationName" : "login"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Packaging",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

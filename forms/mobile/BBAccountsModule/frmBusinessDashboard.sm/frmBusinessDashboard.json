@@ -1,0 +1,130 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s566790d0ee0487183e0cb45da52b7ae",
+    "_title_": "My Accounts",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "allowverticalbounce": false,
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        },
+        "titleBar": false
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxTitle",
+        "flxGradient",
+        "flxPageIndicators",
+        "flxDashboardHeader",
+        "flxDashboard",
+        "flxMenu",
+        "flxBlueBg",
+        "flxHamburger",
+        "flxWhite",
+        "flxBGDummy",
+        "flxPopup"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmBusinessDashboardController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhone11",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "enablescrolling": false,
+    "friendlyName": "frmBusinessDashboard",
+    "id": "frmBusinessDashboard",
+    "ide_init": "AS_Form_f9c1302f7d314729a5c40ecdc7bd5374",
+    "ide_postShow": "AS_Form_e622ed9f48a44f8db528c7c156fb5ac0",
+    "ide_preShow": "AS_Form_fb991be7614a448bb2fa98b9accb2b54",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": " "
+                    },
+                    "kuid": "f361f8b9655444909b65185ea7d9d5da",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "d72bc32e21c9420d911a84007d151006",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_b8e6117a48a44297942bef0d3277939f",
+                        "info": {
+                            "image": "businessbankingwhite.png"
+                        },
+                        "kuid": "g7bf2720ff3d457280addc999f74b5e1",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "ia1a2f716ce24132a52e758ad3f25840",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneXR",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "texti18n": "kony.mb.MyAccounts.Title",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_f56b4bdba3fb4a2c92b55ea1462693ef": {
+        "id": "AS_Form_f56b4bdba3fb4a2c92b55ea1462693ef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDepositsAcknowledgement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ccbf5e9cff3d44d886d8ce21e487398f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bcc5912437ef4d899212387ae798c968",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

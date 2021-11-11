@@ -1,0 +1,10 @@
+{
+    "testCaseName": "DeleteSameBankRecipitent",
+    "testSuiteName": "Test Cases/RB/T24Droid/ManageBeneficiary",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/ManageBeneficiaries_DeleteAllBeneficiaries.js",
+        "Droid/T24RB/ManageBeneficiaries.js"
+    ]
+}

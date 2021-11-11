@@ -1,0 +1,82 @@
+{
+    "testCaseName": "openMenu",
+    "testSuiteName": "Test Cases/Common/IOS/Util",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmUnifiedDashboard.customFooter.flxMore",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "widgetPath": "frmUnifiedDashboard.customFooter.flxMore",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "D8BF0B04-D2C2-4305-BB21-B58EAEA4A277",
+                "messageType": "Record"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "20a91fa0-1bf9-edbe-e062-f73cb78a6fc3",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmUnifiedDashboard.Hamburger.flxMenu.segHamburger",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "89efe0e7-a56b-afab-c9bc-c39da66bd820",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmUnifiedDashboard.Hamburger.flxMenu.segHamburger"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "usedBy": [
+        "IOS/SME/AddRecipientSameBank.js"
+    ],
+    "timeout": 0
+}

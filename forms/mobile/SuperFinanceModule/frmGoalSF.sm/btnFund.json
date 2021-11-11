@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "s029e861d0cb422badfa63cb64d1b1f4",
+    "_text_": "FUND",
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s029e861d0cb422badfa63cb64d1b1f4",
+    "id": "btnFund",
+    "ide_onClick": "AS_Button_d67def84709c4c0c9a203568cbd5b8ae",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a58b81801c0846edb21ff41cd21dd2d7",
+    "name": "kony.ui.Button",
+    "parent": "flxGoalAmountSF",
+    "pf": "frmGoalSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

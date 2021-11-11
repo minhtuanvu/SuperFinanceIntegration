@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifyOptionsOnCheckingAcc",
+    "testSuiteName": "Test Cases/RB/Droid/AllAccounts/CheckingAccount",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "UnitSuite.js"
+    ]
+}

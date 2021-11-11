@@ -1,0 +1,9 @@
+{
+    "testCaseName": "MyMoney_EditTranscationDetails",
+    "testSuiteName": "Test Cases/RB/Droid/MyMoney",
+    "channelName": "Mobile",
+    "usedBy": [
+        "UnitSuite.js"
+    ],
+    "userCode": true
+}

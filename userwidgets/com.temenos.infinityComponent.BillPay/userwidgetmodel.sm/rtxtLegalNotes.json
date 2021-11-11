@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "s7cc7e7d664d4989b04af7f7e5fe5a92",
+    "_text_": "<b>Legal notes: </b> the postal bulletin payment service is made available... <a href=\"#\" style=\"color: #4176A4\">Read All</a>",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "rtxtLegalNotes",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e83c30eadcf7418dbc83403e408cf94b",
+    "linkskin": "s98236f4884a49ef87758baabf826c40",
+    "name": "kony.ui.RichText",
+    "parent": "flxNotes",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5
+}

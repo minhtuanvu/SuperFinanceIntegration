@@ -1,0 +1,16 @@
+{
+    "testCaseName": "BeforeEachIT",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "ManageRecipient_Add_DeleteSamebankRecipient_Suite.js",
+        "Droid/RB/RB_MyBills.js",
+        "Droid/RB/RB_SettingsSuite.js",
+        "Droid/RB/RB_Transfers.js",
+        "Droid/RB/RB_SanitySuite.js",
+        "Droid/RB/RB_Logout.js",
+        "Droid/RB/tempSuite.js",
+        "Droid/RB/RB_Messages.js"
+    ]
+}

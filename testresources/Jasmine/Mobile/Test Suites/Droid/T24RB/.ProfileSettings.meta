@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "ProfileSettings",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/Settings.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddingNewAddress.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddingNewEmailAddress.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddNewPhoneNumber.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

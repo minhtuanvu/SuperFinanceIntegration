@@ -1,0 +1,349 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgUpArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "arrowdown.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Checking Accounts (3)"
+                }
+            },
+            [
+                {
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "bankofamerica.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Balance"
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$42,340.00"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "My Checking ...2343B"
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Bank of America"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Balance"
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$42,304.00"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Little John ....2343"
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Infinity Bank"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "chasebank.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Balance"
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$42,304.00"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Honey Home ....2343"
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Chase Bank"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgUpArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "arrowdown.png"
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Saving Accounts (3)"
+                }
+            },
+            [
+                {
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "bankofamerica.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Balance"
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$42,304.00"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "My Savings...2343B"
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Bank of America"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                },
+                {
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "chasebank.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Available Balance"
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "$42,304.00"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "John Saving…2343"
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Citi Bank"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "-5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segAccounts",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "enableDictionary": true,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "abf448c8d51c41fc873e7cfce3b37090",
+    "masterdata": {},
+    "minheight": {
+        "type": "string",
+        "value": "85%"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMainContainer",
+    "pf": "frmDepositsFromAccount",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "bdb04745277a4b9b9ee6e040a2c37899",
+    "rowcounter": 1,
+    "rowfocusskin": "s02d7ca459a74168b4573e79b9d8efec",
+    "rowskin": "s18472307db04580a2a9cb6f4681ebec",
+    "rowtemplate": "flxAccounts",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "b03f45aac486491a95c007aa96cecb1e",
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "sectionheadertemplate": "flxTransHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAccountName": "flxAccountName",
+        "flxAccounts": "flxAccounts",
+        "flxBank": "flxBank",
+        "flxDelete": "flxDelete",
+        "flxMain": "flxMain",
+        "flxSeparator": "flxSeparator",
+        "flxShadowBottom": "flxShadowBottom",
+        "flxTransHeader": "flxTransHeader",
+        "flxTypeOneShadow": "flxTypeOneShadow",
+        "imgBank": "imgBank",
+        "imgDelete": "imgDelete",
+        "imgError": "imgError",
+        "imgUpArrow": "imgUpArrow",
+        "lblAccountBal": "lblAccountBal",
+        "lblAccountBalValue": "lblAccountBalValue",
+        "lblAccountName": "lblAccountName",
+        "lblAccountNumber": "lblAccountNumber",
+        "lblBankName": "lblBankName",
+        "lblDelete": "lblDelete",
+        "lblHeader": "lblHeader"
+    },
+    "widgetskin": "s18472307db04580a2a9cb6f4681ebec",
+    "zindex": 1
+}

@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_f2d58bfa29e74b7fa81fe1d4e1f5ddb0": {
+        "id": "AS_FlexContainer_f2d58bfa29e74b7fa81fe1d4e1f5ddb0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "segAttachmentList",
+            "type": "templates",
+            "platform": "",
+            "KUID": "g6deb000ace64bb886ba24b1305a4a41"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f71d7bb4e57e4c8baab9c55a525c8bf0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "removeClicked",
+            "display": "removeClicked",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

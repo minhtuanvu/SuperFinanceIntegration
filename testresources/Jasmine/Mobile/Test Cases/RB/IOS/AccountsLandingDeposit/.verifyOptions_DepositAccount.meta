@@ -1,0 +1,39 @@
+{
+    "testCaseName": "verifyOptions_DepositAccount",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingDeposit",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingDeposit.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "4254cc58-e553-235b-13b2-deb5fe7c43de",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await verifyAccountLanding(accountsLanding.deposit);\nawait verifyOptionsOfDepositAccount();\nawait goToDashboardFromAccounts();",
+                        "comment": "// - [3 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

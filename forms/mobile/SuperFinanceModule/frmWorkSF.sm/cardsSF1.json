@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "cardsSF": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e7f8674332514fbf9777f5a6cef4cd35",
+                "srcKUID": "ead08321bad84cccae385a4b3194edb4",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i2ec44520768417594c177c135f670e8",
+                "srcKUID": "d3a302ef1e1c446596f5044691b3786e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxWLogoSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g6110f9c00fd45088851b581b4bae0d7",
+                "srcKUID": "ee8f76e5177842829d6572a1a6ba9438",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgWLogoSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce92c5b9d45a436db54850ce82828fa8",
+                "srcKUID": "b7c768b3f7e14f57bbc617735b041b98",
+                "wType": "Image"
+            },
+            "src": "wallet1.png"
+        },
+        "lblWCrncySF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb6f6ede3ef443cfaa9bba03cf4f236b",
+                "srcKUID": "fc99cd0eeac24a7a80658bede2b95d1e",
+                "wType": "Label"
+            },
+            "text": "€ 6.150,23"
+        },
+        "lblWDescSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c8d5e0c14e5a4c81a45f609f5c82ad76",
+                "srcKUID": "c30dc17d5dca485aa2ebc00b8c83630d",
+                "wType": "Label"
+            },
+            "text": "Total Balance"
+        },
+        "lblWTitleSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c90cc5055f7849e5869f4012b8ac0c8d",
+                "srcKUID": "e78866ba16064c448ea4727c20e210de",
+                "wType": "Label"
+            },
+            "text": "FOREX"
+        }
+    },
+    "enablescrolling": true,
+    "id": "cardsSF1",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e7f8674332514fbf9777f5a6cef4cd35",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flx2SF",
+    "pf": "frmWorkSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ead08321bad84cccae385a4b3194edb4",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

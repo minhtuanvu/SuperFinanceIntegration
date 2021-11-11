@@ -1,0 +1,7 @@
+{
+    "testCaseName": "VerifyMakeOneTimePayment",
+    "testSuiteName": "Test Cases/PayBills",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "userCode": true
+}

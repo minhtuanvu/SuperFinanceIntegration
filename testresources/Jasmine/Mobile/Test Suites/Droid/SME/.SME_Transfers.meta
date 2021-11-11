@@ -1,0 +1,39 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_Transfers",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "Common/Droid/SME/Transfers.js",
+        "SME/Droid/ManageRecipient/addRecipientSameBank.js",
+        "SME/Droid/Transfer/Verify_OneTimeTransfer.js",
+        "SME/Droid/Transfer/Verify_OneTimeTransfer_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferHalfY_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferHalfY_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferHalfY_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferHalfY_NoOfOccurances_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferMonthly_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferMonthly_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferMonthly_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferMonthly_NoOfOccurances_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferQTR_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferQTR_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferQTR_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferQTR_NoOfOccurances_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferWeekly_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferWeekly_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferWeekly_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferWeekly_NoOfOccurances_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferYearly_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferYearly_DateRange_SameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferYearly_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferYearly_NoOfOccurances_SameBank.js",
+        "SME/Droid/ManageRecipient/deleteRecipientSameBank.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Regression.js"
+    ]
+}

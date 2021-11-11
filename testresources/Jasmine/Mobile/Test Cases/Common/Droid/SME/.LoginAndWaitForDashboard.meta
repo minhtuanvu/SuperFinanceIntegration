@@ -1,0 +1,9 @@
+{
+    "testCaseName": "LoginAndWaitForDashboard",
+    "testSuiteName": "Test Cases/Common/Droid/SME",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/SME/SME_Login.js"
+    ]
+}

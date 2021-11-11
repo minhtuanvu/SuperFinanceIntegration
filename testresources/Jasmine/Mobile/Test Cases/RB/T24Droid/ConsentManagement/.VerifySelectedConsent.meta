@@ -1,0 +1,10 @@
+{
+    "testCaseName": "VerifySelectedConsent",
+    "testSuiteName": "Test Cases/RB/T24Droid/ConsentManagement",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/ConsentManagement.js",
+        "Droid/TemporarySuite/Suite_31032020.js"
+    ]
+}

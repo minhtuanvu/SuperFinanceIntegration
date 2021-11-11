@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SearchTransactions",
+    "testSuiteName": "Test Cases/RB/IOS/TransferActivities",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "bae636c9-729d-6e59-8c01-bb3f84365277",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Manage Transactions\");\nawait VerifyTransferUnderActivities(Transfers.ownAccount.fromAccount);\nawait goBackToDashboardFromTransferActivities();",
+                        "comment": "// - [3 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "usedBy": [
+        "IOS/RB/RB_TransferActivities.js"
+    ],
+    "timeout": 0
+}

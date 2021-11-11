@@ -1,0 +1,17 @@
+{
+    "AS_Button_d32bd2e8fc314266af064c3cb5dc538e": {
+        "id": "AS_Button_d32bd2e8fc314266af064c3cb5dc538e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_accd8483a9aa4f8bbd1aad3d190da40f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// this.view.flxValidate.isVisible = false;\n// this.view.flxRegisteringService.isVisible = true;\nthis.handler.showAllContainers();",
+            "callbackType": null
+        }]
+    }
+}

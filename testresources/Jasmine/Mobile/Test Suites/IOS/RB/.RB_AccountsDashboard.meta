@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_AccountsDashboard",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/AccountsDashboard.js",
+        "RB/IOS/AccountsDashboard/collapseAccounts.js",
+        "RB/IOS/AccountsDashboard/swipeOnDashboard.js",
+        "RB/IOS/AccountsDashboard/ViewAllTransactions.js",
+        "RB/IOS/AccountsDashboard/searchTransaction.js",
+        "RB/IOS/AccountsDashboard/AdvanceSearch.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_RB_Regression.js",
+        "TestPlanIOSSMEandRB.js"
+    ]
+}

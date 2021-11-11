@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "getRecentPayPerson" : "getRecentPayPersonMapping",
+    "create" : "createMapping",
+    "editPayPerson" : "editPayPersonMapping",
+    "deletePayPerson" : "deletePayPersonMapping",
+    "LinkPayPersonToTransaction" : "LinkPayPersonToTransactionMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

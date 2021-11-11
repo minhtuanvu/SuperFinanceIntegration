@@ -1,0 +1,23 @@
+{
+    "AS_Button_d4f7c637039b40c7aecadcb9c4d47077": {
+        "id": "AS_Button_d4f7c637039b40c7aecadcb9c4d47077",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmShortTermLoanConfirmation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a336ab5d53f74cd7bc86d47623c27c6a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_gad763146c174967b00edd56cfda2081",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transModPresentationController = applicationManager.getModulesPresentationController(\"TransferModule\");\ntransModPresentationController.commonFunctionForNavigation(\"frmTransfers\");",
+            "callbackType": null
+        }]
+    }
+}

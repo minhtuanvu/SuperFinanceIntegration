@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS",
+    "testSuiteName": "IOSLoginAndLogout",
+    "testCaseInfo": [
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js"
+    ],
+    "usedBy": [
+        "POCIOS.js"
+    ]
+}

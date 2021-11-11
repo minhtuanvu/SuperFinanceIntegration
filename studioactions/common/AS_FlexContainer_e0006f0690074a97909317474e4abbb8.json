@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_e0006f0690074a97909317474e4abbb8": {
+        "id": "AS_FlexContainer_e0006f0690074a97909317474e4abbb8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u1984d0467b547069d3d5a2e09bacd67",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e389fd5c210b4d47b3f6763c1c8b3b06",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "activateProfilePostShow",
+            "display": "activateProfilePostShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

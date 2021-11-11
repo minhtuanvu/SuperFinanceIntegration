@@ -1,0 +1,23 @@
+{
+    "AS_Button_gf5c0579d6054354be00cf9dff364b16": {
+        "id": "AS_Button_gf5c0579d6054354be00cf9dff364b16",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": "",
+            "KUID": "g2b509b974694ee3860b30dbc526331d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j5ee9a8ac51a42e598353fd19ced8653",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(null, \"\", constants.LOADING_SCREEN_POSITION_ONLY_CENTER, false, true, {});\nvar authParams = {\n  \"UserName\": \"5244911778\",\n  \"Password\": \"Kony@1234\",\n  \"loginOptions\": {\n    \"isOfflineEnabled\": false\n  }\n};\nauthClient = KNYMobileFabric.getIdentityService(\"DbxUserLogin\");\nauthClient.login(authParams,successCallback,errorCallback);\nfunction successCallback(resSuccess){\n  kony.application.dismissLoadingScreen();\n  kony.print(resSuccess);\n  var ntf = new kony.mvc.Navigation(\"frmP2PTransferType\");\n  ntf.navigate();\n}\nfunction errorCallback(resError){\n  kony.application.dismissLoadingScreen();\n  kony.print(resError);\n  alert(\"Sorry ! Something went wrong, Please try again later\")\n}\n\n\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

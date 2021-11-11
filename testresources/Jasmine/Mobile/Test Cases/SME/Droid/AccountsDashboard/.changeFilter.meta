@@ -1,0 +1,10 @@
+{
+    "testCaseName": "changeFilter",
+    "testSuiteName": "Test Cases/SME/Droid/AccountsDashboard",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/SME/SME_SanitySuite.js",
+        "Droid/SME/SME_AccountsDashboard.js"
+    ],
+    "userCode": true
+}

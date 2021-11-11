@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getNewUserSecurityQuestions1294",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">           <set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>    <map inputpath=\"securityquestions\" outputpath=\"NewUserSecurityQuestions\">                        <set-param inputpath=\"question\" outputpath=\"question\"/>                        <set-param inputpath=\"QuestionId\" outputpath=\"QuestionId\"/>                </map>        </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"NewUserSecurityQuestions\",\"xy\":\"770 100\",\"__gohashid\":251290},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getNewUserSecurityQuestions\",\"xy\":\"150 100\",\"__gohashid\":251291}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:NewUserSecurityQuestions:question:\",\"to\":\"target:NewUserSecurityQuestions:question:\",\"fromPort\":\"source:NewUserSecurityQuestions:question:\",\"toPort\":\"target:NewUserSecurityQuestions:question:\",\"visible\":true,\"common\":true,\"__gohashid\":253710},{\"category\":\"Mapping\",\"from\":\"source:NewUserSecurityQuestions:QuestionId:\",\"to\":\"target:NewUserSecurityQuestions:QuestionId:\",\"fromPort\":\"source:NewUserSecurityQuestions:QuestionId:\",\"toPort\":\"target:NewUserSecurityQuestions:QuestionId:\",\"visible\":true,\"common\":true,\"__gohashid\":253717},{\"from\":\"target\",\"to\":\"target:NewUserSecurityQuestions\",\"fromPort\":\"target\",\"toPort\":\"target:NewUserSecurityQuestions\",\"visible\":true,\"common\":false,\"__gohashid\":8555},{\"from\":\"target:NewUserSecurityQuestions\",\"to\":\"target:NewUserSecurityQuestions:fields\",\"fromPort\":\"target:NewUserSecurityQuestions\",\"toPort\":\"target:NewUserSecurityQuestions:fields\",\"visible\":true,\"common\":false,\"__gohashid\":8556},{\"from\":\"target:NewUserSecurityQuestions:fields\",\"to\":\"target:NewUserSecurityQuestions:errmsg:\",\"fromPort\":\"target:NewUserSecurityQuestions:fields\",\"toPort\":\"target:NewUserSecurityQuestions:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":8557},{\"from\":\"target:NewUserSecurityQuestions:fields\",\"to\":\"target:NewUserSecurityQuestions:question:\",\"fromPort\":\"target:NewUserSecurityQuestions:fields\",\"toPort\":\"target:NewUserSecurityQuestions:question:\",\"visible\":true,\"common\":false,\"__gohashid\":8558},{\"from\":\"target:NewUserSecurityQuestions:fields\",\"to\":\"target:NewUserSecurityQuestions:QuestionId:\",\"fromPort\":\"target:NewUserSecurityQuestions:fields\",\"toPort\":\"target:NewUserSecurityQuestions:QuestionId:\",\"visible\":true,\"common\":false,\"__gohashid\":8559},{\"from\":\"target:NewUserSecurityQuestions:fields\",\"to\":\"target:NewUserSecurityQuestions:userSecurityQuestionsList:\",\"fromPort\":\"target:NewUserSecurityQuestions:fields\",\"toPort\":\"target:NewUserSecurityQuestions:userSecurityQuestionsList:\",\"visible\":true,\"common\":false,\"__gohashid\":8560},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":8561},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":8562},{\"from\":\"source\",\"to\":\"source:NewUserSecurityQuestions\",\"fromPort\":\"source\",\"toPort\":\"source:NewUserSecurityQuestions\",\"visible\":true,\"common\":false,\"__gohashid\":8563},{\"from\":\"source:NewUserSecurityQuestions\",\"to\":\"source:NewUserSecurityQuestions:parameters\",\"fromPort\":\"source:NewUserSecurityQuestions\",\"toPort\":\"source:NewUserSecurityQuestions:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":8564},{\"from\":\"source:NewUserSecurityQuestions:parameters\",\"to\":\"source:NewUserSecurityQuestions:question:\",\"fromPort\":\"source:NewUserSecurityQuestions:parameters\",\"toPort\":\"source:NewUserSecurityQuestions:question:\",\"visible\":true,\"common\":false,\"__gohashid\":8565},{\"from\":\"source:NewUserSecurityQuestions:parameters\",\"to\":\"source:NewUserSecurityQuestions:QuestionId:\",\"fromPort\":\"source:NewUserSecurityQuestions:parameters\",\"toPort\":\"source:NewUserSecurityQuestions:QuestionId:\",\"visible\":true,\"common\":false,\"__gohashid\":8566}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getNewUserSecurityQuestions"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "NewUserSecurityQuestions",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

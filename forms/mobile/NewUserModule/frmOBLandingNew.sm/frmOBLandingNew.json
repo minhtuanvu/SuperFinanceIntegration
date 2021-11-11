@@ -1,0 +1,107 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxLanding",
+        "flxGradient"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOBLandingNewController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhone8Zoomed",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmOBLandingNew",
+    "id": "frmOBLandingNew",
+    "ide_init": "AS_Form_b641c89f77244cf2b9a051da43b2a893",
+    "ide_preShow": "AS_Form_beee54f559d24b6e97d9372828a7d2d0",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "g1d666846e1f4f6385d9beb7f0bcf3bf",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_d393b8c0afea47febe68f4a8c220e4f3",
+                        "info": {
+                            "title": "Logout"
+                        },
+                        "kuid": "bb6d44ba7014451d8a1b678d26d04e2d",
+                        "onClick": "AS_BarButtonItem_d393b8c0afea47febe68f4a8c220e4f3",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "c71e7c5f53544e9abad918f644007c57",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "GalaxyS8",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone8Zoomed",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

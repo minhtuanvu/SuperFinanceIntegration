@@ -1,0 +1,25 @@
+{
+	"APPIUM_SERVER" :"Local",
+	"APPIUM_DEVICES":[{
+	"MOBILE_ID":"1",
+	"MOBILE_OS":"Android",
+	"MOBILE_NAME":"Galaxy S9",
+	"MOBILE_VERSION":"9.0",
+	"UDID":"2a65c9ae0a057ece",
+	"Flag":"ON"},
+	{
+	"MOBILE_ID":"2",
+	"MOBILE_OS":"Android",
+	"MOBILE_NAME":"GalaxyNote9",
+	"MOBILE_VERSION":"9.0",
+	"UDID":"2b3d2e697d3f7ece",
+	"Flag":"OFF"},
+	{
+	"MOBILE_ID":"3",
+	"MOBILE_OS":"iOS",
+	"MOBILE_NAME":"I8",
+	"MOBILE_VERSION":"12.0",
+	"UDID":"554645764",
+	"Flag":"OFF"}
+	]
+}

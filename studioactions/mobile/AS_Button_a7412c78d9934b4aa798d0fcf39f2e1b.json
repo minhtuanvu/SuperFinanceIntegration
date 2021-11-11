@@ -1,0 +1,23 @@
+{
+    "AS_Button_a7412c78d9934b4aa798d0fcf39f2e1b": {
+        "id": "AS_Button_a7412c78d9934b4aa798d0fcf39f2e1b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardAccounts",
+            "type": "forms",
+            "platform": "",
+            "KUID": "efe5e5d7d2f340088b8fdec5bd397692"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e6ffc557f739483b8bf93728160117c3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.flxBackOnClick();",
+            "parentId": null
+        }]
+    }
+}

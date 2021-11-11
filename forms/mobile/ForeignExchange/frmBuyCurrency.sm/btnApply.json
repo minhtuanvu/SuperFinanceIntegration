@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "48dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_skin_": "s30d39ca8c744d388569c1d52d0824b6",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "86%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "CALL BANK"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s30d39ca8c744d388569c1d52d0824b6",
+    "id": "btnApply",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "ja67382ed1d848ea9f38e4dc0a891dff",
+    "name": "kony.ui.Button",
+    "parent": "flxMainContainer",
+    "pf": "frmBuyCurrency",
+    "texti18n": "kony.mb.Location.Apply",
+    "wType": "Button",
+    "zindex": 1
+}

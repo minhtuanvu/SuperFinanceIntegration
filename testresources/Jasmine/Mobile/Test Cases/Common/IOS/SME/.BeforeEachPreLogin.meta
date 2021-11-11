@@ -1,0 +1,9 @@
+{
+    "testCaseName": "BeforeEachPreLogin",
+    "testSuiteName": "Test Cases/Common/IOS/SME",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/SME/SME_PreLogin_Support.js"
+    ]
+}

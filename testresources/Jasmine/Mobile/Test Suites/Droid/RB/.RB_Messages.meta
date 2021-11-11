@@ -1,0 +1,27 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_Messages",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/Messages/CreateNewMessage.js",
+        "RB/Droid/Messages/DeleteMessage.js",
+        "RB/Droid/Messages/ReplytoMessage.js",
+        "RB/Droid/Messages/RestoreMessage.js",
+        "RB/Droid/Messages/SearchFunctionality.js",
+        "RB/Droid/Messages/VerifyRequestID.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

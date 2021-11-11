@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferSameBankAccountSchedule_DailyDateRange",
+    "testSuiteName": "Test Cases/SME/IOS/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/SME/SME_TransfersSuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "bc46289f-4cc8-733d-8a0d-8db169bcf97c",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(\"Check\",\"samebank\");\nawait enterAmount();\nawait ScheduledTransferDailyDateRange();",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

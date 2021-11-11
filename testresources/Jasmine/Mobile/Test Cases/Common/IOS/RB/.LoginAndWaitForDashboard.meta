@@ -1,0 +1,12 @@
+{
+    "testCaseName": "LoginAndWaitForDashboard",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/PreLogin_VerifyAllLanguages.js",
+        "IOS/IOSLoginAndLogout.js",
+        "IOS/RB/RB_LoginSuite.js",
+        "IOS/Demo_2021.js"
+    ]
+}

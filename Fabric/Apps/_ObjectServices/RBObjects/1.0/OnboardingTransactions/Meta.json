@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "onboardingTransfer" : "onboardingTransferMapping",
+    "createOnboardingTransfer" : "createOnboardingTransferMapping",
+    "createOnboardingAccount" : "createOnboardingAccountMapping",
+    "onboardingUser" : "onboardingUserMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

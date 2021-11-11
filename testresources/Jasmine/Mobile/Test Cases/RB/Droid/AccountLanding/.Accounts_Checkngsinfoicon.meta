@@ -1,0 +1,76 @@
+{
+    "testCaseName": "Accounts_Checkngsinfoicon",
+    "testSuiteName": "Test Cases/AccountLanding",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.segAccounts[0,1]",
+            "contextMenu": {
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.segAccounts[0,1]",
+                    "widgetType": "segmentedui",
+                    "actionType": "click"
+                },
+                "UUID": "ca57b986-8427-44b2-a55a-fb1ec5492f0d"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmAccountDetails.customHeader.flxSearch",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "3af7fc40-c5cb-6e24-d9a8-280a29e594ca",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmAccountDetails.customHeader.flxSearch"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmAccountDetails.customHeader.flxSearch",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmAccountDetails.customHeader.flxSearch",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "a56d0d44-0711-498e-8187-1e927d3712c5"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        }
+    ],
+    "timeout": 0
+}

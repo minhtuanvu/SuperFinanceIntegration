@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Verify_ScheduledTransferHalfY_DateRange",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/test11.js",
+        "Droid/SME/SME_Transfers.js"
+    ]
+}

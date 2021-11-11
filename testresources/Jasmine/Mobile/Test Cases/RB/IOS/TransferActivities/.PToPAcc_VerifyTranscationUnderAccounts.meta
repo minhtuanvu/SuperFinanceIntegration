@@ -1,0 +1,39 @@
+{
+    "testCaseName": "PToPAcc_VerifyTranscationUnderAccounts",
+    "testSuiteName": "Test Cases/RB/IOS/TransferActivities",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferActivities.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "5fba8b55-6577-303d-d35e-a7cc5c0ffc82",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await verifyAccountLanding(accountsLanding.savings);\nawait VerifyAdvancedSearch();",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

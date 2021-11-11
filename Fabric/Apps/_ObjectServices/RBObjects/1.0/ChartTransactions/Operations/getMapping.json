@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getChartTransactions1640",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">            <map inputpath=\"usertransactionhistory\" outputpath=\"ChartTransactions\">                  <set-param inputpath=\"closingBalanceAmount\" outputpath=\"closingBalanceAmount\"/>                  <set-param inputpath=\"depositAmount\" outputpath=\"depositAmount\"/>                  <set-param inputpath=\"referenceId\" outputpath=\"referenceId\"/>                  <set-param inputpath=\"amount\" outputpath=\"transAmount\"/>                  <set-param inputpath=\"transactionDate\" outputpath=\"transDate\"/>                  <set-param inputpath=\"description\" outputpath=\"transDesc\"/>                  <set-param inputpath=\"transactionType\" outputpath=\"transType\"/>            </map>      </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ChartTransactions\",\"xy\":\"770 100\",\"__gohashid\":39431},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getChartTransactions\",\"xy\":\"150 100\",\"__gohashid\":39432}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:ChartTransactions\",\"fromPort\":\"target\",\"toPort\":\"target:ChartTransactions\",\"visible\":true,\"common\":false,\"__gohashid\":39457},{\"from\":\"target:ChartTransactions\",\"to\":\"target:ChartTransactions:fields\",\"fromPort\":\"target:ChartTransactions\",\"toPort\":\"target:ChartTransactions:fields\",\"visible\":true,\"common\":false,\"__gohashid\":39458},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:closingBalanceAmount:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:closingBalanceAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39459},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:depositAmount:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:depositAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39460},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:errmsg:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":39461},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:referenceId:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:referenceId:\",\"visible\":true,\"common\":false,\"__gohashid\":39462},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:transAmount:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:transAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39463},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:transDate:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:transDate:\",\"visible\":true,\"common\":false,\"__gohashid\":39464},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:transDesc:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:transDesc:\",\"visible\":true,\"common\":false,\"__gohashid\":39465},{\"from\":\"target:ChartTransactions:fields\",\"to\":\"target:ChartTransactions:transType:\",\"fromPort\":\"target:ChartTransactions:fields\",\"toPort\":\"target:ChartTransactions:transType:\",\"visible\":true,\"common\":false,\"__gohashid\":39466},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":39467},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":39468},{\"from\":\"source\",\"to\":\"source:ChartTransactions\",\"fromPort\":\"source\",\"toPort\":\"source:ChartTransactions\",\"visible\":true,\"common\":false,\"__gohashid\":39469},{\"from\":\"source:ChartTransactions\",\"to\":\"source:ChartTransactions:parameters\",\"fromPort\":\"source:ChartTransactions\",\"toPort\":\"source:ChartTransactions:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":39470},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:closingBalanceAmount:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:closingBalanceAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39471},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:depositAmount:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:depositAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39472},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:referenceId:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:referenceId:\",\"visible\":true,\"common\":false,\"__gohashid\":39473},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:transAmount:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:transAmount:\",\"visible\":true,\"common\":false,\"__gohashid\":39474},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:transDate:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:transDate:\",\"visible\":true,\"common\":false,\"__gohashid\":39475},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:transDesc:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:transDesc:\",\"visible\":true,\"common\":false,\"__gohashid\":39476},{\"from\":\"source:ChartTransactions:parameters\",\"to\":\"source:ChartTransactions:transType:\",\"fromPort\":\"source:ChartTransactions:parameters\",\"toPort\":\"source:ChartTransactions:transType:\",\"visible\":true,\"common\":false,\"__gohashid\":39477},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:closingBalanceAmount:\",\"to\":\"target:ChartTransactions:closingBalanceAmount:\",\"fromPort\":\"source:ChartTransactions:closingBalanceAmount:\",\"toPort\":\"target:ChartTransactions:closingBalanceAmount:\",\"visible\":true,\"common\":true,\"__gohashid\":42004},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:depositAmount:\",\"to\":\"target:ChartTransactions:depositAmount:\",\"fromPort\":\"source:ChartTransactions:depositAmount:\",\"toPort\":\"target:ChartTransactions:depositAmount:\",\"visible\":true,\"common\":true,\"__gohashid\":42011},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:referenceId:\",\"to\":\"target:ChartTransactions:referenceId:\",\"fromPort\":\"source:ChartTransactions:referenceId:\",\"toPort\":\"target:ChartTransactions:referenceId:\",\"visible\":true,\"common\":true,\"__gohashid\":42018},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:transAmount:\",\"to\":\"target:ChartTransactions:transAmount:\",\"fromPort\":\"source:ChartTransactions:transAmount:\",\"toPort\":\"target:ChartTransactions:transAmount:\",\"visible\":true,\"common\":true,\"__gohashid\":42025},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:transDate:\",\"to\":\"target:ChartTransactions:transDate:\",\"fromPort\":\"source:ChartTransactions:transDate:\",\"toPort\":\"target:ChartTransactions:transDate:\",\"visible\":true,\"common\":true,\"__gohashid\":42032},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:transDesc:\",\"to\":\"target:ChartTransactions:transDesc:\",\"fromPort\":\"source:ChartTransactions:transDesc:\",\"toPort\":\"target:ChartTransactions:transDesc:\",\"visible\":true,\"common\":true,\"__gohashid\":42039},{\"category\":\"Mapping\",\"from\":\"source:ChartTransactions:transType:\",\"to\":\"target:ChartTransactions:transType:\",\"fromPort\":\"source:ChartTransactions:transType:\",\"toPort\":\"target:ChartTransactions:transType:\",\"visible\":true,\"common\":true,\"__gohashid\":42046}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getChartTransactions"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "ChartTransactions",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

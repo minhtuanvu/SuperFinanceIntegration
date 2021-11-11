@@ -1,0 +1,9 @@
+{
+    "testCaseName": "AfterSuiteD",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "ManageRecipient_Add_DeleteSamebankRecipient_Suite.js"
+    ]
+}

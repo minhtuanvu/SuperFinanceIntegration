@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_afd3dbeee456460fa9223e90b588193d": {
+        "id": "AS_FlexContainer_afd3dbeee456460fa9223e90b588193d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9e614cc940c46799370cb0f77cf2c88"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_c0f2fc8cf719437d9ca8b59daf56d82f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var nW = new kony.mvc.Navigation(\"SuperFinanceModule/frmWealthSF\");\nnW.navigate();",
+            "parentId": null
+        }]
+    }
+}

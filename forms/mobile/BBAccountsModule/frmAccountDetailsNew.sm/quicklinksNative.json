@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "81dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "link1CTA": "{\"Savings\":{\"text\":\"Withdraw Cash\",\"image\":\"withdrawcash.png\",\"action\":\"withdrawCashSavings\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false},\"Checking\":{\"text\":\"Make Transfer\",\"image\":\"transfer_money.png\",\"action\":\"onClickMakeTransfer\",\"context\":\"\",\"entitlement\":[\"BILL_PAY_CREATE\",\"DOMESTIC_WIRE_TRANSFER_CREATE\",\"INTER_BANK_ACCOUNT_FUND_TRANSFER_CREATE\",\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\",\"INTERNATIONAL_WIRE_TRANSFER_CREATE\",\"INTRA_BANK_FUND_TRANSFER_CREATE\",\"P2P_CREATE\",\"TRANSFER_BETWEEN_OWN_ACCOUNT_CREATE\"],\"entitlement_action\":false},\"Loan\":{\"text\":\"Pay Due Amount\",\"image\":\"pay_due.png\",\"action\":\"onClickLoanPayDue\",\"context\":\"\",\"entitlement\":[\"TRANSFER_BETWEEN_OWN_ACCOUNT_CREATE\"],\"entitlement_action\":false},\"Credit Card\":{\"text\":\"Make a Payment\",\"image\":\"pay_bill.png\",\"action\":\"onClickMakePayment\",\"context\":\"\",\"entitlement\":[\"TRANSFER_BETWEEN_OWN_ACCOUNT_CREATE\"],\"entitlement_action\":false},\"Deposit\":{\"text\":\"New Deposit\",\"image\":\"new_deposit.png\",\"action\":\"newDepositAction\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false},\"Default\":{\"text\":\"Savings Pot\",\"image\":\"savings_pot.png\",\"action\":\"savingsPotOptions\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false}}",
+        "link2CTA": "{\"Savings\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[\"MANAGE_E_STATEMENTS\"],\"entitlement_action\":false},\"Checking\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[\"MANAGE_E_STATEMENTS\"],\"entitlement_action\":false},\"Loan\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[\"MANAGE_E_STATEMENTS\"],\"entitlement_action\":false},\"Credit Card\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[\"MANAGE_E_STATEMENTS\"],\"entitlement_action\":false},\"Deposit\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[\"MANAGE_E_STATEMENTS\"],\"entitlement_action\":false},\"Default\":{\"text\":\"Statements\",\"image\":\"statements.png\",\"action\":\"getStatements\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false}}",
+        "link3CTA": "{\"Savings\":{\"text\":\"View Disputed Transactions\",\"image\":\"request_cheque.png\",\"action\":\"onClickViewDisputedTransactions\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false},\"Checking\":{\"text\":\"View Disputed Transactions\",\"image\":\"request_cheque.png\",\"action\":\"onClickViewDisputedTransactions\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false},\"Deposit\":{\"text\":\"View Disputed Transactions\",\"image\":\"request_cheque.png\",\"action\":\"onClickViewDisputedTransactions\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false},\"Loan\":{\"text\":\"Loan Schedule\",\"image\":\"loan_schedule.png\",\"action\":\"navigateToLoanSchedule\",\"context\":\"\",\"entitlement\":[\"VIEW_LOAN_SCHEDULE\"],\"entitlement_action\":false}}",
+        "link4CTA": "{\"Loan\":{\"text\":\"View Disputed Transactions\",\"image\":\"request_cheque.png\",\"action\":\"onClickViewDisputedTransactions\",\"context\":\"\",\"entitlement\":[],\"entitlement_action\":false}}",
+        "link5CTA": "",
+        "link6CTA": ""
+    },
+    "id": "quicklinksNative",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b54f724a74e24c0ca79e5bc28f706d61",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxAccountsContainer",
+    "pf": "frmAccountDetailsNew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c98b510c31594a1781229b21364de3b2",
+    "wType": "UserWidgetInstance"
+}

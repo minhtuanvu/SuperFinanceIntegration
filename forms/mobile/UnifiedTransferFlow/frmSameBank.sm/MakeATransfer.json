@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s120a55346c946c2b4561ab8f86fe692",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "data": {
+        "CCcriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"{$.c.selectedServicePayment}\",\"paidBy\":\"{$.c.selectedServiceFeesPaidBy}\",\"swiftCode\":\"{$.c.swiftCode}\",\"serviceName\":\"\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.beneficiaryNickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"InternalTransfer\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"{$.c.transactionCurrency}\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\"}",
+        "OTTcriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"{$.c.selectedServicePayment}\",\"paidBy\":\"{$.c.selectedServiceFeesPaidBy}\",\"swiftCode\":\"{$.c.swiftCode}\",\"serviceName\":\"INTRA_BANK_FUND_TRANSFER_CREATE\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.beneficiaryNickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"ExternalTransfer\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"{$.c.transactionCurrency}\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"{$.c.toAccountNumber}\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\"}",
+        "ValCriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"\",\"paidBy\":\"\",\"swiftCode\":\"\",\"serviceName\":\"\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.nickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"{$.c.transactionType}\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"USD\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"{$.c.externalAccountNumber}\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"routingNumber\":\"{$.c.routingNumber}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\",\"validate\":\"true\"}",
+        "ValOperationName": "{\"withinAccounts\":\"TransferToOwnAccounts\",\"withinBank\":\"IntraBankAccFundTransfer\"}",
+        "lblReadOnlyField5Label": "{i.kony.i18n.verifyDetails.totalDebitAmount}",
+        "lblReadOnlyField5Value": "{\"text\":\"{$.c.totalAmount}\",\"fieldType\":\"label\"}",
+        "lblReadOnlyField8Value": "{\"text\":\"{$.c.serviceCharge}\",\"fieldType\":\"label\"}",
+        "transCriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"\",\"paidBy\":\"\",\"swiftCode\":\"\",\"serviceName\":\"\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.nickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"{$.c.transactionType}\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"{$.c.transactionCurrency}\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"{$.c.externalAccountNumber}\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"routingNumber\":\"{$.c.routingNumber}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\"}",
+        "transOperationName": "{\"withinAccounts\":\"TransferToOwnAccounts\",\"withinBank\":\"IntraBankAccFundTransfer\"}",
+        "valOTTcriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"{$.c.selectedServicePayment}\",\"paidBy\":\"{$.c.selectedServiceFeesPaidBy}\",\"swiftCode\":\"{$.c.swiftCode}\",\"serviceName\":\"INTRA_BANK_FUND_TRANSFER_CREATE\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.beneficiaryNickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"ExternalTransfer\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"{$.c.transactionCurrency}\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"{$.c.toAccountNumber}\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\",\"validate\":\"true\"}",
+        "verifyField10Label": "",
+        "verifyField10Value": "",
+        "verifyField11Label": "",
+        "verifyField11Value": "",
+        "verifyField12Label": "",
+        "verifyField12Value": "",
+        "verifyField13Label": "",
+        "verifyField13Value": "",
+        "verifyField15Label": "",
+        "verifyField15Value": "",
+        "verifyField17Label": "",
+        "verifyField17Value": "",
+        "verifyField3Label": "",
+        "verifyField3Value": ""
+    },
+    "id": "MakeATransfer",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "h640a84820c94134988d4a2bee21693c",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContents",
+    "pf": "frmSameBank",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "i8cf88b49abd44aeae2a31c4b48f628a",
+    "wType": "UserWidgetInstance"
+}

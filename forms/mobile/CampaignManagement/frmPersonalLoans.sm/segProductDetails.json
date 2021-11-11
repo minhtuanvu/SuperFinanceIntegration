@@ -1,0 +1,164 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Affordable borrowing - flexible term based on your ability to  repay."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Competitive rates."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "No collateral needed. "
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Easy and quick online application process. "
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Enables you to know what you need to pay each month."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Money is in your account within minutes of acceptance."
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProductDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ab3ec784bcbe404683a13f1d70f1b361",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxFeatures",
+    "pf": "frmPersonalLoans",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c9be217f41f141bb84ba0a09e3d79510",
+    "rowcounter": 5,
+    "rowfocusskin": "s69f28c050df43fb9bf92e79f4534943",
+    "rowskin": "s69f28c050df43fb9bf92e79f4534943",
+    "rowtemplate": "flxAdditionalFeatures",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAdditionalFeatures": "flxAdditionalFeatures",
+        "imgDot": "imgDot",
+        "lblProfileHeading": "lblProfileHeading"
+    },
+    "widgetskin": "s69f28c050df43fb9bf92e79f4534943",
+    "zindex": 4
+}

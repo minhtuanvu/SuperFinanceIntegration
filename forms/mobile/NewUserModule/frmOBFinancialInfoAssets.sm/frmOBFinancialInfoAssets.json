@@ -1,0 +1,116 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Financial Info",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxPersonalInfo"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOBFinancialInfoAssetsController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhoneX",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmOBFinancialInfoAssets",
+    "id": "frmOBFinancialInfoAssets",
+    "ide_init": "AS_Form_c51f5c67a9c7402288c4d1a332ab3df5",
+    "ide_preShow": "AS_Form_e3916ef3b5d44389a98ea25163de5511",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "fc6d6fb1983942cbb7b3cc49f44842b1",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": false,
+                "kuid": "e18afd3d9a6041b095695408442f47bf",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_bf0fee9cda1344f7ba01d53233a662fa",
+                        "info": {
+                            "title": "Close"
+                        },
+                        "kuid": "ic31dc03e177482f8c691832f42b1239",
+                        "onClick": "AS_BarButtonItem_bf0fee9cda1344f7ba01d53233a662fa",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "c2a240e77d844495bc2985daf47e39d3",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "GalaxyS7",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneX",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "texti18n": "kony.mb.FinancialInfo.Title",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

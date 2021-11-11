@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getAllRegions" : "getAllRegionsMapping",
+    "get" : "getMapping",
+    "getRegionDetails" : "getRegionDetailsMapping",
+    "getAllCities" : "getAllCitiesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

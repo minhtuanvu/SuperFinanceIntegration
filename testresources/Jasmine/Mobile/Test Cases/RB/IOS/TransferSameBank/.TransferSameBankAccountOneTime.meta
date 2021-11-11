@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferSameBankAccountOneTime",
+    "testSuiteName": "Test Cases/RB/IOS/TransferSameBank",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferSameBankAccount.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "b25c4d32-5742-8fd6-a194-4e58ea8338a4",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(Transfers.sameBankAccount.fromAccount , Transfers.sameBankAccount.toAccount);\nawait enterAmount();\nawait oneTimeTransfer();",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

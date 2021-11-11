@@ -1,0 +1,21 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanAndroid_RB_Regression",
+    "testSuiteInfo": [
+        "Droid/RB/RB_PreLogin_Support.js",
+        "Droid/RB/RB_Login.js",
+        "Droid/RB/RB_PostLogin.js",
+        "Droid/RB/RB_ManageRecipients.js",
+        "Droid/RB/RB_P2PTransfers.js",
+        "Droid/RB/RB_AccountsDashboard.js",
+        "Droid/RB/RB_InternationalTransfers.js",
+        "Droid/RB/RB_ExternalTransfers.js",
+        "Droid/RB/RB_Messages.js",
+        "Droid/RB/RB_MyBills.js",
+        "Droid/RB/RB_MyMoney.js",
+        "Droid/RB/RB_OwnAccTransfers.js",
+        "Droid/RB/RB_SameBankTransfers.js",
+        "Droid/RB/RB_AllAccounts.js",
+        "Droid/RB/RB_Logout.js"
+    ]
+}

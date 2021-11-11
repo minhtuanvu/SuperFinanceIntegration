@@ -1,0 +1,24 @@
+{
+    "AS_UWI_ca7d4c86a22440cd816228e6ac809dfc": {
+        "id": "AS_UWI_ca7d4c86a22440cd816228e6ac809dfc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "filter",
+            "datatype": "collection"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onFilterChanged_b1dff8ebd76f4697863469f00f0ee9fa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFilterChanged",
+            "display": "onFilterChanged",
+            "inputparams": [{
+                "name": "filter",
+                "value": " filter"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "AccountsOverview",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "RB/T24Droid/AccountsOverview/VerifySwiftCode_AccountsInfo.js",
+        "RB/T24Droid/AccountsOverview/VerifyInterestDetails_SavingsAcc.js",
+        "RB/T24Droid/AccountsOverview/VerifyInterestDetails_CheckingAcc.js",
+        "RB/T24Droid/AccountsOverview/VerifyPendingWithdrawal.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

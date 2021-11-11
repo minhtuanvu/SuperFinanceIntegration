@@ -1,0 +1,198 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_data_": [
+        [
+            {
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "i18nkey": "kony.mb.enroll.accountDetails",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "imgAccNoToggle": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "view.png"
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Account Number"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "XXX0905XXXXXX55"
+                    }
+                },
+                {
+                    "imgAccNoToggle": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Account Number"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "XXX0905XXXXXX55"
+                    }
+                },
+                {
+                    "imgAccNoToggle": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Account Number"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "XXX0905XXXXXX55"
+                    }
+                },
+                {
+                    "imgAccNoToggle": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Account Number"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "XXX0905XXXXXX55"
+                    }
+                },
+                {
+                    "imgAccNoToggle": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": ""
+                    },
+                    "lblTitle": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Account Number"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "XXX0905XXXXXX55"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segAccountdetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "enableDictionary": true,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a468c7ee27d3496f9fd70c73a303bc3d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAccDetailContainer",
+    "pf": "frmAccountInfoNew",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "a0ea84023b17423fb8dd29d8994565b5",
+    "rowcounter": 4,
+    "rowfocusskin": "sec47134c53840738acea176209ff716",
+    "rowskin": "s18472307db04580a2a9cb6f4681ebec",
+    "rowtemplate": "flxAccountdetails",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "b06ac5ec50ab47918bc1300702126866",
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "sectionheadertemplate": "flxheader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAccNoToggle": "flxAccNoToggle",
+        "flxAccountdetails": "flxAccountdetails",
+        "flxBalDetails": "flxBalDetails",
+        "flxRowcontainer": "flxRowcontainer",
+        "flxShadow": "flxShadow",
+        "flxShadowBottomInfo": "flxShadowBottomInfo",
+        "flxTypeOneShadowInfo1": "flxTypeOneShadowInfo1",
+        "flxheader": "flxheader",
+        "imgAccNoToggle": "imgAccNoToggle",
+        "lblHeader": "lblHeader",
+        "lblTitle": "lblTitle",
+        "lblValue": "lblValue"
+    },
+    "zindex": 1
+}

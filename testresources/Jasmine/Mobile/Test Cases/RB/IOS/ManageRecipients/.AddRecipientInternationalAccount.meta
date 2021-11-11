@@ -1,0 +1,41 @@
+{
+    "testCaseName": "AddRecipientInternationalAccount",
+    "testSuiteName": "Test Cases/RB/IOS/ManageRecipients",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientInternationalAccount.js",
+        "IOS/RB/RB_SanitySuite.js",
+        "IOS/tempSuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "bec13940-9a90-5c8f-8d46-6be6cbedc0f2",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await addRecipientInternationalAccount(ManageRecipient.recipientName.internationalAccount);\n//await goBackToDashboardFromManageRecipient();",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

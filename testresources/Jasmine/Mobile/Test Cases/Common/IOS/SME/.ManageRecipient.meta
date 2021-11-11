@@ -1,0 +1,11 @@
+{
+    "testCaseName": "ManageRecipient",
+    "testSuiteName": "Test Cases/Common/IOS/SME",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/SME/SME_AddRecipientSameBank.js",
+        "IOS/SME/SME_AddRecipientExternalAccount.js",
+        "IOS/SME/SME_SanitySuite.js"
+    ]
+}

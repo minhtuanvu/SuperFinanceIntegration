@@ -1,0 +1,9 @@
+{
+    "testCaseName": "SelectDateRangeAndConfirmTransfer",
+    "testSuiteName": "Test Cases/Common/Droid/Util/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "TransfersOwnAccount.js"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_TransferInternationalAccount",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/TransferInternationalAccount/SearchInternationalAccount.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccOneTime.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccScheduleOnce.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_DailyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_DailyNumberOfTransfers.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_HalfYearlyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_HalfYearlyNumberOfTransfers.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_MonhtlyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_MonthlyNumberOfTransfers.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_QuarterlyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_QuarterlyNumberOfTransfers.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_WeeklyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_WeeklyNumberOfTransfers.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_YearlyDateRange.js",
+        "RB/IOS/TransferInternationalAccount/TransferInternationalAccSchedule_YearlyNumberOfTransfers.js"
+    ],
+    "usedBy": []
+}

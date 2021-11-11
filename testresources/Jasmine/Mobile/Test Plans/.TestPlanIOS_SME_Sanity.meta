@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanIOS_SME_Sanity",
+    "testSuiteInfo": [
+        "IOS/SME/SME_PreLogin_Support.js",
+        "IOS/SME/SME_LoginSuite.js",
+        "IOS/SME/SME_SanitySuite.js",
+        "IOS/SME/SME_LogoutSuite.js"
+    ]
+}

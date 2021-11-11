@@ -1,0 +1,196 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgDotsLne": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dashedlines.png"
+            },
+            "imgDotsSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dots_normal.png"
+            },
+            "imgLeftArrowSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "leftarrow_normal.png"
+            },
+            "lblNewsDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Here's how much Trump's tweets are influencing traders, survey reveals"
+            },
+            "lblNewsTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Aug. 28, 2021 at 6:54 p.m."
+            }
+        },
+        {
+            "imgDotsLne": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dashedlines.png"
+            },
+            "imgDotsSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dots_normal.png"
+            },
+            "imgLeftArrowSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "leftarrow_normal.png"
+            },
+            "lblNewsDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "European stocks slide after U.S. and North Korea cross swords"
+            },
+            "lblNewsTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Sep. 18 2021 at 1:00 p.m."
+            }
+        },
+        {
+            "imgDotsLne": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dashedlines.png"
+            },
+            "imgDotsSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dots_normal.png"
+            },
+            "imgLeftArrowSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "leftarrow_normal.png"
+            },
+            "lblNewsDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maecenas faucibus mollis"
+            },
+            "lblNewsTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Margaret Mead"
+            }
+        },
+        {
+            "imgDotsLne": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": ""
+            },
+            "imgDotsSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "dots_normal.png"
+            },
+            "imgLeftArrowSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "leftarrow_normal.png"
+            },
+            "lblNewsDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Maecenas faucibus mollis"
+            },
+            "lblNewsTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Margaret Mead"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segCuratedNewsSF",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d290e8b1144740819a675d010277177e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxNewsSF",
+    "pf": "frmWealthSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e7374b354a584f6ca0964925ea99e445",
+    "rowcounter": 3,
+    "rowfocusskin": "sec47134c53840738acea176209ff716",
+    "rowskin": "s90b5e3ccc7a4ae2a1c39e1ebad3ec00",
+    "rowtemplate": "flxCuratedNewsSF",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCuratedNewsSF": "flxCuratedNewsSF",
+        "flxDotsLneSF": "flxDotsLneSF",
+        "flxDotsSF": "flxDotsSF",
+        "flxLeftArrowSF": "flxLeftArrowSF",
+        "flxMainNewsSF": "flxMainNewsSF",
+        "flxNewsDtlsSF": "flxNewsDtlsSF",
+        "flxParentSF": "flxParentSF",
+        "imgDotsLne": "imgDotsLne",
+        "imgDotsSF": "imgDotsSF",
+        "imgLeftArrowSF": "imgLeftArrowSF",
+        "lblNewsDescSF": "lblNewsDescSF",
+        "lblNewsTitleSF": "lblNewsTitleSF"
+    },
+    "zindex": 1
+}

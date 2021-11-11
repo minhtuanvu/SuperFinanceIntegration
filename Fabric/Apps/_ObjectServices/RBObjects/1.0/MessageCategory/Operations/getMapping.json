@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getMessageCategories7371",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">          <map inputpath=\"response_in\" outputpath=\"response_out\">        <set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>    <map inputpath=\"messagecategory\" outputpath=\"MessageCategory\">                              <set-param inputpath=\"Id\" outputpath=\"categoryId\"/>                              <set-param inputpath=\"category\" outputpath=\"categoryName\"/>                    </map>          </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"MessageCategory\",\"xy\":\"770 100\",\"__gohashid\":102313},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getMessageCategories\",\"xy\":\"150 100\",\"__gohashid\":102314}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:MessageCategory:categoryId:\",\"to\":\"target:MessageCategory:categoryId:\",\"fromPort\":\"source:MessageCategory:categoryId:\",\"toPort\":\"target:MessageCategory:categoryId:\",\"visible\":true,\"common\":true,\"__gohashid\":104716},{\"category\":\"Mapping\",\"from\":\"source:MessageCategory:categoryName:\",\"to\":\"target:MessageCategory:categoryName:\",\"fromPort\":\"source:MessageCategory:categoryName:\",\"toPort\":\"target:MessageCategory:categoryName:\",\"visible\":true,\"common\":true,\"__gohashid\":104723},{\"from\":\"target\",\"to\":\"target:MessageCategory\",\"fromPort\":\"target\",\"toPort\":\"target:MessageCategory\",\"visible\":true,\"common\":false,\"__gohashid\":142441},{\"from\":\"target:MessageCategory\",\"to\":\"target:MessageCategory:fields\",\"fromPort\":\"target:MessageCategory\",\"toPort\":\"target:MessageCategory:fields\",\"visible\":true,\"common\":false,\"__gohashid\":142442},{\"from\":\"target:MessageCategory:fields\",\"to\":\"target:MessageCategory:categoryId:\",\"fromPort\":\"target:MessageCategory:fields\",\"toPort\":\"target:MessageCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":142443},{\"from\":\"target:MessageCategory:fields\",\"to\":\"target:MessageCategory:categoryName:\",\"fromPort\":\"target:MessageCategory:fields\",\"toPort\":\"target:MessageCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":142444},{\"from\":\"target:MessageCategory:fields\",\"to\":\"target:MessageCategory:errmsg:\",\"fromPort\":\"target:MessageCategory:fields\",\"toPort\":\"target:MessageCategory:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":142445},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":142446},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":142447},{\"from\":\"source\",\"to\":\"source:MessageCategory\",\"fromPort\":\"source\",\"toPort\":\"source:MessageCategory\",\"visible\":true,\"common\":false,\"__gohashid\":142448},{\"from\":\"source:MessageCategory\",\"to\":\"source:MessageCategory:parameters\",\"fromPort\":\"source:MessageCategory\",\"toPort\":\"source:MessageCategory:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":142449},{\"from\":\"source:MessageCategory:parameters\",\"to\":\"source:MessageCategory:categoryId:\",\"fromPort\":\"source:MessageCategory:parameters\",\"toPort\":\"source:MessageCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":142450},{\"from\":\"source:MessageCategory:parameters\",\"to\":\"source:MessageCategory:categoryName:\",\"fromPort\":\"source:MessageCategory:parameters\",\"toPort\":\"source:MessageCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":142451}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getMessageCategories"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "MessageCategory",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

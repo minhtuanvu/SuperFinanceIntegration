@@ -1,0 +1,25 @@
+it("Accounts_VerifyAccountSummaryForNonLoanAccounts", async function() {
+	await kony.automation.playback.waitFor(["frmLogin","tbxUsername"]);
+	kony.automation.textbox.enterText(["frmLogin","tbxUsername"],"dbxJasmine1234");
+	kony.automation.textbox.enterText(["frmLogin","tbxPassword"],"Kony@1234");
+	kony.automation.button.click(["frmLogin","btnLogIn"]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","segAccounts"]);
+	kony.automation.widget.touch(["frmDashboardAggregated","segAccounts"], [61,91],null,[61,91]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","segAccounts"]);
+	kony.automation.widget.touch(["frmDashboardAggregated","segAccounts[0,1]","flxAccountsNoImage"], [61,21],null,[61,21]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","segAccounts"]);
+	kony.automation.segmentedui.click(["frmDashboardAggregated","segAccounts[0,1]"]);
+	await kony.automation.playback.waitFor(["frmAccountDetails","customHeader","flxSearch"]);
+	kony.automation.flexcontainer.click(["frmAccountDetails","customHeader","flxSearch"]);
+	await kony.automation.playback.waitFor(["frmAccountInfo","customHeader","flxBack"]);
+	kony.automation.flexcontainer.click(["frmAccountInfo","customHeader","flxBack"]);
+	await kony.automation.playback.waitFor(["frmAccountDetails","customHeader","flxBack"]);
+	kony.automation.flexcontainer.click(["frmAccountDetails","customHeader","flxBack"]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","customHeader","flxBack"]);
+	kony.automation.flexcontainer.click(["frmDashboardAggregated","customHeader","flxBack"]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","Hamburger","flxLogout"]);
+	kony.automation.widget.touch(["frmDashboardAggregated","Hamburger","flxLogout"], [22,32],null,[22,32]);
+	kony.automation.alert.click(0);
+	await kony.automation.playback.waitFor(["frmLogout","btnLogIn"]);
+	kony.automation.button.click(["frmLogout","btnLogIn"]);
+});

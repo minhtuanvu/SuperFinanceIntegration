@@ -1,0 +1,23 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "CardManagement",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/CardManagement.js",
+        "RB/T24Droid/CardManagement/AddTravelPlan.js",
+        "RB/T24Droid/CardManagement/EditTravelPlan.js",
+        "RB/T24Droid/CardManagement/DeleteTravelPlan.js",
+        "RB/T24Droid/CardManagement/ChangePIN.js",
+        "RB/T24Droid/CardManagement/SetATMWithdrawalLimit.js",
+        "RB/T24Droid/CardManagement/SetPurchaseLimit.js",
+        "RB/T24Droid/CardManagement/VerifyCardDetails.js",
+        "RB/T24Droid/CardManagement/VerifyCardNumber.js",
+        "RB/T24Droid/CardManagement/ViewTransactions.js",
+        "RB/T24Droid/CardManagement/LockCard.js",
+        "RB/T24Droid/CardManagement/UnlockCard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js"
+    ]
+}

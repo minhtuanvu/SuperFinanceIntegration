@@ -1,0 +1,12 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_Logout",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "Common/Droid/RB/Logout.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Sanity.js",
+        "TestPlanAndroid_SME_Regression.js"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_b54b76d573b44f6e855fe28ae7f3d0f4": {
+        "id": "AS_Form_b54b76d573b44f6e855fe28ae7f3d0f4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPersonalLoans",
+            "type": "forms",
+            "platform": null,
+            "KUID": "adafefd80dff45e2b90e7c19012effbf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_init_j97267e35322426c9dbd9578221c39aa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "callbackType": null
+        }]
+    }
+}

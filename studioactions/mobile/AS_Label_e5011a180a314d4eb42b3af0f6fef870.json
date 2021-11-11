@@ -1,0 +1,34 @@
+{
+    "AS_Label_e5011a180a314d4eb42b3af0f6fef870": {
+        "id": "AS_Label_e5011a180a314d4eb42b3af0f6fef870",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmHELOC",
+            "type": "forms",
+            "platform": null,
+            "KUID": "af39da9addf842049e97ec400c1747d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___i0b9c96fc6054dc491e192a7977783af",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openURL",
+            "display": "openURL",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

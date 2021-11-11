@@ -1,0 +1,17 @@
+{
+    "AS_Button_e7c66aa7aaad41c1abb516f579a087c3": {
+        "id": "AS_Button_e7c66aa7aaad41c1abb516f579a087c3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ca2d418b5b3a4530a887d5d2e39a4003",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.showManualActivationScreen();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "sendSMS7432",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">                <map inputpath=\"SMS_Message\" outputpath=\"SMSStatus\"/>      \t        <map inputpath=\"errorCode\" outputpath=\"errorCode\"/>        <map inputpath=\"requestId\" outputpath=\"requestId\"/>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Sms\",\"xy\":\"770 100\",\"__gohashid\":3070},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"KmsEmailOrch (1.0).sendSMS\",\"xy\":\"150 100\",\"__gohashid\":3071}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:Sms\",\"fromPort\":\"target\",\"toPort\":\"target:Sms\",\"visible\":true,\"common\":false,\"__gohashid\":3080},{\"from\":\"target:Sms\",\"to\":\"target:Sms:fields\",\"fromPort\":\"target:Sms\",\"toPort\":\"target:Sms:fields\",\"visible\":true,\"common\":false,\"__gohashid\":3081},{\"from\":\"source\",\"to\":\"source:claims_token\",\"fromPort\":\"source\",\"toPort\":\"source:claims_token\",\"visible\":true,\"common\":false,\"__gohashid\":3082},{\"from\":\"source:claims_token\",\"to\":\"source:claims_token:parameters\",\"fromPort\":\"source:claims_token\",\"toPort\":\"source:claims_token:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":3083},{\"from\":\"source:claims_token:parameters\",\"to\":\"source:claims_token:X-Kony-Authorization:\",\"fromPort\":\"source:claims_token:parameters\",\"toPort\":\"source:claims_token:X-Kony-Authorization:\",\"visible\":true,\"common\":false,\"__gohashid\":3084}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "KmsEmailOrch",
+      "serviceVersion" : "1.0",
+      "operationName" : "sendSMS"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Sms",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

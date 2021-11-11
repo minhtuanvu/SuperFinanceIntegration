@@ -1,0 +1,239 @@
+{
+    "classname": "changeORcreatePassword",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Check Password Status Service",
+                "Change OLB Password Service",
+                "Create OLB Password Service",
+                "Get Password Policies Service"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjects",
+                    "group": "Check Password Status Service",
+                    "kuid": "f4787978e9a24ea0a652d1017798dde9",
+                    "originalPropertyKey": "objectServiceName1",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjects",
+                    "group": "Change OLB Password Service",
+                    "kuid": "jacef82880a74a649c5184941602f30c",
+                    "originalPropertyKey": "objectServiceName2",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAObjects",
+                    "group": "Create OLB Password Service",
+                    "kuid": "e6baf740db574ac195d6dab31f2a2e23",
+                    "originalPropertyKey": "objectServiceName3",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAActivationObjects",
+                    "group": "Get Password Policies Service",
+                    "kuid": "b563ee3e776246bf8438e56b74704ff6",
+                    "originalPropertyKey": "objectServiceName4",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectServiceName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAUser",
+                    "group": "Check Password Status Service",
+                    "kuid": "h841aee1b0f141f7b3c2d3ba7d046a8a",
+                    "originalPropertyKey": "objectName1",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAUser",
+                    "group": "Change OLB Password Service",
+                    "kuid": "f687871cf243477298ac9720bc2c7538",
+                    "originalPropertyKey": "objectName2",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "SCAUser",
+                    "group": "Create OLB Password Service",
+                    "kuid": "d06240b4d77545edb683bc32f26257ae",
+                    "originalPropertyKey": "objectName3",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "PasswordPolicy",
+                    "group": "Get Password Policies Service",
+                    "kuid": "e7460d30c60e4e6c9a2caa3a2532f013",
+                    "originalPropertyKey": "objectName4",
+                    "propertyIndex": 2,
+                    "propertyKey": "objectName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "checkPasswordAuthenticatorForUser",
+                    "group": "Check Password Status Service",
+                    "kuid": "de9c33a278eb461aa1add6af5808e050",
+                    "originalPropertyKey": "operationName1",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName1",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "changeOLBPassword",
+                    "group": "Change OLB Password Service",
+                    "kuid": "f93f1058f6594fabbfd3c523560e0cb7",
+                    "originalPropertyKey": "operationName2",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName2",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "createOLBPassword",
+                    "group": "Create OLB Password Service",
+                    "kuid": "f20dbc6924694f5893d6e6c1991664f7",
+                    "originalPropertyKey": "operationName3",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName3",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "fetch",
+                    "group": "Get Password Policies Service",
+                    "kuid": "ee12c6464ab04adcb91a8db395b3c31b",
+                    "originalPropertyKey": "operationName4",
+                    "propertyIndex": 3,
+                    "propertyKey": "operationName4",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ie6d5e5fe0dd4068a5099f3b0dda826c",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinity.mb.sca",
+    "version": "1.0.0"
+}

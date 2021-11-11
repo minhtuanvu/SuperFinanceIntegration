@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="createOrderStopLoss" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.CreateOrderStopLossPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.CreateMarketOrderPostProcessor"/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="http://_$_WEALTH_T24_HOST_URL_$_v1.0.0/order/securityOrders/stopPriceOrders?validate_only=$validate_only"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.temenos.infinity.api.commons.config.ServiceURLProvider"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="eyJraWQiOiJLT05ZIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJJUklTIiwic3ViIjoiZGJwb2xidXNlciIsInJvbGVJZCI6IklORklOSVRZLlJFVEFJTCIsImlzcyI6IkZhYnJpYyIsImRieFVzZXJJZCI6IjEwMDI0OTY1NDAiLCJleHAiOjE2MTc5MjQ3OTUsImlhdCI6MTYxNDMyNDc5NSwidXNlcklkIjoiZGJwb2xidXNlciIsIl9pc3NtZXRhIjoiaHR0cDpcL1wvbG9jYWxob3N0OjgwODBcL3NhbXBsZVwvc2VydmljZSIsImp0aSI6ImI4MmMwOTY3LWExNDgtNGQxZi04YTI1LTNmYmU4YzJjNDA0OSJ9.dJFCQtXDPo6ZT_T7Lg0u6sh8sj2Rsm1uTq7qRysuafasH9DmmW4MCoP034m-lAYBy7RBpySIq_NtZnlaVkrbzzUtGL4em2dPJ5vCEcKy1dBj5vrGlvVt6rMrWg-m_atJ8LrvZ1PjFEJKv6AgCVt6qd1hFN1Cu4ToqDzBppaVBqZGJOGKlDrJyhOXgCNtyFxGgUJ4T2gNKyX2_sRuXeS_SXIuzA2bDTGfhOMQCUCssDuv64mwpotfNtZ0vkv5zhH0FW1nYZLSzxSOQbGjowLy8E3FpHNS6zWQd_UBohOdYyURVSnWktjYg1byis5N0aSokFy2qyKZEMx95s_Lovmr6A" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="channelName" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="INFINITY" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerId" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100292" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="portfolioId" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100292-1" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="quantity" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="instrumentId" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="210100-000" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="tradeCurrency" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="USD" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="stockExchange" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="NYSE" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="transactionType" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="FPR" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="orderDate" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="20200417" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="valueDate" order="" paramOrder="9" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="20200417" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="orderType" order="" paramOrder="10" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="STOP" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="price" order="" paramOrder="11" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="validate_only" order="" paramOrder="12" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="calculateCharges" order="" paramOrder="13" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="YES" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="dealStatus" order="" paramOrder="14" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="TRANSMITTED" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="limitType" order="" paramOrder="15" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="GTC" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;customers&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$customerId&quot;,&#10;                &quot;portfolioId&quot;: &quot;$portfolioId&quot;,&#10;                &quot;price&quot;: &quot;$price&quot;,&#10;                &quot;calculateCharges&quot;: &quot;$calculateCharges&quot;,&#10;                &quot;quantity&quot;: &quot;$quantity&quot;&#10;            }&#10;        ],&#10;        &quot;instrumentId&quot;: &quot;$instrumentId&quot;,&#10;        &quot;tradeCurrency&quot;: &quot;$tradeCurrency&quot;,&#10;        &quot;stockExchange&quot;: &quot;$stockExchange&quot;,&#10;        &quot;transactionType&quot;: &quot;$transactionType&quot;,&#10;        &quot;orderDate&quot;: &quot;$orderDate&quot;,&#10;        &quot;valueDate&quot;: &quot;$valueDate&quot;,&#10;        &quot;orderType&quot;: &quot;$orderType&quot;,&#10;        &quot;dealStatus&quot;: &quot;$dealStatus&quot;,&#10;          &quot;limitType&quot;:&quot;$limitType&quot;&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;customers&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$customerId&quot;,&#10;                &quot;portfolioId&quot;: &quot;$portfolioId&quot;,&#10;                &quot;price&quot;: &quot;$price&quot;,&#10;                &quot;calculateCharges&quot;: &quot;$calculateCharges&quot;,&#10;                &quot;quantity&quot;: &quot;$quantity&quot;&#10;            }&#10;        ],&#10;        &quot;instrumentId&quot;: &quot;$instrumentId&quot;,&#10;        &quot;tradeCurrency&quot;: &quot;$tradeCurrency&quot;,&#10;        &quot;stockExchange&quot;: &quot;$stockExchange&quot;,&#10;        &quot;transactionType&quot;: &quot;$transactionType&quot;,&#10;        &quot;orderDate&quot;: &quot;$orderDate&quot;,&#10;        &quot;valueDate&quot;: &quot;$valueDate&quot;,&#10;        &quot;orderType&quot;: &quot;$orderType&quot;,&#10;        &quot;dealStatus&quot;: &quot;$dealStatus&quot;,&#10;          &quot;limitType&quot;:&quot;$limitType&quot;&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fieldName" order="" paramOrder="38" parentOrder="0" passnull="false" sms-name="" src="fieldName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="code" order="" paramOrder="39" parentOrder="0" passnull="false" sms-name="" src="code" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="message" order="" paramOrder="40" parentOrder="0" passnull="false" sms-name="" src="message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <record id="header" order="" paramOrder="1" parentOrder="0" src="//header">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="transactionStatus" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="transactionStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="status" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="status" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </record>
+        <record id="body" order="" paramOrder="5" parentOrder="0" src="//body">
+            <dataset defaultvalue="" id="customers" order="" paramOrder="18" parentOrder="5" src="//customers[*]" testvalue="">
+                <dataset defaultvalue="" id="buyingPowers" order="" paramOrder="24" parentOrder="18" src="//buyingPowers[*]" testvalue="">
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="buyingPower" order="" paramOrder="25" parentOrder="24" passnull="false" sms-name="" src="buyingPower" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                </dataset>
+                <dataset defaultvalue="" id="customerChargeTaxTypes" order="" paramOrder="26" parentOrder="18" src="//customerChargeTaxTypes[*]" testvalue="">
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerChargeTaxCode" order="" paramOrder="27" parentOrder="26" passnull="false" sms-name="" src="customerChargeTaxCode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerChargeTaxAmount" order="" paramOrder="28" parentOrder="26" passnull="false" sms-name="" src="customerChargeTaxAmount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerChargeTaxType" order="" paramOrder="29" parentOrder="26" passnull="false" sms-name="" src="customerChargeTaxType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                </dataset>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerCommissionTax" order="" paramOrder="19" parentOrder="18" passnull="false" sms-name="" src="customerCommissionTax" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="accountId" order="" paramOrder="20" parentOrder="18" passnull="false" sms-name="" src="accountId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="portfolioId" order="" paramOrder="21" parentOrder="18" passnull="false" sms-name="" src="portfolioId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="quantity" order="" paramOrder="22" parentOrder="18" passnull="false" sms-name="" src="quantity" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="settlementCurrency" order="" paramOrder="23" parentOrder="18" passnull="false" sms-name="" src="settlementCurrency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="EBVFee" order="" paramOrder="30" parentOrder="18" passnull="false" sms-name="" src="EBVFee" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerId" order="" paramOrder="31" parentOrder="18" passnull="false" sms-name="" src="customerId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+                <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="commission" order="" paramOrder="32" parentOrder="18" passnull="false" sms-name="" src="commission" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="stockExchange" order="" paramOrder="6" parentOrder="5" passnull="false" sms-name="" src="stockExchange" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="orderType" order="" paramOrder="7" parentOrder="5" passnull="false" sms-name="" src="orderType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="instrumentId" order="" paramOrder="8" parentOrder="5" passnull="false" sms-name="" src="instrumentId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="valueDate" order="" paramOrder="9" parentOrder="5" passnull="false" sms-name="" src="valueDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="dealStatus" order="" paramOrder="10" parentOrder="5" passnull="false" sms-name="" src="dealStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="tradeCurrency" order="" paramOrder="11" parentOrder="5" passnull="false" sms-name="" src="tradeCurrency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="limitType" order="" paramOrder="12" parentOrder="5" passnull="false" sms-name="" src="limitType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="limitExpiryDate" order="" paramOrder="13" parentOrder="5" passnull="false" sms-name="" src="limitExpiryDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="orderedAt" order="" paramOrder="14" parentOrder="5" passnull="false" sms-name="" src="orderedAt" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="transactionType" order="" paramOrder="15" parentOrder="5" passnull="false" sms-name="" src="transactionType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="approximateSettlementAmount" order="" paramOrder="16" parentOrder="5" passnull="false" sms-name="" src="approximateSettlementAmount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="depositoryId" order="" paramOrder="17" parentOrder="5" passnull="false" sms-name="" src="depositoryId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="orderDate" order="" paramOrder="33" parentOrder="5" passnull="false" sms-name="" src="orderDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="tradeType" order="" paramOrder="34" parentOrder="5" passnull="false" sms-name="" src="tradeType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </record>
+        <record id="error" order="" paramOrder="35" parentOrder="0" src="//error">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="type" order="" paramOrder="36" parentOrder="35" passnull="false" sms-name="" src="type" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errorDetails" order="" paramOrder="37" parentOrder="35" passnull="false" sms-name="" src="//errorDetails[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </record>
+    </service-output>
+</service>

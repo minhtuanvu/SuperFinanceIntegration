@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_MyBills",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachIT.js",
+        "Common/IOS/SME/MyBills.js",
+        "SME/IOS/MyBills/SearchBill.js",
+        "SME/IOS/MyBills/ManageBillPayShowAllPayee.js",
+        "SME/IOS/MyBills/OneTimeBillPaymentCreditCard.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_SME_Regression.js"
+    ]
+}

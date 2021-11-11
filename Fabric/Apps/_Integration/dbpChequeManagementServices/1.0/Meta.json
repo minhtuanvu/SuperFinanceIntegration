@@ -1,0 +1,10 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-chequemanagementservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "dependentJar"
+  } ]
+}

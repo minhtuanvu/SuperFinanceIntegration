@@ -1,0 +1,22 @@
+{
+    "AS_BarButtonItem_c084dcbe88474fa2acd0147942ad02bb": {
+        "id": "AS_BarButtonItem_c084dcbe88474fa2acd0147942ad02bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a6a706f6ee444a5890f750295f0ba59e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "iPhoneBackNavigation",
+            "display": "iPhoneBackNavigation",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

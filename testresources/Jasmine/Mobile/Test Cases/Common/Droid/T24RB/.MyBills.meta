@@ -1,0 +1,10 @@
+{
+    "testCaseName": "MyBills",
+    "testSuiteName": "Test Cases/Common/Droid/T24RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/MyBills.js",
+        "Droid/T24RB/HealthCheck.js"
+    ]
+}

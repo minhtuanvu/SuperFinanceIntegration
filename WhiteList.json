@@ -1,0 +1,83 @@
+{
+    "RULE_TEXT_SPELL_CHECKER":["kony","Kony","KONY","pdf","PDF","DBX","Quantum","RichText","Segment",""],
+    "RULE_UNUSED_RESOURCES":[],
+    "RULE_UI_UX_LEFT_ALIGNMENT":{"global_spacing":{
+        "form": {
+            "android": {
+                "left":"0"
+            },
+            "iphone": {
+                "left":"0"
+           },
+           "desktopweb": {
+                "left":"0"
+            }
+        },
+        "flex":{
+            "android": {
+                "left":"0"
+            },
+            "iphone": {
+                "left":"0"
+           },
+           "desktopweb": {
+                "left":"0"
+            }
+        }
+    }},
+    "RULE_UI_UX_SAME_FONT_FOR_SIMILAR_WIDGETS_IN_APP":{   
+        "Typography":   {
+                "keys" : [ "font_size", "font_name"],
+                "Label": {
+                "android":  {
+                    "font_name": ["default"],
+                	"font_size": ["200", "125", "107", "92", "70"]
+                },
+                "iphone": {
+                    "font_name": ["Lato"],
+                    "font_size": ["17px", "15"]
+                },
+                "desktopweb": {
+                    "font_name": ["Lato-Regular", "Lato-Light", "Lato", "Lato-Medium"],
+                    "font_size": ["20px", "17px", "15px", "108", "67", "215"]
+                }
+        	}
+        }
+    },
+	"RULE_UNUSED_SKINS" : 	[
+								"sknFlxChart0",
+								"sknFlxChart1",
+								"sknFlxChart10",
+								"sknFlxChart2",
+								"sknFlxChart3",
+								"sknFlxChart4",
+								"sknFlxChart5",
+								"sknFlxChart6",
+								"sknFlxChart7",
+								"sknFlxChart8",
+								"sknFlxChart9"
+							],
+	"RULE_UNUSED_COMPONENTS" : [	
+									"com.banking.CardView",
+									"com.banking.DateView",
+									"com.banking.digitkeypad",
+									"com.banking.FromAccount",
+									"com.banking.inputAmount",
+									"com.banking.inputPhoneNumber",
+									"com.banking.loginMethod",
+									"com.banking.pickContact",
+									"com.banking.SecureCode",
+									"com.common.customCalendarTablet",
+									"com.ktb.common.customFooter",
+									"com.ktb.common.customHeaderTablet",
+									"com.ktb.common.customPopup",
+									"com.ktb.common.frequencyView",
+									"com.ktb.common.Hamburger",
+									"com.ktb.common.keypadTablet",
+									"com.tab.CustomRightBar",
+									"com.common.customCalendar"
+								],
+								
+	"RULE_UNUSED_TEMPLATES" : ["segBankLocaton"],
+	"RULE_UNUSED_RESOURCES" : ["public_keys.json","strings-jumio.xml","styles_jumio.xml"]
+}

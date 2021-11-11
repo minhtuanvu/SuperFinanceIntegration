@@ -1,0 +1,23 @@
+{
+    "testCaseName": "Transfers",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/RB_Transfers.js",
+        "Droid/RB/RB_SanitySuite.js",
+        "Droid/RB/tempSuite.js",
+        "UnitSuite.js",
+        "Droid/RB/RB_MyBills.js",
+        "Droid/RB/RB_ManageRecipients.js",
+        "Droid/RB/RB_ExternalTransfers.js",
+        "Droid/RB/RB_P2PTransfers.js",
+        "Droid/RB/RB_InternationalTransfers.js",
+        "Droid/RB/RB_OwnAccTransfers.js",
+        "Droid/RB/RB_SameBankTransfers.js",
+        "Droid/RB/RB_AllAccounts.js",
+        "Droid/RB/RB_TransferActivities.js",
+        "Droid/RB/RB_MyMoney.js",
+        "Droid/RB/RB_SettingsSuite.js"
+    ]
+}

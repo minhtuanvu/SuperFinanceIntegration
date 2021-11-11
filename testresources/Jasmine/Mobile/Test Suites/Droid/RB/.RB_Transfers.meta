@@ -1,0 +1,36 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_Transfers",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/Transfer/Verify_AddP2PRecipient.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferDaily_DateRange.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferDaily_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferHalfY_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferHalfY_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferHalfY_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferMonthly_DateRange.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferMonthly_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferMonthly_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferMonthly_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferQTR_DateRange.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferQTR_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferQTR_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferQTR_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferWeekly_DateRange.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferWeekly_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferWeekly_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferWeekly_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferYearly_DateRange.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferYearly_DateRange_P2P.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferYearly_NoOfOccurances.js",
+        "RB/Droid/Transfer/Verify_ScheduledTransferYearly_NoOfOccurances_P2P.js",
+        "RB/Droid/Transfer/Verify_DeleteP2PRecipient_P2P.js"
+    ],
+    "usedBy": [
+        "Droid_RB_SME_Suite.js"
+    ]
+}

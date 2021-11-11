@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_PostLogin_Support",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/PostLogin.js",
+        "RB/IOS/PostLogin/PostLogin_Support_FAQ_TnC.js",
+        "RB/IOS/PostLogin/PostLogin_Support_VerifyAppVersion.js"
+    ],
+    "usedBy": []
+}

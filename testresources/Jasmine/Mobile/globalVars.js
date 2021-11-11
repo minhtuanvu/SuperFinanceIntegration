@@ -1,0 +1,2 @@
+var formName;
+formName = "frmLogin";

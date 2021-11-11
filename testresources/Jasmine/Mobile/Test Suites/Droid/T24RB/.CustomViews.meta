@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "CustomViews",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/CustomView.js",
+        "RB/T24Droid/CustomView/CreateAndApplyCustomView.js",
+        "RB/T24Droid/CustomView/VerifyCustomViewApplied.js",
+        "RB/T24Droid/CustomView/VerifyCheckUncheckAccountCreation.js",
+        "RB/T24Droid/CustomView/VerifyDuplicateCustomView.js",
+        "RB/T24Droid/CustomView/VerifySearchFunctionality.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js"
+    ]
+}

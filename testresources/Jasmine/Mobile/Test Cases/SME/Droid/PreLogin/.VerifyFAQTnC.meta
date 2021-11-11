@@ -1,0 +1,11 @@
+{
+    "testCaseName": "VerifyFAQTnC",
+    "testSuiteName": "Test Cases/RB/Droid/PreLogin",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/RB/PreLogin_Support.js",
+        "Droid/SME/SME_PreLogin_Support.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ],
+    "userCode": true
+}

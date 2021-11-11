@@ -1,0 +1,32 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_SanitySuite",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/MyBills.js",
+        "Common/IOS/RB/ManageRecipient.js",
+        "Common/IOS/RB/Transfers.js",
+        "Common/IOS/RB/AccountsDashboard.js",
+        "RB/IOS/AccountsDashboard/ViewAllTransactions.js",
+        "RB/IOS/MyBills/SearchBill.js",
+        "RB/IOS/MyBills/ManageBillPayShowAllPayee.js",
+        "RB/IOS/MyBills/OneTimeBillPaymentCreditCard.js",
+        "RB/IOS/Transfer/SearchInFromAndToScreen.js",
+        "RB/IOS/Transfer/TransferOwnAccountOneTime.js",
+        "RB/IOS/Transfer/TransferOwnAccountScheduleOnce.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsExternalAccount.js",
+        "RB/IOS/ManageRecipients/AddRecipientExternalAccount.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsForSameAccount.js",
+        "RB/IOS/ManageRecipients/AddRecipientSameBank.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsInternationalAccount.js",
+        "RB/IOS/ManageRecipients/AddRecipientInternationalAccount.js",
+        "RB/IOS/Transfer/TransferSameBankAccountOneTime.js",
+        "RB/IOS/Transfer/TransferSameBankAccountScheduleOnce.js",
+        "RB/IOS/Transfer/TransferExternalAccountOneTime.js",
+        "RB/IOS/Transfer/TransferExternalAccountScheduleOnce.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_RB_Sanity.js",
+        "SanityPack_IOS.js"
+    ]
+}

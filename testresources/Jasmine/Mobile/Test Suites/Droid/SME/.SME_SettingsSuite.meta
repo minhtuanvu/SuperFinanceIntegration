@@ -1,0 +1,12 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_SettingsSuite",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "SME/Droid/Settings/VerifyClickProfile2Settings.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Regression.js",
+        "Droid_RB_SME_Suite.js"
+    ]
+}

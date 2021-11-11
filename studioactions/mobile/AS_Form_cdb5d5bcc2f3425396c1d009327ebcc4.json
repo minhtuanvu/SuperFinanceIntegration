@@ -1,0 +1,23 @@
+{
+    "AS_Form_cdb5d5bcc2f3425396c1d009327ebcc4": {
+        "id": "AS_Form_cdb5d5bcc2f3425396c1d009327ebcc4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDepositTermsAndConditions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ga9b47153fb94da0be33b4d56b541bb0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_b6e898bba26a41098b5ef52cf9419ccb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preshow();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "background_image": "dailpadcancelfocus.png",
+    "bg_type": "image",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "isDefaultSkin": false,
+    "kuid": "sdacf1790d8d4d48a54477fb0d1a1082",
+    "wType": "FlexContainer"
+}

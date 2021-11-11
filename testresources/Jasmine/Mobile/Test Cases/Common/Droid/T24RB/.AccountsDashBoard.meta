@@ -1,0 +1,33 @@
+{
+    "testCaseName": "AccountsDashBoard",
+    "testSuiteName": "Test Cases/Common/Droid/T24RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/SearchTransactions.js",
+        "Droid/T24RB/AccountsOverview.js",
+        "Droid/T24RB/Payments.js",
+        "Droid/T24RB/ManageBeneficiaries.js",
+        "Droid/T24RB/ManageBeneficiaries_DeleteAllBeneficiaries.js",
+        "Droid/T24RB/CombinedStatement.js",
+        "Droid/T24RB/ProfileSettings.js",
+        "Droid/T24RB/ConsentManagement.js",
+        "Droid/T24RB/ManageTransactions.js",
+        "Droid/TemporarySuite/Suite_31032020.js",
+        "Droid/T24RB/TransferbetweenAccountinT24Transact.js",
+        "Droid/TemporarySuite/Suite_06042021.js",
+        "Droid/T24RB/PaymentsinT24Transact.js",
+        "Droid/TemporarySuite/Suite_07042021.js",
+        "Droid/T24RB/CardManagement.js",
+        "Droid/T24RB/MyBills.js",
+        "Droid/T24RB/PostLoginSupport.js",
+        "Droid/T24RB/Messages.js",
+        "Droid/T24RB/AccountPreference.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/T24RB/ExchangeRates.js",
+        "Droid/T24RB/MyMoney.js",
+        "Droid/T24RB/AllAccounts.js",
+        "Droid/TemporarySuite/tempSuite.js",
+        "Droid/T24RB/CustomViews.js"
+    ]
+}

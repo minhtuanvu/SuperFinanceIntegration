@@ -1,0 +1,9 @@
+{
+    "groupName": "Test Suites/IOS",
+    "testSuiteName": "PreLogin_Support",
+    "testCaseInfo": [
+        "Common/IOS/Util/PreLogin/PreLogin_Support_FAQ_TnC.js",
+        "Common/IOS/Util/PreLogin/PreLogin_Support_VerifyAppVersion.js"
+    ],
+    "usedBy": []
+}

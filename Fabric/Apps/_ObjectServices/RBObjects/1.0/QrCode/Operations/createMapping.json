@@ -1,0 +1,35 @@
+{
+  "operationConfig" : {
+    "name" : "getQrCode4358",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"AtmId\" outputpath=\"AtmId\"/><set-param inputpath=\"timestamp\" outputpath=\"timestamp\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"transaction\" outputpath=\"QrCode\">            <set-param inputpath=\"Id\" outputpath=\"id\"/>        </map>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"QrCode\",\"xy\":\"770 100\",\"__gohashid\":225392},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getQrCode\",\"xy\":\"150 100\",\"__gohashid\":225393}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:QrCode:id:\",\"to\":\"target:QrCode:id:\",\"fromPort\":\"source:QrCode:id:\",\"toPort\":\"target:QrCode:id:\",\"visible\":true,\"common\":true,\"__gohashid\":227744},{\"from\":\"target\",\"to\":\"target:QrCode\",\"fromPort\":\"target\",\"toPort\":\"target:QrCode\",\"visible\":true,\"common\":false,\"__gohashid\":282063},{\"from\":\"target:QrCode\",\"to\":\"target:QrCode:fields\",\"fromPort\":\"target:QrCode\",\"toPort\":\"target:QrCode:fields\",\"visible\":true,\"common\":false,\"__gohashid\":282064},{\"from\":\"target:QrCode:fields\",\"to\":\"target:QrCode:AtmId:\",\"fromPort\":\"target:QrCode:fields\",\"toPort\":\"target:QrCode:AtmId:\",\"visible\":true,\"common\":false,\"__gohashid\":282065},{\"from\":\"target:QrCode:fields\",\"to\":\"target:QrCode:id:\",\"fromPort\":\"target:QrCode:fields\",\"toPort\":\"target:QrCode:id:\",\"visible\":true,\"common\":false,\"__gohashid\":282066},{\"from\":\"target:QrCode:fields\",\"to\":\"target:QrCode:timestamp:\",\"fromPort\":\"target:QrCode:fields\",\"toPort\":\"target:QrCode:timestamp:\",\"visible\":true,\"common\":false,\"__gohashid\":282067},{\"from\":\"source\",\"to\":\"source:QrCode\",\"fromPort\":\"source\",\"toPort\":\"source:QrCode\",\"visible\":true,\"common\":false,\"__gohashid\":282068},{\"from\":\"source:QrCode\",\"to\":\"source:QrCode:parameters\",\"fromPort\":\"source:QrCode\",\"toPort\":\"source:QrCode:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":282069},{\"from\":\"source:QrCode:parameters\",\"to\":\"source:QrCode:id:\",\"fromPort\":\"source:QrCode:parameters\",\"toPort\":\"source:QrCode:id:\",\"visible\":true,\"common\":false,\"__gohashid\":282070}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getQrCode"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "QrCode",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

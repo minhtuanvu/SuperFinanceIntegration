@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "verifyCustomerSecurityQuestions" : "verifyCustomerSecurityQuestionsMapping",
+    "get" : "getMapping",
+    "resetSecurityQuestions" : "resetSecurityQuestionsMapping",
+    "getSecurityQuestions" : "getSecurityQuestionsMapping",
+    "getRandomCustomerSecurityQuestions" : "getRandomCustomerSecurityQuestionsMapping",
+    "createCustomerSecurityQuestions" : "createCustomerSecurityQuestionsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

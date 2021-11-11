@@ -1,0 +1,52 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "fileName",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "unit",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "orientation",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "leftprop",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "topprop",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "format",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "widthprop",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "compress",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "bottomprop",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["generatePdfUsingDom", "generatePdfUsingHtmlString"],
+        "events": []
+    }
+});

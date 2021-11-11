@@ -1,0 +1,77 @@
+{
+    "testCaseName": "AccountsDb_ViewAllTransactions",
+    "testSuiteName": "Test Cases/RB/Droid/AccountLanding",
+    "channelName": "Mobile",
+    "usedBy": [
+        "AccountsDashboard.js"
+    ],
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.flxChartSizeToggle",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.flxChartSizeToggle",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "67dbabe0-7a9b-4727-b6c5-6b0b18002d99"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmDashboardAggregated.btnViewAllTransactions",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "8a90e4dc-2726-a8ad-4470-b663d2a2b55b",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmDashboardAggregated.btnViewAllTransactions"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.btnViewAllTransactions",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.btnViewAllTransactions",
+                    "widgetType": "button",
+                    "actionType": "click"
+                },
+                "UUID": "11e302cc-f7b6-46ac-8aa0-1927d5f3bc4e"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        }
+    ],
+    "timeout": 0
+}

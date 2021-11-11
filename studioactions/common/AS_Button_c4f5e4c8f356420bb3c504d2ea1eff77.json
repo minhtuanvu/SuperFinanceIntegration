@@ -1,0 +1,16 @@
+{
+    "AS_Button_c4f5e4c8f356420bb3c504d2ea1eff77": {
+        "id": "AS_Button_c4f5e4c8f356420bb3c504d2ea1eff77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h8c2cb737b274da9876de3bdc457fc5a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.toggleFeatureMenu();"
+        }]
+    }
+}

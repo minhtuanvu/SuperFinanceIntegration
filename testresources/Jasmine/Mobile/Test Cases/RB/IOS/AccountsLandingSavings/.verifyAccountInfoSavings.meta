@@ -1,0 +1,10 @@
+{
+    "testCaseName": "verifyAccountInfoSavings",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingSavings",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingSavings.js",
+        "tempSuite.js"
+    ]
+}

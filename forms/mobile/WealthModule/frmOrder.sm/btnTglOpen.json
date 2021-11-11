@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s41670fb05ee46aca7c02e660e077a79",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s41670fb05ee46aca7c02e660e077a79",
+    "id": "btnTglOpen",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a67dfa83ae6d4c56a5f51fdb3098f07d",
+    "name": "kony.ui.Button",
+    "parent": "flxTglOpen",
+    "pf": "frmOrder",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.wealth.openOrders",
+    "wType": "Button",
+    "zindex": 1
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Image_fab486ab37984d0fb268d01b8596c8a1": {
+        "id": "AS_Image_fab486ab37984d0fb268d01b8596c8a1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLoanAmount",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f9f98871d20b4eafb1d228fbce68ce57"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_e86c332b9f4e44758711dbffcf6e9b32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.clearKeypadChar();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_c6f3a830cc4745b99c55ede67d2c9bfd": {
+        "id": "AS_FlexContainer_c6f3a830cc4745b99c55ede67d2c9bfd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDownloadSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j29fc386e91f4b578f576e5882bab178"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c8cd58f4964044fb8f3b6e12bf9551ad",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToBack",
+            "display": "navigateToBack",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "testCaseName": "ManageRecipient",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientSameBank.js",
+        "IOS/RB/RB_ManageRecipientExternalAccount.js",
+        "IOS/RB/RB_ManageRecipientInternationalAccount.js",
+        "IOS/RB/RB_SanitySuite.js",
+        "IOS/RB/RB_Feedback.js",
+        "IOS/RB/RB_ManageRecipientP2P.js"
+    ]
+}

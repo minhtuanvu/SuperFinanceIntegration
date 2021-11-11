@@ -1,0 +1,141 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        [
+            {
+                "imgUpArrow": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": ""
+                },
+                "lblHeader": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": ""
+                }
+            },
+            [
+                {
+                    "lblCurrency": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "SegRecentCurrency",
+    "info": null,
+    "invokedProperty": "selectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "enableDictionary": true,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e6a78fa7c295489195cecf4fbc70e74d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRecentSegment",
+    "pf": "frmBuyCurrency",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "e2e195cdfc32412cb3539f27cc7de3bf",
+    "rowcounter": 0,
+    "rowfocusskin": "s02d7ca459a74168b4573e79b9d8efec",
+    "rowskin": "s1b48fbee2d347dfaf569b759f052166",
+    "rowtemplate": "flxRecentHeader",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": "b03f45aac486491a95c007aa96cecb1e",
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "sectionheadertemplate": "flxTransHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "selectionindicator": "imgBankLogo",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCurrency": "flxCurrency",
+        "flxRecentHeader": "flxRecentHeader",
+        "flxSeparator": "flxSeparator",
+        "flxShadowBottom": "flxShadowBottom",
+        "flxTransHeader": "flxTransHeader",
+        "flxTypeOneShadow": "flxTypeOneShadow",
+        "flximgUp": "flximgUp",
+        "imgUpArrow": "imgUpArrow",
+        "lblCurrency": "lblCurrency",
+        "lblHeader": "lblHeader"
+    },
+    "zindex": 1
+}

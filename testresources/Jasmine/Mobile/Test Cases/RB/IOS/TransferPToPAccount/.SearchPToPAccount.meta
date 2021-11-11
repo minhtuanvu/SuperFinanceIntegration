@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SearchPToPAccount",
+    "testSuiteName": "Test Cases/RB/IOS/TransferPToPAccount",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferP2PAccount.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "8 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "805bef23-cad6-46e0-f46c-d40e9b4490d3",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(Transfers.p2pRecipient.fromAccount , Transfers.p2pRecipient.toAccount);\nawait kony.automation.device.deviceBack();\nawait kony.automation.device.deviceBack();\nawait kony.automation.device.deviceBack();\n// :End User Injected Code Snippet {cf3928e2-539e-4c52-1a93-19e4aa39a9cd}\nawait kony.automation.playback.wait(1000);\nawait kony.automation.playback.waitFor([\"frmUnifiedDashboard\",\"customFooter\",\"imgTransfer\"]);",
+                        "comment": "// - [8 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

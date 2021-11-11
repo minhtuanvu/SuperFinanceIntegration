@@ -1,0 +1,62 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "searchPlaceholder",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "searchIcon",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "searchTxtBoxSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "accountTypeFromContext",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "advancedFilterIcon",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "btnCancelSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "accountIDFromContext",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "isFilterIconVisible",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "flxBgSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "isSearchIconVisible",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "flxShadowSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["setContext"],
+        "events": ["onFilterClick", "onSearchClick", "onError", "onCancelClick"]
+    }
+});

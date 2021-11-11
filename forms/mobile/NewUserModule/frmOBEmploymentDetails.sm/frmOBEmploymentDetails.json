@@ -1,0 +1,118 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Employment Info",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxMainContainer",
+        "flxPopup"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOBEmploymentDetailsController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "Pixel3",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmOBEmploymentDetails",
+    "id": "frmOBEmploymentDetails",
+    "ide_init": "AS_Form_a505c3325c0a43b0b469b35dc4d32d34",
+    "ide_preShow": "AS_Form_d3700a78d41c453f944bd1b87a563eea",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 1,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 1,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "cf38b85ff25d4d1f9981b0a50e8ac813",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": false,
+                "kuid": "d5bd6eb8a7ef47799d1cd8a74c6da20f",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_h65040c2ef6e49549cefae99050b14e3",
+                        "info": {
+                            "title": "Close"
+                        },
+                        "kuid": "a3894549fe094b9b94a65d6b4da8d836",
+                        "onClick": "AS_BarButtonItem_h65040c2ef6e49549cefae99050b14e3",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "d1f5c585529e4310bb717aee47f0fec6",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "spaan",
+    "retainscrollposition": false,
+    "shellCSS": "and_Pixel3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "texti18n": "kony.mb.EmploymentInfo.Title",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

@@ -1,0 +1,10 @@
+{
+    "testCaseName": "OneTimePayment_NewRecipient_SameBank_FutureDate",
+    "testSuiteName": "Test Cases/RB/T24Droid/PaymentsToNewRecipient",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/PaymentsinT24Transact.js",
+        "Droid/TemporarySuite/tempSuite.js"
+    ]
+}

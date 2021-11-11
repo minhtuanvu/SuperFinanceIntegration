@@ -1,0 +1,7 @@
+{
+  "serviceType" : "orchestration",
+  "jars" : [ {
+    "name" : "wealth-services.jar",
+    "type" : "jar"
+  } ]
+}

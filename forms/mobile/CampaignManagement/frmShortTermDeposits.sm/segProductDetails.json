@@ -1,0 +1,158 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_data_": [
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Competitive interest rate for the term."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Ability to roll into another Short Term Deposit at a new rate  at the end of the term."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "For balances of 1,000 to 10,000."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Can top up to the maximum at any time during the term."
+            }
+        },
+        {
+            "imgDot": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pageoffdot.png"
+            },
+            "lblProfileHeading": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Funded from an existing Infinity Bank account instantly."
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "disabledSkins": {},
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProductDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f7a01605fbc24bc397aee3913c3ad268",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxFeatures",
+    "pf": "frmShortTermDeposits",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "c9be217f41f141bb84ba0a09e3d79510",
+    "rowcounter": 4,
+    "rowfocusskin": "s7edd442a0b84fcf8effd2349b7c3044",
+    "rowskin": "s7edd442a0b84fcf8effd2349b7c3044",
+    "rowtemplate": "flxAdditionalFeatures",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAdditionalFeatures": "flxAdditionalFeatures",
+        "imgDot": "imgDot",
+        "lblProfileHeading": "lblProfileHeading"
+    },
+    "widgetskin": "s7edd442a0b84fcf8effd2349b7c3044",
+    "zindex": 4
+}

@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_ManageRecipientInternationalAccount",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/ManageRecipient.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsInternationalAccount.js",
+        "RB/IOS/ManageRecipients/AddRecipientInternationalAccount.js",
+        "RB/IOS/ManageRecipients/SearchRecipientInternationalAccount.js",
+        "RB/IOS/ManageRecipients/TransferInternationalAccount.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSRB.js",
+        "TestPlanIOSSMEandRB.js"
+    ]
+}

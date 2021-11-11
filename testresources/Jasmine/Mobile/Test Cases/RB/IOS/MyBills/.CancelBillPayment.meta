@@ -1,0 +1,39 @@
+{
+    "testCaseName": "CancelBillPayment",
+    "testSuiteName": "Test Cases/RB/IOS/MyBills",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "c3ca4a4c-9099-4075-f9d8-da986ad94a6a",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMyBillsPage();\nawait cancelScheduledBillPay();",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js"
+    ],
+    "timeout": 0
+}

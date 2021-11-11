@@ -1,0 +1,17 @@
+{
+    "AS_BarButtonItem_ed82d3f27f9e49fcb1377ff1c0a31c3a": {
+        "id": "AS_BarButtonItem_ed82d3f27f9e49fcb1377ff1c0a31c3a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bead209006eb4ef59b3ed9c458456b42",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var transferModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"BillPayModule\");\n        transferModule.presentationController.cancelCommon();",
+            "callbackType": null
+        }]
+    }
+}

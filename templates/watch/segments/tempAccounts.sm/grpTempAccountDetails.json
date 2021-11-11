@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizGroup",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "121dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        15,
+        0,
+        15
+    ],
+    "_percent_": true,
+    "_skin_": "s0faa6e9ba3c4d1d92ee523ff73fce57",
+    "_spacing_": 2,
+    "_width_": "100%",
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "lblAccountType",
+        "grpBalanceAmount",
+        "lblBalanceType"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "grpTempAccountDetails",
+    "info": null,
+    "isTemplate": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bcaea71833994f6ba49e85c00e8bbd92",
+    "layouttype": 4,
+    "name": "kony.ui.Group",
+    "paddingLocked": false,
+    "paddinginpixel": true,
+    "parent": "tempAccounts",
+    "pf": "tempAccounts",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "wType": "Group",
+    "widgetalignment": 1
+}

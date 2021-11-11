@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_Feedback",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Feedback.js",
+        "Common/IOS/RB/ManageRecipient.js",
+        "RB/IOS/Feedback/SendFeedback.js"
+    ],
+    "usedBy": []
+}

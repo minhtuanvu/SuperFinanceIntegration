@@ -1,0 +1,9 @@
+{
+    "testCaseName": "Accounts_VerifyLandingPage",
+    "testSuiteName": "Test Cases/AccountsSuite",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "DashboardVerifySuite.js"
+    ]
+}

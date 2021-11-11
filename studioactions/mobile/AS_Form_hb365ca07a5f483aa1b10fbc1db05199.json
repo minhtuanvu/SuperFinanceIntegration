@@ -1,0 +1,24 @@
+{
+    "AS_Form_hb365ca07a5f483aa1b10fbc1db05199": {
+        "id": "AS_Form_hb365ca07a5f483aa1b10fbc1db05199",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExternalAccountsList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j12ed437856b4893b657693023982df5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__i33b3a3466094034b236b2e3d3edbb32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

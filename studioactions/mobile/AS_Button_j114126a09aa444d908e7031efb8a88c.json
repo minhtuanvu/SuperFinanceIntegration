@@ -1,0 +1,23 @@
+{
+    "AS_Button_j114126a09aa444d908e7031efb8a88c": {
+        "id": "AS_Button_j114126a09aa444d908e7031efb8a88c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a5b056dbb4c9447bae2de3e872558cca",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTransferActivitiesDirectDebits",
+            "friendlyName": "frmTransferActivitiesDirectDebits",
+            "formKUID": "ce16403d628d4bf38bfca8590ec8be2d",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "MoneyMovementModule",
+            "isCustomInput": false
+        }]
+    }
+}

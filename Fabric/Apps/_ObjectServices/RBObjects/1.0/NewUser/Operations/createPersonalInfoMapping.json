@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "createUserPersonalInfo5087",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"country\" outputpath=\"country\"/><set-param inputpath=\"userlastname\" outputpath=\"userlastname\"/><set-param inputpath=\"noOfDependents\" outputpath=\"noOfDependents\"/><set-param inputpath=\"jobProfile\" outputpath=\"jobProfile\"/><set-param inputpath=\"annualIncome\" outputpath=\"annualIncome\"/><set-param inputpath=\"employmentInfo\" outputpath=\"employmentInfo\"/><set-param inputpath=\"gender\" outputpath=\"gender\"/><set-param inputpath=\"city\" outputpath=\"city\"/><set-param inputpath=\"userfirstname\" outputpath=\"userfirstname\"/><set-param inputpath=\"dateOfBirth\" outputpath=\"dateOfBirth\"/><set-param inputpath=\"spouseFirstName\" outputpath=\"spouseFirstName\"/><set-param inputpath=\"montlyExpenditure\" outputpath=\"montlyExpenditure\"/><set-param inputpath=\"experience\" outputpath=\"experience\"/><set-param inputpath=\"informationType\" outputpath=\"informationType\"/><set-param inputpath=\"ssn\" outputpath=\"ssn\"/><set-param inputpath=\"spouseLastName\" outputpath=\"spouseLastName\"/><set-param inputpath=\"zipcode\" outputpath=\"zipcode\"/><set-param inputpath=\"assets\" outputpath=\"assets\"/><set-param inputpath=\"addressLine1\" outputpath=\"addressLine1\"/><set-param inputpath=\"addressLine2\" outputpath=\"addressLine2\"/><set-param inputpath=\"company\" outputpath=\"company\"/><set-param inputpath=\"state\" outputpath=\"state\"/><set-param inputpath=\"maritalStatus\" outputpath=\"maritalStatus\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"success\" outputpath=\"success\"/><set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createUserPersonalInfo"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "NewUser",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

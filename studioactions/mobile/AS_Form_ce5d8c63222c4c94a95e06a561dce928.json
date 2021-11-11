@@ -1,0 +1,28 @@
+{
+    "AS_Form_ce5d8c63222c4c94a95e06a561dce928": {
+        "id": "AS_Form_ce5d8c63222c4c94a95e06a561dce928",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmExpertOpinion",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a80d65a156f34daca02c06082127783b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__feb1bd770cdd49c9a118e0323e27e17f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

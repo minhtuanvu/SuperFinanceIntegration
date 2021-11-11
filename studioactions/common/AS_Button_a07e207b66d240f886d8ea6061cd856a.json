@@ -1,0 +1,20 @@
+{
+    "AS_Button_a07e207b66d240f886d8ea6061cd856a": {
+        "id": "AS_Button_a07e207b66d240f886d8ea6061cd856a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua2ed622554743d093324eea75ddbe83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_j41dee8cf0374e8eb4606d7b0d3eeec9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.generateOTP();"
+        }]
+    }
+}

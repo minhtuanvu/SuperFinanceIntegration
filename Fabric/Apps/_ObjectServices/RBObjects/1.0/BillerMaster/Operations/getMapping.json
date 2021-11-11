@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getBillerMasters4049",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"billermasterview\" outputpath=\"BillerMaster\">            <set-param inputpath=\"accountNumber\" outputpath=\"accountNumber\"/>            <set-param inputpath=\"address\" outputpath=\"address\"/>            <set-param inputpath=\"billerCategoryId\" outputpath=\"billerCategoryId\"/>            <set-param inputpath=\"billerCategoryName\" outputpath=\"billerCategoryName\"/>            <set-param inputpath=\"billerName\" outputpath=\"billerName\"/>            <set-param inputpath=\"city\" outputpath=\"city\"/>            <set-param inputpath=\"ebillSupport\" outputpath=\"ebillSupport\"/>            <set-param inputpath=\"id\" outputpath=\"id\"/>            <set-param inputpath=\"state\" outputpath=\"state\"/>            <set-param inputpath=\"zipCode\" outputpath=\"zipCode\"/>        </map>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"BillerMaster\",\"xy\":\"770 100\",\"__gohashid\":11270},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getBillerMasters\",\"xy\":\"150 100\",\"__gohashid\":11271}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:accountNumber:\",\"to\":\"target:BillerMaster:accountNumber:\",\"fromPort\":\"source:BillerMaster:accountNumber:\",\"toPort\":\"target:BillerMaster:accountNumber:\",\"visible\":true,\"common\":true,\"__gohashid\":13928},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:address:\",\"to\":\"target:BillerMaster:address:\",\"fromPort\":\"source:BillerMaster:address:\",\"toPort\":\"target:BillerMaster:address:\",\"visible\":true,\"common\":true,\"__gohashid\":13935},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:billerCategoryId:\",\"to\":\"target:BillerMaster:billerCategoryId:\",\"fromPort\":\"source:BillerMaster:billerCategoryId:\",\"toPort\":\"target:BillerMaster:billerCategoryId:\",\"visible\":true,\"common\":true,\"__gohashid\":13942},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:billerCategoryName:\",\"to\":\"target:BillerMaster:billerCategoryName:\",\"fromPort\":\"source:BillerMaster:billerCategoryName:\",\"toPort\":\"target:BillerMaster:billerCategoryName:\",\"visible\":true,\"common\":true,\"__gohashid\":13949},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:billerName:\",\"to\":\"target:BillerMaster:billerName:\",\"fromPort\":\"source:BillerMaster:billerName:\",\"toPort\":\"target:BillerMaster:billerName:\",\"visible\":true,\"common\":true,\"__gohashid\":13956},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:city:\",\"to\":\"target:BillerMaster:city:\",\"fromPort\":\"source:BillerMaster:city:\",\"toPort\":\"target:BillerMaster:city:\",\"visible\":true,\"common\":true,\"__gohashid\":13963},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:ebillSupport:\",\"to\":\"target:BillerMaster:ebillSupport:\",\"fromPort\":\"source:BillerMaster:ebillSupport:\",\"toPort\":\"target:BillerMaster:ebillSupport:\",\"visible\":true,\"common\":true,\"__gohashid\":13970},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:id:\",\"to\":\"target:BillerMaster:id:\",\"fromPort\":\"source:BillerMaster:id:\",\"toPort\":\"target:BillerMaster:id:\",\"visible\":true,\"common\":true,\"__gohashid\":13977},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:state:\",\"to\":\"target:BillerMaster:state:\",\"fromPort\":\"source:BillerMaster:state:\",\"toPort\":\"target:BillerMaster:state:\",\"visible\":true,\"common\":true,\"__gohashid\":13984},{\"category\":\"Mapping\",\"from\":\"source:BillerMaster:zipCode:\",\"to\":\"target:BillerMaster:zipCode:\",\"fromPort\":\"source:BillerMaster:zipCode:\",\"toPort\":\"target:BillerMaster:zipCode:\",\"visible\":true,\"common\":true,\"__gohashid\":13991},{\"from\":\"target\",\"to\":\"target:BillerMaster\",\"fromPort\":\"target\",\"toPort\":\"target:BillerMaster\",\"visible\":true,\"common\":false,\"__gohashid\":305},{\"from\":\"target:BillerMaster\",\"to\":\"target:BillerMaster:fields\",\"fromPort\":\"target:BillerMaster\",\"toPort\":\"target:BillerMaster:fields\",\"visible\":true,\"common\":false,\"__gohashid\":306},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:accountNumber:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:accountNumber:\",\"visible\":true,\"common\":false,\"__gohashid\":307},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:address:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:address:\",\"visible\":true,\"common\":false,\"__gohashid\":308},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:billerCategoryId:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:billerCategoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":309},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:billerCategoryName:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:billerCategoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":310},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:billerName:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:billerName:\",\"visible\":true,\"common\":false,\"__gohashid\":311},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:city:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:city:\",\"visible\":true,\"common\":false,\"__gohashid\":312},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:ebillSupport:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:ebillSupport:\",\"visible\":true,\"common\":false,\"__gohashid\":313},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:id:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:id:\",\"visible\":true,\"common\":false,\"__gohashid\":314},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:limit:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:limit:\",\"visible\":true,\"common\":false,\"__gohashid\":315},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:searchString:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:searchString:\",\"visible\":true,\"common\":false,\"__gohashid\":316},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:state:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:state:\",\"visible\":true,\"common\":false,\"__gohashid\":317},{\"from\":\"target:BillerMaster:fields\",\"to\":\"target:BillerMaster:zipCode:\",\"fromPort\":\"target:BillerMaster:fields\",\"toPort\":\"target:BillerMaster:zipCode:\",\"visible\":true,\"common\":false,\"__gohashid\":318},{\"from\":\"source\",\"to\":\"source:BillerMaster\",\"fromPort\":\"source\",\"toPort\":\"source:BillerMaster\",\"visible\":true,\"common\":false,\"__gohashid\":319},{\"from\":\"source:BillerMaster\",\"to\":\"source:BillerMaster:parameters\",\"fromPort\":\"source:BillerMaster\",\"toPort\":\"source:BillerMaster:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":320},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:accountNumber:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:accountNumber:\",\"visible\":true,\"common\":false,\"__gohashid\":321},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:address:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:address:\",\"visible\":true,\"common\":false,\"__gohashid\":322},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:billerCategoryId:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:billerCategoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":323},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:billerCategoryName:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:billerCategoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":324},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:billerName:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:billerName:\",\"visible\":true,\"common\":false,\"__gohashid\":325},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:city:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:city:\",\"visible\":true,\"common\":false,\"__gohashid\":326},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:ebillSupport:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:ebillSupport:\",\"visible\":true,\"common\":false,\"__gohashid\":327},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:id:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:id:\",\"visible\":true,\"common\":false,\"__gohashid\":328},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:state:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:state:\",\"visible\":true,\"common\":false,\"__gohashid\":329},{\"from\":\"source:BillerMaster:parameters\",\"to\":\"source:BillerMaster:zipCode:\",\"fromPort\":\"source:BillerMaster:parameters\",\"toPort\":\"source:BillerMaster:zipCode:\",\"visible\":true,\"common\":false,\"__gohashid\":330}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getBillerMasters"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "BillerMaster",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

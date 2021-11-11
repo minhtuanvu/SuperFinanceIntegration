@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferSameBankAccountSchedule_QuarterlyNumberOfTransfers",
+    "testSuiteName": "Test Cases/RB/IOS/TransferSameBank",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferSameBankAccount.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "8 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "bc46289f-4cc8-733d-8a0d-8db169bcf97c",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(Transfers.sameBankAccount.fromAccount , Transfers.sameBankAccount.toAccount);\nawait enterAmount();\nawait selectFrequency(\"QTR\");\nawait selectDurationNumberOfTransfers();\nawait selectStartDate();\nawait enterNumberOfTransfer();\nawait confirmTransfer();",
+                        "comment": "// - [8 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

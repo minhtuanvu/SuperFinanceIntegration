@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s078c44475b4437093988509d779979c",
+    "_text_": "Transaction is successful with",
+    "_top_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rtxSuccess",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fea0ef96c3654eeab1ed219749449e25",
+    "linkskin": "s9b05ba7658b47b6a5d474eb249d11b1",
+    "name": "kony.ui.RichText",
+    "parent": "flxSuccess",
+    "pf": "frmSuccessAndError",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 1
+}

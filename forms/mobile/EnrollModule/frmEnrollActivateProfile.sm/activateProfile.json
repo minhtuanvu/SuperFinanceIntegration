@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sbb82e6ebf5c453ebb6759750a03d9ec",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ide_closeActivateProfileFlow": "AS_UWI_e8edd086e18f44a2a4c1b3a2ecb4d241",
+        "ide_navigateToLogin": "AS_UWI_f8e67744ef8d42498b481aa460a0da19",
+        "screen1DescriptionText": "Enter username and Activation code that was sent to your email and phone"
+    },
+    "id": "activateProfile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d20fe0aa14b847088c80cfeff3d726c1",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmEnrollActivateProfile",
+    "pf": "frmEnrollActivateProfile",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u9c32c9d04f44403b847a257f8ea6ddf",
+    "wType": "UserWidgetInstance",
+    "zindex": 100
+}

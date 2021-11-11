@@ -1,0 +1,111 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizGroup",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": 0,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s079ee743c254701a608d5257ba5b873",
+    "_spacing_": 2,
+    "_top_": 0,
+    "_width_": {
+        "type": "string",
+        "value": "2.50%"
+    },
+    "allboxes": [],
+    "android": {
+        "render": false
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "children": [],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "render": false
+    },
+    "enablescrolling": true,
+    "id": "grpIndicator",
+    "info": null,
+    "ipad": {
+        "render": false
+    },
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "a34d6fa9d3104e6aa8e8794e30817f55",
+    "layouttype": 3,
+    "name": "kony.ui.Group",
+    "paddingLocked": true,
+    "paddinginpixel": true,
+    "parent": "grpPostedTransactions",
+    "pf": "tempPostedTransactions",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "tabrcandroid": {
+        "render": false
+    },
+    "wType": "Group",
+    "widgetalignment": 1,
+    "windows10": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    }
+}

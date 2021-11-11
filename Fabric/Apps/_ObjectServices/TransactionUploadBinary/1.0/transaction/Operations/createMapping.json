@@ -1,0 +1,1120 @@
+{
+  "operationConfig" : {
+    "name" : "createtransaction3923",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "referencingEndpoint" : "default",
+    "inputs" : [ {
+      "id" : "isScheduled",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Customer_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "ExpenseCategory_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Payee_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Bill_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Type_id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Reference_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "fromAccountNumber",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "fromAccountBalance",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "toAccountNumber",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "toAccountBalance",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "amount",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "convertedAmount",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "baseCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Status_id",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "statusDesc",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "notes",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkNumber",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "imageURL1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "imageURL2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "hasDepositImage",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "description",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "scheduledDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "postedDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "createdDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionComments",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "toExternalAccountNumber",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Person_Id",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "frequencyType",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "numberOfRecurrences",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "frequencyStartDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "frequencyEndDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkImage",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkImageBack",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessOTPValidDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessOTP",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessPhone",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessEmail",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessPersonName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessMode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessSecurityCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashWithdrawalTransactionStatus",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashlessPin",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "category",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "billCategory",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "recurrenceDesc",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "deliverBy",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "p2pContact",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "p2pRequiredDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "requestCreatedDate",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "penaltyFlag",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "payoffFlag",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "viewReportLink",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "isPaypersonDeleted",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "fee",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "feeCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "feePaidByReceipent",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "frontImage1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "frontImage2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "backImage1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "backImage2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkDesc",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkNumber1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkNumber2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "bankName1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "bankName2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "withdrawlAmount1",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "withdrawlAmount2",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cashAmount",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "payeeCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "billid",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "isDisputed",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "disputeDescription",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "disputeReason",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "disputeStatus",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "disputeDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "payeeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkDateOfIssue",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "checkReason",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "isPayeeDeleted",
+      "scope" : "request",
+      "dataType" : "boolean",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "amountRecieved",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "requestValidity",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "statementReference",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transCreditDebitIndicator",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "bookingDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "valueDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionInformation",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "addressLine",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionAmount",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "chargeAmount",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "chargeCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "sourceCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "targetCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "unitCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "exchangeRate",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "contractIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "quotationDate",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "instructedAmount",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "instructedCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "transactionSubCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "proprietaryTransactionCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "proprietaryTransactionIssuer",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "balanceCreditDebitIndicator",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "balanceType",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "balanceAmount",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "balanceCurrency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "merchantName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "merchantCategoryCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentSchemeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentaddressType",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentDepartment",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentSubDepartment",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentStreetName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentBuildingNumber",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentPostCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentTownName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentCountrySubDivision",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentCountry",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAgentAddressLine",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAccountSchemeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAccountIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAccountName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "creditorAccountSeconIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentSchemeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentAddressType",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentDepartment",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentSubDepartment",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentStreetName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentBuildingNumber",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "dedtorAgentPostCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentTownName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentCountrySubDivision",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentCountry",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAgentAddressLine",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAccountSchemeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAccountIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAccountName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "debtorAccountSeconIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cardInstrumentSchemeName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cardInstrumentAuthorisationType",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cardInstrumentName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "cardInstrumentIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "IBAN",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "sortCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FirstPaymentDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "NextPaymentDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FinalPaymentDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "StandingOrderStatusCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FP_Amount",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FP_Currency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "NP_Amount",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "NP_Currency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FPA_Amount",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "FPA_Currency",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "ConsentId",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Initiation_InstructionIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "Initiation_EndToEndIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "RI_Reference",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "RI_Unstructured",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "RiskPaymentContextCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "MerchantCustomerIdentification",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "beneficiaryName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "bankName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "swiftCode",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "DomesticPaymentId",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "linkSelf",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "StatusUpdateDateTime",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "dataStatus",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "serviceName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "payPersonName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "payPersonNickName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "p2pAlternateContact",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "billerId",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false
+    }, {
+      "id" : "pdf",
+      "scope" : "request",
+      "dataType" : "binary",
+      "encode" : true,
+      "passNull" : false
+    } ],
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "entityMetadata" : "{\"entityAttributeTypeList\":[{\"name\":\"Id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":true,\"creatable\":false,\"updatable\":false,\"primary\":true,\"softDelete\":false,\"lastModified\":false},{\"name\":\"isScheduled\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Customer_id\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"ExpenseCategory_id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Payee_id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Bill_id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Type_id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Reference_id\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"fromAccountNumber\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"fromAccountBalance\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"toAccountNumber\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"toAccountBalance\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"amount\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"convertedAmount\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"baseCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Status_id\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"statusDesc\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"notes\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkNumber\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"imageURL1\",\"jdbcType\":-1,\"columnTypeName\":\"TEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"imageURL2\",\"jdbcType\":-1,\"columnTypeName\":\"TEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"hasDepositImage\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"description\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"scheduledDate\",\"jdbcType\":91,\"columnTypeName\":\"DATE\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionDate\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"postedDate\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"createdDate\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionComments\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"toExternalAccountNumber\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Person_Id\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"frequencyType\",\"jdbcType\":1,\"columnTypeName\":\"ENUM\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"numberOfRecurrences\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"frequencyStartDate\",\"jdbcType\":91,\"columnTypeName\":\"DATE\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"frequencyEndDate\",\"jdbcType\":91,\"columnTypeName\":\"DATE\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkImage\",\"jdbcType\":-1,\"columnTypeName\":\"LONGTEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkImageBack\",\"jdbcType\":-1,\"columnTypeName\":\"LONGTEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessOTPValidDate\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessOTP\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessPhone\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessEmail\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessPersonName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessMode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessSecurityCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashWithdrawalTransactionStatus\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashlessPin\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"category\",\"jdbcType\":1,\"columnTypeName\":\"ENUM\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"billCategory\",\"jdbcType\":1,\"columnTypeName\":\"ENUM\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"recurrenceDesc\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"deliverBy\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"p2pContact\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"p2pRequiredDate\",\"jdbcType\":91,\"columnTypeName\":\"DATE\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"requestCreatedDate\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"penaltyFlag\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"payoffFlag\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"viewReportLink\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"isPaypersonDeleted\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"fee\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"feeCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"feePaidByReceipent\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"frontImage1\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"frontImage2\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"backImage1\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"backImage2\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkDesc\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkNumber1\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkNumber2\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"bankName1\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"bankName2\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"withdrawlAmount1\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"withdrawlAmount2\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cashAmount\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"payeeCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"billid\",\"jdbcType\":-5,\"columnTypeName\":\"BIGINT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"isDisputed\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"disputeDescription\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"disputeReason\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"disputeStatus\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"disputeDate\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"payeeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkDateOfIssue\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"checkReason\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"isPayeeDeleted\",\"jdbcType\":-7,\"columnTypeName\":\"BIT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"amountRecieved\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"requestValidity\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"statementReference\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transCreditDebitIndicator\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"bookingDateTime\",\"jdbcType\":93,\"columnTypeName\":\"DATETIME\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"valueDateTime\",\"jdbcType\":93,\"columnTypeName\":\"DATETIME\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionInformation\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"addressLine\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionAmount\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"chargeAmount\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"chargeCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"sourceCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"targetCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"unitCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"exchangeRate\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"contractIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"quotationDate\",\"jdbcType\":93,\"columnTypeName\":\"DATETIME\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"instructedAmount\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"instructedCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transactionSubCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"proprietaryTransactionCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"proprietaryTransactionIssuer\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"balanceCreditDebitIndicator\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"balanceType\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"balanceAmount\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"balanceCurrency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"merchantName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"merchantCategoryCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentSchemeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentaddressType\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentDepartment\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentSubDepartment\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentStreetName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentBuildingNumber\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentPostCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentTownName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentCountrySubDivision\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentCountry\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAgentAddressLine\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAccountSchemeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAccountIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAccountName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"creditorAccountSeconIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentSchemeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentAddressType\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentDepartment\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentSubDepartment\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentStreetName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentBuildingNumber\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"dedtorAgentPostCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentTownName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentCountrySubDivision\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentCountry\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAgentAddressLine\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAccountSchemeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAccountIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAccountName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"debtorAccountSeconIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cardInstrumentSchemeName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cardInstrumentAuthorisationType\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cardInstrumentName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cardInstrumentIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"IBAN\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"sortCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FirstPaymentDateTime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"NextPaymentDateTime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FinalPaymentDateTime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"StandingOrderStatusCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FP_Amount\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FP_Currency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"NP_Amount\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"NP_Currency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FPA_Amount\",\"jdbcType\":3,\"columnTypeName\":\"DECIMAL\",\"columnDecimalDigits\":2,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"FPA_Currency\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"ConsentId\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Initiation_InstructionIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"Initiation_EndToEndIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"RI_Reference\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"RI_Unstructured\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"RiskPaymentContextCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"MerchantCustomerIdentification\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"beneficiaryName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"bankName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"swiftCode\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"DomesticPaymentId\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"linkSelf\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"StatusUpdateDateTime\",\"jdbcType\":93,\"columnTypeName\":\"TIMESTAMP\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"dataStatus\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"serviceName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"payPersonName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"payPersonNickName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"p2pAlternateContact\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"billerId\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"pdf\",\"jdbcType\":-4,\"columnTypeName\":\"LONGBLOB\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false}],\"relationshipTypeList\":[{\"targetEntityType\":{\"name\":\"check\",\"schemaName\":\"dbxdb\"},\"relationshipAttributeTypeList\":[{\"sourceEntityAttributeType\":{\"name\":\"Id\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false},\"targetEntityAttributeType\":{\"name\":\"transactionId\",\"jdbcType\":0,\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":false,\"updatable\":false,\"primary\":false,\"softDelete\":false,\"lastModified\":false}}],\"cascadeDelete\":false,\"relationshipType\":\"ONE_TO_MANY\"}],\"name\":\"transaction\",\"schemaName\":\"dbxdb\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}",
+    "opcode" : "create",
+    "backendMeta" : {
+      "qualifiedObjectName" : "dbxdb.transaction",
+      "backendObjectName" : "transaction"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "transaction",
+      "actions" : {
+        "create" : true,
+        "update" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

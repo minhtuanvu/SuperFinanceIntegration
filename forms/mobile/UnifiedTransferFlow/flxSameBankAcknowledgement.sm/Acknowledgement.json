@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "field13Label": "Transaction Fee:",
+        "field13Value": "{\"text\":\"{$.c.transactionFee}\",\"fieldType\":\"label\"}",
+        "field14Label": "Broker Fee:",
+        "field14Value": "{\"text\":\"{$.c.brokerFee}\",\"fieldType\":\"label\"}",
+        "field15Label": "Transfer Charges:",
+        "field15Value": "{\"text\":\"{$.c.transferCharges}\",\"fieldType\":\"label\"}",
+        "field16Label": "{i.kony.i18n.verifyDetails.exchangeRate}:",
+        "field16Value": "{\"text\":\"{$.c.exchangeRate}\",\"fieldType\":\"label\"}",
+        "field17Label": "{i.kony.i18n.verifyDetails.totalDebitAmount}:",
+        "field17Value": "{\"text\":\"{$.c.totalAmount}\",\"fieldType\":\"label\"}",
+        "field18Label": "",
+        "field18Value": "",
+        "field19Label": "",
+        "field19Value": "",
+        "field1Value": "{\"text\":\"{$.c.referenceId}\",\"fieldType\":\"label\"}",
+        "field20Label": "",
+        "field20Value": "",
+        "field21Label": "",
+        "field21Value": "",
+        "field22Label": "",
+        "field22Value": "",
+        "field2Value": "{\"text\":\"{$.c.formattedAccountName}\",\"fieldType\":\"label\"}",
+        "field3Value": "{\"text\":\"{$.c.toAccountName}\",\"fieldType\":\"label\"}",
+        "field9Label": "{i.kony.i18n.verifyDetails.sendOn}:"
+    },
+    "id": "Acknowledgement",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ab90fa9d685d4e23af25620607f55bd1",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContents",
+    "pf": "flxSameBankAcknowledgement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b3cf767ff93543c7aff4e892026c174c",
+    "wType": "UserWidgetInstance"
+}

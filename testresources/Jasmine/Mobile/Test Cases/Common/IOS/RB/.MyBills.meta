@@ -1,0 +1,12 @@
+{
+    "testCaseName": "MyBills",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js",
+        "IOS/RB/RB_SanitySuite.js",
+        "IOS/SME/SME_SanitySuite.js",
+        "IOS/RB/RB_AccountsLandingCreditCard.js"
+    ]
+}

@@ -1,0 +1,654 @@
+{
+  "subType" : "customapp",
+  "description" : "DbpLocalServices",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "AccountAggregationJava",
+    "version" : "1.0",
+    "etag" : "b0307fae-8832-459f-9f03-47b38ceb8d6f"
+  }, {
+    "name" : "AccountAggregationJSON",
+    "version" : "1.0",
+    "etag" : "344ce6e8-62cd-41e1-a0c9-9716852cd349"
+  }, {
+    "name" : "ACHLineOfBusinessServices",
+    "version" : "1.0",
+    "etag" : "69b2e0f4-a3e2-4f42-a40f-349cda27879a"
+  }, {
+    "name" : "APIDBPIdentity",
+    "version" : "1.0",
+    "etag" : "eeb8896b-40bb-439a-a3ad-0422e8fbe3b2"
+  }, {
+    "name" : "ArrangementMicroService",
+    "version" : "1.0",
+    "etag" : "f28eb924-a20c-446e-aa89-acb3526c73b3"
+  }, {
+    "name" : "ArrangementsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "107a95a6-b668-4089-93ce-eef6845b7611"
+  }, {
+    "name" : "BillpayLOB",
+    "version" : "1.0",
+    "etag" : "d05b9f2e-9167-47f9-a3d6-43f698ac818e"
+  }, {
+    "name" : "BillPayPayeeLOB",
+    "version" : "1.0",
+    "etag" : "1802902a-2f78-448f-af27-6e0b4b320e7d"
+  }, {
+    "name" : "C360APILogin",
+    "version" : "1.0",
+    "etag" : "09d88c8e-84e5-46bd-836a-afe29d7aa05c"
+  }, {
+    "name" : "C360IntegrationService",
+    "version" : "1.0",
+    "etag" : "ff258446-7691-4829-8f80-b206a1674d16"
+  }, {
+    "name" : "CampaignProcessingService",
+    "version" : "1.0",
+    "etag" : "f2e0f906-abaf-4cc3-b31f-bbc643868bda"
+  }, {
+    "name" : "CustomerData",
+    "version" : "1.0",
+    "etag" : "be9dc51b-95a2-46d6-8521-ffed60116f04"
+  }, {
+    "name" : "CustomerEntilement",
+    "version" : "1.0",
+    "etag" : "3f06da75-95c0-45eb-b046-fae3c456d9e1"
+  }, {
+    "name" : "customerfeedbacklocalservices",
+    "version" : "1.0",
+    "etag" : "5e598eb3-ef6c-48a6-ab79-00059b36d592"
+  }, {
+    "name" : "dbpACHServices",
+    "version" : "1.0",
+    "etag" : "862a34b4-0c89-4ecf-a051-b30a666cac08"
+  }, {
+    "name" : "dbpAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "72a509a4-13ed-4d06-b170-cfcfb4498867"
+  }, {
+    "name" : "DBPAPILogin",
+    "version" : "1.0",
+    "etag" : "762a5e9b-8de1-42b8-a080-e95ae104bff4"
+  }, {
+    "name" : "dbpApprovalMatrixServices",
+    "version" : "1.0",
+    "etag" : "9559895e-6e27-49aa-ab4b-bc4e1a3ccfe7"
+  }, {
+    "name" : "dbpApprovalRequestServices",
+    "version" : "1.0",
+    "etag" : "f6ab65a6-826a-4bbb-a857-b9efb502167d"
+  }, {
+    "name" : "dbpBBJavaServices",
+    "version" : "1.0",
+    "etag" : "fd5d19e5-525b-4339-acff-5e1932e57471"
+  }, {
+    "name" : "dbpBulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "0187cbd0-3a18-424f-abd0-93f60d4872a4"
+  }, {
+    "name" : "dbpBulkWireServices",
+    "version" : "1.0",
+    "etag" : "2a156bbb-5a5c-48e6-a317-2a1bc7575a2d"
+  }, {
+    "name" : "dbpCardServices",
+    "version" : "1.0",
+    "etag" : "862c129c-1975-4457-ab15-c6ab127a0607"
+  }, {
+    "name" : "dbpChequeManagementServices",
+    "version" : "1.0",
+    "etag" : "cef7f8b8-b91a-457e-a00d-cf6e762589b1"
+  }, {
+    "name" : "DBPCoreIntegrationServices",
+    "version" : "1.0",
+    "etag" : "68b8679b-bf9e-47d0-a8c4-d5aa02578a06"
+  }, {
+    "name" : "dbpCoreServices",
+    "version" : "1.0",
+    "etag" : "ab41c45d-ecd4-4677-a69a-0886ca6ce378"
+  }, {
+    "name" : "dbpDbxCustomerLogin",
+    "version" : "1.0",
+    "etag" : "8d96aa4d-808e-4dd6-8f9c-8c28f685cbbb"
+  }, {
+    "name" : "dbpDbxExternalLogin",
+    "version" : "1.0",
+    "etag" : "1ddd566f-2a87-4b9d-82c0-15022e74663c"
+  }, {
+    "name" : "dbpDemoServices",
+    "version" : "1.0",
+    "etag" : "96f1aa4d-fec1-410d-84a4-dddae2ba8268"
+  }, {
+    "name" : "dbpForexServices",
+    "version" : "1.0",
+    "etag" : "24a9eee7-2090-4e29-a686-07b4212d2cd0"
+  }, {
+    "name" : "dbpHolidayServcies",
+    "version" : "1.0",
+    "etag" : "08f812c0-3268-4855-b1c2-3eb877d16a62"
+  }, {
+    "name" : "dbpLocalServiceLogin",
+    "version" : "1.0",
+    "etag" : "ec5450a9-bf6d-4aed-a88e-8586fc6dd67d"
+  }, {
+    "name" : "dbpLocalServiceslogin",
+    "version" : "1.0",
+    "etag" : "91a58660-8c57-4b7f-a3db-0cf05bc5625f"
+  }, {
+    "name" : "dbpMFAServices",
+    "version" : "1.0",
+    "etag" : "35741ce3-69b6-41c8-876a-38fc5029a567"
+  }, {
+    "name" : "dbpNonProductServices",
+    "version" : "1.0",
+    "etag" : "2ece1e5c-4321-417c-bd83-25254b7e68b9"
+  }, {
+    "name" : "dbpNPBulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "2dc65246-419b-4e2b-ae4f-a256a01654d0"
+  }, {
+    "name" : "dbpNpForexServices",
+    "version" : "1.0",
+    "etag" : "a1b852e4-1534-4992-9e5f-1ace8ef01435"
+  }, {
+    "name" : "dbpPartyServices",
+    "version" : "1.0",
+    "etag" : "abcf4049-547e-4fe4-b60e-95a8af479e1a"
+  }, {
+    "name" : "dbpPayeeServices",
+    "version" : "1.0",
+    "etag" : "7919f84c-afa9-4f5f-ae8c-c20edf57c8d3"
+  }, {
+    "name" : "dbpProductServices",
+    "version" : "1.0",
+    "etag" : "24b2480e-d7f7-49aa-97ca-f554ffb3e08a"
+  }, {
+    "name" : "dbpRbFeedbackServicesJava",
+    "version" : "1.0",
+    "etag" : "6efd4861-9aec-49dd-b20c-2c62e6e02dc3"
+  }, {
+    "name" : "dbpRbLocalServicesdb",
+    "version" : "1.0",
+    "etag" : "2a132cc4-fc37-4d34-ae76-6da124179ec2"
+  }, {
+    "name" : "dbpTransactionServices",
+    "version" : "1.0",
+    "etag" : "2cc6a4f1-d073-43a4-8f80-62225446af82"
+  }, {
+    "name" : "dbpUserAttributes",
+    "version" : "1.0",
+    "etag" : "baffbd77-6319-4836-8082-e5d0e0b60a6b"
+  }, {
+    "name" : "DbxKMSLogin",
+    "version" : "1.0",
+    "etag" : "ddea7729-91b3-4b9b-bd2a-5fe2acf0d9e6"
+  }, {
+    "name" : "DocumentIntegrationServices",
+    "version" : "1.0",
+    "etag" : "1a8afb06-c71e-4df0-8677-c7e5d0007ca0"
+  }, {
+    "name" : "DomesticWireTransferLOB",
+    "version" : "1.0",
+    "etag" : "c7b34711-2845-4947-a064-813f5f21cb5c"
+  }, {
+    "name" : "EngageService",
+    "version" : "1.0",
+    "etag" : "f86a6286-5615-47c6-860e-a724eebfe56d"
+  }, {
+    "name" : "ExternalPayeeLOB",
+    "version" : "1.0",
+    "etag" : "186cd6f0-0a97-4b9c-8aba-40079187c705"
+  }, {
+    "name" : "FundsAuthorisationMSJava",
+    "version" : "1.0",
+    "etag" : "12d6dc0f-4b2e-472d-b10c-e2de8c0d7580"
+  }, {
+    "name" : "FundsAuthorisationMSJSON",
+    "version" : "1.0",
+    "etag" : "857e3058-9617-4263-8f0a-73433cdce5e0"
+  }, {
+    "name" : "GoogleAPIs",
+    "version" : "1.0",
+    "etag" : "6279cf1a-c225-4612-bef1-5ad0a7ce46d3"
+  }, {
+    "name" : "HoldingsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "29f76c4f-1ea2-4d43-80ba-19a76135add9"
+  }, {
+    "name" : "HoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "0e28fc75-be0b-4975-8174-f9f70e5732f7"
+  }, {
+    "name" : "IdologyIntServices",
+    "version" : "1.0",
+    "etag" : "4efadc0f-adb0-41b2-9818-c111da704f2c"
+  }, {
+    "name" : "IntegrationRegulator",
+    "version" : "1.0",
+    "etag" : "f9747043-e2f8-4f50-96d6-1e3ccb9abab7"
+  }, {
+    "name" : "InterbankFundTransferLOB",
+    "version" : "1.0",
+    "etag" : "a475cb4e-2e44-47f4-8f24-e218311a8df5"
+  }, {
+    "name" : "InterBankPayeeLOB",
+    "version" : "1.0",
+    "etag" : "f8412ebd-b87e-4b13-ab7a-05409fb91e97"
+  }, {
+    "name" : "InternationalFundTransferLOB",
+    "version" : "1.0",
+    "etag" : "8bae6e24-3734-4471-8806-6702fab71828"
+  }, {
+    "name" : "InternationalPayeeLOB",
+    "version" : "1.0",
+    "etag" : "3043d55f-d30a-466c-b042-fe068049a3c0"
+  }, {
+    "name" : "InternationalWireTransferLOB",
+    "version" : "1.0",
+    "etag" : "4c6d93a5-509f-4cff-8189-27d6979a9c1c"
+  }, {
+    "name" : "IntrabankFundTransferLOB",
+    "version" : "1.0",
+    "etag" : "e99aa507-a9ec-444e-be1e-4662c7fe7ece"
+  }, {
+    "name" : "IntraBankPayeeLOB",
+    "version" : "1.0",
+    "etag" : "87508198-af44-4f2b-9c4c-3ef43a5d2af8"
+  }, {
+    "name" : "LimitsAndPermissions",
+    "version" : "1.0",
+    "etag" : "5709b6ef-907d-4610-a17c-053f082bef62"
+  }, {
+    "name" : "LinkCardsJava",
+    "version" : "1.0",
+    "etag" : "48dd990e-9491-4233-b87d-6d07f3c89f7f"
+  }, {
+    "name" : "LoanJavaService",
+    "version" : "1.0",
+    "etag" : "d0225e0a-10e4-48ea-b5cf-29edad4610ef"
+  }, {
+    "name" : "LoanServiceJSON",
+    "version" : "1.0",
+    "etag" : "abc23086-e6de-4215-a7be-1fe6779d8228"
+  }, {
+    "name" : "OnboardingTransfer",
+    "version" : "1.0",
+    "etag" : "c8bc7a53-50d5-43af-9e11-9dc3f3da864d"
+  }, {
+    "name" : "OwnAccountTransferLOB",
+    "version" : "1.0",
+    "etag" : "13082e3c-68ce-4c71-88b9-cd86f47eda7a"
+  }, {
+    "name" : "P2PLOB",
+    "version" : "1.0",
+    "etag" : "8b62441e-65d2-4075-849e-d9c1cf5a48b3"
+  }, {
+    "name" : "P2PPayeeLOB",
+    "version" : "1.0",
+    "etag" : "523309d9-f4a1-43fc-aa46-e33aaa221ac9"
+  }, {
+    "name" : "pushCombinedStatementEvent",
+    "version" : "1.0",
+    "etag" : "a438494e-0e53-4b1a-a6e0-de0e2d7e081d"
+  }, {
+    "name" : "pushEventIdentityService",
+    "version" : "1.0",
+    "etag" : "43e89a56-7c01-492b-8dd1-eca99aba5cef"
+  }, {
+    "name" : "RDCLOB",
+    "version" : "1.0",
+    "etag" : "91c03c1a-bdf8-4413-bd91-6dcd4e96737e"
+  }, {
+    "name" : "ReutersServices",
+    "version" : "1.0",
+    "etag" : "e7ccfb39-de1c-42f7-b393-1fbc8da0e1dc"
+  }, {
+    "name" : "SavingsPotMS",
+    "version" : "1.0",
+    "etag" : "d090f73c-3f32-4cd5-92c0-175c7826a589"
+  }, {
+    "name" : "SavingsPotNonProductServices",
+    "version" : "1.0",
+    "etag" : "7be12398-15e1-41a1-ab7f-e0a5682489d6"
+  }, {
+    "name" : "SavingsPotServices",
+    "version" : "1.0",
+    "etag" : "46bac30b-e2ff-4fc3-ab0e-28c1a746e2ca"
+  }, {
+    "name" : "SCAIntegrationService",
+    "version" : "1.0",
+    "etag" : "68b5a125-bb6f-4a03-9e2b-998942f87a29"
+  }, {
+    "name" : "ServiceRequestJavaService",
+    "version" : "1.0",
+    "etag" : "c6b352c5-8785-4a20-9ee5-9a3570b71047"
+  }, {
+    "name" : "ServiceRequestJSON",
+    "version" : "1.0",
+    "etag" : "76a104be-2deb-4dc7-9e13-f7e675ef9991"
+  }, {
+    "name" : "SignatoryGroupServices",
+    "version" : "1.0",
+    "etag" : "5bb43d47-3dda-40f9-8d15-cf6b405ec449"
+  }, {
+    "name" : "T24BulkPaymentAPIs",
+    "version" : "1.0",
+    "etag" : "2b5d2e88-d3ea-484b-861a-e19c5e4502bb"
+  }, {
+    "name" : "T24BulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "c763c05c-4fcb-4404-8d80-fd8a6cb28c81"
+  }, {
+    "name" : "T24ISAccounts",
+    "version" : "1.0",
+    "etag" : "09e6c4d6-fc35-4837-aa29-fe761305b347"
+  }, {
+    "name" : "T24ISBeneficiaries",
+    "version" : "1.0",
+    "etag" : "17e0ffa4-b54f-43fc-899f-ad336ad5ca04"
+  }, {
+    "name" : "T24ISCards",
+    "version" : "1.0",
+    "etag" : "458b5576-12e9-472e-9a5b-85d8827c8f60"
+  }, {
+    "name" : "T24ISConsents",
+    "version" : "1.0",
+    "etag" : "64de2806-245e-481c-a261-1e1fbc0b2f39"
+  }, {
+    "name" : "T24ISExtra",
+    "version" : "1.0",
+    "etag" : "c5e0cdde-8870-47ab-b1c4-291359bdb297"
+  }, {
+    "name" : "T24ISForexService",
+    "version" : "1.0",
+    "etag" : "adf2834a-fb96-4901-93b8-a5e8e0017898"
+  }, {
+    "name" : "T24ISOnboardingAccounts",
+    "version" : "1.0",
+    "etag" : "93967b13-cdac-4b4a-9935-208b12d62830"
+  }, {
+    "name" : "T24ISOnboardingUser",
+    "version" : "1.0",
+    "etag" : "1fb062c3-f5ee-4ec8-aae1-6509e2d5d7ed"
+  }, {
+    "name" : "T24ISPaymentOrders",
+    "version" : "1.0",
+    "etag" : "940192c0-d681-440d-90ae-89f59eee4012"
+  }, {
+    "name" : "T24ISStandingOrders",
+    "version" : "1.0",
+    "etag" : "789c32dd-f313-4c1c-879b-86680a97fd89"
+  }, {
+    "name" : "T24ISStopPayments",
+    "version" : "1.0",
+    "etag" : "e3ccbbde-c68b-4aee-8fef-b195de88c8c8"
+  }, {
+    "name" : "T24ISTransactions",
+    "version" : "1.0",
+    "etag" : "faaf2c11-fe4d-4003-8ba8-8f07fc36f47f"
+  }, {
+    "name" : "T24ISUser",
+    "version" : "1.0",
+    "etag" : "1c61dc1b-e281-402e-9f96-982ae74ebe45"
+  }, {
+    "name" : "TransactionAdviceJava",
+    "version" : "1.0",
+    "etag" : "1faa28a3-4507-4da7-8273-cf03c1de2f17"
+  }, {
+    "name" : "TransactionAdviceJavaServices",
+    "version" : "1.0",
+    "etag" : "4ad594aa-ee16-4928-9daa-4ef088aa8b16"
+  }, {
+    "name" : "TransactionAdviceJSON",
+    "version" : "1.0",
+    "etag" : "bf2e863d-ecc3-40f3-9e99-79c0701592ed"
+  }, {
+    "name" : "TransactionAdviceJSONServices",
+    "version" : "1.0",
+    "etag" : "8eda81e4-387e-455b-b0b9-3f72e335eecb"
+  }, {
+    "name" : "UserAttributes",
+    "version" : "1.0",
+    "etag" : "f216a94c-a004-4164-bdc0-f0ef02dc60fc"
+  }, {
+    "name" : "UserManagementSettings",
+    "version" : "1.0",
+    "etag" : "45cf21b2-f650-4070-8650-ded55983d19b"
+  }, {
+    "name" : "WealthMockServices",
+    "version" : "1.0",
+    "etag" : "b65b2e8f-0fe2-47bb-96a4-d95def33bfe0"
+  }, {
+    "name" : "WealthRefinitivServices",
+    "version" : "1.0",
+    "etag" : "1264eb99-7532-47b7-aa5a-d13d06f65dc3"
+  }, {
+    "name" : "WealthServices",
+    "version" : "1.0",
+    "etag" : "a1ae9128-0349-454a-9c9e-2b145aaa8f35"
+  }, {
+    "name" : "WealthTransactServices",
+    "version" : "1.0",
+    "etag" : "1118a796-66f0-4ab4-823f-ebfe3091b28b"
+  }, {
+    "name" : "WireTransfersPayeeLOB",
+    "version" : "1.0",
+    "etag" : "18ed0653-fd4b-48ce-8d05-b2d360618af7"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "CreateBulkBillPayOrchestration",
+    "version" : "1.0",
+    "etag" : "4791d36a-e719-4e3c-98d1-623802f509ed"
+  }, {
+    "name" : "dbpNPBulkPaymentsOrch",
+    "version" : "1.0",
+    "etag" : "7dfc2f84-1b06-466f-a7bc-bb466c1406e4"
+  }, {
+    "name" : "CoreCustomerFeatureActions",
+    "version" : "1.0",
+    "etag" : "a890d200-9a63-4efd-b6c4-69ebc0e48273"
+  }, {
+    "name" : "KmsEmailOrch",
+    "version" : "1.0",
+    "etag" : "e558c9ee-34ea-4a2f-ad80-5fca2aca151d"
+  }, {
+    "name" : "CreateBulkWireTransferOrch",
+    "version" : "1.0",
+    "etag" : "dbef5575-5cb6-4a38-97a5-5718af771bdf"
+  }, {
+    "name" : "CustomRoleOrch",
+    "version" : "1.0",
+    "etag" : "84e73c0a-c075-4aa0-84b1-59ae854ab1dd"
+  }, {
+    "name" : "dbpForexOrch",
+    "version" : "1.0",
+    "etag" : "328721b6-c6a4-4946-b2cd-4cd1b56e91f0"
+  }, {
+    "name" : "BackendPayeeServicesOrch",
+    "version" : "1.0",
+    "etag" : "e0817f22-f612-47b4-88bb-90f7116da929"
+  }, {
+    "name" : "CustomerEntitlementsOrch",
+    "version" : "1.0",
+    "etag" : "ad097c51-9319-4171-bedb-8add1e17a535"
+  }, {
+    "name" : "SavingsPotOrch",
+    "version" : "1.0",
+    "etag" : "1be81d4d-216a-4277-82b1-4cce090b0cc6"
+  }, {
+    "name" : "CommonOrchestrationService",
+    "version" : "1.0",
+    "etag" : "64264a3d-5ae8-4710-bc30-b999281a72ee"
+  }, {
+    "name" : "DbxCustomerLogin",
+    "version" : "1.0",
+    "etag" : "56fdfc5d-1dbe-4411-bb45-05ea325d587e"
+  }, {
+    "name" : "Cards",
+    "version" : "1.0",
+    "etag" : "512567b6-38f9-434e-9c92-8ba005349609"
+  }, {
+    "name" : "WealthT24ServicesOrchestration",
+    "version" : "1.0",
+    "etag" : "ed67cd35-060d-4902-9888-438733fc5a37"
+  }, {
+    "name" : "T24BulkPaymentsOrch",
+    "version" : "1.0",
+    "etag" : "2273a9cd-023d-4e13-b222-dde1c7d70848"
+  }, {
+    "name" : "WealthServicesOrchestration",
+    "version" : "1.0",
+    "etag" : "4d2c93d4-14b4-4985-9978-8cb33e9835f4"
+  }, {
+    "name" : "TransactionsOrchServices",
+    "version" : "1.0",
+    "etag" : "602e51a1-2c31-469a-99e6-f14db8adabf5"
+  }, {
+    "name" : "ATMLocator",
+    "version" : "1.0",
+    "etag" : "f45d5678-8526-494a-9f34-a4b09521b6b9"
+  }, {
+    "name" : "backgroundVerificationOrch",
+    "version" : "1.0",
+    "etag" : "3bf371b5-10bd-4510-b762-b2eab75c15e7"
+  }, {
+    "name" : "dbpDBX",
+    "version" : "1.0",
+    "etag" : "7dae2d82-78cc-4739-b952-e70979309f05"
+  }, {
+    "name" : "CancelDisputeTransactionOrch",
+    "version" : "1.0",
+    "etag" : "9a0affeb-77cf-4dc6-a73d-fa42111f639e"
+  }, {
+    "name" : "CreateBulkTransferOrch",
+    "version" : "1.0",
+    "etag" : "d406ef51-f2af-44ba-b02a-3a9ec6694656"
+  }, {
+    "name" : "dbpAllLocations",
+    "version" : "1.0",
+    "etag" : "c7497190-0738-4e3b-b3bc-35c58215dadc"
+  }, {
+    "name" : "CreateDisputeTransactionorch",
+    "version" : "1.0",
+    "etag" : "5fdceebd-25b7-46cb-9eb5-5e9b1f171845"
+  }, {
+    "name" : "DashBoard",
+    "version" : "1.0",
+    "etag" : "04fd7412-a44a-4a40-8537-a0757b1b236f"
+  }, {
+    "name" : "dbpBulkWireOrch",
+    "version" : "1.0",
+    "etag" : "396c601f-8925-4170-b856-c53a9d6685d2"
+  }, {
+    "name" : "CustomerData_Orch",
+    "version" : "1.0",
+    "etag" : "26af9eb3-39d4-4230-a55b-7687e7976e41"
+  }, {
+    "name" : "dbpExternalPayeesOrch",
+    "version" : "1.0",
+    "etag" : "d76d6001-40b7-43d7-a0ae-091d366c89ce"
+  }, {
+    "name" : "getDisputedTransactionsOrch",
+    "version" : "1.0",
+    "etag" : "1d6ee397-200d-48b4-8a05-d8ae63ebc23a"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ACHObjects",
+    "version" : "1.0",
+    "etag" : "22dc7ca1-b5db-418a-a004-3343501971ca"
+  }, {
+    "name" : "ApprovalMatrixObjects",
+    "version" : "1.0",
+    "etag" : "5cf37f17-4552-4de8-b7ed-e85beba73597"
+  }, {
+    "name" : "ApprovalRequestObjects",
+    "version" : "1.0",
+    "etag" : "da7166d9-0b6a-43d1-9ca9-58560443d529"
+  }, {
+    "name" : "BackgroundVerification",
+    "version" : "1.0",
+    "etag" : "19d66e45-2ab4-4307-88c7-0c643229c36d"
+  }, {
+    "name" : "BulkPaymentObjects",
+    "version" : "1.0",
+    "etag" : "df3fa978-d2b3-4f33-9af7-1ebff92944ae"
+  }, {
+    "name" : "BulkWireObjects",
+    "version" : "1.0",
+    "etag" : "af3782b9-7c5c-4a1a-a4a1-ab485c2d4cd4"
+  }, {
+    "name" : "CampaignEngine",
+    "version" : "1.0",
+    "etag" : "d75725d6-b5c3-4ffe-beb5-7192afe7b4fe"
+  }, {
+    "name" : "CustomerFeedback",
+    "version" : "1.0",
+    "etag" : "6c8771bc-c656-45cd-8ab5-85d22cbc1efa"
+  }, {
+    "name" : "DocumentStorageObjects",
+    "version" : "1.0",
+    "etag" : "d8fee7c4-09d4-48db-a59d-051768f6e6d0"
+  }, {
+    "name" : "ExternalAccounts",
+    "version" : "1.0",
+    "etag" : "c24bd293-c701-43a7-96ef-d1c2b67b5d20"
+  }, {
+    "name" : "ForexObjects",
+    "version" : "1.0",
+    "etag" : "dddc814d-7ae7-44f6-91ee-dff40a9c5f0d"
+  }, {
+    "name" : "LoanPayoff",
+    "version" : "1.0",
+    "etag" : "e2cc4595-71a6-43c5-98eb-fdea2cae3560"
+  }, {
+    "name" : "MessageBinary",
+    "version" : "1.0",
+    "etag" : "3d38b272-de14-4f07-a66f-a519bbd26a3b"
+  }, {
+    "name" : "PartyExperienceAPI",
+    "version" : "1.0",
+    "etag" : "c258c2e2-bc66-4a0a-b72f-35aae0f85f70"
+  }, {
+    "name" : "PayeeObjects",
+    "version" : "1.0",
+    "etag" : "2e92b199-a240-4355-9fc9-d8354f70d0c1"
+  }, {
+    "name" : "RBObjects",
+    "version" : "1.0",
+    "etag" : "09d507da-c0dd-48e9-91e2-e67ac5772b91"
+  }, {
+    "name" : "SavingsPot",
+    "version" : "1.0",
+    "etag" : "0df378c8-f594-4557-859f-2095f744c667"
+  }, {
+    "name" : "ServiceRequest",
+    "version" : "1.0",
+    "etag" : "8a51a969-6a18-4078-8c7b-8d3be1995360"
+  }, {
+    "name" : "SignatoryObject",
+    "version" : "1.0",
+    "etag" : "f9222346-6c50-4b6a-b554-a51136b968fc"
+  }, {
+    "name" : "TransactionAdvice",
+    "version" : "1.0",
+    "etag" : "6a42d54f-d74f-43a2-a99b-c5240aefd3b3"
+  }, {
+    "name" : "TransactionObjects",
+    "version" : "1.0",
+    "etag" : "1b7e3147-a2ef-4a05-a5ea-d48152577fe9"
+  }, {
+    "name" : "TransactionUploadBinary",
+    "version" : "1.0",
+    "etag" : "53616e47-f4d3-4b7b-ad63-c73650ad6f56"
+  }, {
+    "name" : "VerifyBackground",
+    "version" : "1.0",
+    "etag" : "29a370f5-089b-41cf-b6db-1953544be8dd"
+  }, {
+    "name" : "WealthObjects",
+    "version" : "1.0",
+    "etag" : "d3b3849a-5157-4634-bcea-7a461c87fa27"
+  } ],
+  "identity" : [ "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

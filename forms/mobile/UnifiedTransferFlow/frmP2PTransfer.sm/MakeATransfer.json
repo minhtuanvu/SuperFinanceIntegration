@@ -1,0 +1,81 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s120a55346c946c2b4561ab8f86fe692",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "data": {
+        "CCcriteria": "{\"amount\":\"{$.c.transferAmount}\",\"transactionId\":\"\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"frequencyStartDate\":\"{$.c.ISOStartDate}\",\"frequencyEndDate\":\"{$.c.ISOEndDate}\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"toAccountNumber\":\"{$.c.toAccountNumber}\",\"paymentType\":\"{$.c.selectedServicePayment}\",\"paidBy\":\"{$.c.selectedServiceFeesPaidBy}\",\"swiftCode\":\"{$.c.swiftCode}\",\"serviceName\":\"\",\"beneficiaryName\":\"{$.c.beneficiaryName}\",\"beneficiaryNickname\":\"{$.c.beneficiaryNickName}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"InternalTransfer\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":\"USD\",\"numberOfRecurrences\":\"{$.c.numberOfRecurrences}\",\"ExternalAccountNumber\":\"\",\"uploadedattachments\":\"{$.c.supportingDocuments}\",\"userId\":\"{$.c.Id}\",\"deletedDocuments\":\"\",\"transactionAmount\":\"{$.c.transferAmount}\"}",
+        "ValCriteria": "{\"amount\":\"{$.c.transferAmount}\",\"beneficiaryId\":null,\"frequencyEndDate\":\"{$.c.ISOStartDate}\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"P2P\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":null,\"numberOfRecurrences\":null,\"ExternalAccountNumber\":null,\"personId\":\"{$.c.PayPersonId}\",\"validate\":\"true\"}",
+        "ValOperationName": "P2PTransfer",
+        "lblReadOnlyField2Label": "{i.kony.i18n.verifyDetails.totalDebitAmount}",
+        "lblReadOnlyField2Value": "{\"text\":\"{$.c.totalAmount}\",\"fieldType\":\"label\"}",
+        "lblReadOnlyField8Value": "{\"text\":\"{$.c.serviceCharge}\",\"fieldType\":\"label\"}",
+        "toAccOperationName": "getP2PPayee",
+        "toField1Value": "{\"default\":{\"mapping\":[{\"internal\":{\"creditcard\":{\"fieldMap\":\"name\"},\"Loan\":{\"fieldMap\":\"name\"},\"other\":{\"fieldMap\":\"name\"}},\"external\":{\"fieldMap\":\"name\"},\"format\":{\"truncateLength\":22,\"appendString\":\"....\"}},{\"internal\":{\"creditcard\":{\"fieldMap\":\"PayPersonId\"},\"Loan\":{\"fieldMap\":\"PayPersonId\"},\"other\":{\"fieldMap\":\"PayPersonId\"}},\"external\":{\"fieldMap\":\"PayPersonId\"},\"format\":{\"sliceLength\":-4}}],\"fieldType\":\"AccountName\",\"labelType\":\"value\"},\"ST1\":{\"text\":\"{$.L1.beneficiaryName}\",\"mapping\":[{\"fieldMap\":\"{$.L1.beneficiaryName}\",\"format\":{\"truncateLength\":22,\"appendString\":\"....\"}},{\"fieldMap\":\"{$.L1.accountNumber}\",\"format\":{\"sliceLength\":-4}}],\"fieldType\":\"AccountName\",\"labelType\":\"value\"},\"ST2\":{\"text\":\"{$.L1.beneficiaryName}\",\"mapping\":[{\"fieldMap\":\"{$.L1.beneficiaryName}\",\"format\":{\"truncateLength\":22,\"appendString\":\"....\"}},{\"fieldMap\":\"{$.L1.accountNumber}\",\"format\":{\"sliceLength\":-4}}],\"fieldType\":\"AccountName\",\"labelType\":\"value\"}}",
+        "toField2Value": "",
+        "toField3Value": "{\"mapping\":[{\"internal\":{\"creditcard\":{\"fieldMap\":\"phone,email\"},\"Loan\":{\"fieldMap\":\"phone,email\"},\"other\":{\"fieldMap\":\"phone,email\"}},\"external\":{\"fieldMap\":\"phone,email\"}}],\"fieldType\":\"Label\"}",
+        "toField4Value": "",
+        "transCriteria": "{\"amount\":\"{$.c.transferAmount}\",\"beneficiaryId\":null,\"frequencyEndDate\":\"{$.c.ISOStartDate}\",\"frequencyType\":\"{$.c.frequency}\",\"fromAccountNumber\":\"{$.c.fromAccountNumber}\",\"isScheduled\":\"0\",\"scheduledDate\":\"{$.c.ISOSendOn}\",\"transactionsNotes\":\"{$.c.notes}\",\"transactionType\":\"P2P\",\"transactionCurrency\":\"{$.c.transactionCurrency}\",\"fromAccountCurrency\":\"{$.c.fromAccountCurrency}\",\"toAccountCurrency\":null,\"numberOfRecurrences\":null,\"ExternalAccountNumber\":null,\"personId\":\"{$.c.PayPersonId}\"}",
+        "transOperationName": "P2PTransfer",
+        "verifyField11Label": "kony.i18n.verifyDetails.emailAddress",
+        "verifyField11Value": "{\"text\":\"{$.c.emailId}\",\"fieldType\":\"Label\",\"optional\":false}",
+        "verifyField12Label": "",
+        "verifyField12Value": "",
+        "verifyField13Label": "",
+        "verifyField13Value": "",
+        "verifyField15Label": "",
+        "verifyField15Value": "",
+        "verifyField17Label": "",
+        "verifyField17Value": "",
+        "verifyField3Label": "kony.i18n.verifyDetails.phoneNumber",
+        "verifyField3Value": "{\"text\":\"{$.c.mobileNumber}\",\"fieldType\":\"Label\",\"optional\":false}"
+    },
+    "id": "MakeATransfer",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "h9e24521d80642e5bb26b4c3166842f6",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContents",
+    "pf": "frmP2PTransfer",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "i8cf88b49abd44aeae2a31c4b48f628a",
+    "wType": "UserWidgetInstance"
+}

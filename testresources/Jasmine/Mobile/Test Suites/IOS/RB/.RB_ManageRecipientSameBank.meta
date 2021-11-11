@@ -1,0 +1,17 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_ManageRecipientSameBank",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/ManageRecipient.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsForSameAccount.js",
+        "RB/IOS/ManageRecipients/AddRecipientSameBank.js",
+        "RB/IOS/ManageRecipients/SearchRecipientSameBankAccount.js",
+        "RB/IOS/ManageRecipients/TransferSameBank.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSRB.js",
+        "TestPlanIOSSMEandRB.js"
+    ]
+}

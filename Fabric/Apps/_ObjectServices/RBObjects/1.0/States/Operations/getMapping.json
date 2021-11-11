@@ -1,0 +1,74 @@
+{
+  "operationConfig" : {
+    "name" : "getStateList5436",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"countryId\" outputpath=\"countryId\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"state\" outputpath=\"States\">            <set-param inputpath=\"id\" outputpath=\"stateId\"/>            <set-param inputpath=\"state\" outputpath=\"stateName\"/>        </map>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"States\",\"xy\":\"770 100\",\"__gohashid\":69498},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getStateList\",\"xy\":\"150 100\",\"__gohashid\":69499}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:States\",\"fromPort\":\"target\",\"toPort\":\"target:States\",\"visible\":true,\"common\":false,\"__gohashid\":69516},{\"from\":\"target:States\",\"to\":\"target:States:fields\",\"fromPort\":\"target:States\",\"toPort\":\"target:States:fields\",\"visible\":true,\"common\":false,\"__gohashid\":69517},{\"from\":\"target:States:fields\",\"to\":\"target:States:errmsg:\",\"fromPort\":\"target:States:fields\",\"toPort\":\"target:States:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":69518},{\"from\":\"target:States:fields\",\"to\":\"target:States:stateId:\",\"fromPort\":\"target:States:fields\",\"toPort\":\"target:States:stateId:\",\"visible\":true,\"common\":false,\"__gohashid\":69519},{\"from\":\"target:States:fields\",\"to\":\"target:States:stateName:\",\"fromPort\":\"target:States:fields\",\"toPort\":\"target:States:stateName:\",\"visible\":true,\"common\":false,\"__gohashid\":69520},{\"from\":\"target:States:fields\",\"to\":\"target:States:countryId:\",\"fromPort\":\"target:States:fields\",\"toPort\":\"target:States:countryId:\",\"visible\":true,\"common\":false,\"__gohashid\":69521},{\"from\":\"target:States:fields\",\"to\":\"target:States:regionId:\",\"fromPort\":\"target:States:fields\",\"toPort\":\"target:States:regionId:\",\"visible\":true,\"common\":false,\"__gohashid\":69522},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":69523},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":69524},{\"from\":\"source\",\"to\":\"source:States\",\"fromPort\":\"source\",\"toPort\":\"source:States\",\"visible\":true,\"common\":false,\"__gohashid\":69525},{\"from\":\"source:States\",\"to\":\"source:States:parameters\",\"fromPort\":\"source:States\",\"toPort\":\"source:States:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":69526},{\"from\":\"source:States:parameters\",\"to\":\"source:States:stateId:\",\"fromPort\":\"source:States:parameters\",\"toPort\":\"source:States:stateId:\",\"visible\":true,\"common\":false,\"__gohashid\":69527},{\"from\":\"source:States:parameters\",\"to\":\"source:States:stateName:\",\"fromPort\":\"source:States:parameters\",\"toPort\":\"source:States:stateName:\",\"visible\":true,\"common\":false,\"__gohashid\":69528},{\"category\":\"Mapping\",\"from\":\"source:States:stateId:\",\"to\":\"target:States:stateId:\",\"fromPort\":\"source:States:stateId:\",\"toPort\":\"target:States:stateId:\",\"visible\":true,\"common\":true,\"__gohashid\":71935},{\"category\":\"Mapping\",\"from\":\"source:States:stateName:\",\"to\":\"target:States:stateName:\",\"fromPort\":\"source:States:stateName:\",\"toPort\":\"target:States:stateName:\",\"visible\":true,\"common\":true,\"__gohashid\":71942}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getStateList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "States",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

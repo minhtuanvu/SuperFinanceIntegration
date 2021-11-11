@@ -1,0 +1,199 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "createBinary" : "createBinaryMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "getBinary" : "getBinaryMapping",
+    "delete" : "deleteMapping",
+    "updateBinary" : "updateBinaryMapping",
+    "deleteBinary" : "deleteBinaryMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "internationalfundtransfers",
+      "qualifiedName" : "dbxdb.internationalfundtransfers",
+      "metadataformatterobject" : "{\"displayName\":\"internationalfundtransfers\",\"qualifiedName\":\"dbxdb.internationalfundtransfers\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"internationalfundtransfers\",\"schemaName\":\"dbxdb\",\"tableName\":\"internationalfundtransfers\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "internationalfundtransfers",
+      "qualifiedName" : "dbxdb.internationalfundtransfers",
+      "metadataformatterobject" : "{\"displayName\":\"internationalfundtransfers\",\"qualifiedName\":\"dbxdb.internationalfundtransfers\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"internationalfundtransfers\",\"schemaName\":\"dbxdb\",\"tableName\":\"internationalfundtransfers\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "frequencyEndDate",
+    "targetField" : "frequencyEndDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromAccountNumber",
+    "targetField" : "fromAccountNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "notes",
+    "targetField" : "notes",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromNickName",
+    "targetField" : "fromNickName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "processingDate",
+    "targetField" : "processingDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "scheduledDate",
+    "targetField" : "scheduledDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isScheduled",
+    "targetField" : "isScheduled",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdts",
+    "targetField" : "createdts",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromAccountType",
+    "targetField" : "fromAccountType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payeeName",
+    "targetField" : "payeeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromAccountCurrency",
+    "targetField" : "fromAccountCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "requestId",
+    "targetField" : "requestId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "synctimestamp",
+    "targetField" : "synctimestamp",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "SecurityAnswer",
+    "targetField" : "SecurityAnswer",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "lastmodifiedts",
+    "targetField" : "lastmodifiedts",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "amount",
+    "targetField" : "amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionCurrency",
+    "targetField" : "transactionCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "toAccountType",
+    "targetField" : "toAccountType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "securityQuestion",
+    "targetField" : "securityQuestion",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "numberOfRecurrences",
+    "targetField" : "numberOfRecurrences",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "featureActionId",
+    "targetField" : "featureActionId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionts",
+    "targetField" : "transactionts",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionId",
+    "targetField" : "transactionId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionType",
+    "targetField" : "transactionType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkImageBack",
+    "targetField" : "checkImageBack",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "companyId",
+    "targetField" : "companyId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "confirmationNumber",
+    "targetField" : "confirmationNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "pdf",
+    "targetField" : "pdf",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "toAccountNumber",
+    "targetField" : "toAccountNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardExpiry",
+    "targetField" : "cardExpiry",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payPersonName",
+    "targetField" : "payPersonName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "profileId",
+    "targetField" : "profileId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "day2",
+    "targetField" : "day2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "personId",
+    "targetField" : "personId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "modifiedby",
+    "targetField" : "modifiedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "day1",
+    "targetField" : "day1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frequencyTypeId",
+    "targetField" : "frequencyTypeId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardNumber",
+    "targetField" : "cardNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "status",
+    "targetField" : "status",
+    "type" : "request_response"
+  } ]
+}

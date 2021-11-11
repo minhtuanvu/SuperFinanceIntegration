@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_Login",
+    "testCaseInfo": [
+        "Common/Droid/RB/LoginAndWaitForDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Sanity.js",
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

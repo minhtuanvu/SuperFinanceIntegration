@@ -1,0 +1,9 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanAndroid_RB_HealthCheck_T24",
+    "testSuiteInfo": [
+        "Droid/T24RB/Login.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/RB/RB_Logout.js"
+    ]
+}

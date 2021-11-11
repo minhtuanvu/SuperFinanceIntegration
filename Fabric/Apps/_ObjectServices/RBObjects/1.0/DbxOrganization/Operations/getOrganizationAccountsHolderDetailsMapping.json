@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "GetOrganizationAccountHolderDetails7679",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">          <map inputpath=\"response_in\" outputpath=\"response_out\">                    <map inputpath=\"AccountSignatories\" outputpath=\"AccountSignatories\">    \t                        <set-param inputpath=\"accountId\" outputpath=\"accountId\"/>      \t\t                        <map inputpath=\"membershipownerDTOList\" outputpath=\"AccountHolderDetails\">                        <set-param inputpath=\"id\" outputpath=\"id\"/>                        <set-param inputpath=\"phone\" outputpath=\"phone\"/>                        <set-param inputpath=\"email\" outputpath=\"email\"/>                        <set-param inputpath=\"firstName\" outputpath=\"firstName\"/>                        <set-param inputpath=\"lastName\" outputpath=\"lastName\"/>                        <set-param inputpath=\"dateOfBirth\" outputpath=\"dateOfBirth\"/>                                                   <set-param inputpath=\"userName\" outputpath=\"userName\"/>                                              <set-param inputpath=\"ssn\" outputpath=\"ssn\"/>                                              <set-param inputpath=\"memberTypeName\" outputpath=\"memberType\"/>                                              <set-param inputpath=\"isRetailUserPresent\" outputpath=\"isRetailUserPresent\"/>                                                                   <set-param inputpath=\"drivingLicenseNumber\" outputpath=\"drivingLicenseNumber\"/>                        <map inputpath=\"signatoryTypes\" outputpath=\"SignatoryTypes\">                                                    <set-param inputpath=\"name\" outputpath=\"name\"/>                                                    <set-param inputpath=\"id\" outputpath=\"id\"/>                                              </map>                                      </map>                     </map>          </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"DbxOrganization\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices (1.0).GetOrganizationAccountHolderDetails\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:DbxOrganization\",\"fromPort\":\"target\",\"toPort\":\"target:DbxOrganization\",\"visible\":true,\"common\":false},{\"from\":\"target:DbxOrganization\",\"to\":\"target:DbxOrganization:fields\",\"fromPort\":\"target:DbxOrganization\",\"toPort\":\"target:DbxOrganization:fields\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetOrganizationAccountHolderDetails"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DbxOrganization",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

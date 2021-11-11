@@ -1,0 +1,14 @@
+{
+    "testCaseName": "LoginAndWaitForDashboard",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Common/Droid/PreLogin_VerifyAllLanguages.js",
+        "Droid/RB/BillPaymentCreditCardOneTime.js",
+        "Droid/RB/TransfersOwnAccount.js",
+        "Droid/AndroidLoginAndLogout.js",
+        "Droid/RB/RB_Login.js",
+        "tempSuite.js"
+    ]
+}

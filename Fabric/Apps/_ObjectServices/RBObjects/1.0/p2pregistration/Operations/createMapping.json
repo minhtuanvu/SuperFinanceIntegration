@@ -1,0 +1,35 @@
+{
+  "operationConfig" : {
+    "name" : "registerP2P2470",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"accountId\" outputpath=\"accountId\"/><set-param inputpath=\"phone\" outputpath=\"phone\"/><set-param inputpath=\"displayName\" outputpath=\"displayName\"/><set-param inputpath=\"isNpp\" outputpath=\"isNpp\"/><set-param inputpath=\"email\" outputpath=\"email\"/><set-param inputpath=\"isZell\" outputpath=\"isZell\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">   \t<set-param inputpath=\"success\" outputpath=\"success\"/>        <set-param inputpath=\"errmsg\"  outputpath=\"errmsg\"/>          <set-param inputpath=\"p2pregistration/id\" outputpath=\"p2pRegId\"/>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"p2pregistration\",\"xy\":\"770 100\",\"__gohashid\":358465},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.registerP2P\",\"xy\":\"150 100\",\"__gohashid\":358466}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:p2pregistration\",\"fromPort\":\"target\",\"toPort\":\"target:p2pregistration\",\"visible\":true,\"common\":false,\"__gohashid\":358486},{\"from\":\"target:p2pregistration\",\"to\":\"target:p2pregistration:fields\",\"fromPort\":\"target:p2pregistration\",\"toPort\":\"target:p2pregistration:fields\",\"visible\":true,\"common\":false,\"__gohashid\":358487},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:accountId:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:accountId:\",\"visible\":true,\"common\":false,\"__gohashid\":358488},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:displayName:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:displayName:\",\"visible\":true,\"common\":false,\"__gohashid\":358489},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:email:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:email:\",\"visible\":true,\"common\":false,\"__gohashid\":358490},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:errmsg:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":358491},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:isNpp:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:isNpp:\",\"visible\":true,\"common\":false,\"__gohashid\":358492},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:isP2PRegistered:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:isP2PRegistered:\",\"visible\":true,\"common\":false,\"__gohashid\":358493},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:isZell:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:isZell:\",\"visible\":true,\"common\":false,\"__gohashid\":358494},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:p2pRegId:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:p2pRegId:\",\"visible\":true,\"common\":false,\"__gohashid\":358495},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:phone:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:phone:\",\"visible\":true,\"common\":false,\"__gohashid\":358496},{\"from\":\"target:p2pregistration:fields\",\"to\":\"target:p2pregistration:success:\",\"fromPort\":\"target:p2pregistration:fields\",\"toPort\":\"target:p2pregistration:success:\",\"visible\":true,\"common\":false,\"__gohashid\":358497},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":358498},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":358499},{\"from\":\"source:parameters\",\"to\":\"source:p2pRegId:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:p2pRegId:\",\"visible\":true,\"common\":false,\"__gohashid\":358500},{\"from\":\"source:parameters\",\"to\":\"source:success:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:success:\",\"visible\":true,\"common\":false,\"__gohashid\":358501}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "registerP2P"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "p2pregistration",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

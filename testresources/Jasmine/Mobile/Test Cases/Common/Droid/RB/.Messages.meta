@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Messages",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "UnitSuite.js",
+        "Droid/RB/RB_SettingsSuite.js"
+    ]
+}

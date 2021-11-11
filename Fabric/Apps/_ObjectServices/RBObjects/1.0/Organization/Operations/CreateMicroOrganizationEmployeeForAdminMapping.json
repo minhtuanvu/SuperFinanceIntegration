@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "CreateMicroOrganizationEmployee1691",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"Email\" outputpath=\"Email\"/><set-param inputpath=\"Organization_id\" outputpath=\"Organization_Id\"/><set-param inputpath=\"Lastlogintime\" outputpath=\"Lastlogintime\"/><set-param inputpath=\"createdby\" outputpath=\"createdby\"/><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"synctimestamp\" outputpath=\"synctimestamp\"/><set-param inputpath=\"DateOfBirth\" outputpath=\"DateOfBirth\"/><set-param inputpath=\"Organization_id\" outputpath=\"Organization_id\"/><set-param inputpath=\"DrivingLicenseNumber\" outputpath=\"DrivingLicenseNumber\"/><set-param inputpath=\"role_id\" outputpath=\"Role_id\"/><set-param inputpath=\"modifiedby\" outputpath=\"modifiedby\"/><set-param inputpath=\"LastName\" outputpath=\"LastName\"/><set-param inputpath=\"createdts\" outputpath=\"createdts\"/><set-param inputpath=\"softdeleteflag\" outputpath=\"softdeleteflag\"/><set-param inputpath=\"Phone\" outputpath=\"Phone\"/><set-param inputpath=\"lastmodifiedts\" outputpath=\"lastmodifiedts\"/><set-param inputpath=\"EAgreementRequired\" outputpath=\"EAgreementRequired\"/><set-param inputpath=\"FirstName\" outputpath=\"FirstName\"/><set-param inputpath=\"MiddleName\" outputpath=\"MiddleName\"/><set-param inputpath=\"Ssn\" outputpath=\"Ssn\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"success\" outputpath=\"success\"/><set-param inputpath=\"errorMessage\" outputpath=\"errorMessage\"/><set-param inputpath=\"errorCode\" outputpath=\"errorCode\"/><set-param inputpath=\"isEagreementSigned\" outputpath=\"isEagreementSigned\"/><set-param inputpath=\"id\" outputpath=\"id\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "CreateMicroOrganizationEmployee"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Organization",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

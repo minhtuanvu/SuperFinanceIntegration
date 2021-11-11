@@ -1,0 +1,24 @@
+{
+    "AS_Button_ged08c468ffa41f6acf83d5cfc915cce": {
+        "id": "AS_Button_ged08c468ffa41f6acf83d5cfc915cce",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSpecialBonus",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ic1c5530336f4da9bcfdbe5f76163578"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b9ca188dd2b247dd8b60246e1be4781a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.createAccountAndDepositMoney();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

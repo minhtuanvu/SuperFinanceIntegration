@@ -1,0 +1,20 @@
+{
+    "AS_Button_bef206d3e2ba418d8a9b6e8b9ddbff35": {
+        "id": "AS_Button_bef206d3e2ba418d8a9b6e8b9ddbff35",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua2ed622554743d093324eea75ddbe83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d94e66b08a0047b9982e7205accd345e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.getResponseFromChallenge();"
+        }]
+    }
+}

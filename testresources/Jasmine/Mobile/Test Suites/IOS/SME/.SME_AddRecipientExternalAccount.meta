@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_AddRecipientExternalAccount",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachIT.js",
+        "Common/IOS/SME/ManageRecipient.js",
+        "SME/IOS/ManageRecipients/ListOfRecipientsExternalAccount.js",
+        "SME/IOS/ManageRecipients/AddRecipientExternalAccount.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSSME.js",
+        "TestPlanIOSSMEandRB.js",
+        "tempPlan.js"
+    ]
+}

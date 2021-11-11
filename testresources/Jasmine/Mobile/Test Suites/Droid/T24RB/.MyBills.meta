@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "MyBills",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/MyBills.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/MyBills/AddPayee.js"
+    ],
+    "usedBy": []
+}

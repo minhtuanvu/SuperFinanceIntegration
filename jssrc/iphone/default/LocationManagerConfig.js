@@ -1,0 +1,7 @@
+LocationManagerConfig = {
+    "ModuleName": "LocationManager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "LocationManager/BusinessControllers/BusinessController"
+    }
+};

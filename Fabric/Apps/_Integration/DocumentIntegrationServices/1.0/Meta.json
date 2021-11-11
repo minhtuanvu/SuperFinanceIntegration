@@ -1,0 +1,7 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "DocumentStorage-0.0.1-SNAPSHOT.jar",
+    "type" : "servicejar"
+  } ]
+}

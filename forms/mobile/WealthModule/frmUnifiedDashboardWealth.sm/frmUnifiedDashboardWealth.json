@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s566790d0ee0487183e0cb45da52b7ae",
+    "_title_": "My Accounts",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "allowverticalbounce": false,
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        },
+        "titleBar": false
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxTitle",
+        "flxGradient",
+        "noAccounts",
+        "flxPageIndicators",
+        "flxDashboardHeader",
+        "flxDashboard",
+        "flxMenu",
+        "flxBlueBg",
+        "flxHamburger",
+        "flxWhite",
+        "flxBGDummy",
+        "flxPopup",
+        "flxChartSizeToggle"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmUnifiedDashboardWealthController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "Pixel3",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "enablescrolling": false,
+    "friendlyName": "frmUnifiedDashboardWealth",
+    "headeroverlap": false,
+    "id": "frmUnifiedDashboardWealth",
+    "ide_init": "AS_Form_c5979fbef3364f97a4814ffd9b888644",
+    "ide_postShow": "AS_Form_f9191b1cdeb44de688f69be33f1d2abb",
+    "ide_preShow": "AS_Form_ce93f513eaf94de583cd8ba78de6d6a6",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": " "
+                    },
+                    "kuid": "f5ef2c464404409e9799504281de5793",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "a1faf3248669425ab1f125139e492515",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_ca06c8c518fc47cfbef44203b9603b6a",
+                        "info": {
+                            "image": "combinedbanking.png"
+                        },
+                        "kuid": "c60cd921c7094801a42e3fa750011a98",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "b96909bc2f0f47fca6cc1b2e2e49f311",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone11",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_Pixel3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "texti18n": "kony.mb.MyAccounts.Title",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form"
+}

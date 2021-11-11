@@ -1,0 +1,120 @@
+define("WealthModule/userfrmReportTypeController", {
+    sortingData: [],
+    selectedRow: 0,
+    segData: [],
+    //selectedColumnKey: "",
+    // selectedColumn: "",
+    init: function() {
+        this.view.preShow = this.preShow;
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+    },
+    preShow: function() {
+        var navManager = applicationManager.getNavigationManager();
+        let data = navManager.getCustomInfo("frmReportType");
+        // this.selectedColumn = data.reportTypeData.selectedOption;
+        // this.selectedColumnKey = data.reportTypeData.selectedKey;
+        this.setSegmentData(data);
+        if (applicationManager.getPresentationFormUtility().getDeviceName() !== "iPhone") {
+            this.view.flxHeader.isVisible = true;
+        } else {
+            this.view.flxHeader.isVisible = false;
+        }
+        this.initActions();
+    },
+    initActions: function() {
+        this.view.customHeader.flxBack.onTouchEnd = this.onDoneClick;
+        this.view.btnDone.onClick = this.onDoneClick;
+        this.view.segReportType.onRowClick = this.onValueSelect;
+    },
+    onValueSelect: function() {
+        var rowIndex = this.view.segReportType.selectedRowIndex[1];
+        this.sortingData = this.view.segReportType.data;
+        this.selectedRow = rowIndex;
+        this.sortingData.forEach(function(e) {
+            e.isSelected = false;
+            e.imageDetails.src = "radiobuttoninactive.png";
+        });
+        this.sortingData[rowIndex].isSelected = true;
+        this.sortingData[rowIndex].sortName = {
+            "text": this.segData[rowIndex].sortName
+        };
+        this.sortingData[rowIndex].imageDetails = {
+            "src": "radiobtn.png",
+        };
+        // this.selectedColumnKey = this.segData[rowIndex].sortIndex;
+        //  this.selectedColumn = this.segData[rowIndex].sortName;
+        scope_WealthPresentationController.reportType = this.segData[rowIndex].sortName;
+        scope_WealthPresentationController.reportParams = this.segData[rowIndex].reportParams;
+        this.view.segReportType.setData(this.sortingData);
+    },
+    onDoneClick: function() {
+        var navManager = applicationManager.getNavigationManager();
+        navManager.navigateTo("frmReport");
+    },
+    setSegmentData: function(data) {
+        // var temp = this.selectedColumnKey;
+        var temp = scope_WealthPresentationController.reportType;
+        var reportType = [];
+        for (var list in data) {
+            var storeData = {
+                "sortName": data[list].reportType,
+                "reportParams": data[list].downloadParams,
+                "isSelected": false
+            };
+            reportType.push(storeData);
+        }
+        this.segData = reportType;
+        this.segData.forEach(function(e) {
+            if (e.sortName === temp) e.isSelected = true;
+            else e.isSelected = false;
+        });
+        this.sortingData = [];
+        this.loadSegment();
+    },
+    loadSegment: function() {
+        var data = [];
+        data = this.segData;
+        for (var list in data) {
+            var storeData;
+            storeData = {
+                isSelected: true,
+                sortName: {
+                    text: data[list].sortName,
+                },
+                imageDetails: {
+                    src: (data[list].isSelected) ? "radiobtn.png" : "radiobuttoninactive.png",
+                    isVisible: true
+                }
+                //reportParams: data[list].downloadParams
+                // sortIndex: data[list].sortIndex
+            };
+            this.sortingData.push(storeData);
+        }
+        this.view.segReportType.widgetDataMap = {
+            lblTypeName: "sortName",
+            imgCheck: "imageDetails"
+        };
+        this.view.segReportType.removeAll();
+        this.view.segReportType.setData(this.sortingData);
+    },
+});
+define("WealthModule/frmReportTypeControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Form_b6ade7cbd0494a92b5b2af6be4823885: function AS_Form_b6ade7cbd0494a92b5b2af6be4823885(eventobject) {
+        var self = this;
+        this.init();
+    },
+    AS_BarButtonItem_bb78b593193641c798bd5ed9bdde6e91: function AS_BarButtonItem_bb78b593193641c798bd5ed9bdde6e91(eventobject) {
+        var self = this;
+        return self.onDoneClick.call(this);
+    }
+});
+define("WealthModule/frmReportTypeController", ["WealthModule/userfrmReportTypeController", "WealthModule/frmReportTypeControllerActions"], function() {
+    var controller = require("WealthModule/userfrmReportTypeController");
+    var controllerActions = ["WealthModule/frmReportTypeControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

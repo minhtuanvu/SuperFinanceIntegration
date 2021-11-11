@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getUserProducts8432",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">            <map inputpath=\"userproducts\" outputpath=\"NewUserProducts\">                  <set-param inputpath=\"product\" outputpath=\"products\"/>            </map>      </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"NewUserProducts\",\"xy\":\"770 100\",\"__gohashid\":235351},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getUserProducts\",\"xy\":\"150 100\",\"__gohashid\":235352}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:features:\",\"to\":\"target:NewUserProducts:features:\",\"fromPort\":\"source:NewUserProducts:features:\",\"toPort\":\"target:NewUserProducts:features:\",\"visible\":true,\"common\":true,\"__gohashid\":238077},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:info:\",\"to\":\"target:NewUserProducts:info:\",\"fromPort\":\"source:NewUserProducts:info:\",\"toPort\":\"target:NewUserProducts:info:\",\"visible\":true,\"common\":true,\"__gohashid\":238084},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productDescription:\",\"to\":\"target:NewUserProducts:productDescription:\",\"fromPort\":\"source:NewUserProducts:productDescription:\",\"toPort\":\"target:NewUserProducts:productDescription:\",\"visible\":true,\"common\":true,\"__gohashid\":238091},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productId:\",\"to\":\"target:NewUserProducts:productId:\",\"fromPort\":\"source:NewUserProducts:productId:\",\"toPort\":\"target:NewUserProducts:productId:\",\"visible\":true,\"common\":true,\"__gohashid\":238098},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productImageURL:\",\"to\":\"target:NewUserProducts:productImageURL:\",\"fromPort\":\"source:NewUserProducts:productImageURL:\",\"toPort\":\"target:NewUserProducts:productImageURL:\",\"visible\":true,\"common\":true,\"__gohashid\":238105},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productName:\",\"to\":\"target:NewUserProducts:productName:\",\"fromPort\":\"source:NewUserProducts:productName:\",\"toPort\":\"target:NewUserProducts:productName:\",\"visible\":true,\"common\":true,\"__gohashid\":238112},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productType:\",\"to\":\"target:NewUserProducts:productType:\",\"fromPort\":\"source:NewUserProducts:productType:\",\"toPort\":\"target:NewUserProducts:productType:\",\"visible\":true,\"common\":true,\"__gohashid\":238119},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:productTypeId:\",\"to\":\"target:NewUserProducts:productTypeId:\",\"fromPort\":\"source:NewUserProducts:productTypeId:\",\"toPort\":\"target:NewUserProducts:productTypeId:\",\"visible\":true,\"common\":true,\"__gohashid\":238126},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:rates:\",\"to\":\"target:NewUserProducts:rates:\",\"fromPort\":\"source:NewUserProducts:rates:\",\"toPort\":\"target:NewUserProducts:rates:\",\"visible\":true,\"common\":true,\"__gohashid\":238133},{\"category\":\"Mapping\",\"from\":\"source:NewUserProducts:termsAndConditions:\",\"to\":\"target:NewUserProducts:termsAndConditions:\",\"fromPort\":\"source:NewUserProducts:termsAndConditions:\",\"toPort\":\"target:NewUserProducts:termsAndConditions:\",\"visible\":true,\"common\":true,\"__gohashid\":238140},{\"from\":\"target\",\"to\":\"target:NewUserProducts\",\"fromPort\":\"target\",\"toPort\":\"target:NewUserProducts\",\"visible\":true,\"common\":false,\"__gohashid\":313},{\"from\":\"target:NewUserProducts\",\"to\":\"target:NewUserProducts:fields\",\"fromPort\":\"target:NewUserProducts\",\"toPort\":\"target:NewUserProducts:fields\",\"visible\":true,\"common\":false,\"__gohashid\":314},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:errmsg:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":315},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:features:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:features:\",\"visible\":true,\"common\":false,\"__gohashid\":316},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:info:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:info:\",\"visible\":true,\"common\":false,\"__gohashid\":317},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productDescription:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":318},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productId:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productId:\",\"visible\":true,\"common\":false,\"__gohashid\":319},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productImageURL:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productImageURL:\",\"visible\":true,\"common\":false,\"__gohashid\":320},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productLi:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productLi:\",\"visible\":true,\"common\":false,\"__gohashid\":321},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productName:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productName:\",\"visible\":true,\"common\":false,\"__gohashid\":322},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productType:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productType:\",\"visible\":true,\"common\":false,\"__gohashid\":323},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:productTypeId:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:productTypeId:\",\"visible\":true,\"common\":false,\"__gohashid\":324},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:rates:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:rates:\",\"visible\":true,\"common\":false,\"__gohashid\":325},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:termsAndConditions:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:termsAndConditions:\",\"visible\":true,\"common\":false,\"__gohashid\":326},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:products:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:products:\",\"visible\":true,\"common\":false,\"__gohashid\":327},{\"from\":\"target:NewUserProducts:fields\",\"to\":\"target:NewUserProducts:success:\",\"fromPort\":\"target:NewUserProducts:fields\",\"toPort\":\"target:NewUserProducts:success:\",\"visible\":true,\"common\":false,\"__gohashid\":328},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":329},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":330},{\"from\":\"source\",\"to\":\"source:NewUserProducts\",\"fromPort\":\"source\",\"toPort\":\"source:NewUserProducts\",\"visible\":true,\"common\":false,\"__gohashid\":331},{\"from\":\"source:NewUserProducts\",\"to\":\"source:NewUserProducts:parameters\",\"fromPort\":\"source:NewUserProducts\",\"toPort\":\"source:NewUserProducts:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":332},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:features:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:features:\",\"visible\":true,\"common\":false,\"__gohashid\":333},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:info:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:info:\",\"visible\":true,\"common\":false,\"__gohashid\":334},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productDescription:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":335},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productId:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productId:\",\"visible\":true,\"common\":false,\"__gohashid\":336},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productImageURL:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productImageURL:\",\"visible\":true,\"common\":false,\"__gohashid\":337},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productName:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productName:\",\"visible\":true,\"common\":false,\"__gohashid\":338},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productType:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productType:\",\"visible\":true,\"common\":false,\"__gohashid\":339},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:productTypeId:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:productTypeId:\",\"visible\":true,\"common\":false,\"__gohashid\":340},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:rates:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:rates:\",\"visible\":true,\"common\":false,\"__gohashid\":341},{\"from\":\"source:NewUserProducts:parameters\",\"to\":\"source:NewUserProducts:termsAndConditions:\",\"fromPort\":\"source:NewUserProducts:parameters\",\"toPort\":\"source:NewUserProducts:termsAndConditions:\",\"visible\":true,\"common\":false,\"__gohashid\":342}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getUserProducts"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "NewUserProducts",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

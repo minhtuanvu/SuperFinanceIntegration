@@ -1,0 +1,12 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_LoginSuite",
+    "testCaseInfo": [
+        "Common/IOS/SME/LoginAndWaitForDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_SME_Regression.js",
+        "TestPlanIOSSMEandRB.js",
+        "TestPlanIOS_SME_Sanity.js"
+    ]
+}

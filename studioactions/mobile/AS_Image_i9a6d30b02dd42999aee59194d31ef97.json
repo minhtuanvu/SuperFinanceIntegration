@@ -1,0 +1,28 @@
+{
+    "AS_Image_i9a6d30b02dd42999aee59194d31ef97": {
+        "id": "AS_Image_i9a6d30b02dd42999aee59194d31ef97",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboardWealth",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b96909bc2f0f47fca6cc1b2e2e49f311"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDownloadComplete_a4b1e44df75542eb8834f1493ec8d597",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onAdDownloadComplete(issuccess,5);"
+        }]
+    }
+}

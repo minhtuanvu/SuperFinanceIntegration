@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizWatchDynamicNotificationForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        1,
+        0,
+        1,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s5b98408051d4f238de540539be4a7f3",
+    "_spacing_": 4,
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "grpNotificationMessage"
+    ],
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "appleWatch42",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "id": "frmBalanceNotification",
+    "ide_onRemoteNotificationReceived": "AS_WatchDynamicNotificationForm_aa852611c735405bba37a9dbbc50eaf1",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j62faa98a47645988f843707de7ff834",
+    "layouttype": 4,
+    "name": "kony.ui.WatchDynamicNotificationForm",
+    "needappmenu": true,
+    "needsashcolor": true,
+    "paddinginpixel": true,
+    "platform": "watchos",
+    "prevDevice": "appleWatch42",
+    "prevPlatform": "watchos",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "sashcolor": "80808000",
+    "shellCSS": "appleWatch42",
+    "titlebar": true,
+    "titlecolor": "ffffff00",
+    "type": 3,
+    "wType": "WatchDynamicNotificationForm",
+    "watchos": {
+        "render": true
+    }
+}

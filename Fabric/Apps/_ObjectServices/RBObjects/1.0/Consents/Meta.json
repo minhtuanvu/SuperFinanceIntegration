@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getCDPConsents" : "getCDPConsentsMapping",
+    "consents" : "consentsMapping",
+    "getPSDConsents" : "getPSDConsentsMapping",
+    "updateCDPConsent" : "updateCDPConsentMapping",
+    "updatePSDConsent" : "updatePSDConsentMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

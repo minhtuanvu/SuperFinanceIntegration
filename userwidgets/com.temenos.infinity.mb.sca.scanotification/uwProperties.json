@@ -1,0 +1,133 @@
+{
+    "classname": "scanotification",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g2eb5f0d7d464adcadfbbdd68287c427",
+                    "paramList": [],
+                    "propertyKey": "showOKRAAuthentication",
+                    "pw": {
+                        "displayName": "showOKRAAuthentication",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "cf74093c1f1d43cfa0abd9396f489cf1",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSuccessCallback",
+                    "pw": {
+                        "displayName": "onSuccessCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jfd092206c784138b05e5e9bd09aa03c",
+                    "paramList": [
+                        {
+                            "name": "response"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onFailureCallback",
+                    "pw": {
+                        "displayName": "onFailureCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Object Service Details"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Object Service Details",
+                    "kuid": "i68baef623b843b0946281ba36fedc9d",
+                    "originalPropertyKey": "objectService",
+                    "propertyIndex": 1,
+                    "propertyKey": "objectService",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Object Service",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Object Service Details",
+                    "kuid": "a58e611d0bb24890828712fac7eac825",
+                    "originalPropertyKey": "dataModel",
+                    "propertyIndex": 2,
+                    "propertyKey": "dataModel",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Data Model",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Object Service Details",
+                    "kuid": "a166dc27479d4277b1846d4b57bee139",
+                    "originalPropertyKey": "operation",
+                    "propertyIndex": 3,
+                    "propertyKey": "operation",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Operation",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a12e22b72a514b9b9cc28f0f870fa925",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinity.mb.sca",
+    "version": "1.0.0"
+}

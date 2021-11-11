@@ -1,0 +1,29 @@
+{
+    "AS_FlexScrollContainer_bb65e7f72c3e44328bb7aba449650e6e": {
+        "id": "AS_FlexScrollContainer_bb65e7f72c3e44328bb7aba449650e6e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmBusinessDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia1a2f716ce24132a52e758ad3f25840"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ga891f1ba32144539cb9704cf2abd1ab",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.bringFlxDashboardHeaderToFront();",
+            "parentId": null
+        }]
+    }
+}

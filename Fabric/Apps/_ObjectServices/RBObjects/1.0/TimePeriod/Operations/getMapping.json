@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getTimePeriod7713",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">            <map inputpath=\"timeperiod\" outputpath=\"TimePeriod\">                  <set-param inputpath=\"description\" outputpath=\"description\"/>                  <set-param inputpath=\"id\" outputpath=\"timePeriodId\"/>            </map>    \t<set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>      </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TimePeriod\",\"xy\":\"770 100\",\"__gohashid\":300152},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getTimePeriod\",\"xy\":\"150 100\",\"__gohashid\":300153}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:TimePeriod:description:\",\"to\":\"target:TimePeriod:description:\",\"fromPort\":\"source:TimePeriod:description:\",\"toPort\":\"target:TimePeriod:description:\",\"visible\":true,\"common\":true,\"__gohashid\":302555},{\"category\":\"Mapping\",\"from\":\"source:TimePeriod:timePeriodId:\",\"to\":\"target:TimePeriod:timePeriodId:\",\"fromPort\":\"source:TimePeriod:timePeriodId:\",\"toPort\":\"target:TimePeriod:timePeriodId:\",\"visible\":true,\"common\":true,\"__gohashid\":302562},{\"from\":\"target\",\"to\":\"target:TimePeriod\",\"fromPort\":\"target\",\"toPort\":\"target:TimePeriod\",\"visible\":true,\"common\":false,\"__gohashid\":295263},{\"from\":\"target:TimePeriod\",\"to\":\"target:TimePeriod:fields\",\"fromPort\":\"target:TimePeriod\",\"toPort\":\"target:TimePeriod:fields\",\"visible\":true,\"common\":false,\"__gohashid\":295264},{\"from\":\"target:TimePeriod:fields\",\"to\":\"target:TimePeriod:description:\",\"fromPort\":\"target:TimePeriod:fields\",\"toPort\":\"target:TimePeriod:description:\",\"visible\":true,\"common\":false,\"__gohashid\":295265},{\"from\":\"target:TimePeriod:fields\",\"to\":\"target:TimePeriod:errmsg:\",\"fromPort\":\"target:TimePeriod:fields\",\"toPort\":\"target:TimePeriod:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":295266},{\"from\":\"target:TimePeriod:fields\",\"to\":\"target:TimePeriod:timePeriodId:\",\"fromPort\":\"target:TimePeriod:fields\",\"toPort\":\"target:TimePeriod:timePeriodId:\",\"visible\":true,\"common\":false,\"__gohashid\":295267},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":295268},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":295269},{\"from\":\"source\",\"to\":\"source:TimePeriod\",\"fromPort\":\"source\",\"toPort\":\"source:TimePeriod\",\"visible\":true,\"common\":false,\"__gohashid\":295270},{\"from\":\"source:TimePeriod\",\"to\":\"source:TimePeriod:parameters\",\"fromPort\":\"source:TimePeriod\",\"toPort\":\"source:TimePeriod:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":295271},{\"from\":\"source:TimePeriod:parameters\",\"to\":\"source:TimePeriod:description:\",\"fromPort\":\"source:TimePeriod:parameters\",\"toPort\":\"source:TimePeriod:description:\",\"visible\":true,\"common\":false,\"__gohashid\":295272},{\"from\":\"source:TimePeriod:parameters\",\"to\":\"source:TimePeriod:timePeriodId:\",\"fromPort\":\"source:TimePeriod:parameters\",\"toPort\":\"source:TimePeriod:timePeriodId:\",\"visible\":true,\"common\":false,\"__gohashid\":295273}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getTimePeriod"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "TimePeriod",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

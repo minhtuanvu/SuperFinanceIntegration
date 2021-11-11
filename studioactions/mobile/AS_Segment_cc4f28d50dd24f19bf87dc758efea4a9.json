@@ -1,0 +1,30 @@
+{
+    "AS_Segment_cc4f28d50dd24f19bf87dc758efea4a9": {
+        "id": "AS_Segment_cc4f28d50dd24f19bf87dc758efea4a9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmMMTransferFromAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e9c762d97db7450cb647c293682c7b83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e977c67f6e0646118e2238a6e87cd10b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onRowClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

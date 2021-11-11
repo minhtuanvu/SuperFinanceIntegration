@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getBillerCategories7331",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"billercategory\" outputpath=\"BillerCategory\">      <set-param inputpath=\"categoryName\" outputpath=\"categoryName\"/>      <set-param inputpath=\"id\" outputpath=\"id\"/>    </map>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"BillerCategory\",\"xy\":\"770 100\",\"__gohashid\":4314},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getBillerCategories\",\"xy\":\"150 100\",\"__gohashid\":4315}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:BillerCategory\",\"fromPort\":\"target\",\"toPort\":\"target:BillerCategory\",\"visible\":true,\"common\":false,\"__gohashid\":4327},{\"from\":\"target:BillerCategory\",\"to\":\"target:BillerCategory:fields\",\"fromPort\":\"target:BillerCategory\",\"toPort\":\"target:BillerCategory:fields\",\"visible\":true,\"common\":false,\"__gohashid\":4328},{\"from\":\"target:BillerCategory:fields\",\"to\":\"target:BillerCategory:categoryName:\",\"fromPort\":\"target:BillerCategory:fields\",\"toPort\":\"target:BillerCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":4329},{\"from\":\"target:BillerCategory:fields\",\"to\":\"target:BillerCategory:id:\",\"fromPort\":\"target:BillerCategory:fields\",\"toPort\":\"target:BillerCategory:id:\",\"visible\":true,\"common\":false,\"__gohashid\":4330},{\"from\":\"source\",\"to\":\"source:BillerCategory\",\"fromPort\":\"source\",\"toPort\":\"source:BillerCategory\",\"visible\":true,\"common\":false,\"__gohashid\":4331},{\"from\":\"source:BillerCategory\",\"to\":\"source:BillerCategory:parameters\",\"fromPort\":\"source:BillerCategory\",\"toPort\":\"source:BillerCategory:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":4332},{\"from\":\"source:BillerCategory:parameters\",\"to\":\"source:BillerCategory:categoryName:\",\"fromPort\":\"source:BillerCategory:parameters\",\"toPort\":\"source:BillerCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":4333},{\"from\":\"source:BillerCategory:parameters\",\"to\":\"source:BillerCategory:id:\",\"fromPort\":\"source:BillerCategory:parameters\",\"toPort\":\"source:BillerCategory:id:\",\"visible\":true,\"common\":false,\"__gohashid\":4334},{\"category\":\"Mapping\",\"from\":\"source:BillerCategory:categoryName:\",\"to\":\"target:BillerCategory:categoryName:\",\"fromPort\":\"source:BillerCategory:categoryName:\",\"toPort\":\"target:BillerCategory:categoryName:\",\"visible\":true,\"common\":true,\"__gohashid\":6666},{\"category\":\"Mapping\",\"from\":\"source:BillerCategory:id:\",\"to\":\"target:BillerCategory:id:\",\"fromPort\":\"source:BillerCategory:id:\",\"toPort\":\"target:BillerCategory:id:\",\"visible\":true,\"common\":true,\"__gohashid\":6673}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getBillerCategories"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "BillerCategory",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

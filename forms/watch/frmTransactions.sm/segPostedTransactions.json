@@ -1,0 +1,324 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        },
+        {
+            "lblAmountAfterDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "00"
+            },
+            "lblAmountBeforeDecimalTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12,100"
+            },
+            "lblCurrencyTransactionDetail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "+$"
+            },
+            "lblDatePendingTransaction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "10/11"
+            },
+            "lblTransactionDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ABC Inc payroll xxx1234"
+            }
+        }
+    ],
+    "_enabled_": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": 0,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": 0,
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "enablehapticfeedback": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segPostedTransactions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e2c64559b6bd4f23a7eea3e3f85f9c33",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmTransactions",
+    "pf": "frmTransactions",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "h160ca4e698748c4b2f5830c5f8da5bb",
+    "rowcounter": 9,
+    "rowtemplate": "grpPostedTransactions",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 1,
+    "widgetdatamap": {
+        "grpBalanceAmountTansactionDetail": "grpBalanceAmountTansactionDetail",
+        "grpIndicator": "grpIndicator",
+        "grpPostedTransactions": "grpPostedTransactions",
+        "grpTransaction": "grpTransaction",
+        "grpTransactionAmount": "grpTransactionAmount",
+        "lblAmountAfterDecimalTransactionDetail": "lblAmountAfterDecimalTransactionDetail",
+        "lblAmountBeforeDecimalTransactionDetail": "lblAmountBeforeDecimalTransactionDetail",
+        "lblCurrencyTransactionDetail": "lblCurrencyTransactionDetail",
+        "lblDatePendingTransaction": "lblDatePendingTransaction",
+        "lblTransactionDescription": "lblTransactionDescription"
+    },
+    "widgetskin": "s24279412a2f40a292822050b1102ac6"
+}

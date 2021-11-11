@@ -1,0 +1,11 @@
+{
+    "testCaseName": "addRecipientSameBank",
+    "testSuiteName": "Test Cases/SME/Droid/ManageRecipient",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/SME/SME_ManageRecipient.js",
+        "Droid/SME/SME_Transfers.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ],
+    "userCode": true
+}

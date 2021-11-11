@@ -1,0 +1,37 @@
+{
+    "AS_Segment_eeebadb80cb94f1da946cbaab383ba45": {
+        "id": "AS_Segment_eeebadb80cb94f1da946cbaab383ba45",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmInsightSF",
+            "type": "forms",
+            "platform": "",
+            "KUID": "afa16596e1f245dea55e718ade621a40"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__b8009a2bb6904bf883be41c41225ddf4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "segValuesFunction",
+            "display": "segValuesFunction",
+            "inputparams": [{
+                "name": "rowIndex",
+                "value": " rowNumber"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

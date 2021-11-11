@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="" groupType="" id="getAllLocations" passwordencrypted="" security="public" type="CompositeConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="exec_type" value="Concurrent"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="1.0" appid="dbpAdminConsoleServices" name="service" value="getAllCountries"/>
+        <config-param api-version="1.0" appid="dbpAdminConsoleServices" name="service" value="getAllRegions"/>
+        <config-param api-version="1.0" appid="dbpAdminConsoleServices" name="service" value="getAllCities"/>
+    </service-config>
+    <service-input passthrough="false"/>
+    <service-output passthrough="false"/>
+</service>

@@ -1,0 +1,267 @@
+{
+    "classname": "transactionPinPopup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a43ea8b8a9894dc4a1c5dd6664ecd8d5",
+                    "paramList": [
+                        {
+                            "name": "loginType"
+                        }
+                    ],
+                    "propertyKey": "initiateLoginFlow",
+                    "pw": {
+                        "displayName": "initiateLoginFlow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "je0ffa2e4ca944bf8497405b8eec2f66",
+                    "paramList": [
+                        {
+                            "name": "pinLength"
+                        }
+                    ],
+                    "propertyKey": "showPinDialog",
+                    "pw": {
+                        "displayName": "showPinDialog",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e20bcf71da0f40dc98effd306d8f6b54",
+                    "paramList": [],
+                    "propertyKey": "setSdkComponentInstance",
+                    "pw": {
+                        "displayName": "setSdkComponentInstance",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b7605d0d231844d5a368ce6a5dee7fb1",
+                    "paramList": [],
+                    "propertyKey": "setFlowActions",
+                    "pw": {
+                        "displayName": "setFlowActions",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e6cef0f14ffd4bbe92236542e4ad5bb2",
+                    "paramList": [
+                        {
+                            "name": "loginSuccessObj"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onLoginSuccess",
+                    "pw": {
+                        "displayName": "onLoginSuccess",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e9b0b94bc0bf4ee697501c35ea7a2e83",
+                    "paramList": [
+                        {
+                            "name": "isPopupVisible"
+                        }
+                    ],
+                    "propertyIndex": 2,
+                    "propertyKey": "onPopupVisible",
+                    "pw": {
+                        "displayName": "onPopupVisible",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c106c31ddf8c46128b0775c164be6d54",
+                    "paramList": [
+                        {
+                            "name": "loginFailureObj"
+                        }
+                    ],
+                    "propertyIndex": 3,
+                    "propertyKey": "onLoginFailure",
+                    "pw": {
+                        "displayName": "onLoginFailure",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Login Service",
+                "Skins",
+                "Images",
+                "Text"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "CIBACustomIdentity",
+                    "group": "Login Service",
+                    "kuid": "hf7f7afe33fd4836ba4efaf359d745ca",
+                    "originalPropertyKey": "identityServiceName",
+                    "propertyIndex": 1,
+                    "propertyKey": "identityServiceName",
+                    "pw": {
+                        "dependencyConditions": {
+                            "conditions": []
+                        },
+                        "displayName": "Identity Service Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl3e4f56SSPReg32px",
+                    "group": "Skins",
+                    "kuid": "eda9b00429264681a41d24021d651080",
+                    "originalPropertyKey": "pinPopupTitleSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "pinPopupTitleSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Pin Popup Title Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "btnNumbere3e3e3B",
+                    "group": "Skins",
+                    "kuid": "fc4bf915c91f453aa1befdb5a889a95a",
+                    "originalPropertyKey": "pinPopupNumbersSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "pinPopupNumbersSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Pin Popup Numbers Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknFlxImgCancel",
+                    "group": "Skins",
+                    "kuid": "i39aa254d6e74dd382e4f3fa67cca83e",
+                    "originalPropertyKey": "pinPopupClearButtonSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "pinPopupClearButtonSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Pin Popup Clear Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Enter PIN",
+                    "group": "Text",
+                    "kuid": "c373b31f69814fa49060390b6e9c8b25",
+                    "originalPropertyKey": "pinPopupTitleText",
+                    "propertyIndex": 4,
+                    "propertyKey": "pinPopupTitleText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Pin Popup Title Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "sknLbl0095e4SSPReg30px",
+                    "group": "Skins",
+                    "kuid": "e673780b79204b5eb43add476ff76dad",
+                    "originalPropertyKey": "popupCancelButtonSkin",
+                    "propertyIndex": 5,
+                    "propertyKey": "popupCancelButtonSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Cancel Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Cancel",
+                    "group": "Text",
+                    "kuid": "bd6e5c045ef44dd492013ca2ebafe932",
+                    "originalPropertyKey": "popupCancelBtnText",
+                    "propertyIndex": 5,
+                    "propertyKey": "popupCancelBtnText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Cancel Button Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uaf30712ebdb4dfd83b9b75d175631e3",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinity.mb.sca",
+    "version": "1.0.0"
+}

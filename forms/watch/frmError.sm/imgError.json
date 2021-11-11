@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "28dp"
+    },
+    "_left_": 0,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_opacity_": 100,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sec6a111cf4542fcb64d501d17ef24e3",
+    "_src_": "alert.png",
+    "_top_": 0,
+    "_width_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "watch",
+        "formID": "frmError",
+        "platform": "watchos",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgError",
+    "imagescalemode": "aspectFit",
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b8ccb437792a4c0cb1589eb444e50277",
+    "name": "kony.ui.Image2",
+    "paddinginpixel": true,
+    "parent": "grpError",
+    "pf": "frmError",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 2
+}

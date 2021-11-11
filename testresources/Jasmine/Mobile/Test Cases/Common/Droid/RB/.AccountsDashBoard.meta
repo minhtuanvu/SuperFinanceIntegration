@@ -1,0 +1,14 @@
+{
+    "testCaseName": "AccountsDashBoard",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/UnitSuite.js",
+        "UnitSuite.js",
+        "UnitTest.js",
+        "Droid/Demo_2021.js",
+        "Droid/RB/RB_SettingsSuite.js",
+        "tempSuite.js"
+    ]
+}

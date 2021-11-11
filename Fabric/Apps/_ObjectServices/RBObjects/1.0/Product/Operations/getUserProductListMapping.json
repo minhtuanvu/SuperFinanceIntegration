@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "getUserProductList3202",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"accountID\" outputpath=\"accountID\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/><set-param inputpath=\"deviceID\" outputpath=\"deviceID\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><map inputpath=\"Product\" outputpath=\"Product\"><set-param inputpath=\"MarketingStateId\" outputpath=\"MarketingStateId\"/><set-param inputpath=\"lastmodifiedts\" outputpath=\"lastmodifiedts\"/><set-param inputpath=\"productId\" outputpath=\"productId\"/><set-param inputpath=\"Status_id\" outputpath=\"Status_id\"/><set-param inputpath=\"rates\" outputpath=\"rates\"/><set-param inputpath=\"createdts\" outputpath=\"createdts\"/><set-param inputpath=\"productName\" outputpath=\"productName\"/><set-param inputpath=\"productTypeId\" outputpath=\"productTypeId\"/><set-param inputpath=\"softdeleteflag\" outputpath=\"softdeleteflag\"/><set-param inputpath=\"otherproducttype_Name\" outputpath=\"otherproducttype_Name\"/><set-param inputpath=\"termsAndConditions\" outputpath=\"termsAndConditions\"/><set-param inputpath=\"otherproducttype_Description\" outputpath=\"otherproducttype_Description\"/><set-param inputpath=\"SecondaryProduct_id\" outputpath=\"SecondaryProduct_id\"/><set-param inputpath=\"features\" outputpath=\"features\"/><set-param inputpath=\"accountID\" outputpath=\"accountID\"/><set-param inputpath=\"otherproducttype_id\" outputpath=\"otherproducttype_id\"/><set-param inputpath=\"createdby\" outputpath=\"createdby\"/><set-param inputpath=\"modifiedby\" outputpath=\"modifiedby\"/><set-param inputpath=\"synctimestamp\" outputpath=\"synctimestamp\"/><set-param inputpath=\"productType\" outputpath=\"productType\"/><set-param inputpath=\"productDescription\" outputpath=\"productDescription\"/><set-param inputpath=\"info\" outputpath=\"info\"/><set-param inputpath=\"Type_id\" outputpath=\"Type_id\"/></map></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getUserProductList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Product",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

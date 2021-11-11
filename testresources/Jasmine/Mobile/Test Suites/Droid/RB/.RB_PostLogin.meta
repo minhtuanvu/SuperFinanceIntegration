@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_PostLogin",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/PostLogin.js",
+        "RB/Droid/PostLogin/PostLogin_VerifyAppVersion.js",
+        "RB/Droid/PostLogin/PostLogin_VerifyFAQ.js",
+        "RB/Droid/PostLogin/PostLogin_VerifyPrivacyPolicy.js",
+        "RB/Droid/PostLogin/PostLogin_VerifyTermsnConditions.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

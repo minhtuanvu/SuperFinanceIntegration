@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getInstruments" passwordencrypted="false" security="public" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.RefinitivTokenGenPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.GetInstrumentDetailsPostProcessor"/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.trkd.thomsonreuters.com/api/Quotes/Quotes.svc/REST/Quotes_1/RetrieveItem_3"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-Token" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="BBE405F2CA8C8693A7F5E063148EBD9B4A679F449CA383F6AB5E1CF7B88C05F4D319BEAAB163A61063AC71C80E50081B754A9DC5B10F91797333ECBC9546F8A258628714CDBD0F934C8D71173F580C6D9D22B56432E6DD90CB08D86E083404D6C4472121E712E23367B680D0667F0A57" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-ApplicationID" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="rkddemoappwmredist" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fields" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="CF_EXCHNG:ISIN_CODE:TRADE_DATE:CF_NAME:PRCTCK_1:TRDPRC_1:PCTCHNG:CF_CLOSE:CF_NETCHNG:CF_DATE:CF_TIME:CF_BID:BIDSIZE:CF_ASK:ASKSIZE:CF_VOLUME:CF_OPEN:CF_CLOSE:52WK_HIGH:52WK_LOW:CF_LAST:CF_CURRENCY" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="instrumentsCode" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="MSFT.O" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;RetrieveItem_Request_3&quot;: {&#10;        &quot;ItemRequest&quot;: [&#10;            {&#10;                &quot;Fields&quot;: &quot;$fields&quot;,&#10;                &quot;RequestKey&quot;: [&#10;                    {&#10;                        &quot;Name&quot;: &quot;$instrumentsCode&quot;,&#10;                        &quot;NameType&quot;: &quot;RIC&quot;&#10;                    }&#10;                ],&#10;                &quot;Scope&quot;: &quot;List&quot;&#10;            }&#10;        ],&#10;        &quot;TrimResponse&quot;: false,&#10;        &quot;IncludeChildItemQoS&quot;: false&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;RetrieveItem_Request_3&quot;: {&#10;        &quot;ItemRequest&quot;: [&#10;            {&#10;                &quot;Fields&quot;: &quot;$fields&quot;,&#10;                &quot;RequestKey&quot;: [&#10;                    {&#10;                        &quot;Name&quot;: &quot;$instrumentsCode&quot;,&#10;                        &quot;NameType&quot;: &quot;RIC&quot;&#10;                    }&#10;                ],&#10;                &quot;Scope&quot;: &quot;List&quot;&#10;            }&#10;        ],&#10;        &quot;TrimResponse&quot;: false,&#10;        &quot;IncludeChildItemQoS&quot;: false&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Field" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="$.RetrieveItem_Response_3.ItemResponse[*].Item[*].Fields.Field[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

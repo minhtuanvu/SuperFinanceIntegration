@@ -1,0 +1,38 @@
+{
+    "AS_Button_b10f1073367a4165b8eb633dd89ba5b9": {
+        "id": "AS_Button_b10f1073367a4165b8eb633dd89ba5b9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeVerifyTransferDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga99f59f709940b693c9bde82beae0c2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__icd6c97be32144a194b6f569ce19caa8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "constructFileInput",
+            "display": "constructFileInput",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }, {
+            "id": "INVOKE_FUNCTION__c47bd7c859884063a813454cd7247a95",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "continueOnClick",
+            "display": "continueOnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

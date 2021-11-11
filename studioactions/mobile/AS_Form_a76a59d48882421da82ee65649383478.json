@@ -1,0 +1,23 @@
+{
+    "AS_Form_a76a59d48882421da82ee65649383478": {
+        "id": "AS_Form_a76a59d48882421da82ee65649383478",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMFAChangeUsername",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d1a3d88214d64c8b9d1db0214c1278f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_init_d4acee5fb9d445c49075905069c49de6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//this.init();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.dbputilities.customersecurityservices.postprocessor.CreateBusinessUserPostProcessor,com.kony.dbputilities.customersecurityservices.postprocessors.CreateBackendIdentifierPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "CreateSmallOrganizationEmployee9037",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "CreateSmallOrganizationEmployee"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DbxOrganization",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

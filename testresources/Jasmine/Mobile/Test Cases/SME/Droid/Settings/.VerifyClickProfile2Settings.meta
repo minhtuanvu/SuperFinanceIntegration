@@ -1,0 +1,11 @@
+{
+    "testCaseName": "VerifyClickProfile2Settings",
+    "testSuiteName": "Test Cases/RB/Droid/Settings",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "SettingsSuite.js",
+        "Droid/RB/SettingsSuite.js",
+        "Droid/SME/SME_SettingsSuite.js"
+    ]
+}

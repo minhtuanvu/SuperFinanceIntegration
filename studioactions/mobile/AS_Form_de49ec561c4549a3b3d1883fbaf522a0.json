@@ -1,0 +1,23 @@
+{
+    "AS_Form_de49ec561c4549a3b3d1883fbaf522a0": {
+        "id": "AS_Form_de49ec561c4549a3b3d1883fbaf522a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeAcknowledgement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a1a8aa614159459b82985dd5d75dd671"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cdac3799df08492f953f9a3b0f2e5dc2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null
+        }]
+    }
+}

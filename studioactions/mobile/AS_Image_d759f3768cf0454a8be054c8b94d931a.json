@@ -1,0 +1,29 @@
+{
+    "AS_Image_d759f3768cf0454a8be054c8b94d931a": {
+        "id": "AS_Image_d759f3768cf0454a8be054c8b94d931a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmBusinessDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ia1a2f716ce24132a52e758ad3f25840"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e7d2f0f3e104495ca6c9e23cee01327d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onAdDownloadComplete(issuccess,3);",
+            "parentId": null
+        }]
+    }
+}

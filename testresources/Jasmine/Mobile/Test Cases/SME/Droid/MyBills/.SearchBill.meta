@@ -1,0 +1,11 @@
+{
+    "testCaseName": "SearchBill",
+    "testSuiteName": "Test Cases/RB/Droid/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "MyBills.js",
+        "Droid/RB/MyBills.js",
+        "Droid/SME/SME_MyBills.js"
+    ],
+    "userCode": true
+}

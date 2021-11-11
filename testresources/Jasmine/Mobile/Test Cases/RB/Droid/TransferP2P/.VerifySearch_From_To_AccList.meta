@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifySearch_From_To_AccList",
+    "testSuiteName": "Test Cases/RB/Droid/TransferToExternalBank",
+    "channelName": "Mobile",
+    "usedBy": [
+        "UnitSuite.js"
+    ],
+    "userCode": true
+}

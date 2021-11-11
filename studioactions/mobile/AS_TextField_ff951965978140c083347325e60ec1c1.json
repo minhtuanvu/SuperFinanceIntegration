@@ -1,0 +1,25 @@
+{
+    "AS_TextField_ff951965978140c083347325e60ec1c1": {
+        "id": "AS_TextField_ff951965978140c083347325e60ec1c1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmEuropeCreditCardDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c3dd2c4f9620421f99d934467b8411dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onDone_e0d0d6b1db7f41f8961a3116f97e29b9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.continueOnClick();"
+        }]
+    }
+}

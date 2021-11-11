@@ -1,0 +1,10 @@
+{
+    "testCaseName": "PreLogin_VerifyLanguage_French",
+    "testSuiteName": "Test Cases/Common/Droid/Util/PreLogin",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/RB_PreLogin_Support.js",
+        "Droid/RB/RB_SanitySuite.js"
+    ]
+}

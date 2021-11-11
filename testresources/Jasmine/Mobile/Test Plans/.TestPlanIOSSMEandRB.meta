@@ -1,0 +1,20 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanIOSSMEandRB",
+    "testSuiteInfo": [
+        "IOS/RB/RB_PreLogin_Support.js",
+        "IOS/RB/RB_LoginSuite.js",
+        "IOS/RB/RB_ManageRecipientInternationalAccount.js",
+        "IOS/RB/RB_ManageRecipientSameBank.js",
+        "IOS/RB/RB_ManageRecipientExternalAccount.js",
+        "IOS/RB/RB_AccountsDashboard.js",
+        "IOS/RB/RB_MyBills.js",
+        "IOS/RB/RB_LogoutSuite.js",
+        "IOS/SME/SME_PreLogin_Support.js",
+        "IOS/SME/SME_LoginSuite.js",
+        "IOS/SME/SME_AddRecipientExternalAccount.js",
+        "IOS/SME/SME_AddRecipientSameBank.js",
+        "IOS/SME/SME_TransfersSuite.js",
+        "IOS/SME/SME_LogoutSuite.js"
+    ]
+}

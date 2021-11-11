@@ -1,0 +1,9 @@
+{
+    "testCaseName": "Verify_OneTimeTransfer_SameBank",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/SME/SME_Transfers.js"
+    ],
+    "userCode": true
+}

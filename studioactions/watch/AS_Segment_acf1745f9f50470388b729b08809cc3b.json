@@ -1,0 +1,30 @@
+{
+    "AS_Segment_acf1745f9f50470388b729b08809cc3b": {
+        "id": "AS_Segment_acf1745f9f50470388b729b08809cc3b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }, {
+            "datatype": "WKInterfaceTable",
+            "name": "table"
+        }, {
+            "datatype": "Int",
+            "name": "rowIndex"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g7c53c05f9ea4214bc7b308008ead153"
+        },
+        "language": "swift",
+        "actions": [{
+            "id": "ADD_SNIPPET__c3a2049c06e44cd38005f32316ee76e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Accounts.getSharedInstance().onClickAccount(form, table, rowIndex)",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "testCaseName": "AccountsLanding",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingSavings.js",
+        "IOS/RB/RB_AccountsLandingChecking.js",
+        "IOS/RB/RB_AccountsLandingCreditCard.js",
+        "IOS/RB/RB_AccountsLandingDeposit.js",
+        "IOS/RB/RB_AccountsLandingLoan.js",
+        "IOS/RB/RB_TransferActivities.js",
+        "tempSuite.js"
+    ],
+    "userCode": true
+}

@@ -1,0 +1,30 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_MyBills",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/MyBills.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/MyBills/SearchBill.js",
+        "RB/IOS/MyBills/ManageBillPayShowAllPayee.js",
+        "RB/IOS/MyBills/AddNewPayee.js",
+        "RB/IOS/MyBills/AddPayeeBillPayFlow.js",
+        "RB/IOS/MyBills/OneTimeBillPaymentCreditCard.js",
+        "RB/IOS/MyBills/SearchPayee.js",
+        "RB/IOS/MyBills/BillPay_PayeeDetails.js",
+        "RB/IOS/MyBills/ActivateDeactivateEBill.js",
+        "RB/IOS/MyBills/RepeatBillPayement.js",
+        "RB/IOS/MyBills/CancelBillPayment.js",
+        "RB/IOS/MyBills/SchedulePayment_Daily.js",
+        "RB/IOS/MyBills/SchedulePayment_HalfYearly.js",
+        "RB/IOS/MyBills/SchedulePayment_Monthly.js",
+        "RB/IOS/MyBills/SchedulePayment_QTR.js",
+        "RB/IOS/MyBills/SchedulePayment_Weekly.js",
+        "RB/IOS/MyBills/SchedulePayment_Yearly.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_RB_Regression.js",
+        "TestPlanIOSSMEandRB.js",
+        "tempPlan.js"
+    ]
+}

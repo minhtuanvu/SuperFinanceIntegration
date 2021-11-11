@@ -1,0 +1,24 @@
+{
+    "AS_Form_a893c73e9c094e5c8982273ee5c18f35": {
+        "id": "AS_Form_a893c73e9c094e5c8982273ee5c18f35",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDepositsFromAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "dbee2b024b7a49d4a7af44b17cdc5109"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f227959c9bb047c591d94f328179e112",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

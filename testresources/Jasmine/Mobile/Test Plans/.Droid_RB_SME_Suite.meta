@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "Droid_RB_SME_Suite",
+    "testSuiteInfo": [
+        "Droid/RB/RB_PreLogin_Support.js",
+        "Droid/SME/SME_PreLogin_Support.js",
+        "Droid/RB/RB_MyBills.js",
+        "Droid/SME/SME_MyBills.js",
+        "Droid/RB/RB_SettingsSuite.js",
+        "Droid/SME/SME_SettingsSuite.js",
+        "Droid/RB/RB_Transfers.js",
+        "Droid/SME/SME_Transfers.js"
+    ]
+}

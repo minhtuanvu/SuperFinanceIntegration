@@ -1,0 +1,9 @@
+{
+    "testCaseName": "Verify_ScheduledTransferYearly_NoOfOccurances_SameBank",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/SME/SME_Transfers.js"
+    ]
+}

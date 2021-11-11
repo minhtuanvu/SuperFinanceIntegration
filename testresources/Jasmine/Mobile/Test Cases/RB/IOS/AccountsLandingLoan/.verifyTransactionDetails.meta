@@ -1,0 +1,9 @@
+{
+    "testCaseName": "verifyTransactionDetails",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingLoan",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingLoan.js"
+    ]
+}

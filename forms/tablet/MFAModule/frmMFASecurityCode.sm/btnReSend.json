@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_skin_": "sd41f0625be0469b85d3fd584850f571",
+    "_text_": "RE-SEND",
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yHint": "Tap Resend to resend the information",
+        "a11yLabel": "Resend"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s95fdc214e754758a478364273bd696b",
+    "id": "btnReSend",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b2f6b94b65af4561b1f8646692cd1d99",
+    "name": "kony.ui.Button",
+    "parent": "flxMainContent",
+    "pf": "frmMFASecurityCode",
+    "texti18n": "kony.mb.Forgot.ReSend",
+    "wType": "Button",
+    "zindex": 1
+}

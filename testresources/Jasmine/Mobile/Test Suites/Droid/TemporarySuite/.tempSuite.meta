@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/Droid/TemporarySuite",
+    "testSuiteName": "tempSuite",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/CustomView.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "RB/T24Droid/CustomView/VerifyCustomViewApplied.js",
+        "RB/T24Droid/CustomView/CreateAndApplyCustomView.js",
+        "RB/T24Droid/CustomView/VerifyDuplicateCustomView.js",
+        "RB/T24Droid/CustomView/VerifySearchFunctionality.js"
+    ],
+    "usedBy": []
+}

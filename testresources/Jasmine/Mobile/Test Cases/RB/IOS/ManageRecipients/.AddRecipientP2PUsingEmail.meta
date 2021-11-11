@@ -1,0 +1,39 @@
+{
+    "testCaseName": "AddRecipientP2PUsingEmail",
+    "testSuiteName": "Test Cases/RB/IOS/ManageRecipients",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientP2P.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "1 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "0f3b7132-221d-b82e-3e20-259f1bf94b78",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await addRecipientPToPWithEmail(ManageRecipient.recipientName.p2pRecipient);",
+                        "comment": "// - [1 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

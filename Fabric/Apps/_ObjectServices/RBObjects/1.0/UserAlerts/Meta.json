@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getAllAlerts" : "getAllAlertsMapping",
+    "get" : "getMapping",
+    "updateAlerts" : "updateAlertsMapping",
+    "partialupdate" : "partialupdateMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

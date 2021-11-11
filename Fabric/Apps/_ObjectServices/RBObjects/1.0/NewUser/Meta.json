@@ -1,0 +1,24 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getUserState" : "getUserStateMapping",
+    "createPersonalInfo" : "createPersonalInfoMapping",
+    "uploadDocuments" : "uploadDocumentsMapping",
+    "verifyExistingUserByPhone" : "verifyExistingUserByPhoneMapping",
+    "verifyExistingUserByEmail" : "verifyExistingUserByEmailMapping",
+    "resetNewUserData" : "resetNewUserDataMapping",
+    "signatureUpload" : "signatureUploadMapping",
+    "getUserPersonalInfo" : "getUserPersonalInfoMapping",
+    "userCreditCheck" : "userCreditCheckMapping",
+    "create" : "createMapping",
+    "verifyExistingUserName" : "verifyExistingUserNameMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

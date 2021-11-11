@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "verifyExistingUserByEmail" : "verifyExistingUserByEmailMapping",
+    "verifyPatroitAct" : "verifyPatroitActMapping",
+    "verifyUserByGeotrace" : "verifyUserByGeotraceMapping",
+    "verifyExistingUserName" : "verifyExistingUserNameMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

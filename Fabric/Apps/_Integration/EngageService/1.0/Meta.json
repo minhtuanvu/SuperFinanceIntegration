@@ -1,0 +1,7 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "EngageIntegration.jar",
+    "type" : "servicejar"
+  } ]
+}

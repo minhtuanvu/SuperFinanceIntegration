@@ -1,0 +1,33 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.kony.transaction.preprocessors.CreateBulkTransferPreProcessor"
+  },
+  "operationConfig" : {
+    "name" : "createBulkTransfer8976",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"bulkTransferString\" outputpath=\"bulkTransferString\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Transactions\",\"xy\":\"-3 88\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpNonProductServices (1.0).createBulkTransfer\",\"xy\":\"699 6478\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:Transactions:bulkTransferString:\",\"to\":\"target:bulkTransferString:\",\"fromPort\":\"source:Transactions:bulkTransferString:\",\"toPort\":\"target:bulkTransferString:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createBulkTransfer"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Transactions",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

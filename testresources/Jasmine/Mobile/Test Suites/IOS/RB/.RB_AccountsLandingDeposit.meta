@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_AccountsLandingDeposit",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/AccountsLanding.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/AccountsLandingDeposit/verifyAccountInfoDeposit.js",
+        "RB/IOS/AccountsLandingDeposit/verifyDepositAccountLandingPage.js",
+        "RB/IOS/AccountsLandingDeposit/verifyOptions_DepositAccount.js",
+        "RB/IOS/AccountsLandingDeposit/verifyAdvanceSearch.js",
+        "RB/IOS/AccountsLandingDeposit/verifyScrollTransactions_Deposit.js",
+        "RB/IOS/AccountsLandingDeposit/verifyTransactionDetails.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

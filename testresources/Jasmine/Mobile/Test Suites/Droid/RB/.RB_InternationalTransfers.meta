@@ -1,0 +1,38 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_InternationalTransfers",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/TransferToInternational/APreRequisiteTo_AddInternationalbankreciptent.js",
+        "RB/Droid/TransferToInternational/CancelTransfer.js",
+        "RB/Droid/TransferToInternational/DailySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/DailySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToInternational/HalfYearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/HalfYearlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToInternational/MonthlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/MonthlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToInternational/OneTimeTransfer.js",
+        "RB/Droid/TransferToInternational/QuarterlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/QuarterlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToInternational/SheduledOneTimeTransfer.js",
+        "RB/Droid/TransferToInternational/VerifySearch_From_To_AccList.js",
+        "RB/Droid/TransferToInternational/WeeklySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/WeeklySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToInternational/YearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToInternational/YearlySheduledTransfer-Occurences.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

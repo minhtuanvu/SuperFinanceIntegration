@@ -1,0 +1,8 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "SanityPack_IOS",
+    "testSuiteInfo": [
+        "IOS/RB/RB_SanitySuite.js",
+        "IOS/SME/SME_SanitySuite.js"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "CombinedStatement",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/CombinedStatment.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "RB/T24Droid/CombinedStatment/SearchAccount_ByName.js",
+        "RB/T24Droid/CombinedStatment/SearchAccount_ByAccountNumber.js",
+        "RB/T24Droid/CombinedStatment/GenerateAccountStatement_PDF.js",
+        "RB/T24Droid/CombinedStatment/GenerateAccountStatement_Excel.js",
+        "RB/T24Droid/CombinedStatment/GenerateAccountStatement_CSV.js",
+        "RB/T24Droid/CombinedStatment/VerifyViewAllAccounts.js",
+        "RB/T24Droid/CombinedStatment/GenerateAccountStatement_Saving.js",
+        "RB/T24Droid/CombinedStatment/FilterAccount_ByName.js",
+        "RB/T24Droid/CombinedStatment/VerifyViewAllAccounts.js",
+        "RB/T24Droid/CombinedStatment/VerifyDownloadOption.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

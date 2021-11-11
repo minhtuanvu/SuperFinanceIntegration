@@ -1,0 +1,15 @@
+{
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "e3e3e3ff",
+  "border_radius": 4,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "ipad": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s134e94e28da4bf49ae8bc60eceae583",
+  "wType": "FlexContainer"
+}

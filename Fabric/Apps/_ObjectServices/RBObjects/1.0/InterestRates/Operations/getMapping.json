@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getInterestRates4605",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"interestrates\" outputpath=\"InterestRates\">            <set-param inputpath=\"apy\" outputpath=\"APY\"/>            <set-param inputpath=\"cdTerm\" outputpath=\"CDTerm\"/>            <set-param inputpath=\"minimumDeposit\" outputpath=\"minimumDeposit\"/>        </map>    \t<set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"InterestRates\",\"xy\":\"770 100\",\"__gohashid\":353},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getInterestRates\",\"xy\":\"150 100\",\"__gohashid\":354}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:InterestRates:APY:\",\"to\":\"target:InterestRates:APY:\",\"fromPort\":\"source:InterestRates:APY:\",\"toPort\":\"target:InterestRates:APY:\",\"visible\":true,\"common\":true,\"__gohashid\":2807},{\"category\":\"Mapping\",\"from\":\"source:InterestRates:CDTerm:\",\"to\":\"target:InterestRates:CDTerm:\",\"fromPort\":\"source:InterestRates:CDTerm:\",\"toPort\":\"target:InterestRates:CDTerm:\",\"visible\":true,\"common\":true,\"__gohashid\":2814},{\"category\":\"Mapping\",\"from\":\"source:InterestRates:minimumDeposit:\",\"to\":\"target:InterestRates:minimumDeposit:\",\"fromPort\":\"source:InterestRates:minimumDeposit:\",\"toPort\":\"target:InterestRates:minimumDeposit:\",\"visible\":true,\"common\":true,\"__gohashid\":2821},{\"from\":\"target\",\"to\":\"target:InterestRates\",\"fromPort\":\"target\",\"toPort\":\"target:InterestRates\",\"visible\":true,\"common\":false,\"__gohashid\":106556},{\"from\":\"target:InterestRates\",\"to\":\"target:InterestRates:fields\",\"fromPort\":\"target:InterestRates\",\"toPort\":\"target:InterestRates:fields\",\"visible\":true,\"common\":false,\"__gohashid\":106557},{\"from\":\"target:InterestRates:fields\",\"to\":\"target:InterestRates:APY:\",\"fromPort\":\"target:InterestRates:fields\",\"toPort\":\"target:InterestRates:APY:\",\"visible\":true,\"common\":false,\"__gohashid\":106558},{\"from\":\"target:InterestRates:fields\",\"to\":\"target:InterestRates:CDTerm:\",\"fromPort\":\"target:InterestRates:fields\",\"toPort\":\"target:InterestRates:CDTerm:\",\"visible\":true,\"common\":false,\"__gohashid\":106559},{\"from\":\"target:InterestRates:fields\",\"to\":\"target:InterestRates:errmsg:\",\"fromPort\":\"target:InterestRates:fields\",\"toPort\":\"target:InterestRates:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":106560},{\"from\":\"target:InterestRates:fields\",\"to\":\"target:InterestRates:minimumDeposit:\",\"fromPort\":\"target:InterestRates:fields\",\"toPort\":\"target:InterestRates:minimumDeposit:\",\"visible\":true,\"common\":false,\"__gohashid\":106561},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":106562},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":106563},{\"from\":\"source\",\"to\":\"source:InterestRates\",\"fromPort\":\"source\",\"toPort\":\"source:InterestRates\",\"visible\":true,\"common\":false,\"__gohashid\":106564},{\"from\":\"source:InterestRates\",\"to\":\"source:InterestRates:parameters\",\"fromPort\":\"source:InterestRates\",\"toPort\":\"source:InterestRates:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":106565},{\"from\":\"source:InterestRates:parameters\",\"to\":\"source:InterestRates:APY:\",\"fromPort\":\"source:InterestRates:parameters\",\"toPort\":\"source:InterestRates:APY:\",\"visible\":true,\"common\":false,\"__gohashid\":106566},{\"from\":\"source:InterestRates:parameters\",\"to\":\"source:InterestRates:CDTerm:\",\"fromPort\":\"source:InterestRates:parameters\",\"toPort\":\"source:InterestRates:CDTerm:\",\"visible\":true,\"common\":false,\"__gohashid\":106567},{\"from\":\"source:InterestRates:parameters\",\"to\":\"source:InterestRates:minimumDeposit:\",\"fromPort\":\"source:InterestRates:parameters\",\"toPort\":\"source:InterestRates:minimumDeposit:\",\"visible\":true,\"common\":false,\"__gohashid\":106568}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getInterestRates"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "InterestRates",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

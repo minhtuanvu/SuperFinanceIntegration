@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "StepsLeftSide": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f1add47203eb4ab0aa754ab4a0067fa3",
+                "srcKUID": "jd554870ac644feba8b7058e59e3b016",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i099f52330464e40be62e94aa5bbf7ea",
+                "srcKUID": "a1aa0e0593474b138af01ac7e551b50b",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblStepsLeftSideSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j25f9feefc134cf0a9084f3cc4df6e7c",
+                "srcKUID": "ce8cdcc421c448ce9e73a0b02ee9b615",
+                "wType": "Label"
+            },
+            "text": "Tagged this transaction of €1.099 under business expenses"
+        }
+    },
+    "enablescrolling": true,
+    "id": "StepsLeftSide5",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f1add47203eb4ab0aa754ab4a0067fa3",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxStep3L3SF",
+    "pf": "frmInsightSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "jd554870ac644feba8b7058e59e3b016",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,7 @@
+{
+    "testCaseName": "ManageRecipient_Search_SameBankRecipient",
+    "testSuiteName": "Test Cases/ManageRecipientUpdated",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

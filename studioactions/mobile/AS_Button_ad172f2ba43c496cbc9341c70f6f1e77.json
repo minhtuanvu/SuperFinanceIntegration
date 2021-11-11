@@ -1,0 +1,24 @@
+{
+    "AS_Button_ad172f2ba43c496cbc9341c70f6f1e77": {
+        "id": "AS_Button_ad172f2ba43c496cbc9341c70f6f1e77",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInstrumentOrder",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c7b8e59e5f1a4a18851ecdd5b502af22"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e5d0f6e35eb54f8e9b828a98ee1ce5bf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setKeypadChar(5);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

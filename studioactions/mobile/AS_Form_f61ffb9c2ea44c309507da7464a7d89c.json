@@ -1,0 +1,23 @@
+{
+    "AS_Form_f61ffb9c2ea44c309507da7464a7d89c": {
+        "id": "AS_Form_f61ffb9c2ea44c309507da7464a7d89c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmNewPayee",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e35bb4d7f8be45cfb9cdd8cd19cdaf3b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_fae20219b58c4410a24a8abf11d661e2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Back Navigation Disabled\");",
+            "parentId": null
+        }]
+    }
+}

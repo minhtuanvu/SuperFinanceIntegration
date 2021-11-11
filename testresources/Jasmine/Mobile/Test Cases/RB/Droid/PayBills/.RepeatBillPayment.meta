@@ -1,0 +1,9 @@
+{
+    "testCaseName": "RepeatBillPayment",
+    "testSuiteName": "Test Cases/RB/Droid/PayBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "UnitSuite.js"
+    ],
+    "userCode": true
+}

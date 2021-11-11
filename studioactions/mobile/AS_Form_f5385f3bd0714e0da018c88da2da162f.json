@@ -1,0 +1,28 @@
+{
+    "AS_Form_f5385f3bd0714e0da018c88da2da162f": {
+        "id": "AS_Form_f5385f3bd0714e0da018c88da2da162f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmChargesBreakdownEurope",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i5b802af976f4e31904f8387078aa9c2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c5aaee737b7a4aa0afee2c97c131e40e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "initActions",
+            "display": "initActions",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

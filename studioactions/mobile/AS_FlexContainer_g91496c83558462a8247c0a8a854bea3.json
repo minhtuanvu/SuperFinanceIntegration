@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_g91496c83558462a8247c0a8a854bea3": {
+        "id": "AS_FlexContainer_g91496c83558462a8247c0a8a854bea3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_f26b284926f2466eba0b27cb6dc4deac",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "flxArrowOnclick",
+            "display": "flxArrowOnclick",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

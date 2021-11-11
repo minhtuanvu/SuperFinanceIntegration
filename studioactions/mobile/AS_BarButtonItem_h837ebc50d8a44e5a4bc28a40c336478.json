@@ -1,0 +1,18 @@
+{
+    "AS_BarButtonItem_h837ebc50d8a44e5a4bc28a40c336478": {
+        "id": "AS_BarButtonItem_h837ebc50d8a44e5a4bc28a40c336478",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f66ce6b8ecb1447f8700b7ec078a34f8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var navMan=applicationManager.getNavigationManager();\nnavMan.goBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

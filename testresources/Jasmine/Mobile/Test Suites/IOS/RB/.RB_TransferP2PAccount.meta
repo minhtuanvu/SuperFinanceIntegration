@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_TransferP2PAccount",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/TransferPToPAccount/SearchPToPAccount.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountOneTime.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountScheduleOnce.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_DailyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_DailyNumberOfTransfers.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_HalfYearlyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_HalfYearlyNumberOfTransfers.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_MonhtlyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_MonthlyNumberOfTransfers.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_QuarterlyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_QuarterlyNumberOfTransfers.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_WeeklyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_WeeklyNumberOfTransfers.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_YearlyDateRange.js",
+        "RB/IOS/TransferPToPAccount/TransferPToPAccountSchedule_YearlyNumberOfTransfers.js"
+    ],
+    "usedBy": []
+}

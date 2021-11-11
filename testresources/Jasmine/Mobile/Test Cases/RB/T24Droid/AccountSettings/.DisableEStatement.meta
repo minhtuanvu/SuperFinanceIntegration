@@ -1,0 +1,10 @@
+{
+    "testCaseName": "DisableEStatement",
+    "testSuiteName": "Test Cases/RB/T24Droid/AccountSettings",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/AccountPreference.js",
+        "Droid/T24RB/HealthCheck.js"
+    ]
+}

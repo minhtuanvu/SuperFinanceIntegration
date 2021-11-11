@@ -1,0 +1,41 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getCardsForAdmin" : "getCardsForAdminMapping",
+    "createCardDataForApplePay" : "createCardDataForApplePayMapping",
+    "deleteTravelNotification" : "deleteTravelNotificationMapping",
+    "unlockCard" : "unlockCardMapping",
+    "getTravelNotification" : "getTravelNotificationMapping",
+    "partialupdate" : "partialupdateMapping",
+    "updateCardForAdmin" : "updateCardForAdminMapping",
+    "createCardDataForGooglePay" : "createCardDataForGooglePayMapping",
+    "enrollCard" : "enrollCardMapping",
+    "getCardsByUsername" : "getCardsByUsernameMapping",
+    "applyForDebitCard" : "applyForDebitCardMapping",
+    "updateWithdrawalLimit" : "updateWithdrawalLimitMapping",
+    "createCardDataForSamsungPay" : "createCardDataForSamsungPayMapping",
+    "updatePurchaseLimit" : "updatePurchaseLimitMapping",
+    "get" : "getMapping",
+    "createCardRequest" : "createCardRequestMapping",
+    "lockCard" : "lockCardMapping",
+    "getActiveCards" : "getActiveCardsMapping",
+    "cancelCard" : "cancelCardMapping",
+    "reportLost" : "reportLostMapping",
+    "applyForCreditCard" : "applyForCreditCardMapping",
+    "getTravelNotificationStatus" : "getTravelNotificationStatusMapping",
+    "createTravelNotification" : "createTravelNotificationMapping",
+    "updateTravelNotification" : "updateTravelNotificationMapping",
+    "activateCards" : "activateCardsMapping",
+    "getCardListForEnrolment" : "getCardListForEnrolmentMapping",
+    "replaceCard" : "replaceCardMapping",
+    "changePIN" : "changePINMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

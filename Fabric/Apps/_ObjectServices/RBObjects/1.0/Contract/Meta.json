@@ -1,0 +1,31 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "editContract" : "editContractMapping",
+    "getCompanyAccounts" : "getCompanyAccountsMapping",
+    "enrollContract" : "enrollContractMapping",
+    "searchContract" : "searchContractMapping",
+    "checkIfCompanyExists" : "checkIfCompanyExistsMapping",
+    "getCoreRelativeCustomers" : "getCoreRelativeCustomersMapping",
+    "getListOfContractsByStatus" : "getListOfContractsByStatusMapping",
+    "getRelativeCoreCustomerContractDetails" : "getRelativeCoreCustomerContractDetailsMapping",
+    "getContractFeatureActionLimits" : "getContractFeatureActionLimitsMapping",
+    "searchCoreCustomers" : "searchCoreCustomersMapping",
+    "getContractInfinityUsers" : "getContractInfinityUsersMapping",
+    "getContractDetails" : "getContractDetailsMapping",
+    "getCoreCustomerRoleFeatureActionLimits" : "getCoreCustomerRoleFeatureActionLimitsMapping",
+    "getContractAccounts" : "getContractAccountsMapping",
+    "createContract" : "createContractMapping",
+    "getCoreCustomerAccounts" : "getCoreCustomerAccountsMapping",
+    "updateContractStatus" : "updateContractStatusMapping",
+    "getCoreCustomerContractDetails" : "getCoreCustomerContractDetailsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "testCaseName": "Verify_ScheduledTransferWeekly_DateRange_P2P",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

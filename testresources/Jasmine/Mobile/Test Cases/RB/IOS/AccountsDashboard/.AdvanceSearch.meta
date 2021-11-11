@@ -1,0 +1,39 @@
+{
+    "testCaseName": "AdvanceSearch",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsDashboard",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsDashboard.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "d6c4e689-584c-703b-0a47-f05d13bd91f9",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await collapseAccounts();\nawait goToViewAllTransactions();\nawait advanceSearch();\nawait goBackToDashboard();",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

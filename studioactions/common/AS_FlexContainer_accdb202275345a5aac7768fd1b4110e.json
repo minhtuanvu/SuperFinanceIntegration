@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_accdb202275345a5aac7768fd1b4110e": {
+        "id": "AS_FlexContainer_accdb202275345a5aac7768fd1b4110e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u98d34745ffc4cd8b7e64a1e3246410d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f6d65bade2d64b8a90b0f3527e0c0c22",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShowChangePassword",
+            "display": "preShowChangePassword",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

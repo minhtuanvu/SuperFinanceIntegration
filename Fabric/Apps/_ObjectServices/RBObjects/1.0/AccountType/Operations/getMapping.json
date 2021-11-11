@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getAccountType8904",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">            <map inputpath=\"response_in\" outputpath=\"response_out\">                        <map inputpath=\"accounttype\" outputpath=\"AccountType\">                                    <set-param inputpath=\"TypeDescription\" outputpath=\"TypeDescription\"/>                                    <set-param inputpath=\"TypeID\" outputpath=\"TypeID\"/>                          <set-param inputpath=\"displayName\" outputpath=\"displayName\"/>    </map>            </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"AccountType\",\"xy\":\"770 100\",\"__gohashid\":109355},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices (1.0).getAccountType\",\"xy\":\"150 100\",\"__gohashid\":109356}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:AccountType\",\"fromPort\":\"target\",\"toPort\":\"target:AccountType\",\"visible\":true,\"common\":false,\"__gohashid\":109372},{\"from\":\"target:AccountType\",\"to\":\"target:AccountType:fields\",\"fromPort\":\"target:AccountType\",\"toPort\":\"target:AccountType:fields\",\"visible\":true,\"common\":false,\"__gohashid\":109373},{\"from\":\"target:AccountType:fields\",\"to\":\"target:AccountType:TypeDescription:\",\"fromPort\":\"target:AccountType:fields\",\"toPort\":\"target:AccountType:TypeDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":109374},{\"from\":\"target:AccountType:fields\",\"to\":\"target:AccountType:TypeID:\",\"fromPort\":\"target:AccountType:fields\",\"toPort\":\"target:AccountType:TypeID:\",\"visible\":true,\"common\":false,\"__gohashid\":109375},{\"from\":\"target:AccountType:fields\",\"to\":\"target:AccountType:displayName:\",\"fromPort\":\"target:AccountType:fields\",\"toPort\":\"target:AccountType:displayName:\",\"visible\":true,\"common\":false,\"__gohashid\":109376},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":109377},{\"from\":\"source:parameters\",\"to\":\"source:error:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:error:\",\"visible\":true,\"common\":false,\"__gohashid\":109378},{\"from\":\"source\",\"to\":\"source:AccountType\",\"fromPort\":\"source\",\"toPort\":\"source:AccountType\",\"visible\":true,\"common\":false,\"__gohashid\":109379},{\"from\":\"source:AccountType\",\"to\":\"source:AccountType:parameters\",\"fromPort\":\"source:AccountType\",\"toPort\":\"source:AccountType:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":109380},{\"from\":\"source:AccountType:parameters\",\"to\":\"source:AccountType:displayName:\",\"fromPort\":\"source:AccountType:parameters\",\"toPort\":\"source:AccountType:displayName:\",\"visible\":true,\"common\":false,\"__gohashid\":109381},{\"from\":\"source:AccountType:parameters\",\"to\":\"source:AccountType:TypeDescription:\",\"fromPort\":\"source:AccountType:parameters\",\"toPort\":\"source:AccountType:TypeDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":109382},{\"from\":\"source:AccountType:parameters\",\"to\":\"source:AccountType:TypeID:\",\"fromPort\":\"source:AccountType:parameters\",\"toPort\":\"source:AccountType:TypeID:\",\"visible\":true,\"common\":false,\"__gohashid\":109383},{\"category\":\"Mapping\",\"from\":\"source:AccountType:TypeDescription:\",\"to\":\"target:AccountType:TypeDescription:\",\"fromPort\":\"source:AccountType:TypeDescription:\",\"toPort\":\"target:AccountType:TypeDescription:\",\"visible\":true,\"common\":true,\"__gohashid\":111775},{\"category\":\"Mapping\",\"from\":\"source:AccountType:TypeID:\",\"to\":\"target:AccountType:TypeID:\",\"fromPort\":\"source:AccountType:TypeID:\",\"toPort\":\"target:AccountType:TypeID:\",\"visible\":true,\"common\":true,\"__gohashid\":111782},{\"category\":\"Mapping\",\"from\":\"source:AccountType:displayName:\",\"to\":\"target:AccountType:displayName:\",\"fromPort\":\"source:AccountType:displayName:\",\"toPort\":\"target:AccountType:displayName:\",\"visible\":true,\"common\":true,\"__gohashid\":111789}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAccountType"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "AccountType",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

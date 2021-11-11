@@ -1,0 +1,39 @@
+{
+    "AS_Button_ge4b2d7528a3480286d0639c3ac27250": {
+        "id": "AS_Button_ge4b2d7528a3480286d0639c3ac27250",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPersonalLoans",
+            "type": "forms",
+            "platform": "",
+            "KUID": "adafefd80dff45e2b90e7c19012effbf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c8764ad6ddb2429da6bcc614c8b385e3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navToLoanAmount();",
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true
+        }, {
+            "id": "NAVIGATE_TO_FORM___dc585361f0e94b07a273e85926505b21",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLoanAmount",
+            "friendlyName": "frmLoanAmount",
+            "formKUID": "f9f98871d20b4eafb1d228fbce68ce57",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "CampaignManagement",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"btnContinue\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

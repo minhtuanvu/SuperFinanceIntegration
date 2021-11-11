@@ -1,0 +1,18 @@
+{
+    "AS_Form_h2c19845280f414082f4b9e667e9134f": {
+        "id": "AS_Form_h2c19845280f414082f4b9e667e9134f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScheduleDate",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hcf8b691cb44482d8a507f808ecd5e5e"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

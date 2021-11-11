@@ -1,0 +1,7 @@
+NewUserBusinessManagerConfig = {
+    "ModuleName": "NewUserBusinessManager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "NewUserBusinessManager/BusinessControllers/BusinessController"
+    }
+};

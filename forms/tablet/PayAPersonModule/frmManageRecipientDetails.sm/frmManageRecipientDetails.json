@@ -1,0 +1,154 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s46d722a812d45808cd4577c62a23ef9",
+    "_title_": "Recipient Details",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        },
+        "titleBar": false
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxRecipientDetails",
+        "btnTransfer",
+        "btnDeleteReciepient",
+        "flxPopup"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "tablet",
+            "name": "frmManageRecipientDetailsController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPad3",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmManageRecipientDetails",
+    "id": "frmManageRecipientDetails",
+    "ide_init": "AS_Form_i11101f87af242ccad29a2f1c32dc9c9",
+    "ide_preShow": "AS_Form_b581d1501b3944b8bfbce938acea231e",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backIndicatorImage": "",
+                "backIndicatorTransitionMaskImage": "",
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "d37d9eaa512644df934d01ebb04780b0",
+                "leftBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_c0f1f1046ae145609164b32e36fe5086",
+                        "info": {
+                            "image": "backbutton.png"
+                        },
+                        "kuid": "c0737b2f61474b609f48e7e11b589f08",
+                        "onClick": "AS_BarButtonItem_c0f1f1046ae145609164b32e36fe5086",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_b12286345bec41e0a76f048bb3638850",
+                        "info": {
+                            "displayText": true,
+                            "focusSkin": "s73cafb0c2ac4faf95abb7a662de708e",
+                            "height": {
+                                "type": "ref",
+                                "value": "preferred"
+                            },
+                            "i18n_text": "kony.mb.common.CancelSmall",
+                            "refType": "Button",
+                            "skin": "s73cafb0c2ac4faf95abb7a662de708e",
+                            "text": "Cancel",
+                            "width": {
+                                "type": "ref",
+                                "value": "preferred"
+                            }
+                        },
+                        "kuid": "ed7bbe9eec294ce9985cf49fbf16ce8e",
+                        "onClick": "AS_BarButtonItem_b12286345bec41e0a76f048bb3638850",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 3
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "needAppMenu": false
+    },
+    "kuid": "j9ba9341d76d41ceb367f43c4e58e0d8",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": false,
+    "paddinginpixel": false,
+    "platform": "ipad",
+    "prevDevice": "GalaxyTab7",
+    "prevPlatform": "tabrcandroid",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPad3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "texti18n": "kony.tab.PayAPerson.RecipientDetails",
+    "titleBarSkin": "s559e39f38fe4e3a9dd70d92be7551a6",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    }
+}

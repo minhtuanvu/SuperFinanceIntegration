@@ -1,0 +1,23 @@
+{
+    "AS_Form_hf4a370b880244f3bce45ddfc55dadba": {
+        "id": "AS_Form_hf4a370b880244f3bce45ddfc55dadba",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmShortTermLoanConfirmation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a336ab5d53f74cd7bc86d47623c27c6a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_c28b1fc0779644378bb35bfd144b27ca",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

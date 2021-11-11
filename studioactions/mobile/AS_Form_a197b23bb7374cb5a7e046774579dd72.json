@@ -1,0 +1,23 @@
+{
+    "AS_Form_a197b23bb7374cb5a7e046774579dd72": {
+        "id": "AS_Form_a197b23bb7374cb5a7e046774579dd72",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoansVerify",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j3cc53c028b046d4b61a8b40ab151888"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a124e14dfb374f51a43cfff20c010f8e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.postShow();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "classname": "segmentDetails",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i2633b86d0c54330bb32681d7bba5ac2",
+                    "paramList": [],
+                    "propertyKey": "setDataToSegment",
+                    "pw": {
+                        "displayName": "setDataToSegment",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bacb4d07d95648a3a88f9be1c7891ef2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a847517d629642e1bf796273e72a867c",
+                    "originalPropertyKey": "setData",
+                    "propertyKey": "setData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "setData",
+                        "srcWidget": "segList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h137710a4b0e4cdf9f94936ab645ce5a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i86dbf89d6934b45bf8ccc92fa4f3a98",
+                    "originalPropertyKey": "removeAll",
+                    "propertyKey": "removeAll",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "removeAll",
+                        "srcWidget": "segList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h137710a4b0e4cdf9f94936ab645ce5a"
+                }
+            ]
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i5859fbf78ae491f8de64fc9e6c8fc90",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "srcWidget": "segList",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h137710a4b0e4cdf9f94936ab645ce5a"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b37249b8a3f34fff80b52ef4ee2fcecd",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Master Data",
+                        "isHiddenInTool": false,
+                        "srcWidget": "segList",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Segment",
+                                "dataUpdaterId": "Masterdata-Segment",
+                                "popupId": "Masterdata-Segment",
+                                "type": "SegmentMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h137710a4b0e4cdf9f94936ab645ce5a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b8b54938033f45b3884a3935f1b32949",
+                    "originalPropertyKey": "widgetDataMap",
+                    "propertyIndex": 2,
+                    "propertyKey": "widgetDataMap",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "widgetDataMap",
+                        "isHiddenInTool": false,
+                        "srcWidget": "segList",
+                        "type": "object",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "h137710a4b0e4cdf9f94936ab645ce5a"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinity",
+    "version": "1.0.0"
+}

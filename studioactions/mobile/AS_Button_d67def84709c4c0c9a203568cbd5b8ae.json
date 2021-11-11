@@ -1,0 +1,23 @@
+{
+    "AS_Button_d67def84709c4c0c9a203568cbd5b8ae": {
+        "id": "AS_Button_d67def84709c4c0c9a203568cbd5b8ae",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGoalSF",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e2d3c44c44c34e6c87e173cc95dd793b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cab0f384ca124bc8afe9eb7511693ae8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.enableGoal2();",
+            "parentId": null
+        }]
+    }
+}

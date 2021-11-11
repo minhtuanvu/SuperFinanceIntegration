@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "MyMoney",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/MyMoney.js",
+        "RB/T24Droid/MyMoney/VerifyPFM_TotalSpending.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

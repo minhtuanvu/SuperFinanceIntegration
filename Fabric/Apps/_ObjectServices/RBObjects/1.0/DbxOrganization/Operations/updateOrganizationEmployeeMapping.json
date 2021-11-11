@@ -1,0 +1,31 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.dbputilities.customersecurityservices.postprocessor.EditBusinessUserPostProcessor,com.temenos.dbx.product.approvalservices.postprocessors.ApprovalQueueUpdationPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "EditOrganizationEmployee9714",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "EditOrganizationEmployee"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DbxOrganization",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

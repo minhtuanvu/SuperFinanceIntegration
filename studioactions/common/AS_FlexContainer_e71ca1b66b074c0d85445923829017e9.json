@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_e71ca1b66b074c0d85445923829017e9": {
+        "id": "AS_FlexContainer_e71ca1b66b074c0d85445923829017e9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u406c759a1724933965fa5046523503b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fb940a3d524244ac812013464e1ed261",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShowOfflineSigning",
+            "display": "preShowOfflineSigning",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

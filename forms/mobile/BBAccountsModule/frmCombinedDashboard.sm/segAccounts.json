@@ -1,0 +1,469 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "lblAccountBal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Available Balance"
+                },
+                "lblTypeName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Checking Accounts (3)"
+                },
+                "lblTypeValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$127,912.00"
+                }
+            },
+            [
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                },
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                },
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblAccountBal": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Available Balance"
+                },
+                "lblTypeName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Checking Accounts (3)"
+                },
+                "lblTypeValue": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "$127,912.00"
+                }
+            },
+            [
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                },
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                },
+                {
+                    "imgAccountType": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgBank": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "konybanklogo.png"
+                    },
+                    "imgDelete": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "deleteicon.png"
+                    },
+                    "imgError": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "imgRefresh": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "recurrenceindication.png"
+                    },
+                    "lblAccountBal": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountBalValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblAccountNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblBankName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    },
+                    "lblRefresh": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Refresh"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "12",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "hiddencolumns": {},
+    "id": "segAccounts",
+    "ide_onTouchStart": "AS_Segment_fce564f9427e4445a3e6abab2518ec20",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b4836bf4fdc44041b0f1309d3cabf700",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxDashboard",
+    "pf": "frmCombinedDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "g69223d8424c4fb790da50c937601673",
+    "rowcounter": 2,
+    "rowfocusskin": "sec47134c53840738acea176209ff716",
+    "rowskin": "s02d7ca459a74168b4573e79b9d8efec",
+    "rowtemplate": "flxCombinedAccounts",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "b4d664fc386241c096108eaaf691f0c3",
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "sectionheadertemplate": "flxAccountsHeaderDashboardNew",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAccountName": "flxAccountName",
+        "flxAccountsHeaderDashboardNew": "flxAccountsHeaderDashboardNew",
+        "flxBank": "flxBank",
+        "flxCombinedAccounts": "flxCombinedAccounts",
+        "flxDelete": "flxDelete",
+        "flxHeaderSeperator": "flxHeaderSeperator",
+        "flxHeaderShadows": "flxHeaderShadows",
+        "flxMain": "flxMain",
+        "flxRefresh": "flxRefresh",
+        "flxSeparator": "flxSeparator",
+        "flxShadowBottom": "flxShadowBottom",
+        "flxTypeOneShadow": "flxTypeOneShadow",
+        "imgAccountType": "imgAccountType",
+        "imgBank": "imgBank",
+        "imgDelete": "imgDelete",
+        "imgError": "imgError",
+        "imgRefresh": "imgRefresh",
+        "lblAccountBal": "lblAccountBal",
+        "lblAccountBalValue": "lblAccountBalValue",
+        "lblAccountName": "lblAccountName",
+        "lblAccountNumber": "lblAccountNumber",
+        "lblBankName": "lblBankName",
+        "lblDelete": "lblDelete",
+        "lblRefresh": "lblRefresh",
+        "lblTypeName": "lblTypeName",
+        "lblTypeValue": "lblTypeValue"
+    },
+    "widgetskin": "s69f28c050df43fb9bf92e79f4534943",
+    "zindex": 2
+}

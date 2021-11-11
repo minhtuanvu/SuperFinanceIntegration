@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/Droid/TemporarySuite",
+    "testSuiteName": "Suite_31032020",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/CombinedStatment.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/ManageTransactions.js",
+        "Common/Droid/T24RB/Settings.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/ConsentManagement/VerifyConsentTypeNotClickable.js",
+        "RB/T24Droid/ConsentManagement/VerifyEditConsent.js",
+        "RB/T24Droid/ConsentManagement/VerifySelectedConsent.js",
+        "RB/T24Droid/Payments/MakePaymentSameBankRecipitent.js",
+        "RB/T24Droid/Payments/VerifyDataTruncated_SameBank.js",
+        "RB/T24Droid/Payments/VerifySwitftCode_International.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddingNewAddress.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddingNewEmailAddress.js",
+        "RB/T24Droid/ProfileSettings/VerifyAddNewPhoneNumber.js"
+    ],
+    "usedBy": []
+}

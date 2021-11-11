@@ -1,0 +1,87 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "createBinary" : "createBinaryMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "getBinary" : "getBinaryMapping",
+    "delete" : "deleteMapping",
+    "updateBinary" : "updateBinaryMapping",
+    "deleteBinary" : "deleteBinaryMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "SoftDeleteFlagField" : {
+      "ActiveValue" : "false",
+      "InactiveValue" : "true",
+      "Name" : "softdeleteflag"
+    },
+    "backendMeta" : {
+      "backendObjectName" : "media",
+      "qualifiedName" : "dbxdb.media",
+      "metadataformatterobject" : "{\"displayName\":\"media\",\"qualifiedName\":\"dbxdb.media\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"media\",\"schemaName\":\"dbxdb\",\"tableName\":\"media\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "media",
+      "qualifiedName" : "dbxdb.media",
+      "metadataformatterobject" : "{\"displayName\":\"media\",\"qualifiedName\":\"dbxdb.media\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"media\",\"schemaName\":\"dbxdb\",\"tableName\":\"media\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "lastmodifiedts",
+    "targetField" : "lastmodifiedts",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Description",
+    "targetField" : "Description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Size",
+    "targetField" : "Size",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdts",
+    "targetField" : "createdts",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Url",
+    "targetField" : "Url",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "softdeleteflag",
+    "targetField" : "softdeleteflag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Name",
+    "targetField" : "Name",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Type",
+    "targetField" : "Type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdby",
+    "targetField" : "createdby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Content",
+    "targetField" : "Content",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "modifiedby",
+    "targetField" : "modifiedby",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "id",
+    "targetField" : "id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "synctimestamp",
+    "targetField" : "synctimestamp",
+    "type" : "request_response"
+  } ]
+}

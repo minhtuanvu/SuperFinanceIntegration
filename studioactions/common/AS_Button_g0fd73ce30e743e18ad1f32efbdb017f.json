@@ -1,0 +1,27 @@
+{
+    "AS_Button_g0fd73ce30e743e18ad1f32efbdb017f": {
+        "id": "AS_Button_g0fd73ce30e743e18ad1f32efbdb017f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u1e78d27ba2d42bf9e12d10852be8ce1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c9ab130ab86040509e8587852f68b601",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "navigateToPrevScreen",
+            "display": "navigateToPrevScreen",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

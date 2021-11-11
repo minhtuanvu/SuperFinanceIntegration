@@ -1,0 +1,11 @@
+{
+    "testCaseName": "VerifyPFM_TotalSpending",
+    "testSuiteName": "Test Cases/RB/T24Droid/MyMoney",
+    "channelName": "Mobile",
+    "_currentForm": "",
+    "timeout": 0,
+    "usedBy": [
+        "Droid/T24RB/MyMoney.js"
+    ],
+    "userCode": true
+}

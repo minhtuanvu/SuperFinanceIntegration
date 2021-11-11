@@ -1,0 +1,580 @@
+{
+    "classname": "transferTypeSelection",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ja247e4abafd44dcacfae7d118e84d29",
+                    "paramList": [],
+                    "propertyKey": "closeDescription",
+                    "pw": {
+                        "displayName": "closeDescription",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b372ce0d0ce548a390f86fca6bdf7f45",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "transferTypeDetails",
+                    "pw": {
+                        "displayName": "transferTypeDetails",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g06189402519440faca574206a42fcc0",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "buttonActionHandling",
+                    "pw": {
+                        "displayName": "buttonActionHandling",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b761e60497e147b3948185d874264481",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "enableHideDescription",
+                    "pw": {
+                        "displayName": "enableHideDescription",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "be735631cf274fa3b5846812d54eea4f",
+                    "paramList": [],
+                    "propertyIndex": 4,
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Action Buttons",
+                "Breakpoint",
+                "Skins"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "On",
+                    "group": "General",
+                    "kuid": "gc7002e7886444fabf58138b6da2fd67",
+                    "originalPropertyKey": "iconVisibility",
+                    "propertyIndex": 1,
+                    "propertyKey": "iconVisibility",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon Visibility",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "list selector",
+                    "value": [
+                        "On",
+                        "Off"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Learn More",
+                    "group": "Action Buttons",
+                    "kuid": "d041065b685d49d1bf173caee241d9b8",
+                    "originalPropertyKey": "moreLink",
+                    "propertyIndex": 1,
+                    "propertyKey": "moreLink",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "More Link",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"BP1\":\"640\",\"BP2\":\"1024\",\"BP3\":\"1366\",\"BP4\":\"1380\"}",
+                    "group": "Breakpoint",
+                    "kuid": "i47ee50d6b3349c089cb2d3615ecc693",
+                    "originalPropertyKey": "BREAKPTS",
+                    "propertyIndex": 1,
+                    "propertyKey": "BREAKPTS",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Breakpoints",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":\"ICSknFlxE3E3E3Bdr8Px\",\"$.BREAKPTS.BP1\":\"ICSknFlxE3E3E3Bdr1PX\",\"$.BREAKPTS.BP2\":\"ICSknFlxE3E3E3Bdr1PX\",\"$.BREAKPTS.BP3\":\"ICSknFlxE3E3E3Bdr1PX\",\"$.BREAKPTS.BP4\":\"ICSknFlxE3E3E3Bdr1PX\"}",
+                    "group": "Skins",
+                    "kuid": "e77893c330914e709389eba33a66d117",
+                    "originalPropertyKey": "boxSkin",
+                    "propertyIndex": 1,
+                    "propertyKey": "boxSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Box Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "domestic.png",
+                    "group": "General",
+                    "kuid": "e0c6dc69abe24ff3992e57231d27493f",
+                    "originalPropertyKey": "icon",
+                    "propertyIndex": 2,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Icon",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "New Form",
+                    "group": "Action Buttons",
+                    "kuid": "fba0a32ca6894d97bbd1f1a5af37140a",
+                    "originalPropertyKey": "moreLinkAction",
+                    "propertyIndex": 2,
+                    "propertyKey": "moreLinkAction",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "More Link Action",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "list selector",
+                    "value": [
+                        "New Form",
+                        "Popup"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":\"ICSknLbl42424241PX\",\"$.BREAKPTS.BP1\":\"ICSknLbl42424218PX\",\"$.BREAKPTS.BP2\":\"ICSknLbl42424218PX\",\"$.BREAKPTS.BP3\":\"ICSknLbl42424218PX\",\"$.BREAKPTS.BP4\":\"ICSknLbl42424218PX\"}",
+                    "group": "Skins",
+                    "kuid": "d739f593d7054bca87faff970f2e75d0",
+                    "originalPropertyKey": "titleSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "titleSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Title Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Within Same Bank",
+                    "group": "General",
+                    "kuid": "c20f23e9b33e465088ee934a25bea697",
+                    "originalPropertyKey": "title",
+                    "propertyIndex": 3,
+                    "propertyKey": "title",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"id\":\"MakeTransfer\",\"text\":\"Make Transfer\",\"callBack\":\"makeTransfer\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\",\"DOMESTIC_WIRE_TRANSFER_VIEW_BULK_FILES\"]}",
+                    "group": "Action Buttons",
+                    "kuid": "g4e0c66f8ed04b46861d78986876d3e1",
+                    "originalPropertyKey": "actionButton1",
+                    "propertyIndex": 3,
+                    "propertyKey": "actionButton1",
+                    "pw": {
+                        "displayName": "Action Button 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":\"ICSknRText72727239PX\",\"$.BREAKPTS.BP1\":\"ICSknLbl72727213PX\",\"$.BREAKPTS.BP2\":\"ICSknLbl72727213PX\",\"$.BREAKPTS.BP3\":\"ICSknLbl72727213PX\",\"$.BREAKPTS.BP4\":\"ICSknLbl72727213PX\"}",
+                    "group": "Skins",
+                    "kuid": "b2f50fa0dece4ae88dca5d2e3340439c",
+                    "originalPropertyKey": "descriptionSkin",
+                    "propertyIndex": 3,
+                    "propertyKey": "descriptionSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus, ligula a vulputate feugiat, dolor orci dapibus nulla, vel vulputate quam neque a felis. Pellentesque lacinia turpis id quam commodo varius. Donec odio justo, aliquet eu accumsan in, rhoncus ut elit. Proin nulla tellus, laoreet non elit in, iaculis ultricies mi. Morbi ultrices tincidunt arcu a vehicula. Phasellus ex lorem, mollis et gravida quis, consectetur et lorem. Curabitur faucibus auctor lorem quis efficitur. Quisque in posuere nibh, eget semper dui. Donec dictum at ipsum nec aliquet.  Curabitur vitae nunc et ipsum finibus elementum. Suspendisse placerat orci non feugiat elementum. Nullam id massa libero. Suspendisse at nunc justo. Phasellus bibendum nisl at mauris imperdiet, eu dapibus elit suscipit. Quisque aliquam feugiat purus, non eleifend nisl malesuada vitae. Praesent pharetra nibh ut nunc tincidunt, consequat laoreet quam viverra. Suspendisse urna felis, dignissim vitae elit eget, convallis varius turpis. Mauris maximus faucibus dui sit amet sagittis. Pellentesque gravida tellus a risus aliquet, eget pulvinar velit ullamcorper. Vestibulum mollis eleifend sapien ut interdum. Curabitur facilisis facilisis felis ut euismod.",
+                    "group": "General",
+                    "kuid": "d077a7944bab4176ac907e1e22367f74",
+                    "originalPropertyKey": "description",
+                    "propertyIndex": 4,
+                    "propertyKey": "description",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"id\":\"AddNewAccount\",\"text\":\"Add New Account\",\"callBack\":\"addNewAccount\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\",\"DOMESTIC_WIRE_TRANSFER_VIEW_BULK_FILES\"]}",
+                    "group": "Action Buttons",
+                    "kuid": "ff8b932320884376a7f54eab6a87ad74",
+                    "originalPropertyKey": "actionButton2",
+                    "propertyIndex": 4,
+                    "propertyKey": "actionButton2",
+                    "pw": {
+                        "displayName": "Action Button 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":{\"normal\":\"ICSknLink4176A439PX\",\"Hover\":\"ICSknLink4176A439PX\",\"Active\":\"ICSknLink4176A439PX\"},\"$.BREAKPTS.BP1\":{\"normal\":\"ICSknLink4176A413PX\",\"Hover\":\"ICSknLink4176A413PX\",\"Active\":\"ICSknLink4176A413PX\"},\"$.BREAKPTS.BP2\":{\"normal\":\"ICSknLink4176A413PX\",\"Hover\":\"ICSknLink4176A413PX\",\"Active\":\"ICSknLink4176A413PX\"},\"$.BREAKPTS.BP3\":{\"normal\":\"ICSknLink4176A413PX\",\"Hover\":\"ICSknLink4176A413PX\",\"Active\":\"ICSknLink4176A413PX\"},\"$.BREAKPTS.BP4\":{\"normal\":\"ICSknLink4176A413PX\",\"Hover\":\"ICSknLink4176A413PX\",\"Active\":\"ICSknLink4176A413PX\"}}",
+                    "group": "Skins",
+                    "kuid": "bc87aeeb9e8d4164ad39aa5304747058",
+                    "originalPropertyKey": "moreLinkSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "moreLinkSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "More Link Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":{\"length\":60,\"ellipsis\":\"...\"},\"$.BREAKPTS.BP1\":{\"length\":60,\"ellipsis\":\"...\"},\"$.BREAKPTS.BP2\":{\"length\":60,\"ellipsis\":\"...\"},\"$.BREAKPTS.BP3\":{\"length\":60,\"ellipsis\":\"...\"},\"$.BREAKPTS.BP4\":{\"length\":60,\"ellipsis\":\"...\"}}",
+                    "group": "General",
+                    "kuid": "dde2da66c5fc4e20866be703abda80d3",
+                    "originalPropertyKey": "descriptionRendering",
+                    "propertyIndex": 5,
+                    "propertyKey": "descriptionRendering",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Description Rendering",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"id\":\"MakeTransfer\",\"text\":\"Make Transfer\",\"callBack\":\"makeTransfer\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\",\"DOMESTIC_WIRE_TRANSFER_VIEW_BULK_FILES\"]}",
+                    "group": "Action Buttons",
+                    "kuid": "c7ac3e5657f94315ac08eb277b6a3866",
+                    "originalPropertyKey": "detailsActionButton1",
+                    "propertyIndex": 5,
+                    "propertyKey": "detailsActionButton1",
+                    "pw": {
+                        "displayName": "Details Action Button 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":{\"normal\":\"ICSknBtn4176A435PX\",\"Hover\":\"ICSknBtn4176A435PX\",\"Active\":\"ICSknBtn4176A435PX\"},\"$.BREAKPTS.BP1\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP2\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP3\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP4\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"}}",
+                    "group": "Skins",
+                    "kuid": "hb8bf884f57c44c19f3113ccfada9642",
+                    "originalPropertyKey": "actionButton1Skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "actionButton1Skin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Action Button 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Ut ut ipsum eget lacus ullamcorper volutpat id nec justo. Nulla malesuada lectus purus, pellentesque gravida arcu ultricies id.   Donec eget ligula elit. Vivamus consequat feugiat vulputate.   Aenean placerat lectus pretium, convallis felis a, varius urna.   Cras non mauris id nisi sodales tincidunt ut non lorem. Vivamus turpis nibh, luctus tempor elementum eu, luctus vel turpis.   Proin interdum ante a ligula auctor, vel tempus metus ornare.   Donec sed tincidunt quam. Ut posuere metus at consectetur feugiat. Donec viverra lectus vitae tristique dictum. Aliquam ac fringilla lectus.  Maecenas nec condimentum purus, ut commodo justo. Nullam ac nisl justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut vehicula nulla ligula, et lobortis ex malesuada id. Quisque lacinia leo est, sit amet venenatis lorem pulvinar ut. Nam imperdiet mattis augue, et imperdiet lorem porta et. Suspendisse mattis tristique ultrices. Donec et lobortis magna. Phasellus et sapien vitae velit aliquet ultrices nec a nibh. Pellentesque convallis velit in vehicula bibendum. Nunc accumsan dui nec est ultricies varius. Aenean dignissim convallis lacinia. Donec sit amet purus ultrices, finibus elit at, aliquam nisl.",
+                    "group": "General",
+                    "kuid": "a047aabcb9b8491b9d643d4847084ae3",
+                    "originalPropertyKey": "teamsConditions",
+                    "propertyIndex": 6,
+                    "propertyKey": "teamsConditions",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Terms & Conditions",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"id\":\"AddNewAccount\",\"text\":\"Add New Account\",\"callBack\":\"addNewAccount\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\",\"DOMESTIC_WIRE_TRANSFER_VIEW_BULK_FILES\"]}",
+                    "group": "Action Buttons",
+                    "kuid": "e1f7f3da87a041aaa6aa1b9a8103ed37",
+                    "originalPropertyKey": "detailsActionButton2",
+                    "propertyIndex": 6,
+                    "propertyKey": "detailsActionButton2",
+                    "pw": {
+                        "displayName": "Details Action Button 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"default\":{\"normal\":\"ICSknBtn4176A435PX\",\"Hover\":\"ICSknBtn4176A435PX\",\"Active\":\"ICSknBtn4176A435PX\"},\"$.BREAKPTS.BP1\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP2\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP3\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"},\"$.BREAKPTS.BP4\":{\"normal\":\"ICSknBtn4176A415PX\",\"Hover\":\"ICSknBtn4176A415PX\",\"Active\":\"ICSknBtn4176A415PX\"}}",
+                    "group": "Skins",
+                    "kuid": "ec6959545c9f404bbb770daf992a5397",
+                    "originalPropertyKey": "actionButton2Skin",
+                    "propertyIndex": 6,
+                    "propertyKey": "actionButton2Skin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Action Button 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"normal\":\"ICSknBtn003E7535PX\",\"Hover\":\"ICSknBtn003E7535PX\",\"Active\":\"ICSknBtn003E7535PX\"}",
+                    "group": "Skins",
+                    "kuid": "bf467fb0430c412c9ba980b931905339",
+                    "originalPropertyKey": "detailsActionButton1Skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "detailsActionButton1Skin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Details Action Button 1",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\"normal\":\"ICSknBtnFFFFFF35PX003E751PX\",\"Hover\":\"ICSknBtnFFFFFF35PX003E751PX\",\"Active\":\"ICSknBtnFFFFFF35PX003E751PX\"}",
+                    "group": "Skins",
+                    "kuid": "aff7854799104da9a2cf76fbe9f1d34d",
+                    "originalPropertyKey": "detailsActionButton2Skin",
+                    "propertyIndex": 8,
+                    "propertyKey": "detailsActionButton2Skin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Details Action Button 2",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl72727235PX",
+                    "group": "Skins",
+                    "kuid": "f2b182bfd7054d7082cc21ea4c9bf2ae",
+                    "originalPropertyKey": "detailDescriptionSkn",
+                    "propertyIndex": 9,
+                    "propertyKey": "detailDescriptionSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Detailed Description Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl42424255PX",
+                    "group": "Skins",
+                    "kuid": "g279357720bd47f4856627e21b21d2a5",
+                    "originalPropertyKey": "detailDescHeadingSkn",
+                    "propertyIndex": 10,
+                    "propertyKey": "detailDescHeadingSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Detailed Description Heading Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl42424215PX",
+                    "group": "Skins",
+                    "kuid": "e1fc164230f845098d4374e25ddc5b09",
+                    "originalPropertyKey": "popupTitleSkin",
+                    "propertyIndex": 11,
+                    "propertyKey": "popupTitleSkin",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Title Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl72727213PX",
+                    "group": "Skins",
+                    "kuid": "ic288cd43db140bbb15268f307d6876c",
+                    "originalPropertyKey": "popupDescriptionSkn",
+                    "propertyIndex": 12,
+                    "propertyKey": "popupDescriptionSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Description Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl42424215PX",
+                    "group": "Skins",
+                    "kuid": "bdba9be1a4134024b7776970935d3470",
+                    "originalPropertyKey": "termsConditionTitleSkn",
+                    "propertyIndex": 13,
+                    "propertyKey": "termsConditionTitleSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Terms Condition Title Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknLbl72727213PX",
+                    "group": "Skins",
+                    "kuid": "fa915f309abf4b438e4bacb2290f8410",
+                    "originalPropertyKey": "termsConditionSkn",
+                    "propertyIndex": 14,
+                    "propertyKey": "termsConditionSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Terms Condition Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "ICSknBtn003E7515PXBrd3PX",
+                    "group": "Skins",
+                    "kuid": "c28f15a071ac430aa3d3193b6586f300",
+                    "originalPropertyKey": "popupCloseBtnSkn",
+                    "propertyIndex": 15,
+                    "propertyKey": "popupCloseBtnSkn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Popup Close Button Skin",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fc3f5cac492c4b7b9361012a88b8ba21",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinityComponent",
+    "version": "1.0.0"
+}

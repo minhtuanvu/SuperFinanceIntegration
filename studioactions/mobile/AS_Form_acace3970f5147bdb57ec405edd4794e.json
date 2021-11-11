@@ -1,0 +1,24 @@
+{
+    "AS_Form_acace3970f5147bdb57ec405edd4794e": {
+        "id": "AS_Form_acace3970f5147bdb57ec405edd4794e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMMVerifyP2PDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d9ad2890889e4fff98218c2c5f6327a2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__bee69715de124378bee109f273d3aee7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

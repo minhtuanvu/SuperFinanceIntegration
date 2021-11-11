@@ -1,0 +1,28 @@
+{
+  "operationConfig" : {
+    "name" : "verifyApplicant8797",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "backgroundVerificationOrch",
+      "serviceVersion" : "1.0",
+      "operationName" : "verifyApplicant"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "VerifyApplicant",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxLanding",
+        "flxTermsConditions",
+        "flxResult",
+        "flxSignature",
+        "flxPopupDocuments",
+        "flxPopupFillingComplete",
+        "flxSelectProducts",
+        "flxProductDetails",
+        "flxPersonalInfo",
+        "flxSearchAddress",
+        "flxEnterPhoneNumber",
+        "flxEnterEmail",
+        "flxUsernamePassword",
+        "flxSecurityQuestions",
+        "flxEnterSecurityCode",
+        "flxEnterSSN",
+        "flxKeypad",
+        "flxPopup"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmOnBoardingController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "GalaxyS7",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "id": "frmOnBoarding",
+    "ide_preShow": "AS_Form_daf115e6033248c286dd517fa842dab0",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "f754edf89f544a58bbe9ac4691ad20a6",
+                "leftBarButtonItems": [
+                    {
+                        "kuid": "dfab8cbec5ab43369fd25bed9f7237ef",
+                        "leftButtonText": "Back",
+                        "leftTitle": "Back",
+                        "prevFormTitle": false,
+                        "titleBarLeftSideView": "button",
+                        "type": 4
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "info": {
+                            "title": "Edit"
+                        },
+                        "kuid": "c1b0a837f95a42ec88977d078313c071",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "g16216c13a4d42ad862416961fd3928f",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "GalaxyS7",
+    "prevPlatform": "spaan",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS7",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "titleBarSkin": "se5e723fae5149a0a3ebdd1bbdc41985",
+    "titlebar": true,
+    "type": 3,
+    "wType": "Form"
+}

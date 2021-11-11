@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_cedb852dbd29422a9d30175122cabedb": {
+        "id": "AS_FlexContainer_cedb852dbd29422a9d30175122cabedb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHELOC",
+            "type": "forms",
+            "platform": "",
+            "KUID": "af39da9addf842049e97ec400c1747d8"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ef43bcd8c0cf4010b437b65bdc949c4e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

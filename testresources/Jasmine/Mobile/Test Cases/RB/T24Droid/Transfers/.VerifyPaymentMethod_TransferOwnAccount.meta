@@ -1,0 +1,10 @@
+{
+    "testCaseName": "VerifyPaymentMethod_TransferOwnAccount",
+    "testSuiteName": "Test Cases/RB/T24Droid/Transfers",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/TemporarySuite/Suite_31032020.js",
+        "Droid/T24RB/TransferbetweenAccountinT24Transact.js"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "testCaseName": "AccountsDashboard",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsDashboard.js",
+        "IOS/RB/RB_SanitySuite.js"
+    ],
+    "userCode": true
+}

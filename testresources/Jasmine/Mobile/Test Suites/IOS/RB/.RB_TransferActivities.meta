@@ -1,0 +1,20 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_TransferActivities",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/IOS/RB/AccountsLanding.js",
+        "Common/IOS/RB/TransferActivities.js",
+        "RB/IOS/TransferActivities/ExternalAcc_VerifyTranscationUnderAccounts.js",
+        "RB/IOS/TransferActivities/InternationalAcc_VerifyTranscationUnderAccounts.js",
+        "RB/IOS/TransferActivities/OwnAcc_VerifyTranscationUnderTransferActivites.js",
+        "RB/IOS/TransferActivities/PToPAcc_VerifyTranscationUnderAccounts.js",
+        "RB/IOS/TransferActivities/SearchTransactions.js",
+        "RB/IOS/TransferActivities/SameBankAcc_VerifyTranscationUnderAccounts.js",
+        "RB/IOS/TransferActivities/InternationalAcc_VerifyTranscationUnderTransferActivites.js",
+        "RB/IOS/TransferActivities/OwnAcc_VerifyTranscationUnderTransferActivites.js",
+        "RB/IOS/TransferActivities/PToPAcc_VerifyTranscationUnderTransferActivites.js",
+        "RB/IOS/TransferActivities/SamebankAcc_VerifyTranscationUnderTransferActivites.js"
+    ],
+    "usedBy": []
+}

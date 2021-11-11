@@ -1,0 +1,22 @@
+it("T_ManageRecipient_EditSamebankrecipient", async function() {
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","customHeader","flxBack"]);
+	kony.automation.flexcontainer.click(["frmDashboardAggregated","customHeader","flxBack"]);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","flxHamburgerWrapper"]);
+	kony.automation.widget.touch(["frmDashboardAggregated","flxHamburgerWrapper"], [142,289],null,null);
+	await kony.automation.playback.waitFor(["frmDashboardAggregated","Hamburger","segHamburger"]);
+	kony.automation.segmentedui.click(["frmDashboardAggregated","Hamburger","segHamburger[0,4]"]);
+	await kony.automation.playback.waitFor(["frmManageRecipientType","segRecipientType"]);
+	kony.automation.segmentedui.click(["frmManageRecipientType","segRecipientType[0,0]"]);
+	await kony.automation.playback.waitFor(["frmManageRecipientList","segRecipients"]);
+	kony.automation.widget.touch(["frmManageRecipientList","segRecipients[0,1]","flxAccountsNoImage"], [173,61],[[173,61],[172,60],[171,60],[171,60],[171,60]],[171,60]);
+	await kony.automation.playback.waitFor(["frmManageRecipientList","segRecipients"]);
+	kony.automation.segmentedui.click(["frmManageRecipientList","segRecipients[0,1]"]);
+	await kony.automation.playback.waitFor(["frmManageTransferRecipient","customHeader","flxSearch"]);
+	kony.automation.flexcontainer.click(["frmManageTransferRecipient","customHeader","flxSearch"]);
+	await kony.automation.playback.waitFor(["frmManageTransferRecipientInfo","customHeader","btnRight"]);
+	kony.automation.button.click(["frmManageTransferRecipientInfo","customHeader","btnRight"]);
+	await kony.automation.playback.waitFor(["frmManageEditRecipient","txtRecipientName"]);
+	kony.automation.textbox.enterText(["frmManageEditRecipient","txtRecipientName"],"Infi123");
+	await kony.automation.playback.waitFor(["frmManageEditRecipient","btnSave"]);
+	kony.automation.button.click(["frmManageEditRecipient","btnSave"]);
+});

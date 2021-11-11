@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "Login",
+    "testCaseInfo": [
+        "RB/T24Droid/Login/LoginAndWaitForDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "TestPlanAndroid_RB_HealthCheck_T24.js"
+    ]
+}

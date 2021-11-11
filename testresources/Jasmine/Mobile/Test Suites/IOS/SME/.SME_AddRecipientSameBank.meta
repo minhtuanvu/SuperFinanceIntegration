@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_AddRecipientSameBank",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachIT.js",
+        "Common/IOS/SME/ManageRecipient.js",
+        "SME/IOS/ManageRecipients/ListOfRecipientsForSameAccount.js",
+        "SME/IOS/ManageRecipients/AddRecipientSameBank.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSSME.js",
+        "TestPlanIOSSMEandRB.js",
+        "tempPlan.js"
+    ]
+}

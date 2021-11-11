@@ -1,0 +1,22 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getPortfolioDetails" : "getPortfolioDetailsMapping",
+    "getFavoriteInstruments" : "getFavoriteInstrumentsMapping",
+    "getAssetAllocation" : "getAssetAllocationMapping",
+    "getAssetList" : "getAssetListMapping",
+    "getInstrumentTotal" : "getInstrumentTotalMapping",
+    "getWealthDashboard" : "getWealthDashboardMapping",
+    "getPortfolioList" : "getPortfolioListMapping",
+    "getDashboardGraphData" : "getDashboardGraphDataMapping",
+    "getCashAccounts" : "getCashAccountsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

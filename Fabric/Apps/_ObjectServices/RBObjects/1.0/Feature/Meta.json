@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getAccessPolicies" : "getAccessPoliciesMapping",
+    "getAllFeatures" : "getAllFeaturesMapping",
+    "getAllFeaturesAndActions" : "getAllFeaturesAndActionsMapping",
+    "getLimitGroups" : "getLimitGroupsMapping",
+    "getAllMonetaryActions" : "getAllMonetaryActionsMapping",
+    "getFeatureActions" : "getFeatureActionsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

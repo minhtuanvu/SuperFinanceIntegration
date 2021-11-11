@@ -1,0 +1,24 @@
+{
+    "AS_Form_b00960b5bd7f440b9885f4d1f00d1c37": {
+        "id": "AS_Form_b00960b5bd7f440b9885f4d1f00d1c37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSameBank",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ee3c96d4d46e4ac3ab0242555e0a082a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ge11af6b26ad4b43bd200b47ee68f8da",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Back Navigation Disabled\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

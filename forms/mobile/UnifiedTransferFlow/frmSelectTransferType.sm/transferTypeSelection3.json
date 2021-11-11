@@ -1,0 +1,105 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "actionButton1": "{\"id\":\"MakeTransfer\",\"text\":\"Make Transfer\",\"callBack\":\"makeTransfer\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE\"]}",
+        "actionButton2": "{\"id\":\"AddNewAccount\",\"text\":\"Add New Account\",\"callBack\":\"addNewAccount\",\"entitlement_keys\":[\"INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE_RECEPIENT\"]}",
+        "description": "{i.i18n.unified.internationalDescription}",
+        "icon": "internationalbank.png",
+        "iconVisibility": "Off",
+        "title": "International Transfer"
+    },
+    "enablescrolling": true,
+    "id": "transferTypeSelection3",
+    "info": null,
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "add2fda958bf49dbb78c3d5a33bc751d",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxTransferType3",
+    "pf": "frmSelectTransferType",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "layoutType": 2,
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "layoutType": 2
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "100%"
+            },
+            "layoutType": 2
+        },
+        "b4": {
+            "height": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "fc3f5cac492c4b7b9361012a88b8ba21",
+    "wType": "UserWidgetInstance"
+}

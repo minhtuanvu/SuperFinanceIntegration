@@ -1,0 +1,29 @@
+{
+    "AS_WatchDynamicNotificationForm_aa852611c735405bba37a9dbbc50eaf1": {
+        "id": "AS_WatchDynamicNotificationForm_aa852611c735405bba37a9dbbc50eaf1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }, {
+            "datatype": "[NSObject: AnyObject]",
+            "name": "dict"
+        }, {
+            "datatype": "((WKUserNotificationInterfaceType) -> Void)",
+            "name": "completionHandler"
+        }],
+        "contextObj": {
+            "name": "frmBalanceNotification",
+            "type": "notifications",
+            "KUID": "j62faa98a47645988f843707de7ff834"
+        },
+        "language": "swift",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3742a19e05148678b59100ab6d0bb50",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "print(\"This is remote notification\");\n           var remoteNotification = dict as? [NSString: AnyObject];\n           if(remoteNotification != nil){\n               var aps1 = remoteNotification![\"aps\"] as? [String: AnyObject];\n               var aps = aps1![\"alert\"] as? [String: AnyObject];\n               if(aps != nil){\n                   form.notificationTitle.setText(aps![\"title\"] as? String);\n                   form.notificationMessage.setText(aps![\"body\"] as? String);\n               }\n           }\n\t\t   WKInterfaceDevice.current().play(.notification)\n           completionHandler(.custom);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

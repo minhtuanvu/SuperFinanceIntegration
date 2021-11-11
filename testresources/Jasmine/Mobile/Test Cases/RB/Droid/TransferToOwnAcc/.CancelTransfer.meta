@@ -1,0 +1,7 @@
+{
+    "testCaseName": "CancelTransfer",
+    "testSuiteName": "Test Cases/RB/Droid/TransferToExternalBank",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "userCode": true
+}

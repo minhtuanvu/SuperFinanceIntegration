@@ -1,0 +1,22 @@
+{
+    "testCaseName": "AllAccounts",
+    "testSuiteName": "Test Cases/Common/Droid/T24RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/SearchTransactions.js",
+        "Droid/T24RB/AccountsOverview.js",
+        "Droid/TemporarySuite/Suite_31032020.js",
+        "Droid/TemporarySuite/Suite_06042021.js",
+        "Droid/T24RB/PaymentsinT24Transact.js",
+        "Droid/TemporarySuite/Suite_07042021.js",
+        "Droid/T24RB/CardManagement.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/T24RB/AllAccounts.js",
+        "Droid/T24RB/TransferbetweenAccountinT24Transact.js",
+        "Droid/T24RB/Payments.js",
+        "Droid/T24RB/ManageTransactions.js",
+        "Droid/TemporarySuite/tempSuite.js",
+        "Droid/T24RB/CustomViews.js"
+    ]
+}

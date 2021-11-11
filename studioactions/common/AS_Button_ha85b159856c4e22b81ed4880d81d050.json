@@ -1,0 +1,17 @@
+{
+    "AS_Button_ha85b159856c4e22b81ed4880d81d050": {
+        "id": "AS_Button_ha85b159856c4e22b81ed4880d81d050",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_efe32539957b4d54b3384d5052d81132",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxAddService.isVisible = true;\nthis.view.flxContainer.isVisible = false;",
+            "callbackType": null
+        }]
+    }
+}

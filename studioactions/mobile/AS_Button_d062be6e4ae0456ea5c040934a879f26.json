@@ -1,0 +1,23 @@
+{
+    "AS_Button_d062be6e4ae0456ea5c040934a879f26": {
+        "id": "AS_Button_d062be6e4ae0456ea5c040934a879f26",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeNumberOfTransfers",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i447c762e86b4561a45297e02cf89b30"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_dc99900cd43f40ec99f2904daa7b15e0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setKeypadChar(0);",
+            "parentId": null
+        }]
+    }
+}

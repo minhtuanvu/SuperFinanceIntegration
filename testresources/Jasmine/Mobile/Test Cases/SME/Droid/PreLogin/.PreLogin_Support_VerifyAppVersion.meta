@@ -1,0 +1,13 @@
+{
+    "testCaseName": "PreLogin_Support_VerifyAppVersion",
+    "testSuiteName": "Test Cases/Common/Droid/Util/PreLogin",
+    "channelName": "Mobile",
+    "usedBy": [
+        "PreLogin_Support.js",
+        "Common/Droid/PreLogin_Support.js",
+        "Droid/RB/PreLogin_Support.js",
+        "Droid/SME/SME_PreLogin_Support.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ],
+    "userCode": true
+}

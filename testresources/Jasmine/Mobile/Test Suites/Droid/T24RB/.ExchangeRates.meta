@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "ExchangeRates",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/ExchangeRate.js",
+        "RB/T24Droid/ExchangeRates/VerifyExchangeRates.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

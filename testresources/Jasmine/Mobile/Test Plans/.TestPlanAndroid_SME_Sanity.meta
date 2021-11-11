@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanAndroid_SME_Sanity",
+    "testSuiteInfo": [
+        "Droid/SME/SME_PreLogin_Support.js",
+        "Droid/SME/SME_Login.js",
+        "Droid/SME/SME_SanitySuite.js",
+        "Droid/SME/SME_Logout.js"
+    ]
+}

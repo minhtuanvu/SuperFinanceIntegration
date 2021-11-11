@@ -1,0 +1,23 @@
+{
+    "AS_Form_h5512b2c10cd4fcb850d16295bc8179f": {
+        "id": "AS_Form_h5512b2c10cd4fcb850d16295bc8179f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCardManageNewCVV",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d6856aadf0ff4c74b5ca230eeba810b9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f531e8dff5a94548a5acd98085f3490b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null
+        }]
+    }
+}

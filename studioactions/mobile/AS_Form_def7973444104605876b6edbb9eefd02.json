@@ -1,0 +1,23 @@
+{
+    "AS_Form_def7973444104605876b6edbb9eefd02": {
+        "id": "AS_Form_def7973444104605876b6edbb9eefd02",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmMFAChangeUsername",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d1a3d88214d64c8b9d1db0214c1278f0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_af008b15913444f988e7e9f5d8460b11",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_c892e1add938451583963eefa8d2c22b": {
+        "id": "AS_Form_c892e1add938451583963eefa8d2c22b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardConfirmPin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b2d18350cb2f499cbf9688c3f148ba91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_e832e9467530435fb93cd8fc203054a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showPinCode();",
+            "callbackType": null
+        }]
+    }
+}

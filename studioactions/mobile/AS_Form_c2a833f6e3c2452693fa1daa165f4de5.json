@@ -1,0 +1,23 @@
+{
+    "AS_Form_c2a833f6e3c2452693fa1daa165f4de5": {
+        "id": "AS_Form_c2a833f6e3c2452693fa1daa165f4de5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeVerifyTransferDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ga99f59f709940b693c9bde82beae0c2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b4f992618e7449f784339372ef217639",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.postShow();",
+            "parentId": null
+        }]
+    }
+}

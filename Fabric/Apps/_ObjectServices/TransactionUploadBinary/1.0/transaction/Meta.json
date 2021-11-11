@@ -1,0 +1,758 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "createBinary" : "createBinaryMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "getBinary" : "getBinaryMapping",
+    "delete" : "deleteMapping",
+    "deleteBinary" : "deleteBinaryMapping",
+    "updateBinary" : "updateBinaryMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "transaction",
+      "qualifiedName" : "dbxdb.transaction",
+      "metadataformatterobject" : "{\"displayName\":\"transaction\",\"qualifiedName\":\"dbxdb.transaction\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"transaction\",\"schemaName\":\"dbxdb\",\"tableName\":\"transaction\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "transaction",
+      "qualifiedName" : "dbxdb.transaction",
+      "metadataformatterobject" : "{\"displayName\":\"transaction\",\"qualifiedName\":\"dbxdb.transaction\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"transaction\",\"schemaName\":\"dbxdb\",\"tableName\":\"transaction\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "DomesticPaymentId",
+    "targetField" : "DomesticPaymentId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ExpenseCategory_id",
+    "targetField" : "ExpenseCategory_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FP_Currency",
+    "targetField" : "FP_Currency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentPostCode",
+    "targetField" : "creditorAgentPostCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frequencyStartDate",
+    "targetField" : "frequencyStartDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkDesc",
+    "targetField" : "checkDesc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "disputeDate",
+    "targetField" : "disputeDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardInstrumentAuthorisationType",
+    "targetField" : "cardInstrumentAuthorisationType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentSubDepartment",
+    "targetField" : "debtorAgentSubDepartment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transCreditDebitIndicator",
+    "targetField" : "transCreditDebitIndicator",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessPhone",
+    "targetField" : "cashlessPhone",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "disputeDescription",
+    "targetField" : "disputeDescription",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "unitCurrency",
+    "targetField" : "unitCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Person_Id",
+    "targetField" : "Person_Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isScheduled",
+    "targetField" : "isScheduled",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "penaltyFlag",
+    "targetField" : "penaltyFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionComments",
+    "targetField" : "transactionComments",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentName",
+    "targetField" : "creditorAgentName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "instructedCurrency",
+    "targetField" : "instructedCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "StatusUpdateDateTime",
+    "targetField" : "StatusUpdateDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "balanceType",
+    "targetField" : "balanceType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "balanceCreditDebitIndicator",
+    "targetField" : "balanceCreditDebitIndicator",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentAddressLine",
+    "targetField" : "debtorAgentAddressLine",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "requestCreatedDate",
+    "targetField" : "requestCreatedDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "instructedAmount",
+    "targetField" : "instructedAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardInstrumentName",
+    "targetField" : "cardInstrumentName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessOTPValidDate",
+    "targetField" : "cashlessOTPValidDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardInstrumentIdentification",
+    "targetField" : "cardInstrumentIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "billerId",
+    "targetField" : "billerId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionCurrency",
+    "targetField" : "transactionCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkNumber",
+    "targetField" : "checkNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentDepartment",
+    "targetField" : "debtorAgentDepartment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "NP_Currency",
+    "targetField" : "NP_Currency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "IBAN",
+    "targetField" : "IBAN",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentDepartment",
+    "targetField" : "creditorAgentDepartment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "numberOfRecurrences",
+    "targetField" : "numberOfRecurrences",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessPin",
+    "targetField" : "cashlessPin",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "dataStatus",
+    "targetField" : "dataStatus",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkReason",
+    "targetField" : "checkReason",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "amountRecieved",
+    "targetField" : "amountRecieved",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "quotationDate",
+    "targetField" : "quotationDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FP_Amount",
+    "targetField" : "FP_Amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAccountSeconIdentification",
+    "targetField" : "creditorAccountSeconIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Initiation_InstructionIdentification",
+    "targetField" : "Initiation_InstructionIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FPA_Amount",
+    "targetField" : "FPA_Amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "imageURL1",
+    "targetField" : "imageURL1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkDateOfIssue",
+    "targetField" : "checkDateOfIssue",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Customer_id",
+    "targetField" : "Customer_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "imageURL2",
+    "targetField" : "imageURL2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentCountry",
+    "targetField" : "debtorAgentCountry",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentBuildingNumber",
+    "targetField" : "creditorAgentBuildingNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Id",
+    "targetField" : "Id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "chargeCurrency",
+    "targetField" : "chargeCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FirstPaymentDateTime",
+    "targetField" : "FirstPaymentDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentBuildingNumber",
+    "targetField" : "debtorAgentBuildingNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frequencyEndDate",
+    "targetField" : "frequencyEndDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Payee_id",
+    "targetField" : "Payee_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentCountrySubDivision",
+    "targetField" : "creditorAgentCountrySubDivision",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashAmount",
+    "targetField" : "cashAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAccountSchemeName",
+    "targetField" : "debtorAccountSchemeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "sourceCurrency",
+    "targetField" : "sourceCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "linkSelf",
+    "targetField" : "linkSelf",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentAddressType",
+    "targetField" : "debtorAgentAddressType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "dedtorAgentPostCode",
+    "targetField" : "dedtorAgentPostCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "NP_Amount",
+    "targetField" : "NP_Amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAccountName",
+    "targetField" : "creditorAccountName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "billid",
+    "targetField" : "billid",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "valueDateTime",
+    "targetField" : "valueDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "chargeAmount",
+    "targetField" : "chargeAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessEmail",
+    "targetField" : "cashlessEmail",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "toAccountBalance",
+    "targetField" : "toAccountBalance",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAccountIdentification",
+    "targetField" : "debtorAccountIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentIdentification",
+    "targetField" : "creditorAgentIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "statusDesc",
+    "targetField" : "statusDesc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentSubDepartment",
+    "targetField" : "creditorAgentSubDepartment",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Status_id",
+    "targetField" : "Status_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAccountSchemeName",
+    "targetField" : "creditorAccountSchemeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cardInstrumentSchemeName",
+    "targetField" : "cardInstrumentSchemeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessPersonName",
+    "targetField" : "cashlessPersonName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "balanceAmount",
+    "targetField" : "balanceAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentSchemeName",
+    "targetField" : "debtorAgentSchemeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromAccountBalance",
+    "targetField" : "fromAccountBalance",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "createdDate",
+    "targetField" : "createdDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentIdentification",
+    "targetField" : "debtorAgentIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "p2pAlternateContact",
+    "targetField" : "p2pAlternateContact",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frequencyType",
+    "targetField" : "frequencyType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentCountry",
+    "targetField" : "creditorAgentCountry",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Reference_id",
+    "targetField" : "Reference_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "requestValidity",
+    "targetField" : "requestValidity",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "feePaidByReceipent",
+    "targetField" : "feePaidByReceipent",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "balanceCurrency",
+    "targetField" : "balanceCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Type_id",
+    "targetField" : "Type_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessSecurityCode",
+    "targetField" : "cashlessSecurityCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentCountrySubDivision",
+    "targetField" : "debtorAgentCountrySubDivision",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "convertedAmount",
+    "targetField" : "convertedAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "notes",
+    "targetField" : "notes",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FPA_Currency",
+    "targetField" : "FPA_Currency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fee",
+    "targetField" : "fee",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "StandingOrderStatusCode",
+    "targetField" : "StandingOrderStatusCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "feeCurrency",
+    "targetField" : "feeCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentStreetName",
+    "targetField" : "debtorAgentStreetName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashWithdrawalTransactionStatus",
+    "targetField" : "cashWithdrawalTransactionStatus",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "merchantName",
+    "targetField" : "merchantName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "RI_Reference",
+    "targetField" : "RI_Reference",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "disputeReason",
+    "targetField" : "disputeReason",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frontImage2",
+    "targetField" : "frontImage2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "contractIdentification",
+    "targetField" : "contractIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "exchangeRate",
+    "targetField" : "exchangeRate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "disputeStatus",
+    "targetField" : "disputeStatus",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "beneficiaryName",
+    "targetField" : "beneficiaryName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "viewReportLink",
+    "targetField" : "viewReportLink",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAccountName",
+    "targetField" : "debtorAccountName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentStreetName",
+    "targetField" : "creditorAgentStreetName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Bill_id",
+    "targetField" : "Bill_id",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "Initiation_EndToEndIdentification",
+    "targetField" : "Initiation_EndToEndIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "p2pContact",
+    "targetField" : "p2pContact",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "billCategory",
+    "targetField" : "billCategory",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payeeCurrency",
+    "targetField" : "payeeCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "targetCurrency",
+    "targetField" : "targetCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isPaypersonDeleted",
+    "targetField" : "isPaypersonDeleted",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "p2pRequiredDate",
+    "targetField" : "p2pRequiredDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "bankName2",
+    "targetField" : "bankName2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "bankName1",
+    "targetField" : "bankName1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionCode",
+    "targetField" : "transactionCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "sortCode",
+    "targetField" : "sortCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payPersonNickName",
+    "targetField" : "payPersonNickName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentSchemeName",
+    "targetField" : "creditorAgentSchemeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payPersonName",
+    "targetField" : "payPersonName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentTownName",
+    "targetField" : "creditorAgentTownName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionInformation",
+    "targetField" : "transactionInformation",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "RI_Unstructured",
+    "targetField" : "RI_Unstructured",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "toExternalAccountNumber",
+    "targetField" : "toExternalAccountNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessOTP",
+    "targetField" : "cashlessOTP",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cashlessMode",
+    "targetField" : "cashlessMode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAccountIdentification",
+    "targetField" : "creditorAccountIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fromAccountNumber",
+    "targetField" : "fromAccountNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAccountSeconIdentification",
+    "targetField" : "debtorAccountSeconIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkNumber2",
+    "targetField" : "checkNumber2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkNumber1",
+    "targetField" : "checkNumber1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "bookingDateTime",
+    "targetField" : "bookingDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "scheduledDate",
+    "targetField" : "scheduledDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "swiftCode",
+    "targetField" : "swiftCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionSubCode",
+    "targetField" : "transactionSubCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "bankName",
+    "targetField" : "bankName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "ConsentId",
+    "targetField" : "ConsentId",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payoffFlag",
+    "targetField" : "payoffFlag",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "baseCurrency",
+    "targetField" : "baseCurrency",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "postedDate",
+    "targetField" : "postedDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isDisputed",
+    "targetField" : "isDisputed",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "payeeName",
+    "targetField" : "payeeName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentaddressType",
+    "targetField" : "creditorAgentaddressType",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkImage",
+    "targetField" : "checkImage",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "deliverBy",
+    "targetField" : "deliverBy",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "proprietaryTransactionCode",
+    "targetField" : "proprietaryTransactionCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "isPayeeDeleted",
+    "targetField" : "isPayeeDeleted",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "proprietaryTransactionIssuer",
+    "targetField" : "proprietaryTransactionIssuer",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionAmount",
+    "targetField" : "transactionAmount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentName",
+    "targetField" : "debtorAgentName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "recurrenceDesc",
+    "targetField" : "recurrenceDesc",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "amount",
+    "targetField" : "amount",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "backImage1",
+    "targetField" : "backImage1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "creditorAgentAddressLine",
+    "targetField" : "creditorAgentAddressLine",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "backImage2",
+    "targetField" : "backImage2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "hasDepositImage",
+    "targetField" : "hasDepositImage",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "debtorAgentTownName",
+    "targetField" : "debtorAgentTownName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transactionDate",
+    "targetField" : "transactionDate",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "frontImage1",
+    "targetField" : "frontImage1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "addressLine",
+    "targetField" : "addressLine",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "serviceName",
+    "targetField" : "serviceName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "FinalPaymentDateTime",
+    "targetField" : "FinalPaymentDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "statementReference",
+    "targetField" : "statementReference",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "checkImageBack",
+    "targetField" : "checkImageBack",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "NextPaymentDateTime",
+    "targetField" : "NextPaymentDateTime",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "pdf",
+    "targetField" : "pdf",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "toAccountNumber",
+    "targetField" : "toAccountNumber",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "withdrawlAmount2",
+    "targetField" : "withdrawlAmount2",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "merchantCategoryCode",
+    "targetField" : "merchantCategoryCode",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "withdrawlAmount1",
+    "targetField" : "withdrawlAmount1",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "category",
+    "targetField" : "category",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "MerchantCustomerIdentification",
+    "targetField" : "MerchantCustomerIdentification",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "RiskPaymentContextCode",
+    "targetField" : "RiskPaymentContextCode",
+    "type" : "request_response"
+  } ]
+}

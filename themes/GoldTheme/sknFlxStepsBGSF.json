@@ -1,0 +1,11 @@
+{
+  "background_image": "insights_bg.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "se10b3563bde45f188ce0942722c497b",
+  "wType": "FlexContainer"
+}

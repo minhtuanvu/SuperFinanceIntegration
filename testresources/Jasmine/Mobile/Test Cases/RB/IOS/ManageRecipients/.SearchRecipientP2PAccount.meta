@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SearchRecipientP2PAccount",
+    "testSuiteName": "Test Cases/RB/IOS/ManageRecipients",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientP2P.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "a564bbac-9a10-2b5f-fda1-1950d4e9ff32",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Manage Beneficiaries\");\nawait listOfRecipients(\"PToP\");\nawait searchRecipient(ManageRecipient.recipientName.p2pRecipient);\nawait goBackToDashboardFromManageRecipient();",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

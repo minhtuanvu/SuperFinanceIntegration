@@ -1,0 +1,11 @@
+{
+    "testCaseName": "Verify_DeleteP2PRecipient_P2P",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/xyz.js",
+        "Droid/RB/RB_Transfers.js",
+        "Droid/RB/tempSuite.js"
+    ]
+}

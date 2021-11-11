@@ -1,0 +1,30 @@
+{
+    "AS_Camera_b3b1448f3cf34ec9a5b064ac9ad3a294": {
+        "id": "AS_Camera_b3b1448f3cf34ec9a5b064ac9ad3a294",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUploadCheckImages",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ic0658423272421c9413a75b3eb62572"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6c3980f21114f798d43d5ed045be7f9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setOverlay(\"front\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

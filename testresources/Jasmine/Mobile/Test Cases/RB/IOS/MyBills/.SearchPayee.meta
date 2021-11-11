@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SearchPayee",
+    "testSuiteName": "Test Cases/RB/IOS/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "5 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "dbfc39c3-5c0f-2787-be51-73ec3b60bc35",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMyBillsPage();\nawait searchPayee(myBills.payeeName.creditCard);\nawait deviceBack();\nawait deviceBack();\nawait goBackToDashboard();",
+                        "comment": "// - [5 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

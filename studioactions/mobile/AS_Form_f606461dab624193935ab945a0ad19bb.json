@@ -1,0 +1,23 @@
+{
+    "AS_Form_f606461dab624193935ab945a0ad19bb": {
+        "id": "AS_Form_f606461dab624193935ab945a0ad19bb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFinancialHelpAcknowledgement",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f75ec8d24d354149bc88a71195eb7c48"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_dd06d2f1b2c446acb4ec03a4a8a2c81d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "android": {
+    "background_image": "loginbgradient.png",
+    "bg_type": "image",
+    "isForked": true
+  },
+  "background_color": "003e75ff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "iphone": {
+    "background_image": "loginbgradient.png",
+    "bg_type": "image",
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "s283219bd55e4ad1942a18c99f1271c6",
+  "wType": "FlexContainer"
+}

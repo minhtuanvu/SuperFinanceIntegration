@@ -1,0 +1,9 @@
+{
+    "testCaseName": "APreRequisiteTo_AddExternalbankreciptent",
+    "testSuiteName": "Test Cases/RB/Droid/TransferToExternalBank",
+    "channelName": "Mobile",
+    "usedBy": [
+        "UnitSuite.js"
+    ],
+    "userCode": true
+}

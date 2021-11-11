@@ -1,0 +1,17 @@
+{
+    "AS_Button_gec42b8714124eb9811a974ede0037ac": {
+        "id": "AS_Button_gec42b8714124eb9811a974ede0037ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_aead3d52c89d4aa09fb5ee0f0e14a5a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.showMainScreen();",
+            "callbackType": null
+        }]
+    }
+}

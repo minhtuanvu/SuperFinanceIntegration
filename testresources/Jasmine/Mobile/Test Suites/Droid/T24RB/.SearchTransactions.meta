@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "SearchTransactions",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "RB/T24Droid/SearchTransactions/SearchTransaction_ByTransactionType.js",
+        "RB/T24Droid/SearchTransactions/SearchTransaction_ByDebitCredit.js",
+        "RB/T24Droid/SearchTransactions/SearchTransaction_ByAmount.js",
+        "RB/T24Droid/SearchTransactions/SearchTransaction_ByDate.js",
+        "RB/T24Droid/SearchTransactions/SearchTransaction_ByKeyword.js"
+    ],
+    "usedBy": []
+}

@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getAds3729",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">            <map inputpath=\"addetails\" outputpath=\"Ads\">                  <set-param inputpath=\"action1\" outputpath=\"action1\"/>                  <set-param inputpath=\"action2\" outputpath=\"action2\"/>                  <set-param inputpath=\"actionType\" outputpath=\"actionType\"/>                  <set-param inputpath=\"adType\" outputpath=\"adType\"/>                  <set-param inputpath=\"description\" outputpath=\"description\"/>                  <set-param inputpath=\"id\" outputpath=\"id\"/>                  <set-param inputpath=\"imageURL\" outputpath=\"imageURL\"/>                  <set-param inputpath=\"imageURL2\" outputpath=\"imageURL2\"/>                  <set-param inputpath=\"title\" outputpath=\"title\"/>            </map>      </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Ads\",\"xy\":\"770 100\",\"__gohashid\":23212},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getAds\",\"xy\":\"150 100\",\"__gohashid\":23213}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Ads:action1:\",\"to\":\"target:Ads:action1:\",\"fromPort\":\"source:Ads:action1:\",\"toPort\":\"target:Ads:action1:\",\"visible\":true,\"common\":true,\"__gohashid\":25802},{\"category\":\"Mapping\",\"from\":\"source:Ads:action2:\",\"to\":\"target:Ads:action2:\",\"fromPort\":\"source:Ads:action2:\",\"toPort\":\"target:Ads:action2:\",\"visible\":true,\"common\":true,\"__gohashid\":25809},{\"category\":\"Mapping\",\"from\":\"source:Ads:actionType:\",\"to\":\"target:Ads:actionType:\",\"fromPort\":\"source:Ads:actionType:\",\"toPort\":\"target:Ads:actionType:\",\"visible\":true,\"common\":true,\"__gohashid\":25816},{\"category\":\"Mapping\",\"from\":\"source:Ads:adType:\",\"to\":\"target:Ads:adType:\",\"fromPort\":\"source:Ads:adType:\",\"toPort\":\"target:Ads:adType:\",\"visible\":true,\"common\":true,\"__gohashid\":25823},{\"category\":\"Mapping\",\"from\":\"source:Ads:description:\",\"to\":\"target:Ads:description:\",\"fromPort\":\"source:Ads:description:\",\"toPort\":\"target:Ads:description:\",\"visible\":true,\"common\":true,\"__gohashid\":25830},{\"category\":\"Mapping\",\"from\":\"source:Ads:id:\",\"to\":\"target:Ads:id:\",\"fromPort\":\"source:Ads:id:\",\"toPort\":\"target:Ads:id:\",\"visible\":true,\"common\":true,\"__gohashid\":25837},{\"category\":\"Mapping\",\"from\":\"source:Ads:imageURL:\",\"to\":\"target:Ads:imageURL:\",\"fromPort\":\"source:Ads:imageURL:\",\"toPort\":\"target:Ads:imageURL:\",\"visible\":true,\"common\":true,\"__gohashid\":25844},{\"category\":\"Mapping\",\"from\":\"source:Ads:imageURL2:\",\"to\":\"target:Ads:imageURL2:\",\"fromPort\":\"source:Ads:imageURL2:\",\"toPort\":\"target:Ads:imageURL2:\",\"visible\":true,\"common\":true,\"__gohashid\":25851},{\"category\":\"Mapping\",\"from\":\"source:Ads:title:\",\"to\":\"target:Ads:title:\",\"fromPort\":\"source:Ads:title:\",\"toPort\":\"target:Ads:title:\",\"visible\":true,\"common\":true,\"__gohashid\":25858},{\"from\":\"target\",\"to\":\"target:Ads\",\"fromPort\":\"target\",\"toPort\":\"target:Ads\",\"visible\":true,\"common\":false,\"__gohashid\":60005},{\"from\":\"target:Ads\",\"to\":\"target:Ads:fields\",\"fromPort\":\"target:Ads\",\"toPort\":\"target:Ads:fields\",\"visible\":true,\"common\":false,\"__gohashid\":60006},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:action1:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:action1:\",\"visible\":true,\"common\":false,\"__gohashid\":60007},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:action2:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:action2:\",\"visible\":true,\"common\":false,\"__gohashid\":60008},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:actionType:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:actionType:\",\"visible\":true,\"common\":false,\"__gohashid\":60009},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:adType:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:adType:\",\"visible\":true,\"common\":false,\"__gohashid\":60010},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:description:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:description:\",\"visible\":true,\"common\":false,\"__gohashid\":60011},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:id:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:id:\",\"visible\":true,\"common\":false,\"__gohashid\":60012},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:imageURL:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:imageURL:\",\"visible\":true,\"common\":false,\"__gohashid\":60013},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:imageURL2:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:imageURL2:\",\"visible\":true,\"common\":false,\"__gohashid\":60014},{\"from\":\"target:Ads:fields\",\"to\":\"target:Ads:title:\",\"fromPort\":\"target:Ads:fields\",\"toPort\":\"target:Ads:title:\",\"visible\":true,\"common\":false,\"__gohashid\":60015},{\"from\":\"source\",\"to\":\"source:Ads\",\"fromPort\":\"source\",\"toPort\":\"source:Ads\",\"visible\":true,\"common\":false,\"__gohashid\":60016},{\"from\":\"source:Ads\",\"to\":\"source:Ads:parameters\",\"fromPort\":\"source:Ads\",\"toPort\":\"source:Ads:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":60017},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:action1:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:action1:\",\"visible\":true,\"common\":false,\"__gohashid\":60018},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:action2:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:action2:\",\"visible\":true,\"common\":false,\"__gohashid\":60019},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:actionType:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:actionType:\",\"visible\":true,\"common\":false,\"__gohashid\":60020},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:adType:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:adType:\",\"visible\":true,\"common\":false,\"__gohashid\":60021},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:description:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:description:\",\"visible\":true,\"common\":false,\"__gohashid\":60022},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:id:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:id:\",\"visible\":true,\"common\":false,\"__gohashid\":60023},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:imageURL:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:imageURL:\",\"visible\":true,\"common\":false,\"__gohashid\":60024},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:imageURL2:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:imageURL2:\",\"visible\":true,\"common\":false,\"__gohashid\":60025},{\"from\":\"source:Ads:parameters\",\"to\":\"source:Ads:title:\",\"fromPort\":\"source:Ads:parameters\",\"toPort\":\"source:Ads:title:\",\"visible\":true,\"common\":false,\"__gohashid\":60026}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAds"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Ads",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

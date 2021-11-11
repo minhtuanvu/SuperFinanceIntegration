@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_e03938a6b3bf4ad1a92f06b1833ae3e0": {
+        "id": "AS_FlexContainer_e03938a6b3bf4ad1a92f06b1833ae3e0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkSF",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d26a0a2971174eeea4306f6a6a69b9a3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e923fcccb4554962947f14941a239f6e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf = new kony.mvc.Navigation(\"SuperFinanceModule/frmInsightSF\");\nntf.navigate();",
+            "parentId": null
+        }]
+    }
+}

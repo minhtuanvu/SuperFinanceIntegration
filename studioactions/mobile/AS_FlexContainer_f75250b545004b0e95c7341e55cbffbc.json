@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_f75250b545004b0e95c7341e55cbffbc": {
+        "id": "AS_FlexContainer_f75250b545004b0e95c7341e55cbffbc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFinancialHelp",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d99fdac523244c8186a6edad140466bc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ac68f40f5d5e49849b07772562c8c981",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickOfBack();",
+            "callbackType": null
+        }]
+    }
+}

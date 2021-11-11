@@ -1,0 +1,13 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_LogoutSuite",
+    "testCaseInfo": [
+        "Common/IOS/Util/Logout.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_SME_Regression.js",
+        "TestPlanIOSSMEandRB.js",
+        "TestPlanIOS_SME_Sanity.js",
+        "tempPlan.js"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "AS_UWI_a03662a5b51541779212e07ed4c7135f": {
+        "id": "AS_UWI_a03662a5b51541779212e07ed4c7135f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "visibility",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h65c10a2cabc493c8ac9ef9c703d1486"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ic1cf6713dec434f97b11ba29b33abf7",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setFlexesEnableDisableOnFormUI",
+            "display": "setFlexesEnableDisableOnFormUI",
+            "inputparams": [{
+                "name": "isVisible",
+                "value": " visibility"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

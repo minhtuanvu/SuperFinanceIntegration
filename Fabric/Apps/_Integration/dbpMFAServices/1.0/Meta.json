@@ -1,0 +1,10 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-mfaservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "jar"
+  } ]
+}

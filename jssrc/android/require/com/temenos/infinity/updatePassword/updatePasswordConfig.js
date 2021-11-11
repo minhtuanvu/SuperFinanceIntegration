@@ -1,0 +1,67 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "buttonDisabledSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "objectServiceName",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "textVisiblityOff",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "buttonEnabledSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "dataModel",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "textVisiblityOn",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "updatePassword",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "greenTick",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "verifyExistingPassword",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "grayTick",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "dbxUserDataModel",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "getPasswordRulesAndPolicy",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["showErrorMessage"],
+        "events": ["onSuccessCallback", "onFailureCallback", "onCancel"]
+    }
+});

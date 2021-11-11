@@ -1,0 +1,12 @@
+{
+    "testCaseName": "OneTimePayment_NewRecipient_DomesticNormal_CurrDate",
+    "testSuiteName": "Test Cases/RB/T24Droid/PaymentsToNewRecipient",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/TemporarySuite/Suite_06042021.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/T24RB/PaymentsinT24Transact.js",
+        "Droid/TemporarySuite/tempSuite.js"
+    ]
+}

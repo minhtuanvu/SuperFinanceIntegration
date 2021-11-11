@@ -1,0 +1,29 @@
+{
+  "operationConfig" : {
+    "name" : "createOutageMessage6069",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"messageText\" outputpath=\"messageText\"/><set-param inputpath=\"status_id\" outputpath=\"status_id\"/><set-param inputpath=\"createdby\" outputpath=\"createdby\"/><set-param inputpath=\"service_id\" outputpath=\"service_id\"/><set-param inputpath=\"modifiedby\" outputpath=\"modifiedby\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpAdminConsoleServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createOutageMessage"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "OutageMessage",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

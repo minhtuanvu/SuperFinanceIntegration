@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifySavingsAccMoreOptions",
+    "testSuiteName": "Test Cases/RB/Droid/AllAccounts",
+    "channelName": "Mobile",
+    "usedBy": [
+        "UnitSuite.js"
+    ],
+    "userCode": true
+}

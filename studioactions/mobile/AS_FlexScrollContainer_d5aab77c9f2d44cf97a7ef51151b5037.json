@@ -1,0 +1,28 @@
+{
+    "AS_FlexScrollContainer_d5aab77c9f2d44cf97a7ef51151b5037": {
+        "id": "AS_FlexScrollContainer_d5aab77c9f2d44cf97a7ef51151b5037",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboardWealth",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b96909bc2f0f47fca6cc1b2e2e49f311"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchStart_jc6002eea8a84f5b8f5552c4e958f55f",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.bringFlxDashboardHeaderToFront()"
+        }]
+    }
+}

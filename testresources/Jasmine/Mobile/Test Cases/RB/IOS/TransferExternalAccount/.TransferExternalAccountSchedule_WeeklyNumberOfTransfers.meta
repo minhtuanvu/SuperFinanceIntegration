@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferExternalAccountSchedule_WeeklyNumberOfTransfers",
+    "testSuiteName": "Test Cases/RB/IOS/TransferExternalAccount",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferExternalAccount.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "8 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "cbc92a73-fbb1-4eb2-d096-a72bcb460a3c",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(Transfers.externalAccount.fromAccount , Transfers.externalAccount.toAccount);\nawait enterAmount();\nawait selectFrequency(\"Weekly\");\nawait selectDurationNumberOfTransfers();\nawait selectStartDate();\nawait enterNumberOfTransfer();\nawait confirmTransfer();",
+                        "comment": "// - [8 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

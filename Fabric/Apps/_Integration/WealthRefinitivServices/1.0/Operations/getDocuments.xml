@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getDocuments" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.RefinitivTokenGenPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.GetDocumentsPostProcessor"/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.trkd.thomsonreuters.com/api/DocRepository/DocRepository.svc/REST/DocRepository_1/AreDocumentsAvailable_1"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-Token" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="CFFD77A689B644F6A8DB2BE3634B2C56EDB43E3E91F35BA06471DC92129646CF3BD7D5A6DFA3368F7B6A55115B25C078EA5AC2CD5B140FB12A739BF253BAD21B19E3FAF0184D729DAC7A3032DCEB437E00CE6C0B8E1ABF4E726EB570B081DD80" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-ApplicationID" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="trkddemoapp" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="identifierValue" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="IE00B5BMR087" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;AreDocumentsAvailable_Request_1&quot;: {&#10;        &quot;vendorAPIKey&quot;: &quot;&quot;,&#10;        &quot;documents&quot;: {&#10;            &quot;document&quot;: [&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;KIDforPRIIP&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                },&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;Prospectus&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                },&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;KIID&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                }&#10;            ]&#10;        }&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;AreDocumentsAvailable_Request_1&quot;: {&#10;        &quot;vendorAPIKey&quot;: &quot;&quot;,&#10;        &quot;documents&quot;: {&#10;            &quot;document&quot;: [&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;KIDforPRIIP&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                },&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;Prospectus&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                },&#10;                {&#10;                    &quot;documentLocale&quot;: &quot;&quot;,&#10;                    &quot;documentType&quot;: &quot;KIID&quot;,&#10;                    &quot;productIdentifier&quot;: {&#10;                        &quot;identifierType&quot;: &quot;Isin&quot;,&#10;                        &quot;identifierValue&quot;: &quot;$identifierValue&quot;&#10;                    }&#10;                }&#10;            ]&#10;        }&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="document" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="$.AreDocumentsAvailable_Response_1.documents.document[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

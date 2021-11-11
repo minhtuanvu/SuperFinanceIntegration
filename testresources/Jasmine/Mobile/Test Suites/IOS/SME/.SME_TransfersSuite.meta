@@ -1,0 +1,21 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_TransfersSuite",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachIT.js",
+        "Common/IOS/SME/Transfers.js",
+        "SME/IOS/Transfer/SearchInFromAndToScreen.js",
+        "SME/IOS/Transfer/TransferExternalAccountScheduleOnce_DailyDateRange.js",
+        "SME/IOS/Transfer/TransferOwnAccountSchedule_DailyDateRange.js",
+        "SME/IOS/Transfer/TransferSameBankAccountSchedule_DailyDateRange.js",
+        "SME/IOS/Transfer/TransferOwnAccountOneTime.js",
+        "SME/IOS/Transfer/TransferOwnAccountScheduleOnce.js",
+        "SME/IOS/Transfer/TransferSameBankAccountOneTime.js",
+        "SME/IOS/Transfer/TransferSameBankAccountScheduleOnce.js",
+        "SME/IOS/Transfer/TransferExternalAccountOneTime.js",
+        "SME/IOS/Transfer/TransferExternalAccountScheduleOnce.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSSMEandRB.js"
+    ]
+}

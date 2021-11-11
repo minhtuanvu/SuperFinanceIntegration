@@ -1,0 +1,7 @@
+{
+    "testCaseName": "VerifyAddingPrimaryNewAddress",
+    "testSuiteName": "Test Cases/RB/Droid/Settings",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Logout",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/RB/RB_Logout.js",
+        "Droid/SME/SME_Logout.js"
+    ],
+    "userCode": true
+}

@@ -1,0 +1,39 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_MyBills",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/PayBills/PayBills_AddPayee.js",
+        "RB/Droid/PayBills/PayBills_DeletePayee.js",
+        "RB/Droid/PayBills/PayBills_EditPayee.js",
+        "RB/Droid/PayBills/SheduledPayment_Daily.js",
+        "RB/Droid/PayBills/SheduledPayment_Monthly.js",
+        "RB/Droid/PayBills/SheduledPayment_QTR.js",
+        "RB/Droid/PayBills/SheduledPayment_TwoWeeks.js",
+        "RB/Droid/PayBills/SheduledPayment_Weekly.js",
+        "RB/Droid/PayBills/SheduledPayment_Yearly.js",
+        "RB/Droid/PayBills/VerifyActivateBiller.js",
+        "RB/Droid/PayBills/VerifyAddPayeeBillPayFlow.js",
+        "RB/Droid/PayBills/VerifyBillpay_PayeeDetails.js",
+        "RB/Droid/PayBills/VerifyCancel_BillPay.js",
+        "RB/Droid/PayBills/VerifyMakeOneTimePayment.js",
+        "RB/Droid/PayBills/VerifyManageBillPayList.js",
+        "RB/Droid/PayBills/VerifySearch_AllPayees.js",
+        "RB/Droid/PayBills/VerifySearch_MyBills.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js",
+        "Droid_RB_SME_Suite.js"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "testCaseName": "LockCard",
+    "testSuiteName": "Test Cases/RB/T24Droid/CardManagement",
+    "channelName": "Mobile",
+    "_currentForm": "",
+    "timeout": 120000,
+    "usedBy": [
+        "Droid/T24RB/CardManagement.js",
+        "Droid/TemporarySuite/Suite_07042021.js",
+        "Droid/T24RB/HealthCheck.js"
+    ],
+    "userCode": true
+}

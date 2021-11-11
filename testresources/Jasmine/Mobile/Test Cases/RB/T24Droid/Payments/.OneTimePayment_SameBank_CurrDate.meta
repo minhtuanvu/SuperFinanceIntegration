@@ -1,0 +1,13 @@
+{
+    "testCaseName": "OneTimePayment_SameBank_CurrDate",
+    "testSuiteName": "Test Cases/RB/T24Droid/Payments",
+    "channelName": "Mobile",
+    "_currentForm": "",
+    "timeout": 0,
+    "usedBy": [
+        "Droid/T24RB/Payments.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/T24RB/PaymentsinT24Transact.js"
+    ],
+    "userCode": true
+}

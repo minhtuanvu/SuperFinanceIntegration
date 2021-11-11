@@ -1,0 +1,17 @@
+{
+    "AS_BarButtonItem_g47e4f0affc34bc0aa36f8aed7624dd5": {
+        "id": "AS_BarButtonItem_g47e4f0affc34bc0aa36f8aed7624dd5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h3d51c4a121840e0ad512b70daae0e1e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navigateToMenu();",
+            "parentId": null
+        }]
+    }
+}

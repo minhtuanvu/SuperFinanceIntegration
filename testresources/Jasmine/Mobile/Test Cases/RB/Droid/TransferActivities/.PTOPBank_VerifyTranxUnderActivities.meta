@@ -1,0 +1,7 @@
+{
+    "testCaseName": "PTOPBank_VerifyTranxUnderActivities",
+    "testSuiteName": "Test Cases/RB/Droid/TransferActivities",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

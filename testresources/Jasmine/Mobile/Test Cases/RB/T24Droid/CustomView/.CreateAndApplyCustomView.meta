@@ -1,0 +1,12 @@
+{
+    "testCaseName": "CreateAndApplyCustomView",
+    "testSuiteName": "Test Cases/RB/T24Droid/CustomView",
+    "channelName": "Mobile",
+    "_currentForm": "",
+    "timeout": 0,
+    "usedBy": [
+        "Droid/TemporarySuite/tempSuite.js",
+        "Droid/T24RB/CustomViews.js"
+    ],
+    "userCode": true
+}

@@ -1,0 +1,31 @@
+{
+    "AS_UWI_f808126fbc8b474180929508e805c1e4": {
+        "id": "AS_UWI_f808126fbc8b474180929508e805c1e4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "response",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h65c10a2cabc493c8ac9ef9c703d1486"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__e0eaa285ab1948fd92bd89d0d6b1e7b0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "mfaComponentsOnVerifySuccess",
+            "display": "mfaComponentsOnVerifySuccess",
+            "inputparams": [{
+                "name": "response",
+                "value": " response"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

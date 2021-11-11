@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_AccountsDashboard",
+    "testCaseInfo": [
+        "SME/Droid/AccountsDashboard/changeFilter.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Regression.js"
+    ]
+}

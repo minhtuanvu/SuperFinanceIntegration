@@ -1,0 +1,18 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "Messages",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/Messages.js",
+        "RB/T24Droid/Messages/CreateNewMessage.js",
+        "RB/T24Droid/Messages/DeleteMessage.js",
+        "RB/T24Droid/Messages/ReplytoMessage.js",
+        "RB/T24Droid/Messages/RestoreMessage.js",
+        "RB/T24Droid/Messages/SearchFunctionality.js",
+        "RB/T24Droid/Messages/VerifyRequestID.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js"
+    ]
+}

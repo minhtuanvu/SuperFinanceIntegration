@@ -1,0 +1,9 @@
+{
+    "testCaseName": "PostLogin_VerifyTermsnConditions",
+    "testSuiteName": "Test Cases/RB/T24Droid/PostLoginSupport",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/PostLoginSupport.js"
+    ]
+}

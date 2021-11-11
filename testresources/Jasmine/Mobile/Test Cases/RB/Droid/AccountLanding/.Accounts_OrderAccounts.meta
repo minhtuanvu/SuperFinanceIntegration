@@ -1,0 +1,395 @@
+{
+    "testCaseName": "Accounts_OrderAccounts",
+    "testSuiteName": "Test Cases/AccountLanding",
+    "channelName": "Mobile",
+    "usedBy": [],
+    "steps": [
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.segAccounts",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.segAccounts",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            253,
+                            275
+                        ],
+                        "move": [
+                            [
+                                253,
+                                275
+                            ],
+                            [
+                                252,
+                                274
+                            ],
+                            [
+                                252,
+                                273
+                            ],
+                            [
+                                252,
+                                270
+                            ],
+                            [
+                                252,
+                                261
+                            ],
+                            [
+                                252,
+                                252
+                            ]
+                        ],
+                        "end": [
+                            252,
+                            531
+                        ]
+                    }
+                },
+                "UUID": "f62643ba-a91c-460e-9ab9-f89d20c6b151",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.segAccounts[0,3].flxAccountsNoImage",
+            "contextMenu": {
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.segAccounts[0,3].flxAccountsNoImage",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            253,
+                            64
+                        ],
+                        "move": [
+                            [
+                                253,
+                                64
+                            ],
+                            [
+                                252,
+                                64
+                            ],
+                            [
+                                252,
+                                62
+                            ],
+                            [
+                                252,
+                                60
+                            ]
+                        ],
+                        "end": [
+                            252,
+                            261
+                        ]
+                    }
+                },
+                "UUID": "00394e0c-65e5-4f65-a829-67765e11f550",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.segAccounts",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.segAccounts",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            279,
+                            53
+                        ],
+                        "move": [
+                            [
+                                279,
+                                54
+                            ],
+                            [
+                                279,
+                                54
+                            ],
+                            [
+                                279,
+                                55
+                            ],
+                            [
+                                278,
+                                57
+                            ],
+                            [
+                                276,
+                                64
+                            ],
+                            [
+                                274,
+                                73
+                            ]
+                        ],
+                        "end": [
+                            274,
+                            305
+                        ]
+                    }
+                },
+                "UUID": "bb981280-68c1-4a1b-b460-8e596540dbc7",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "cd699599-2575-89a5-c976-ba9745fce0de",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.segAccounts[0,0].flxAccountsNoImage",
+            "contextMenu": {
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.segAccounts[0,0].flxAccountsNoImage",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            279,
+                            53
+                        ],
+                        "move": [
+                            [
+                                279,
+                                54
+                            ],
+                            [
+                                279,
+                                54
+                            ],
+                            [
+                                279,
+                                55
+                            ],
+                            [
+                                278,
+                                57
+                            ]
+                        ],
+                        "end": [
+                            276,
+                            64
+                        ]
+                    }
+                },
+                "UUID": "e5e9ee89-5157-4208-a710-96a935b12624",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.customHeader.flxBack",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.customHeader.flxBack",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "034841c3-9b61-440d-bc45-a47592808060"
+            },
+            "dispMeta": null,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "2000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "ebe85dcc-dced-7196-7481-0eacc518f42e",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "2000"
+                    }
+                }
+            }
+        },
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmDashboardAggregated.Hamburger.flxLogout",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "67a577c8-9d0d-a850-76aa-06d60ee19697",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmDashboardAggregated.Hamburger.flxLogout"
+                    }
+                }
+            }
+        },
+        {
+            "displayReady": true,
+            "actionName": "Touch",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmDashboardAggregated.Hamburger.flxLogout",
+            "contextMenu": {
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageType": "Record",
+                "messageData": {
+                    "widgetPath": "frmDashboardAggregated.Hamburger.flxLogout",
+                    "widgetType": "widget",
+                    "actionType": "touch",
+                    "metadata": {
+                        "start": [
+                            42,
+                            28
+                        ],
+                        "move": [
+                            [
+                                42,
+                                28
+                            ],
+                            [
+                                42,
+                                28
+                            ],
+                            [
+                                42,
+                                28
+                            ],
+                            [
+                                42,
+                                28
+                            ],
+                            [
+                                43,
+                                28
+                            ],
+                            [
+                                43,
+                                28
+                            ],
+                            [
+                                43,
+                                28
+                            ],
+                            [
+                                43,
+                                27
+                            ]
+                        ],
+                        "end": [
+                            43,
+                            27
+                        ]
+                    }
+                },
+                "UUID": "fc915330-c77d-40c0-9c02-9e5a9d6f58a9",
+                "_cached": true
+            },
+            "_cached": true,
+            "dispMeta": "",
+            "metaEditable": false
+        }
+    ],
+    "timeout": 0
+}

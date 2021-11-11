@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "cardsSF": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e7f06eb639484f07bbfb803ec2befbd2",
+                "srcKUID": "ead08321bad84cccae385a4b3194edb4",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMainSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d3094afe4540444da65075fd6c2b5fbd",
+                "srcKUID": "d3a302ef1e1c446596f5044691b3786e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxWLogoSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a32d8eac41694633a7e1dab9bd74cb35",
+                "srcKUID": "ee8f76e5177842829d6572a1a6ba9438",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgWLogoSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "i0abecc4910e4ae6b6b188796c052728",
+                "srcKUID": "b7c768b3f7e14f57bbc617735b041b98",
+                "wType": "Image"
+            },
+            "src": "marriott_fusion.png"
+        },
+        "lblWCrncySF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d24cddf2d63a4762938e68f0cb183317",
+                "srcKUID": "fc99cd0eeac24a7a80658bede2b95d1e",
+                "wType": "Label"
+            },
+            "text": "8 Nights"
+        },
+        "lblWDescSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g9fed5b6aaa84958b43b90eb68d679e1",
+                "srcKUID": "c30dc17d5dca485aa2ebc00b8c83630d",
+                "wType": "Label"
+            },
+            "text": "Free Nights"
+        },
+        "lblWTitleSF": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "acbca6e036a64d2cb710ced17601d943",
+                "srcKUID": "e78866ba16064c448ea4727c20e210de",
+                "wType": "Label"
+            },
+            "text": "Bonvoy - Gold"
+        }
+    },
+    "enablescrolling": true,
+    "id": "cardsSF3",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e7f06eb639484f07bbfb803ec2befbd2",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxRH2SF",
+    "pf": "frmWorkSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "ead08321bad84cccae385a4b3194edb4",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

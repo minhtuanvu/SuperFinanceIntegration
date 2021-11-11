@@ -1,0 +1,10 @@
+{
+    "testCaseName": "TransferActivities",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_TransferActivities.js",
+        "tempSuite.js"
+    ]
+}

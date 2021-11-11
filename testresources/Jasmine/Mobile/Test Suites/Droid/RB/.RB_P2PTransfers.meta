@@ -1,0 +1,38 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_P2PTransfers",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/TransferP2P/APreRequisiteTo_AddPTOPreciptent.js",
+        "RB/Droid/TransferP2P/CancelTransfer.js",
+        "RB/Droid/TransferP2P/DailySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/DailySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferP2P/HalfYearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/HalfYearlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferP2P/MonthlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/MonthlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferP2P/OneTimeTransfer.js",
+        "RB/Droid/TransferP2P/QuarterlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/QuarterlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferP2P/SheduledOneTimeTransfer.js",
+        "RB/Droid/TransferP2P/VerifySearch_From_To_AccList.js",
+        "RB/Droid/TransferP2P/WeeklySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/WeeklySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferP2P/YearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferP2P/YearlySheduledTransfer-Occurences.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

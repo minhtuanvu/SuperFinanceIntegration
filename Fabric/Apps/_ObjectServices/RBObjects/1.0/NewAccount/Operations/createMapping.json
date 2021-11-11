@@ -1,0 +1,34 @@
+{
+  "operationConfig" : {
+    "name" : "NewAccountCreation5520",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"firstName\" outputpath=\"firstName\"/><set-param inputpath=\"lastName\" outputpath=\"lastName\"/><set-param inputpath=\"address\" outputpath=\"address\"/><set-param inputpath=\"productId\" outputpath=\"productId\"/><set-param inputpath=\"accountType\" outputpath=\"accountType\"/><set-param inputpath=\"stateId\" outputpath=\"stateId\"/><set-param inputpath=\"dateOfBirth\" outputpath=\"dateOfBirth\"/><set-param inputpath=\"ssn\" outputpath=\"ssn\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"success\" outputpath=\"success\"/><set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/><set-param inputpath=\"referenceId\" outputpath=\"referenceId\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "NewAccountCreation"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "NewAccount",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

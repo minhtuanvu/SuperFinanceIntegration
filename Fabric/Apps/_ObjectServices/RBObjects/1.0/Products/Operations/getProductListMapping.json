@@ -1,0 +1,28 @@
+{
+  "operationConfig" : {
+    "name" : "getProductList5507",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpAdminConsoleServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getProductList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Products",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

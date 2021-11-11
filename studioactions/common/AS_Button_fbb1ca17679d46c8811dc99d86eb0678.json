@@ -1,0 +1,17 @@
+{
+    "AS_Button_fbb1ca17679d46c8811dc99d86eb0678": {
+        "id": "AS_Button_fbb1ca17679d46c8811dc99d86eb0678",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i61cc77af15940059780c822e8071a32",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.showQRScreen();",
+            "callbackType": null
+        }]
+    }
+}

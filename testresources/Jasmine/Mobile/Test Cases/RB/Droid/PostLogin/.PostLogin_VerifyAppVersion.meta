@@ -1,0 +1,9 @@
+{
+    "testCaseName": "PostLogin_VerifyAppVersion",
+    "testSuiteName": "Test Cases/RB/Droid/PostLogin",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "UnitSuite.js"
+    ]
+}

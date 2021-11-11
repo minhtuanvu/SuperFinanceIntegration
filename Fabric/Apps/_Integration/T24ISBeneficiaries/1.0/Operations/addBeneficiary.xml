@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="addBeneficiary" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.infinity.dbx.temenos.externalAccounts.AddExternalAccountPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://_$_T24_BENEFICIARY_HOST_URL_$_/v1.0.0/party/beneficiaries"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.kony.dbx.util.ServiceURLProvider"/>
+        <config-param api-version="" appid="" name="identityProvider" value="DbxUserLogin"/>
+        <config-param api-version="" appid="" name="identityProviderType" value="custom"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="INFINITY" description="" encode="false" format="None" formatvalue="" name="channelName" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="INFINITY">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="companyId" order="" paramOrder="0" parentOrder="0" sms-name="" src="identity" sourcevalue="DbxUserLogin.profile.companyId" srcformatvalue="" target="" targetdatatype="" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="transactionType" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="preferredPaymentProduct" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="beneficiaryName" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="accountNumber" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="nickName" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="coreIdentifier" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="identity" sourcevalue="DbxUserLogin.profile.backendIdentifiers" srcformatvalue="" target="identity" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="swiftCode" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="IBAN" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="isInternationalAccount" order="" paramOrder="9" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="isSameBankAccount" order="" paramOrder="10" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="addressLine1" order="" paramOrder="11" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="city" order="" paramOrder="12" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="zipcode" order="" paramOrder="13" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="country" order="" paramOrder="14" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="bankName" order="" paramOrder="15" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;transactionType&quot;: &quot;$transactionType&quot;,&#10;        &quot;customerId&quot;: &quot;$userID&quot;,&#10;        #if ($transactionType &amp;&amp; $transactionType == &quot;OTIB&quot;)&#10;                &quot;beneficiaryCustomerId&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryBIC&quot;: &quot;$swiftCode&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$accountNumber&quot;,&#10;        #elseif ($transactionType &amp;&amp; $transactionType == &quot;ACIB&quot;)&#10;        &quot;shortName&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$accountNumber&quot;,&#10;        #elseif ($transactionType &amp;&amp; $transactionType == &quot;BCIB&quot;)&#10;        &quot;beneficiaryCustomerId&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$IBAN&quot;,&#10;        &quot;beneficiaryBIC&quot;: &quot;$swiftCode&quot;,&#10;        #end&#10;        &quot;beneficiaryNickNames&quot;: [&#10;            {&#10;               #if ($nickName &amp;&amp; $nickName != &quot;&quot;)&#10;                 &quot;beneficiaryNickName&quot;: &quot;$nickName&quot;&#10;               #else&#10;                &quot;beneficiaryNickName&quot;: &quot;$beneficiaryName&quot;&#10;               #end&#10;            }&#10;        ],&#10;        &quot;preferredPaymentProduct&quot;: &quot;$preferredPaymentProduct&quot;&#10;   #if($addressLine1 &amp;&amp; $addressLine1 != &quot;&quot;)&#10;            ,&quot;beneficiaryAddress&quot;: &quot;$addressLine1&quot;&#10;        #end&#10;        #if($city &amp;&amp; $city != &quot;&quot;)&#10;            ,&quot;beneficiaryAddressCity&quot;: &quot;$city&quot;&#10;        #end&#10;        #if($zipcode &amp;&amp; $zipcode != &quot;&quot;)&#10;            ,&quot;postCode&quot;: &quot;$zipcode&quot;&#10;        #end&#10;        #if($country &amp;&amp; $country != &quot;&quot;)&#10;            ,&quot;beneficiaryCountryName&quot;: &quot;$country&quot;&#10;        #end&#10;        #if($bankName &amp;&amp; $bankName != &quot;&quot;)&#10;            ,&quot;bankName&quot;: &quot;$bankName&quot;&#10;      #end&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;transactionType&quot;: &quot;$transactionType&quot;,&#10;        &quot;customerId&quot;: &quot;$userID&quot;,&#10;        #if ($transactionType &amp;&amp; $transactionType == &quot;OTIB&quot;)&#10;                &quot;beneficiaryCustomerId&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryBIC&quot;: &quot;$swiftCode&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$accountNumber&quot;,&#10;        #elseif ($transactionType &amp;&amp; $transactionType == &quot;ACIB&quot;)&#10;        &quot;shortName&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$accountNumber&quot;,&#10;        #elseif ($transactionType &amp;&amp; $transactionType == &quot;BCIB&quot;)&#10;        &quot;beneficiaryCustomerId&quot;: &quot;$beneficiaryName&quot;,&#10;        &quot;beneficiaryAccountId&quot;: &quot;$IBAN&quot;,&#10;        &quot;beneficiaryBIC&quot;: &quot;$swiftCode&quot;,&#10;        #end&#10;        &quot;beneficiaryNickNames&quot;: [&#10;            {&#10;               #if ($nickName &amp;&amp; $nickName != &quot;&quot;)&#10;                 &quot;beneficiaryNickName&quot;: &quot;$nickName&quot;&#10;               #else&#10;                &quot;beneficiaryNickName&quot;: &quot;$beneficiaryName&quot;&#10;               #end&#10;            }&#10;        ],&#10;        &quot;preferredPaymentProduct&quot;: &quot;$preferredPaymentProduct&quot;&#10;   #if($addressLine1 &amp;&amp; $addressLine1 != &quot;&quot;)&#10;            ,&quot;beneficiaryAddress&quot;: &quot;$addressLine1&quot;&#10;        #end&#10;        #if($city &amp;&amp; $city != &quot;&quot;)&#10;            ,&quot;beneficiaryAddressCity&quot;: &quot;$city&quot;&#10;        #end&#10;        #if($zipcode &amp;&amp; $zipcode != &quot;&quot;)&#10;            ,&quot;postCode&quot;: &quot;$zipcode&quot;&#10;        #end&#10;        #if($country &amp;&amp; $country != &quot;&quot;)&#10;            ,&quot;beneficiaryCountryName&quot;: &quot;$country&quot;&#10;        #end&#10;        #if($bankName &amp;&amp; $bankName != &quot;&quot;)&#10;            ,&quot;bankName&quot;: &quot;$bankName&quot;&#10;      #end&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Id" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="/header/id" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="success" order="" paramOrder="2" parentOrder="0" passnull="false" sms-name="" src="/header/status" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errmsg" order="" paramOrder="3" parentOrder="0" passnull="false" sms-name="" src="//message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errcode" order="" paramOrder="4" parentOrder="0" passnull="false" sms-name="" src="//code" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

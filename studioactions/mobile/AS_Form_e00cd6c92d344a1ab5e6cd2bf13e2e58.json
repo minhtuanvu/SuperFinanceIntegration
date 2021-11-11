@@ -1,0 +1,23 @@
+{
+    "AS_Form_e00cd6c92d344a1ab5e6cd2bf13e2e58": {
+        "id": "AS_Form_e00cd6c92d344a1ab5e6cd2bf13e2e58",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardAccounts",
+            "type": "forms",
+            "platform": null,
+            "KUID": "efe5e5d7d2f340088b8fdec5bd397692"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_c999aad0a6bf400fafa560e554622369",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

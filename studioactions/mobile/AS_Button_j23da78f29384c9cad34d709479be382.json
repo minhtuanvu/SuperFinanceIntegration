@@ -1,0 +1,23 @@
+{
+    "AS_Button_j23da78f29384c9cad34d709479be382": {
+        "id": "AS_Button_j23da78f29384c9cad34d709479be382",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_a5dbd15facdc4e019a0be43adea10553",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTransferActivitiesRecurring",
+            "friendlyName": "frmTransferActivitiesRecurring",
+            "formKUID": "aafbedd5e8114c2696200020bb3af556",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "MoneyMovementModule",
+            "isCustomInput": false
+        }]
+    }
+}

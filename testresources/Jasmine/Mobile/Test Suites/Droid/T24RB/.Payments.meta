@@ -1,0 +1,30 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "Payments",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/Payments/VerifySwitftCode_International.js",
+        "RB/T24Droid/Payments/ModifySameBankTransactionDetails.js",
+        "RB/T24Droid/Payments/MakePaymentSameBankRecipitent.js",
+        "RB/T24Droid/Payments/VerifyBankName_InternationalAcc.js",
+        "RB/T24Droid/Payments/VerifyBankName_SameBank.js",
+        "RB/T24Droid/Payments/RecurringPayment_InternationalAccount.js",
+        "RB/T24Droid/Payments/RecurringPayment_SameBank.js",
+        "RB/T24Droid/Payments/VerifyDataTruncated_SameBank.js",
+        "RB/T24Droid/Payments/OneTimePayment_International_FutureDate.js",
+        "RB/T24Droid/Payments/InstantDomesticPayment_CurrDate.js",
+        "RB/T24Droid/Payments/InstantDomesticPayment_FutureDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_Domestic_CurrDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_Domestic_FutureDate.js",
+        "RB/T24Droid/Payments/RecurringPayment_Domestic.js",
+        "RB/T24Droid/Payments/VerifyBankName_Domestic.js",
+        "RB/T24Droid/Payments/VerifyQuickLinkAccess_AccountsDashboard.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

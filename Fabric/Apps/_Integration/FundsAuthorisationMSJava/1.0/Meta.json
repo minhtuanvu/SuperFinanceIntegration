@@ -1,0 +1,13 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "fundsauthorisationapi-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "DBPFramework.jar",
+    "type" : "dependentJar"
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_d6c6974a6fde4caeb3788096c9eaed28": {
+        "id": "AS_FlexContainer_d6c6974a6fde4caeb3788096c9eaed28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmApprovalHistory",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b77aee84c11f484e9bfeb5bf18de1313"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__cecc24bc79a54bb08e0a50dee782182c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmApprovalsAndRequestsFilters",
+            "friendlyName": "frmApprovalsAndRequestsFilters",
+            "formKUID": "j8ed96e100ab4de6a47b9fed8d8e1fce",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "ApprovalsReqModule",
+            "enableNavigationObj": true,
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onClick\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

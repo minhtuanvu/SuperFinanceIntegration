@@ -1,0 +1,56 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "popupCancelButtonSkin": "sknLbl0A78D1SSPR15px"
+    },
+    "id": "transactionPinPopup",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "h670501fa9ac45de9922db48a1462ac2",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "sdk",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "uaf30712ebdb4dfd83b9b75d175631e3",
+    "wType": "UserWidgetInstance",
+    "zindex": 210
+}

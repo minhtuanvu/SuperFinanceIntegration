@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_ManageRecipientP2P",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/ManageRecipient.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsP2P.js",
+        "RB/IOS/ManageRecipients/AddRecipientP2P.js",
+        "RB/IOS/ManageRecipients/ListOfRecipientsP2P.js",
+        "RB/IOS/ManageRecipients/AddRecipientP2PUsingEmail.js",
+        "RB/IOS/ManageRecipients/SearchRecipientP2PAccount.js",
+        "RB/IOS/ManageRecipients/TransferP2PAccount.js"
+    ],
+    "usedBy": []
+}

@@ -1,0 +1,9 @@
+{
+    "testCaseName": "Verify_ScheduledTransferDaily_NoOfOccurances_P2P",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/RB_SanitySuite.js"
+    ]
+}

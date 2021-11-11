@@ -1,0 +1,29 @@
+{
+  "operationConfig" : {
+    "name" : "ExpectIDGeotrace4717",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"zipcode\" outputpath=\"zipcode\"/><set-param inputpath=\"firstName\" outputpath=\"firstName\"/><set-param inputpath=\"lastName\" outputpath=\"lastName\"/><set-param inputpath=\"address\" outputpath=\"address\"/><set-param inputpath=\"city\" outputpath=\"city\"/><set-param inputpath=\"state\" outputpath=\"state\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "IdologyIntServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "ExpectIDGeotrace"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "ApplicantVerification",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

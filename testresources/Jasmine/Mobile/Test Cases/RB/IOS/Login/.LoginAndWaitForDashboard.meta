@@ -1,0 +1,10 @@
+{
+    "testCaseName": "LoginAndWaitForDashboard",
+    "testSuiteName": "Test Cases/IOS/Login",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/PreLogin_VerifyAllLanguages.js",
+        "IOS/transferOwnAccount.js"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifyEditTranscationDetails",
+    "testSuiteName": "Test Cases/RB/Droid/AccountsDashboard",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/RB/UnitSuite.js"
+    ],
+    "userCode": true
+}

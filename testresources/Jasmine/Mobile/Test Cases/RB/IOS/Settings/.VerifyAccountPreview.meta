@@ -1,0 +1,39 @@
+{
+    "testCaseName": "VerifyAccountPreview",
+    "testSuiteName": "Test Cases/RB/IOS/Settings",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_Settings.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "b26f28ae-72fc-9866-adea-cdb4c10d6af7",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Settings\");\nawait enableDisableAccountPreview();\nawait goBackToDashboardFromSettings();",
+                        "comment": "// - [3 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

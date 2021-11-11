@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getAboutUs" : "getAboutUsMapping",
+    "getContactUs" : "getContactUsMapping",
+    "get" : "getMapping",
+    "getPrivacyPolicy" : "getPrivacyPolicyMapping",
+    "getFAQs" : "getFAQsMapping",
+    "getTermsAndConditions" : "getTermsAndConditionsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

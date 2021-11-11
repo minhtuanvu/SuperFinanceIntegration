@@ -1,0 +1,9 @@
+{
+    "testCaseName": "PostLogin",
+    "testSuiteName": "Test Cases/Common/IOS/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_PostLogin_Support.js"
+    ]
+}

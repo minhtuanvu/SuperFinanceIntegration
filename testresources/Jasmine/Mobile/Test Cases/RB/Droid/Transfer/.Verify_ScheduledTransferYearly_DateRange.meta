@@ -1,0 +1,7 @@
+{
+    "testCaseName": "Verify_ScheduledTransferYearly_DateRange",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

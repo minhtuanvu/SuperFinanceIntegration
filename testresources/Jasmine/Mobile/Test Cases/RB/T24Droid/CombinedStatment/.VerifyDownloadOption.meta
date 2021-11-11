@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifyDownloadOption",
+    "testSuiteName": "Test Cases/RB/T24Droid/CombinedStatment",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/CombinedStatement.js"
+    ]
+}

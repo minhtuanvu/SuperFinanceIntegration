@@ -1,0 +1,27 @@
+{
+    "AS_Form_bd3ba7a43e0c4d2fb5317d6910d8dd8b": {
+        "id": "AS_Form_bd3ba7a43e0c4d2fb5317d6910d8dd8b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }, {
+            "datatype": "AnyObject?",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "frmError",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f012bdfdba4d4821b720c38b82a30702"
+        },
+        "language": "swift",
+        "actions": [{
+            "id": "ADD_SNIPPET__a3628c2e419543078a6ee0fdd562b6d4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "setError(form, context!)",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

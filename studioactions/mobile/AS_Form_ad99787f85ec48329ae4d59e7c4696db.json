@@ -1,0 +1,28 @@
+{
+    "AS_Form_ad99787f85ec48329ae4d59e7c4696db": {
+        "id": "AS_Form_ad99787f85ec48329ae4d59e7c4696db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e084d4c5ac4644b792e06c379537dc78",
+            "name": "frmSCACantSignIn"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__a13457d3160748269cec8697a334d295",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShow",
+            "display": "preShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

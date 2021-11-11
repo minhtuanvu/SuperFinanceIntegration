@@ -1,0 +1,7 @@
+{
+    "testCaseName": "VerifySameBankRecipientList",
+    "testSuiteName": "Test Cases/RB/Droid/ManageRecipients",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

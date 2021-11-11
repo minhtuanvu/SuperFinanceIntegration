@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "ManageBeneficiaries_DeleteAllBeneficiaries",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteDomesticRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteInternationalRecipitent.js",
+        "RB/T24Droid/ManageBeneficiary/DeleteSameBankRecipitent.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js"
+    ]
+}

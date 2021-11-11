@@ -1,0 +1,26 @@
+{
+    "AS_TextField_c66742da609c4cfaa92e9aa5c83f3b22": {
+        "id": "AS_TextField_c66742da609c4cfaa92e9aa5c83f3b22",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "frmEuropeTransferReference",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bccc5366ec894da1acf4e8c15deec0b6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cbde75b674dd4b33908a5b21450cd19d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.continueOnClick();",
+            "parentId": null
+        }]
+    }
+}

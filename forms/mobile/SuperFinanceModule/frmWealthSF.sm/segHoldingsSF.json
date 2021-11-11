@@ -1,0 +1,135 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgHlogoSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "atlassian_fusion.png"
+            },
+            "lblRDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "NASDAQ: TEAM"
+            },
+            "lblRTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Atlassian Corporation"
+            }
+        },
+        {
+            "imgHlogoSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "xero_logo.png"
+            },
+            "lblRDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "ASX: XRO"
+            },
+            "lblRTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Zero Limited"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "17%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "01",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segHoldingsSF",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ia9a93c2a14b4250a28b208f784249a9",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxHoldingsSF",
+    "pf": "frmWealthSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f7de4acaf4394760b3125db8882c237c",
+    "rowcounter": 1,
+    "rowfocusskin": "s90b5e3ccc7a4ae2a1c39e1ebad3ec00",
+    "rowskin": "s90b5e3ccc7a4ae2a1c39e1ebad3ec00",
+    "rowtemplate": "flxHoldingsWeSF",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxHLogoSF": "flxHLogoSF",
+        "flxHoldingsWeSF": "flxHoldingsWeSF",
+        "flxMainSF": "flxMainSF",
+        "flxParentSF": "flxParentSF",
+        "flxRDtlsSF": "flxRDtlsSF",
+        "flxRL1SF": "flxRL1SF",
+        "flxRL2SF": "flxRL2SF",
+        "imgHlogoSF": "imgHlogoSF",
+        "lblRDescSF": "lblRDescSF",
+        "lblRTitleSF": "lblRTitleSF"
+    },
+    "zindex": 1
+}

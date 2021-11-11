@@ -1,0 +1,217 @@
+define("BillPayModule/userfrmBillPayConfirmationController", {
+    tnCClicked: false,
+    init: function() {
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+    },
+    preShow: function() {
+        if (applicationManager.getPresentationFormUtility().getDeviceName() === "iPhone") {
+            this.view.flxHeader.isVisible = false;
+        }
+        var btntxt = kony.i18n.getLocalizedString("kony.mb.TermsAndConditions.Title");
+        this.view.lblRichTxt.text = kony.i18n.getLocalizedString("kony.mb.externalAccounts.termnsConditionsChk") + "  " + "<a href=''>" + btntxt + "</a>";
+        this.view.lblRichTxt.linkSkin = "sknBtn0095e428px";
+        this.view.lblRichTxt.onClick = this.termsAndConditions;
+        this.populateData();
+        this.initActions();
+        this.checkForTnC();
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().logFormName(currentForm);
+    },
+    initActions: function() {
+        this.view.customHeader.flxBack.onClick = function() {
+            var navMan = applicationManager.getNavigationManager();
+            navMan.goBack();
+        }
+        this.view.customHeader.btnRight.onClick = function() {
+            var billPayModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+            billPayModule.presentationController.cancelCommon();
+        }
+        this.view.btnContinue.onClick = this.continueOnClick;
+        this.view.btnTnC.onClick = this.termsAndConditions;
+        this.view.flxCheckBox.onClick = this.toggleCheckBox;
+        // this.view.postShow = this.postShow;
+    },
+    checkForTnC: function() {
+        if (!this.tnCClicked) this.view.imgTermsAccepted.src = "tickmarkbox.png";
+        if (this.view.imgTermsAccepted.src == "tickmarkbox.png") {
+            this.view.btnContinue.skin = "sknBtna0a0a0SSPReg26px";
+            this.view.btnContinue.setEnabled(false);
+        }
+        this.tnCClicked = false;
+        if (this.view.flxConfirmationDetails.flxToPayee.lblPayeeAddress.text) {
+            this.view.flxToPayee.height = 100;
+        } else {
+            this.view.flxToPayee.height = 75;
+        }
+    },
+    toggleCheckBox: function() {
+        if (this.view.imgTermsAccepted.src === "tickmarkbox.png") {
+            this.view.imgTermsAccepted.src = "a.png";
+            this.view.btnContinue.setEnabled(true);
+            this.view.btnContinue.skin = "sknBtn0095e426pxEnabled";
+        } else {
+            this.view.imgTermsAccepted.src = "tickmarkbox.png";
+            this.view.btnContinue.setEnabled(false);
+            this.view.btnContinue.skin = "sknBtna0a0a0SSPReg26px";
+        }
+    },
+    termsAndConditions: function() {
+        this.tnCClicked = true;
+        var billPayMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        billPayMod.presentationController.getTermsAndConditions();
+    },
+    continueOnClick: function() {
+        var description = this.view.txtDescription.text;
+        var billPayModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        billPayModule.presentationController.makeATransfer(description);
+    },
+    populateData: function() {
+        var  billPayMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        var transObj = billPayMod.presentationController.getTransObject();
+        var forUtility = applicationManager.getFormatUtilManager();
+        var amount = forUtility.formatAmountandAppendCurrencySymbol(transObj.amount, transObj.transactionCurrency);
+        var configManager = applicationManager.getConfigurationManager();
+        var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
+        var dataobj;
+        this.view.lblPaymentAmountValue.text = amount;
+        var name = "";
+        if (transObj.fromAccNickName === null || transObj.fromAccNickName === undefined) {
+            name = transObj.fromAccountName;
+        } else {
+            name = transObj.fromAccNickName;
+        }
+        var isSingleCustomerProfile = applicationManager.getUserPreferencesManager().isSingleCustomerProfile;
+        var profileAccess = applicationManager.getUserPreferencesManager().profileAccess;
+        if (isSingleCustomerProfile === true || isSingleCustomerProfile === "true") {
+            this.view.flxAccountType.isVisible = false;
+        } else {
+            if (profileAccess === "both") {
+                var isBusinessAccount = accountMod.presentationController.fetchIsBusinessAccount(transObj.fromAccountNumber);
+                this.view.flxAccountType.isVisible = true;
+                this.view.imgAccountType.src = "businessaccount.png";
+                if (isBusinessAccount === false || isBusinessAccount === "false") {
+                    this.view.imgAccountType.src = "personalaccount.png";
+                }
+            } else {
+                this.view.flxAccountType.isVisible = false;
+            }
+        }
+        //     if (configManager.isCombinedUser === "true") {
+        //       var isBusinessAccount = accountMod.presentationController.fetchIsBusinessAccount(transObj.fromAccountNumber);
+        //       this.view.flxAccountType.isVisible = true;
+        //       this.view.flxtoAccountType.isVisible = true;
+        //       this.view.imgAccountType.src = (isBusinessAccount === "false") ? "personalaccount.png" : "businessaccount.png";
+        //       this.view.imgtoAccountType.src = (transObj.isBusinessPayee === "0") ? "personalaccount.png" : "businessaccount.png";
+        //     } 
+        this.view.lblFromAccountValue.text = applicationManager.getPresentationUtility().formatText(name, 10, transObj.fromAccountNumber, 4);
+        this.view.lblBank.text = transObj.fromBankName;
+        this.view.lblToPayeeValue.text = transObj.payeeNickName;
+        this.view.lblPayeeAddress.text = transObj.payeeAdress;
+        this.view.segDetails.widgetDataMap = {
+            lblKey: "key",
+            lblValue: "value",
+        };
+        if (transObj.transactionsNotes) this.view.txtDescription.text = transObj.transactionsNotes;
+        else this.view.txtDescription.text = "";
+        var deliverDate = '';
+        var sendOnDate = '';
+        var navMan = applicationManager.getNavigationManager();
+        var billObj = navMan.getCustomInfo("billPayObj");
+        if (billObj.deliverDate) deliverDate = forUtility.getFormattedCalendarDate(billObj.deliverDate);
+        if (billObj.startDate) sendOnDate = forUtility.getFormattedCalendarDate(billObj.startDate);
+        deliverDate = forUtility.getFormattedCalendarDate(billObj.deliverDate);
+        var billPayMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        var transitDays = billPayMod.presentationController.getTransitDays();
+        if (transObj.isScheduled == "0") {
+            dataobj = [{
+                "key": kony.i18n.getLocalizedString("kony.mb.transaction.frequency"),
+                "value": kony.i18n.getLocalizedString("kony.mb.frequency.TransferNow")
+            }, {
+                "key": kony.i18n.getLocalizedString("kony.mb.BillPay.TransactionDate"),
+                "value": sendOnDate
+            }, {
+                "key": kony.i18n.getLocalizedString("kony.mb.BillPay.DeliverBy"),
+                "value": deliverDate
+            }]
+        } else {
+            if (transObj.frequencyType == "Once") {
+                dataobj = [{
+                    "key": kony.i18n.getLocalizedString("kony.mb.transaction.frequency"),
+                    "value": kony.i18n.getLocalizedString("kony.mb.frequency.OneTime")
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.BillPay.TransactionDate"),
+                    "value": forUtility.getFormattedCalendarDate(transObj.scheduledDate)
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.BillPay.DeliverBy"),
+                    "value": deliverDate
+                }]
+            } else if (scope_BillPayPresentationController.getDuration() == applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.frequency.DateRange")) {
+                dataobj = [{
+                    "key": kony.i18n.getLocalizedString("kony.mb.transaction.frequency"),
+                    "value": transObj.frequencyType
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.Transfers.Duration"),
+                    "value": kony.i18n.getLocalizedString("kony.mb.frequency.DateRange")
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.Transfers.StartDate"),
+                    "value": forUtility.getFormattedCalendarDate(transObj.frequencyStartDate)
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.Transfers.EndDate"),
+                    "value": forUtility.getFormattedCalendarDate(transObj.frequencyEndDate)
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.BillPay.DeliveredIn"),
+                    "value": transitDays + " days from transaction date"
+                }]
+            } else if (scope_BillPayPresentationController.getDuration() == applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.Transfers.RecurrenceNo")) {
+                dataobj = [{
+                    "key": kony.i18n.getLocalizedString("kony.mb.transaction.frequency"),
+                    "value": transObj.frequencyType
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.Transfers.Duration"),
+                    "value": kony.i18n.getLocalizedString("kony.mb.Transfers.RecurrenceNo")
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.frequency.NumberofRecurrence"),
+                    "value": transObj.numberOfRecurrences
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.Transfers.StartDate"),
+                    "value": forUtility.getFormattedCalendarDate(transObj.scheduledDate)
+                }, {
+                    "key": kony.i18n.getLocalizedString("kony.mb.BillPay.DeliveredIn"),
+                    "value": transitDays + " days from transaction date"
+                }]
+            }
+        }
+        this.view.segDetails.setData(dataobj);
+    }
+});
+define("BillPayModule/frmBillPayConfirmationControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Button_jf9de2a245f04ad79bce9b4de67dc9c9: function AS_Button_jf9de2a245f04ad79bce9b4de67dc9c9(eventobject) {
+        var self = this;
+        var billPayMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        billPayMod.presentationController.commonFunctionForNavigation("frmBillPay");
+    },
+    AS_Form_f58adfd38d30494a833dc7970d5049c7: function AS_Form_f58adfd38d30494a833dc7970d5049c7(eventobject) {
+        var self = this;
+        this.init();
+    },
+    AS_Form_fc9fa43e93794226be55b07e7d5811c4: function AS_Form_fc9fa43e93794226be55b07e7d5811c4(eventobject) {
+        var self = this;
+        this.preShow();
+    },
+    AS_BarButtonItem_f1c6ee9e787b4f82bdeecab60260c466: function AS_BarButtonItem_f1c6ee9e787b4f82bdeecab60260c466(eventobject) {
+        var self = this;
+        var transferModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("BillPayModule");
+        transferModule.presentationController.cancelCommon();
+    },
+});
+define("BillPayModule/frmBillPayConfirmationController", ["BillPayModule/userfrmBillPayConfirmationController", "BillPayModule/frmBillPayConfirmationControllerActions"], function() {
+    var controller = require("BillPayModule/userfrmBillPayConfirmationController");
+    var controllerActions = ["BillPayModule/frmBillPayConfirmationControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

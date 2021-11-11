@@ -1,0 +1,27 @@
+{
+  "android": {
+    "font_name": "SourceSansPro-Semibold",
+    "font_size": 112,
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "fontSizeInPx": false,
+  "font_color": "424242ff",
+  "font_name": "iphoneSystem",
+  "font_size": 112,
+  "font_style": "normal",
+  "font_weight": "400",
+  "iphone": {
+    "font_name": "SourceSansPro-Semibold",
+    "font_size": 112,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sf2c221b18a746c2b8d10f493b8d3b94",
+  "wType": "Label"
+}

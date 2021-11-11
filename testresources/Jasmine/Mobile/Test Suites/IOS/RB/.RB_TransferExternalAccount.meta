@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_TransferExternalAccount",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/TransferExternalAccount/SearchExternalAccount.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountOneTime.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountScheduleOnce.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_DailyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_DailyNumberOfTransfers.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_HalfYearlyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_HalfYearlyNumberOfTransfers.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_MonhtlyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_MonthlyNumberOfTransfers.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_QuarterlyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_QuarterlyNumberOfTransfers.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_WeeklyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_WeeklyNumberOfTransfers.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_YearlyDateRange.js",
+        "RB/IOS/TransferExternalAccount/TransferExternalAccountSchedule_YearlyNumberOfTransfers.js"
+    ],
+    "usedBy": []
+}

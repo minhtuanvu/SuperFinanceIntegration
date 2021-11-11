@@ -1,0 +1,10 @@
+{
+    "testCaseName": "PayBills_AddPayee",
+    "testSuiteName": "Test Cases/SME/Droid/MyBills",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/SME/SME_MyBills.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ]
+}

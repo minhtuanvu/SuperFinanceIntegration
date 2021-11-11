@@ -1,0 +1,10 @@
+{
+    "testCaseName": "DeletePayee",
+    "testSuiteName": "Test Cases/SME/Droid/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/SME/SME_MyBills.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ],
+    "userCode": true
+}

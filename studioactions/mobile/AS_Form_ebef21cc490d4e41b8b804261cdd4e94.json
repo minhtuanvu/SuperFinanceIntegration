@@ -1,0 +1,23 @@
+{
+    "AS_Form_ebef21cc490d4e41b8b804261cdd4e94": {
+        "id": "AS_Form_ebef21cc490d4e41b8b804261cdd4e94",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWealthDashboard",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c833e8667ccc4f77aa704b6516a0df6b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_init_h8a63c1bf74d4b8bbb3b981486f44a4c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "callbackType": null
+        }]
+    }
+}

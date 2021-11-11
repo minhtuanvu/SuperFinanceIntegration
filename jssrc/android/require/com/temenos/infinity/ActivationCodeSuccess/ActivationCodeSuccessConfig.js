@@ -1,0 +1,57 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "headerBgSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "greenTickImg",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "headerText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "headerTextSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "screenTitleText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "screenTitleSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "screenDescriptionText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "screenDescTextSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "submitBtnText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "btnSubmitSkin",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": [],
+        "events": ["closeComponent"]
+    }
+});

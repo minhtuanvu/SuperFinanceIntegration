@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/Droid",
+    "testSuiteName": "Demo_2021",
+    "testCaseInfo": [
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/LoginAndWaitForDashboard.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "RB/Droid/PreLogin/PreLogin_VerifyAppVersion.js",
+        "RB/Droid/AccountLanding/AccountsDb_ListCollapsed.js",
+        "RB/Droid/AccountLanding/AccountsDb_SearchTransactions.js"
+    ],
+    "usedBy": [
+        "DemoAndroid.js"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_ManageRecipient",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "Common/Droid/SME/MyBills.js",
+        "Common/Droid/SME/Transfers.js",
+        "SME/Droid/ManageRecipient/addRecipientSameBank.js",
+        "SME/Droid/ManageRecipient/deleteRecipientSameBank.js"
+    ],
+    "usedBy": []
+}

@@ -1,0 +1,13 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "infinity-api-commons.jar",
+    "type" : "jar"
+  }, {
+    "name" : "DBPFramework.jar",
+    "type" : "jar"
+  }, {
+    "name" : "savingspotapi-services.jar",
+    "type" : "servicejar"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+    "testCaseName": "MyBills",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/RB_SanitySuite.js",
+        "Droid/RB/tempSuite.js",
+        "UnitSuite.js",
+        "Droid/RB/RB_SettingsSuite.js"
+    ]
+}

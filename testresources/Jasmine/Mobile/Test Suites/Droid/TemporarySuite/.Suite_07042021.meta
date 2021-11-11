@@ -1,0 +1,27 @@
+{
+    "groupName": "Test Suites/Droid/TemporarySuite",
+    "testSuiteName": "Suite_07042021",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/CardManagement.js",
+        "Common/Droid/T24RB/CombinedStatment.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/ManageTransactions.js",
+        "Common/Droid/T24RB/Settings.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/CardManagement/AddTravelPlan.js",
+        "RB/T24Droid/CardManagement/EditTravelPlan.js",
+        "RB/T24Droid/CardManagement/DeleteTravelPlan.js",
+        "RB/T24Droid/CardManagement/ChangePIN.js",
+        "RB/T24Droid/CardManagement/SetATMWithdrawalLimit.js",
+        "RB/T24Droid/CardManagement/SetPurchaseLimit.js",
+        "RB/T24Droid/CardManagement/VerifyCardDetails.js",
+        "RB/T24Droid/CardManagement/VerifyCardNumber.js",
+        "RB/T24Droid/CardManagement/ViewTransactions.js",
+        "RB/T24Droid/CardManagement/LockCard.js",
+        "RB/T24Droid/CardManagement/UnlockCard.js"
+    ],
+    "usedBy": []
+}

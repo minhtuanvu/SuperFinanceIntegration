@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s27f6e90c9134d07b98727c1f98cf4cf",
+    "_text_": "INFO",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "33.20%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "INFO"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s27f6e90c9134d07b98727c1f98cf4cf",
+    "id": "btnInfo",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": false,
+    "kuid": "j9822027aa9b40c1a0ea22a65a940f3d",
+    "name": "kony.ui.Button",
+    "parent": "flxProductDetailsTabs",
+    "pf": "frmPersonalLoans",
+    "texti18n": "kony.mb.NAO.Info",
+    "wType": "Button",
+    "zindex": 2
+}

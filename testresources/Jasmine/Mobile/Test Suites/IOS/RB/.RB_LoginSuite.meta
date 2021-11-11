@@ -1,0 +1,13 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_LoginSuite",
+    "testCaseInfo": [
+        "Common/IOS/RB/LoginAndWaitForDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_RB_Regression.js",
+        "TestPlanIOSSMEandRB.js",
+        "TestPlanIOS_RB_Sanity.js",
+        "tempPlan.js"
+    ]
+}

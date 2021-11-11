@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_Login",
+    "testCaseInfo": [
+        "Common/Droid/SME/LoginAndWaitForDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Sanity.js",
+        "TestPlanAndroid_SME_Regression.js"
+    ]
+}

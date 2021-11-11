@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s48627a2a42d43d5bec11d0fa3c5b047",
+    "_text_": "We have detected that you are logging in from a <b>New device</b>",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "id": "rtxNewDevice",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7b04704f66b430da956ac7338757e7b",
+    "linkskin": "s9b05ba7658b47b6a5d474eb249d11b1",
+    "name": "kony.ui.RichText",
+    "parent": "flxNewDevice",
+    "pf": "frmMFAOption2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "kony.mb.MFA.NewDeviceDetected",
+    "wType": "RichText",
+    "widgetalignment": 5,
+    "zindex": 8
+}

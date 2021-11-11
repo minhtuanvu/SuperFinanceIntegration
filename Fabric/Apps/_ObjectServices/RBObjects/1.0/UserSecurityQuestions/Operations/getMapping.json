@@ -1,0 +1,74 @@
+{
+  "operationConfig" : {
+    "name" : "getUserSecurityQuestions5058",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"usersecurityli\" outputpath=\"usersecurityli\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/><set-param inputpath=\"userId\" outputpath=\"userId\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">    <map inputpath=\"usersecurityview\" outputpath=\"UserSecurityQuestions\">      <set-param inputpath=\"question\" outputpath=\"question\"/>      <set-param inputpath=\"question_id\" outputpath=\"question_id\"/>    </map>  </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"UserSecurityQuestions\",\"xy\":\"770 100\",\"__gohashid\":323593},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getUserSecurityQuestions\",\"xy\":\"150 100\",\"__gohashid\":323594}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:UserSecurityQuestions\",\"fromPort\":\"target\",\"toPort\":\"target:UserSecurityQuestions\",\"visible\":true,\"common\":false,\"__gohashid\":323614},{\"from\":\"target:UserSecurityQuestions\",\"to\":\"target:UserSecurityQuestions:fields\",\"fromPort\":\"target:UserSecurityQuestions\",\"toPort\":\"target:UserSecurityQuestions:fields\",\"visible\":true,\"common\":false,\"__gohashid\":323615},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:errmsg:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":323616},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:question:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:question:\",\"visible\":true,\"common\":false,\"__gohashid\":323617},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:question_id:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:question_id:\",\"visible\":true,\"common\":false,\"__gohashid\":323618},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:success:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:success:\",\"visible\":true,\"common\":false,\"__gohashid\":323619},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:userId:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:userId:\",\"visible\":true,\"common\":false,\"__gohashid\":323620},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:userName:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:userName:\",\"visible\":true,\"common\":false,\"__gohashid\":323621},{\"from\":\"target:UserSecurityQuestions:fields\",\"to\":\"target:UserSecurityQuestions:usersecurityli:\",\"fromPort\":\"target:UserSecurityQuestions:fields\",\"toPort\":\"target:UserSecurityQuestions:usersecurityli:\",\"visible\":true,\"common\":false,\"__gohashid\":323622},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":323623},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":323624},{\"from\":\"source:parameters\",\"to\":\"source:success:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:success:\",\"visible\":true,\"common\":false,\"__gohashid\":323625},{\"from\":\"source\",\"to\":\"source:UserSecurityQuestions\",\"fromPort\":\"source\",\"toPort\":\"source:UserSecurityQuestions\",\"visible\":true,\"common\":false,\"__gohashid\":323626},{\"from\":\"source:UserSecurityQuestions\",\"to\":\"source:UserSecurityQuestions:parameters\",\"fromPort\":\"source:UserSecurityQuestions\",\"toPort\":\"source:UserSecurityQuestions:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":323627},{\"from\":\"source:UserSecurityQuestions:parameters\",\"to\":\"source:UserSecurityQuestions:question:\",\"fromPort\":\"source:UserSecurityQuestions:parameters\",\"toPort\":\"source:UserSecurityQuestions:question:\",\"visible\":true,\"common\":false,\"__gohashid\":323628},{\"from\":\"source:UserSecurityQuestions:parameters\",\"to\":\"source:UserSecurityQuestions:question_id:\",\"fromPort\":\"source:UserSecurityQuestions:parameters\",\"toPort\":\"source:UserSecurityQuestions:question_id:\",\"visible\":true,\"common\":false,\"__gohashid\":323629},{\"category\":\"Mapping\",\"from\":\"source:UserSecurityQuestions:question:\",\"to\":\"target:UserSecurityQuestions:question:\",\"fromPort\":\"source:UserSecurityQuestions:question:\",\"toPort\":\"target:UserSecurityQuestions:question:\",\"visible\":true,\"common\":true,\"__gohashid\":326081},{\"category\":\"Mapping\",\"from\":\"source:UserSecurityQuestions:question_id:\",\"to\":\"target:UserSecurityQuestions:question_id:\",\"fromPort\":\"source:UserSecurityQuestions:question_id:\",\"toPort\":\"target:UserSecurityQuestions:question_id:\",\"visible\":true,\"common\":true,\"__gohashid\":326088}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getUserSecurityQuestions"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "UserSecurityQuestions",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_TransferActivities",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/TransferActivities/ExternalBank_VerifyTranscationUnderAccounts.js",
+        "RB/Droid/TransferActivities/ExternalBank_VerifyTranxUnderActivities.js",
+        "RB/Droid/TransferActivities/InterBank_VerifyTranscationUnderAccounts.js",
+        "RB/Droid/TransferActivities/InterBank_VerifyTranxUnderActivities.js",
+        "RB/Droid/TransferActivities/OwnAcc_VerifyTranscationUnderAccounts.js",
+        "RB/Droid/TransferActivities/OwnAcc_VerifyTranxUnderActivities.js",
+        "RB/Droid/TransferActivities/PTOPBank_VerifyTranscationUnderAccounts.js",
+        "RB/Droid/TransferActivities/PTOPBank_VerifyTranxUnderActivities.js",
+        "RB/Droid/TransferActivities/SameBank_VerifyTranscationUnderAccounts.js",
+        "RB/Droid/TransferActivities/SameBank_VerifyTranxUnderActivities.js",
+        "RB/Droid/TransferActivities/VerifyPostedTranscationDetails.js",
+        "RB/Droid/TransferActivities/VerifySearchinActivities.js",
+        "RB/Droid/TransferActivities/VerifySheduledTranscationDetails.js"
+    ],
+    "usedBy": []
+}

@@ -1,0 +1,28 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-productservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-demoandcoreservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-businessbankingservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-ObjectServices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-nonproductservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-mfaservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-adminintegrationservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "dependentJar"
+  } ]
+}

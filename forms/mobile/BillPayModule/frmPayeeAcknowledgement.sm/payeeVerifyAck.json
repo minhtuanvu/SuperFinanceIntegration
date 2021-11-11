@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "ackPage": true,
+        "btn1": "{   \"text\": \"Make a Bill Payment\",   \"action\": {     \"level\": \"form\",     \"method\": \"makeABillPayment\"   } }",
+        "btn2": "{   \"text\": \"All Payee\",   \"action\": {     \"level\": \"form\",     \"method\": \"allPayees\"   } }",
+        "lblEditField1": "",
+        "lblEditField2": "",
+        "lblField3": "[   {     \"text\": \"Phone Number:\",     \"category\": [       \"2\"     ]   },   {     \"text\":\"Policy Number:\",     \"category\": [       \"4\"     ]   } ]",
+        "lblField4": "Payee Address:",
+        "lblField5": "Paying for:",
+        "lblField6": "Account Nickname:",
+        "lblField7Edit": "",
+        "lblFieldValue5": "{   \"mapping\": \"{$.c.nameOnBill}\",   \"mask\": \"false\",   \"placeHolder\" :\"Paying for\" }",
+        "lblFieldValue6": "{   \"mapping\": \"{$.c.payeeNickName}\",   \"mask\": \"false\",   \"placeHolder\" :\"Paying for\" }",
+        "sknBtnError": "ICSknBtn003E75FFFFFF15px",
+        "txtEditValue1": "",
+        "txtEditValue2": ""
+    },
+    "id": "payeeVerifyAck",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b309345fd142426986010761493f9199",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainContainerNew",
+    "pf": "frmPayeeAcknowledgement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "c7724a6aa35c4362a41494e2d01a2b3e",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,90 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "s14d1f82fd8543d1be3fa073ee37549d",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "dropDownImage": "transparentbox.png",
+        "psp": {}
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "placeholderSkin": "s2430d74338b41f1aebc8f587909a989"
+    },
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s14d1f82fd8543d1be3fa073ee37549d",
+    "groupcells": false,
+    "id": "lstbxCountry",
+    "info": null,
+    "ipad": {
+        "dropDownImage": "transparentbox.png",
+        "psp": {
+            "inputAccessoryViewType": 1
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dff10d3870584012a720ba77768e5570",
+    "masterdata": [
+        [
+            "lb1",
+            "Placeholder One"
+        ],
+        [
+            "lb2",
+            "Placeholder Two"
+        ],
+        [
+            "lb3",
+            "Placeholder Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxListBoxCountry",
+    "pf": "frmProfileEditAddress",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 3
+}

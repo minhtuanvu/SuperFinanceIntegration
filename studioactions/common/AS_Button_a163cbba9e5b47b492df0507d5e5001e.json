@@ -1,0 +1,22 @@
+{
+    "AS_Button_a163cbba9e5b47b492df0507d5e5001e": {
+        "id": "AS_Button_a163cbba9e5b47b492df0507d5e5001e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u40125ce567c406b8632641ba71f9381",
+            "name": "userwidgetmodel"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ba7e93461e264a0c8bfcdd03dad4fed7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self = this;\nself.view.flxApprove.setVisibility(false);\nself.view.transactionPinPopup.setVisibility(false);\nself.view.flxSignInApprovedPopup.setVisibility(false);\nself.view.flxSignInDeniedPopup.setVisibility(false);",
+            "parentId": null
+        }]
+    }
+}

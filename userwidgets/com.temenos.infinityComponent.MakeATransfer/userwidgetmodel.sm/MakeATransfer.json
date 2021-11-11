@@ -1,0 +1,85 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s120a55346c946c2b4561ab8f86fe692",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxPopup",
+        "flxFromAccount",
+        "flxToAccount",
+        "flxAmount",
+        "flxFrequencySelection",
+        "flxCurrencySelection",
+        "flxAccountNumber",
+        "flxReEnterAccountNumber",
+        "flxRecipientsName",
+        "flxFXRateReference",
+        "flxPayeeNickname",
+        "flxIntermediaryBIC",
+        "flxE2E",
+        "flxRequiredCode",
+        "flxAddAddress",
+        "flxBICSwift",
+        "flxSwiftBICSearch",
+        "flxSwiftBICSearchList",
+        "flxPayeeNicknameSuccess",
+        "flxDate",
+        "flxFeesPaidBy",
+        "flxPaymentMethod",
+        "flxOtherAmount",
+        "flxContactType",
+        "flxCountryCode",
+        "flxVerifyDetails"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "MakeATransfer",
+    "ide_preShow": "AS_FlexContainer_a157b376de054fc0a10e9f6a63b2d74e",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "i8cf88b49abd44aeae2a31c4b48f628a",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

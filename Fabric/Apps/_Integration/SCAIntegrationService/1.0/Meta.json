@@ -1,0 +1,7 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-scaintegration.jar",
+    "type" : "servicejar"
+  } ]
+}

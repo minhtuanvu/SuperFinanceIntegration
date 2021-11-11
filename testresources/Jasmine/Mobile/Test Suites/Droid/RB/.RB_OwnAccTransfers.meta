@@ -1,0 +1,37 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_OwnAccTransfers",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/TransferToOwnAcc/CancelTransfer.js",
+        "RB/Droid/TransferToOwnAcc/DailySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/DailySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToOwnAcc/HalfYearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/HalfYearlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToOwnAcc/MonthlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/MonthlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToOwnAcc/OneTimeTransfer.js",
+        "RB/Droid/TransferToOwnAcc/QuarterlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/QuarterlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToOwnAcc/SheduledOneTimeTransfer.js",
+        "RB/Droid/TransferToOwnAcc/VerifySearch_From_To_AccList.js",
+        "RB/Droid/TransferToOwnAcc/WeeklySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/WeeklySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToOwnAcc/YearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToOwnAcc/YearlySheduledTransfer-Occurences.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

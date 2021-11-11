@@ -1,0 +1,10 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_Settings",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Settings.js",
+        "RB/IOS/Settings/VerifyAccountPreview.js"
+    ],
+    "usedBy": []
+}

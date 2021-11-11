@@ -1,0 +1,16 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_MyBills",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "Common/Droid/SME/MyBills.js",
+        "SME/Droid/MyBills/PayBills_AddPayee.js",
+        "SME/Droid/MyBills/OneTimeBillPaymentCreditCard.js",
+        "SME/Droid/MyBills/SearchBill.js",
+        "SME/Droid/MyBills/DeletePayee.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Regression.js",
+        "Droid_RB_SME_Suite.js"
+    ]
+}

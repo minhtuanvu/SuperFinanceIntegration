@@ -1,0 +1,144 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgdottedline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "line.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Reference ID"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12334556788"
+            }
+        },
+        {
+            "imgdottedline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "line.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Reference ID"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12334556788"
+            }
+        },
+        {
+            "imgdottedline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "line.png"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Reference ID"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12334556788"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDetails",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e096e3bda09b480a8d1d8490f0216ff0",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxConfirmationDetails",
+    "pf": "frmShortTermLoanConfirmation",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "gcb7e239bb7d4caabb7a24cb66308814",
+    "rowcounter": 2,
+    "rowfocusskin": "s7edd442a0b84fcf8effd2349b7c3044",
+    "rowskin": "s7edd442a0b84fcf8effd2349b7c3044",
+    "rowtemplate": "flxConfirmationDetails",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxConfirmationDetails": "flxConfirmationDetails",
+        "imgdottedline": "imgdottedline",
+        "lblTitle": "lblTitle",
+        "lblValue": "lblValue"
+    },
+    "zindex": 4
+}

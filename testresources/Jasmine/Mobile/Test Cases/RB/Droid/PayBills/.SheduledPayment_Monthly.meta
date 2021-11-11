@@ -1,0 +1,7 @@
+{
+    "testCaseName": "SheduledPayment_Monthly",
+    "testSuiteName": "Test Cases/RB/Droid/PayBills",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

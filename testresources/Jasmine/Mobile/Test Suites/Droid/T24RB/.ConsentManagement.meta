@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "ConsentManagement",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/Settings.js",
+        "RB/T24Droid/ConsentManagement/VerifyEditConsent.js",
+        "RB/T24Droid/ConsentManagement/VerifySelectedConsent.js",
+        "RB/T24Droid/ConsentManagement/VerifyConsentTypeNotClickable.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

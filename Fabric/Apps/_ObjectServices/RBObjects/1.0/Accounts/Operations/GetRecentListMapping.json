@@ -1,0 +1,31 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.dbputilities.objpostprocessor.GetRecentListObjPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "getRecentAccountsList2469",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getRecentAccountsList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Accounts",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

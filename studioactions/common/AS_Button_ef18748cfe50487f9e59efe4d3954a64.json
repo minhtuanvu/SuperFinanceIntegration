@@ -1,0 +1,21 @@
+{
+    "AS_Button_ef18748cfe50487f9e59efe4d3954a64": {
+        "id": "AS_Button_ef18748cfe50487f9e59efe4d3954a64",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua2ed622554743d093324eea75ddbe83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h2d6e725d0aa4ce9852dbdc87c7f843d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.toggleMenu();",
+            "parentId": null
+        }]
+    }
+}

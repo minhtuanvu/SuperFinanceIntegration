@@ -1,0 +1,38 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createInfinityProspect" : "createInfinityProspectMapping",
+    "getInfinityUserContractDetails" : "getInfinityUserContractDetailsMapping",
+    "getAllEligibleRelationalCustomers" : "getAllEligibleRelationalCustomersMapping",
+    "createInfinityUser" : "createInfinityUserMapping",
+    "getAssociatedCustomers" : "getAssociatedCustomersMapping",
+    "getAssociatedContractUsers" : "getAssociatedContractUsersMapping",
+    "getCompanyLevelCustomRoles" : "getCompanyLevelCustomRolesMapping",
+    "getInfinityUser" : "getInfinityUserMapping",
+    "getInfinityUserLimits" : "getInfinityUserLimitsMapping",
+    "getInfinityUserContractCoreCustomerActions" : "getInfinityUserContractCoreCustomerActionsMapping",
+    "CreateInfinityUserWithContract" : "CreateInfinityUserWithContractMapping",
+    "GetListCoreCustomerFeatureActionLimits" : "GetListCoreCustomerFeatureActionLimitsMapping",
+    "getInfinityCustomRoleDetails" : "getInfinityCustomRoleDetailsMapping",
+    "updateInfinityUserStatus" : "updateInfinityUserStatusMapping",
+    "getInfinityUserAccounts" : "getInfinityUserAccountsMapping",
+    "resendActivationCode" : "resendActivationCodeMapping",
+    "getInfinityUserFeatureActions" : "getInfinityUserFeatureActionsMapping",
+    "createRetailContract" : "createRetailContractMapping",
+    "getCoreCustomerFeatureActionLimits" : "getCoreCustomerFeatureActionLimitsMapping",
+    "getCustomRoleByCompanyID" : "getCustomRoleByCompanyIDMapping",
+    "editInfinityUser" : "editInfinityUserMapping",
+    "updateInfinityCustomRole" : "updateInfinityCustomRoleMapping",
+    "getInfinityUserContractCustomers" : "getInfinityUserContractCustomersMapping",
+    "verifyInfinityCustomRoleName" : "verifyInfinityCustomRoleNameMapping",
+    "createInfinityCustomRole" : "createInfinityCustomRoleMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

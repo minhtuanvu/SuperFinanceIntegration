@@ -1,0 +1,73 @@
+{
+  "operationConfig" : {
+    "name" : "getAccountCashFlowDetails1767",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"usercashflow\" outputpath=\"AccountCashFlow\">            <set-param inputpath=\"month\" outputpath=\"month\"/>            <set-param inputpath=\"monthCash\" outputpath=\"monthCash\"/>            <set-param inputpath=\"monthCredit\" outputpath=\"monthCredit\"/>            <set-param inputpath=\"totalCash\" outputpath=\"totalCash\"/>            <set-param inputpath=\"totalCreditDebt\" outputpath=\"totalCreditDebt\"/>        </map>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"AccountCashFlow\",\"xy\":\"770 100\",\"__gohashid\":284},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getAccountCashFlowDetails\",\"xy\":\"150 100\",\"__gohashid\":285}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:AccountCashFlow:month:\",\"to\":\"target:AccountCashFlow:month:\",\"fromPort\":\"source:AccountCashFlow:month:\",\"toPort\":\"target:AccountCashFlow:month:\",\"visible\":true,\"common\":true,\"__gohashid\":2755},{\"category\":\"Mapping\",\"from\":\"source:AccountCashFlow:monthCash:\",\"to\":\"target:AccountCashFlow:monthCash:\",\"fromPort\":\"source:AccountCashFlow:monthCash:\",\"toPort\":\"target:AccountCashFlow:monthCash:\",\"visible\":true,\"common\":true,\"__gohashid\":2762},{\"category\":\"Mapping\",\"from\":\"source:AccountCashFlow:monthCredit:\",\"to\":\"target:AccountCashFlow:monthCredit:\",\"fromPort\":\"source:AccountCashFlow:monthCredit:\",\"toPort\":\"target:AccountCashFlow:monthCredit:\",\"visible\":true,\"common\":true,\"__gohashid\":2769},{\"category\":\"Mapping\",\"from\":\"source:AccountCashFlow:totalCash:\",\"to\":\"target:AccountCashFlow:totalCash:\",\"fromPort\":\"source:AccountCashFlow:totalCash:\",\"toPort\":\"target:AccountCashFlow:totalCash:\",\"visible\":true,\"common\":true,\"__gohashid\":2776},{\"category\":\"Mapping\",\"from\":\"source:AccountCashFlow:totalCreditDebt:\",\"to\":\"target:AccountCashFlow:totalCreditDebt:\",\"fromPort\":\"source:AccountCashFlow:totalCreditDebt:\",\"toPort\":\"target:AccountCashFlow:totalCreditDebt:\",\"visible\":true,\"common\":true,\"__gohashid\":2783},{\"from\":\"target\",\"to\":\"target:AccountCashFlow\",\"fromPort\":\"target\",\"toPort\":\"target:AccountCashFlow\",\"visible\":true,\"common\":false,\"__gohashid\":301},{\"from\":\"target:AccountCashFlow\",\"to\":\"target:AccountCashFlow:fields\",\"fromPort\":\"target:AccountCashFlow\",\"toPort\":\"target:AccountCashFlow:fields\",\"visible\":true,\"common\":false,\"__gohashid\":302},{\"from\":\"target:AccountCashFlow:fields\",\"to\":\"target:AccountCashFlow:month:\",\"fromPort\":\"target:AccountCashFlow:fields\",\"toPort\":\"target:AccountCashFlow:month:\",\"visible\":true,\"common\":false,\"__gohashid\":303},{\"from\":\"target:AccountCashFlow:fields\",\"to\":\"target:AccountCashFlow:monthCash:\",\"fromPort\":\"target:AccountCashFlow:fields\",\"toPort\":\"target:AccountCashFlow:monthCash:\",\"visible\":true,\"common\":false,\"__gohashid\":304},{\"from\":\"target:AccountCashFlow:fields\",\"to\":\"target:AccountCashFlow:monthCredit:\",\"fromPort\":\"target:AccountCashFlow:fields\",\"toPort\":\"target:AccountCashFlow:monthCredit:\",\"visible\":true,\"common\":false,\"__gohashid\":305},{\"from\":\"target:AccountCashFlow:fields\",\"to\":\"target:AccountCashFlow:totalCash:\",\"fromPort\":\"target:AccountCashFlow:fields\",\"toPort\":\"target:AccountCashFlow:totalCash:\",\"visible\":true,\"common\":false,\"__gohashid\":306},{\"from\":\"target:AccountCashFlow:fields\",\"to\":\"target:AccountCashFlow:totalCreditDebt:\",\"fromPort\":\"target:AccountCashFlow:fields\",\"toPort\":\"target:AccountCashFlow:totalCreditDebt:\",\"visible\":true,\"common\":false,\"__gohashid\":307},{\"from\":\"source\",\"to\":\"source:AccountCashFlow\",\"fromPort\":\"source\",\"toPort\":\"source:AccountCashFlow\",\"visible\":true,\"common\":false,\"__gohashid\":308},{\"from\":\"source:AccountCashFlow\",\"to\":\"source:AccountCashFlow:parameters\",\"fromPort\":\"source:AccountCashFlow\",\"toPort\":\"source:AccountCashFlow:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":309},{\"from\":\"source:AccountCashFlow:parameters\",\"to\":\"source:AccountCashFlow:month:\",\"fromPort\":\"source:AccountCashFlow:parameters\",\"toPort\":\"source:AccountCashFlow:month:\",\"visible\":true,\"common\":false,\"__gohashid\":310},{\"from\":\"source:AccountCashFlow:parameters\",\"to\":\"source:AccountCashFlow:monthCash:\",\"fromPort\":\"source:AccountCashFlow:parameters\",\"toPort\":\"source:AccountCashFlow:monthCash:\",\"visible\":true,\"common\":false,\"__gohashid\":311},{\"from\":\"source:AccountCashFlow:parameters\",\"to\":\"source:AccountCashFlow:monthCredit:\",\"fromPort\":\"source:AccountCashFlow:parameters\",\"toPort\":\"source:AccountCashFlow:monthCredit:\",\"visible\":true,\"common\":false,\"__gohashid\":312},{\"from\":\"source:AccountCashFlow:parameters\",\"to\":\"source:AccountCashFlow:totalCash:\",\"fromPort\":\"source:AccountCashFlow:parameters\",\"toPort\":\"source:AccountCashFlow:totalCash:\",\"visible\":true,\"common\":false,\"__gohashid\":313},{\"from\":\"source:AccountCashFlow:parameters\",\"to\":\"source:AccountCashFlow:totalCreditDebt:\",\"fromPort\":\"source:AccountCashFlow:parameters\",\"toPort\":\"source:AccountCashFlow:totalCreditDebt:\",\"visible\":true,\"common\":false,\"__gohashid\":314}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAccountCashFlowDetails"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "AccountCashFlow",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

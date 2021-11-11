@@ -1,0 +1,29 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanIOS_RB_Regression",
+    "testSuiteInfo": [
+        "IOS/RB/RB_PreLogin_Support.js",
+        "IOS/RB/RB_LoginSuite.js",
+        "IOS/RB/RB_PostLogin_Support.js",
+        "IOS/RB/RB_AccountsDashboard.js",
+        "IOS/RB/RB_AccountsLandingSavings.js",
+        "IOS/RB/RB_AccountsLandingChecking.js",
+        "IOS/RB/RB_AccountsLandingCreditCard.js",
+        "IOS/RB/RB_AccountsLandingLoan.js",
+        "IOS/RB/RB_AccountsLandingDeposit.js",
+        "IOS/RB/RB_ManageRecipientSameBank.js",
+        "IOS/RB/RB_ManageRecipientP2P.js",
+        "IOS/RB/RB_ManageRecipientInternationalAccount.js",
+        "IOS/RB/RB_ManageRecipientExternalAccount.js",
+        "IOS/RB/RB_MyBills.js",
+        "IOS/RB/RB_TransferOwnAccount.js",
+        "IOS/RB/RB_TransferSameBankAccount.js",
+        "IOS/RB/RB_TransferP2PAccount.js",
+        "IOS/RB/RB_TransferExternalAccount.js",
+        "IOS/RB/RB_TransferInternationalAccount.js",
+        "IOS/RB/RB_TransferActivities.js",
+        "IOS/RB/RB_Settings.js",
+        "IOS/RB/RB_Feedback.js",
+        "IOS/RB/RB_LogoutSuite.js"
+    ]
+}

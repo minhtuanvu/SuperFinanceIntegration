@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createOrder" : "createOrderMapping",
+    "getOrderDetails" : "getOrderDetailsMapping",
+    "triggerForStatus" : "triggerForStatusMapping",
+    "updateOrder" : "updateOrderMapping",
+    "getServiceConfigDetails" : "getServiceConfigDetailsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

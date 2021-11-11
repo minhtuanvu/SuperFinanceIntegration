@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanIOS_SME_Regression",
+    "testSuiteInfo": [
+        "IOS/SME/SME_PreLogin_Support.js",
+        "IOS/SME/SME_LoginSuite.js",
+        "IOS/SME/SME_AccountsDashboard.js",
+        "IOS/SME/SME_MyBills.js",
+        "IOS/SME/SME_AddRecipientExternalAccount.js",
+        "IOS/SME/SME_AddRecipientSameBank.js",
+        "IOS/SME/SME_TransfersSuite.js",
+        "IOS/SME/SME_LogoutSuite.js"
+    ]
+}

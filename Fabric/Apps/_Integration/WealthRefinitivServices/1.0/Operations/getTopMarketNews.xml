@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="getTopMarketNews" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.RefinitivTokenGenPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.trkd.thomsonreuters.com/api/OnlineReports/OnlineReports.svc/REST/OnlineReports_1/GetSummaryByTopic_1"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-ApplicationID" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="trkddemoapp" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-Token" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="A197B6129DE145A3B12B7B8062B99A786488E849FCE6730AC1B94297657CA89B9728E0145100B3F99D8151FBF4BA1A864430D88381F4EFD558989E4D4528ED458957DB23ADF9422C375047F5B2A29256D7DC46777F8EAAAD6D334D19368F2962" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Topic" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="OLUSTOPNEWS" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="MaxCount" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="10" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ReturnPrivateNetworkURL" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="false" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;&quot;GetSummaryByTopic_Request_1&quot;: {&#10;&quot;Topic&quot;: &quot;$Topic&quot;,&#10;&quot;MaxCount&quot;: $MaxCount,&#10;&quot;ReturnPrivateNetworkURL&quot;: $ReturnPrivateNetworkURL&#10;}&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;&quot;GetSummaryByTopic_Request_1&quot;: {&#10;&quot;Topic&quot;: &quot;$Topic&quot;,&#10;&quot;MaxCount&quot;: $MaxCount,&#10;&quot;ReturnPrivateNetworkURL&quot;: $ReturnPrivateNetworkURL&#10;}&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false">
+        <record id="GetSummaryByTopic_Response_1" order="" paramOrder="1" parentOrder="0" src="$.GetSummaryByTopic_Response_1">
+            <record id="StoryMLResponse" order="" paramOrder="2" parentOrder="1" src="StoryMLResponse">
+                <record id="Status" order="" paramOrder="3" parentOrder="2" src="Status">
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="StatusMsg" order="" paramOrder="4" parentOrder="3" passnull="false" sms-name="" src="StatusMsg" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="StatusCode" order="" paramOrder="5" parentOrder="3" passnull="false" sms-name="" src="StatusCode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                        <accessType></accessType>
+                    </param>
+                </record>
+                <record id="STORYML" order="" paramOrder="6" parentOrder="2" src="STORYML">
+                    <dataset defaultvalue="" id="HL" order="" paramOrder="7" parentOrder="6" src="HL[*]" testvalue="">
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ST" order="" paramOrder="8" parentOrder="7" passnull="false" sms-name="" src="ST" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="RT" order="" paramOrder="9" parentOrder="7" passnull="false" sms-name="" src="RT" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PR" order="" paramOrder="10" parentOrder="7" passnull="false" sms-name="" src="PR" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="LN" order="" paramOrder="11" parentOrder="7" passnull="false" sms-name="" src="LN" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TY" order="" paramOrder="12" parentOrder="7" passnull="false" sms-name="" src="TY" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="LT" order="" paramOrder="13" parentOrder="7" passnull="false" sms-name="" src="LT" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="HT" order="" paramOrder="14" parentOrder="7" passnull="false" sms-name="" src="HT" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="record" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="COO" order="" paramOrder="15" parentOrder="7" passnull="false" sms-name="" src="CO" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="space" order="" paramOrder="16" parentOrder="7" passnull="false" sms-name="" src="space" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CT" order="" paramOrder="17" parentOrder="7" passnull="false" sms-name="" src="CT" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TE" order="" paramOrder="18" parentOrder="7" passnull="false" sms-name="" src="TE" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="RE" order="" paramOrder="19" parentOrder="7" passnull="false" sms-name="" src="RE" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="AT" order="" paramOrder="20" parentOrder="7" passnull="false" sms-name="" src="AT" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="record" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PD" order="" paramOrder="21" parentOrder="7" passnull="false" sms-name="" src="PD" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PE" order="" paramOrder="22" parentOrder="7" passnull="false" sms-name="" src="PE" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="STORY_PE" order="" paramOrder="23" parentOrder="7" passnull="false" sms-name="" src="STORY_PE" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TN" order="" paramOrder="24" parentOrder="7" passnull="false" sms-name="" src="TN" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ID" order="" paramOrder="25" parentOrder="7" passnull="false" sms-name="" src="ID" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TO" order="" paramOrder="26" parentOrder="7" passnull="false" sms-name="" src="TO" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="record" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="NI" order="" paramOrder="27" parentOrder="7" passnull="false" sms-name="" src="NI" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="UR" order="" paramOrder="28" parentOrder="7" passnull="false" sms-name="" src="UR" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CO" order="" paramOrder="33" parentOrder="7" passnull="false" sms-name="" src="CO" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+                            <accessType></accessType>
+                        </param>
+                        <record id="SR" order="" paramOrder="29" parentOrder="7" src="SR">
+                            <dataset defaultvalue="" id="Origin" order="" paramOrder="30" parentOrder="29" src="Origin[*]" testvalue="">
+<param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Type" order="" paramOrder="31" parentOrder="30" passnull="false" sms-name="" src="Type" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+    <accessType></accessType>
+</param>
+<param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Value" order="" paramOrder="32" parentOrder="30" passnull="false" sms-name="" src="Value" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="">
+    <accessType></accessType>
+</param>
+                            </dataset>
+                        </record>
+                    </dataset>
+                </record>
+            </record>
+        </record>
+    </service-output>
+</service>

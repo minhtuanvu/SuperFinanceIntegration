@@ -1,0 +1,40 @@
+{
+    "testCaseName": "AddRecipientSameBank",
+    "testSuiteName": "Test Cases/RB/IOS/ManageRecipients",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientSameBank.js",
+        "IOS/RB/RB_SanitySuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "bb73f386-0da9-5dea-e9d7-34b0ba9a154a",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await addRecipientSameBank(ManageRecipient.recipientName.sameBankAccount);\n//await goBackToDashboardFromManageRecipient();",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

@@ -1,0 +1,12 @@
+{
+  "jars" : [ {
+    "name" : "dbp-productservices.jar",
+    "type" : "jar"
+  } ],
+  "config" : {
+    "metadataSecurity" : "authorized_app_user",
+    "offline" : false,
+    "uploadCache" : false,
+    "conflict_policy" : "none"
+  }
+}

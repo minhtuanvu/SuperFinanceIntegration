@@ -1,0 +1,39 @@
+{
+    "testCaseName": "verifyOptions_LoanAccount",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingLoan",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingLoan.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "1799b08d-0ca4-7fd3-5d77-ce7a7dd92660",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await verifyAccountLanding(accountsLanding.loan);\nawait verifyOptionsOfLoanAccount();\nawait goToDashboardFromAccounts();\n",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

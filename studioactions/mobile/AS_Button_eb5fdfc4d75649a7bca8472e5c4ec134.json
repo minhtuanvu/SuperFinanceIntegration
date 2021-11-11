@@ -1,0 +1,23 @@
+{
+    "AS_Button_eb5fdfc4d75649a7bca8472e5c4ec134": {
+        "id": "AS_Button_eb5fdfc4d75649a7bca8472e5c4ec134",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDepositsConfirmation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "je33060a39d64eb3a6728bceba96e10d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_b42d9f85f70c4cfdbebc82b6b5687e36",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var transModPresentationController = applicationManager.getModulesPresentationController(\"TransferModule\");\ntransModPresentationController.commonFunctionForNavigation(\"frmTransfers\");",
+            "callbackType": null
+        }]
+    }
+}

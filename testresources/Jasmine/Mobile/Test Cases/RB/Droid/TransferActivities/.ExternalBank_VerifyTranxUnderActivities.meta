@@ -1,0 +1,7 @@
+{
+    "testCaseName": "ExternalBank_VerifyTranxUnderActivities",
+    "testSuiteName": "Test Cases/RB/Droid/TransferActivities",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

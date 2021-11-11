@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SamebankAcc_VerifyTranscationUnderTransferActivites",
+    "testSuiteName": "Test Cases/RB/IOS/TransferActivities",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_TransferActivities.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "3 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "0f20e771-ef07-0221-a720-92a5159ec1d6",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Manage Transactions\");\nawait VerifyTransferUnderActivities(ManageRecipient.recipientName.sameBankAccount);\nawait goBackToDashboardFromTransferActivities();",
+                        "comment": "// - [3 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

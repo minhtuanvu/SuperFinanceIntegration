@@ -1,0 +1,8 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "",
+    "testCaseInfo": [
+        "RB/IOS/Transfer/TransferOwnAccountSchedule_DailyDateRange.js"
+    ],
+    "usedBy": []
+}

@@ -1,0 +1,177 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Account to be Credited",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "allowhorizontalbounce": false,
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxHeaderSearchbox",
+        "flxMainContainer",
+        "flxFooter",
+        "flxPopup",
+        "flxHamburger",
+        "flxGradientBottom",
+        "flxOuterGradient"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmDepositToAccountController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "Pixel3",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "enablescrolling": false,
+    "friendlyName": "frmDepositToAccount",
+    "id": "frmDepositToAccount",
+    "ide_init": "AS_Form_a076778dbe3c4085b35d5a343c6720b9",
+    "ide_postShow": "AS_Form_ab8702701a114738abd043ad490e4b3c",
+    "ide_preShow": "AS_Form_dfb84d6ac2e04fd691006426dbcc496f",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "image": "transparentbox.png"
+                    },
+                    "kuid": "b173ff5d039f424a962cfbf672fa844d",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 0
+                },
+                "backIndicatorImage": "backbutton.png",
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "g1d950b3e61b4acbbde9587555d5f116",
+                "leftBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_j2de96afcb1d463885d830d523e272ad",
+                        "info": {
+                            "image": "backbutton.png"
+                        },
+                        "kuid": "id3bf4b996ce4ee78e10004b6777d32d",
+                        "onClick": "AS_BarButtonItem_j2de96afcb1d463885d830d523e272ad",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_cb2442e2adac4108b4bcd586e23d7759",
+                        "info": {
+                            "title": "Cancel"
+                        },
+                        "kuid": "g19f1670652a4f60b0ad572e87408f92",
+                        "onClick": "AS_BarButtonItem_cb2442e2adac4108b4bcd586e23d7759",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "needAppMenu": false
+    },
+    "kuid": "e0920451fb974d00bb850360adc6e95c",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": false,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhoneXS",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    },
+    "winphone8": {
+        "needAppMenu": false
+    }
+}

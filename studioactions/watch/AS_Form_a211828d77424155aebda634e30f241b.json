@@ -1,0 +1,23 @@
+{
+    "AS_Form_a211828d77424155aebda634e30f241b": {
+        "id": "AS_Form_a211828d77424155aebda634e30f241b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }],
+        "contextObj": {
+            "name": "frmSplashScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g262b14b0a6b41b986ab0ae909c9d65f"
+        },
+        "language": "swift",
+        "actions": [{
+            "id": "ADD_SNIPPET_ac97ff3d42b540cf8ba1b5db97380e2c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Accounts.getSharedInstance().fetchAccounts(form);\n",
+            "parentId": null
+        }]
+    }
+}

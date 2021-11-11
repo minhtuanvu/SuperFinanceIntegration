@@ -1,0 +1,10 @@
+{
+    "testCaseName": "OneTimeBillPaymentCreditCard",
+    "testSuiteName": "Test Cases/RB/IOS/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js",
+        "IOS/RB/RB_SanitySuite.js"
+    ],
+    "userCode": true
+}

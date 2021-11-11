@@ -1,0 +1,136 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Device Registration",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": true,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxMainContainer",
+        "flxTermsConditions"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmCMReasonController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "Pixel3",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmCMReason",
+    "id": "frmCMReason",
+    "ide_init": "AS_Form_c78bb2a026aa468db0fe1eca623c9ee4",
+    "ide_preShow": "AS_Form_g1a7c20409784570b15ebe15ed812696",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "needAppMenu": true,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "f952013aaa8c457ea60e7cd1c483f573",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "backIndicatorImage": "iphoneback.png",
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "cefe22bb1f8e42e8969dc61e1e49af28",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_c8acdadf1fc84c09b1c0433df2fc4b86",
+                        "info": {
+                            "title": "Cancel"
+                        },
+                        "kuid": "e280cde0381e457b9f59d62fffdaa016",
+                        "onClick": "AS_BarButtonItem_c8acdadf1fc84c09b1c0433df2fc4b86",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "isvisible": true,
+    "kuid": "j408ba9f763042f89d6343ed81bf1ef6",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhoneXS",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_Pixel3",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": true
+    },
+    "spabb": {
+        "needAppMenu": true
+    },
+    "spaip": {
+        "needAppMenu": true
+    },
+    "spawinphone8": {
+        "needAppMenu": true
+    },
+    "texti18n": "kony.mb.preferences.DeviceRegistration",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": true
+    }
+}

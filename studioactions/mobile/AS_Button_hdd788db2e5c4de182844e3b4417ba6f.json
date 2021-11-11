@@ -1,0 +1,28 @@
+{
+    "AS_Button_hdd788db2e5c4de182844e3b4417ba6f": {
+        "id": "AS_Button_hdd788db2e5c4de182844e3b4417ba6f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmDownloadSearchResult",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j29fc386e91f4b578f576e5882bab178"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__i20853ff691b4c4faf6f43d7d5147628",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "btnCancelClick",
+            "display": "btnCancelClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

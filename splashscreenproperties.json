@@ -1,0 +1,211 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {
+                "animationDuration": 1,
+                "backgroundColor": "05080a",
+                "showLoadingIndicator": false,
+                "splashImage": "splash_new.png"
+            },
+            "iphone": {
+                "animationDuration": 1,
+                "showLoadingIndicator": false,
+                "splashConfig": {
+                    "_skin_": "sdcdd41ad790463fbafa22b5b2b57a14",
+                    "children": [
+                        {
+                            "isvisible": true,
+                            "kuid": "hce8a7ac1e0d43d4bca54bf36358fa6b",
+                            "id": "splashImage",
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "wType": "Image",
+                            "_src_": "splash.png",
+                            "contentmode": 2,
+                            "UIElementType": "Image"
+                        },
+                        {
+                            "isvisible": true,
+                            "kuid": "g6dc1a5352e141dcb4b9365781ebed3e",
+                            "id": "Image0e20ae9712b294a",
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "150dp"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "120dp"
+                            },
+                            "wType": "Image",
+                            "_src_": "infinity_logo_rectangle.png",
+                            "contentmode": 1,
+                            "UIElementType": "Image"
+                        },
+                        {
+                            "isvisible": true,
+                            "kuid": "hb62ade9d30146d685a929f11974f286",
+                            "id": "Image0he4b091d1abc4f",
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "_bottom_": {
+                                "type": "string",
+                                "value": "40dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "140dp"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "50dp"
+                            },
+                            "wType": "Image",
+                            "_src_": "temenos_logo_rectangle.png",
+                            "contentmode": 1,
+                            "UIElementType": "Image"
+                        }
+                    ]
+                }
+            },
+            "showLoadingIndicator": false,
+            "spa": {},
+            "spaan": {},
+            "spabb": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "splashImage": "splash_new.png",
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {
+                "animationDuration": 1,
+                "backgroundColor": "0a78d1",
+                "showLoadingIndicator": false,
+                "splashImage": "splash.png"
+            },
+            "ipad": {
+                "animationDuration": 1,
+                "landscape": {
+                    "animationDuration": 1
+                },
+                "showLoadingIndicator": false,
+                "splashConfig": {
+                    "_skin_": "sdcdd41ad790463fbafa22b5b2b57a14",
+                    "children": [
+                        {
+                            "isvisible": true,
+                            "kuid": "j195838f6e5043bd9de98c7cb9342946",
+                            "id": "splashImage",
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "wType": "Image",
+                            "_src_": "splash.png",
+                            "contentmode": 2,
+                            "UIElementType": "Image"
+                        },
+                        {
+                            "isvisible": true,
+                            "kuid": "a0860c2b71ea4c3394aaf32cd4ad83f9",
+                            "id": "Image0b2d1a9e1071f4a",
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "centery": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "200dp"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "150dp"
+                            },
+                            "wType": "Image",
+                            "_src_": "infinity_logo_rectangle.png",
+                            "contentmode": 1,
+                            "UIElementType": "Image"
+                        },
+                        {
+                            "isvisible": true,
+                            "kuid": "efa37b60c1024557a472a8b6cd109aee",
+                            "id": "Image0ee3ec733739d43",
+                            "centerx": {
+                                "type": "string",
+                                "value": "50%"
+                            },
+                            "_bottom_": {
+                                "type": "string",
+                                "value": "40dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "140dp"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "50dp"
+                            },
+                            "wType": "Image",
+                            "_src_": "temenos_logo_rectangle.png",
+                            "contentmode": 1,
+                            "UIElementType": "Image"
+                        }
+                    ]
+                }
+            },
+            "showLoadingIndicator": false,
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "splashImage": "splash.png",
+            "windows8": {}
+        }
+    }
+}

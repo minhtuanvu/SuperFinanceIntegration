@@ -1,0 +1,16 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "arrangementsapi-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "infinity-authtoken-manager.jar",
+    "type" : "jar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "jar"
+  }, {
+    "name" : "DBPFramework.jar",
+    "type" : "jar"
+  } ]
+}

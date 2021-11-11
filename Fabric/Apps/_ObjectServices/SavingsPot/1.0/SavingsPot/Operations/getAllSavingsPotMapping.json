@@ -1,0 +1,33 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.kony.savingspot.preprocessors.getAllSavingsPotPreProcessor",
+    "responseProcessorName" : "com.kony.savingspot.postprocessors.getAllSavingsPotPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "getAllSavingsPot3916",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"fundingAccountId\" outputpath=\"fundingAccountId\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "SavingsPotServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAllSavingsPot"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "SavingsPot",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

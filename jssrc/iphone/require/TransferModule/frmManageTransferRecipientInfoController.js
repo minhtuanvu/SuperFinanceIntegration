@@ -1,0 +1,260 @@
+define("TransferModule/userfrmManageTransferRecipientInfoController", {
+    isEditLinkedCustomerAvailable: false,
+    onNavigate: function(obj) {
+        if (obj === undefined) {
+            return;
+        }
+    },
+    init: function() {
+        this.initActions();
+    },
+    preShow: function() {
+        if (applicationManager.getPresentationFormUtility().getDeviceName() === "iPhone") {
+            this.view.flxHeader.isVisible = false;
+        }
+        var transferModPresentationController = applicationManager.getModulesPresentationController("TransferModule");
+        var benificiaryDetails = transferModPresentationController.getBenificiaryData();
+        this.setDetails(benificiaryDetails);
+        this.setUiBasedOnPermissions(benificiaryDetails);
+        this.setContractDetails();
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationUtility().dismissLoadingScreen();
+        applicationManager.getPresentationFormUtility().logFormName(currentForm);
+    },
+    setUiBasedOnPermissions: function(account) {
+        var configManager = applicationManager.getConfigurationManager();
+        var createOrEditPayeePermission = this.checkEditRecipientPermission(account);
+        var deletePermission = this.checkRemoveRecipientPermission(account);
+        this.view.customHeader.btnRight.isVisible = createOrEditPayeePermission;
+        if (applicationManager.getDeviceUtilManager().isIPhone() && !(createOrEditPayeePermission)) {
+            var rightBarButtonItem = new kony.ui.BarButtonItem({
+                type: configManager.constants.BAR_BUTTON_TITLE,
+                style: configManager.constants.BAR_ITEM_STYLE_PLAIN,
+                enabled: true,
+                tintColor: "FFFFFF00",
+                metaData: {
+                    title: " "
+                }
+            });
+            this.view.setRightBarButtonItems({
+                items: [rightBarButtonItem],
+                animated: true
+            });
+        }
+        this.view.btnDeleteRecipient.isVisible = deletePermission;
+    },
+    checkEditRecipientPermission: function(account) {
+        if (account.isInternationalAccount === "true") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTERNATIONAL_ACCOUNT_FUND_TRANSFER_CREATE_RECEPIENT");
+        } else if (account.isSameBankAccount === "true") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTRA_BANK_FUND_TRANSFER_CREATE_RECEPIENT");
+        } else if (account.isSameBankAccount === "false" && account.isInternationalAccount === "false") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTER_BANK_ACCOUNT_FUND_TRANSFER_CREATE_RECEPIENT");
+        }
+        return false;
+    },
+    checkRemoveRecipientPermission: function(account) {
+        if (account.isInternationalAccount === "true") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTERNATIONAL_ACCOUNT_FUND_TRANSFER_DELETE_RECEPIENT");
+        } else if (account.isSameBankAccount === "true") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTRA_BANK_FUND_TRANSFER_DELETE_RECEPIENT");
+        } else if (account.isSameBankAccount === "false" && account.isInternationalAccount === "false") {
+            return applicationManager.getConfigurationManager().checkUserPermission("INTER_BANK_ACCOUNT_FUND_TRANSFER_DELETE_RECEPIENT");
+        }
+        return false;
+    },
+    initActions: function() {
+        var scope = this;
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        scope.view.flxEditOptions.isVisible = false;
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+        this.view.btnTransfer.onClick = function() {
+            applicationManager.getPresentationUtility().showLoadingScreen();
+            var cm = applicationManager.getConfigurationManager();
+            if (cm.isFastTransfersFlowEnabled()) {
+                var moneyMovementPresentationController = applicationManager.getModulesPresentationController("MoneyMovementModule");
+                moneyMovementPresentationController.haveLimitsBeenFetched = false;
+                moneyMovementPresentationController.initializeStateData(false, "");
+                moneyMovementPresentationController.setTransferToAccountFromManageFlow();
+            } else {
+                var transMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("TransferModule");
+                transMod.presentationController.setTransferToInfo();
+                navManager.setEntryPoint("makeatransfer", "frmManageTransferRecipientInfo");
+            }
+        };
+        this.view.customHeader.flxBack.onClick = function() {
+            var navMan = applicationManager.getNavigationManager();
+            navMan.goBack();
+        };
+        this.view.customHeader.btnRight.onClick = function() {
+            if (scope.isEditLinkedCustomerAvailable) {
+                scope.view.btnEditLinkedCustomer.setVisibility(true);
+                scope.view.lblSeparatorPopupDocuments.setVisibility(true);
+            } else {
+                scope.view.btnEditLinkedCustomer.setVisibility(false);
+                scope.view.lblSeparatorPopupDocuments.setVisibility(false);
+            }
+            scope.view.flxEditOptions.isVisible = true;
+        };
+        this.view.flxEditOptions.onClick = function() {
+            scope.view.flxEditOptions.setVisibility(false);
+        };
+        this.view.btnEditRecipientDetails.onClick = function() {
+            scope.editBenificiaryName();
+        };
+        this.view.btnEditLinkedCustomer.onClick = function() {
+            scope.view.flxEditOptions.setVisibility(false);
+            var transferMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("TransferModule");
+            navManager.setEntryPoint("contracts", navManager.getCurrentForm());
+            transferMod.presentationController.setFlowType("editTransfer");
+            transferMod.presentationController.commonFunctionForNavigation("frmContracts");
+        }
+        this.view.btnDeleteRecipient.onClick = function() {
+            var basicConfig = {
+                message: applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.transfers.deleteAlertMessage"),
+                alertIcon: null,
+                alertType: constants.ALERT_TYPE_CONFIRMATION,
+                yesLabel: applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.common.AlertYes"),
+                noLabel: applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.common.AlertNo"),
+                alertHandler: scope.deleteHandler
+            };
+            var pspConfig = {};
+            applicationManager.getPresentationUtility().showAlertMessage(basicConfig, pspConfig);
+        };
+    },
+    editBenificiaryName: function() {
+        applicationManager.getPresentationUtility().showLoadingScreen();
+        var transferModulePresentationController = applicationManager.getModulesPresentationController("TransferModule");
+        transferModulePresentationController.commonFunctionForNavigation("frmManageEditRecipient");
+    },
+    deleteHandler: function(response) {
+        if (response === true) {
+            applicationManager.getPresentationUtility().showLoadingScreen();
+            var transferModulePresentationController = applicationManager.getModulesPresentationController("TransferModule");
+            transferModulePresentationController.deleteSameBankBenificiary();
+        }
+    },
+    setDetails: function(accountDetails) {
+        this.view.lblRecipientNameValue.text = accountDetails.beneficiaryName;
+        var maskedAccountNumber = "";
+        if (typeof accountDetails.accountNumber === "string") {
+            maskedAccountNumber = applicationManager.getDataProcessorUtility().maskAccountNumber(accountDetails.accountNumber);
+        } else {
+            maskedAccountNumber = applicationManager.getDataProcessorUtility().maskAccountNumber(JSON.stringify(JSON.parse(accountDetails.accountNumber)));
+        }
+        this.view.lblAccountNumberValue.text = maskedAccountNumber;
+        this.view.lblAccountTypeValue.text = accountDetails.accountType;
+        this.view.lblNickNameValue.text = accountDetails.nickName;
+        this.view.lblAccountBal.text = accountDetails.accountType;
+        this.view.title = accountDetails.nickName;
+        this.view.customHeader.lblLocateUs.text = accountDetails.nickName;
+        this.view.lblLinkedWithValue.text = accountDetails.noOfCustomersLinked + " Customers ID";
+        var transferModulePresentationController = applicationManager.getModulesPresentationController("TransferModule");
+        if (transferModulePresentationController.getFlowType() === "InternationalRecipients") {
+            if (accountDetails.countryName) {
+                this.view.lblBankName.text = accountDetails.bankName + "," + accountDetails.countryName;
+                this.view.lblBankBranchValue.text = accountDetails.bankName + "," + accountDetails.countryName;
+            } else {
+                this.view.lblBankName.text = accountDetails.bankName;
+                this.view.lblBankBranchValue.text = accountDetails.bankName;
+            }
+            this.view.flxAccounts.isVisible = true;
+            this.view.lblRoutingNumberValue.isVisible = true;
+            this.view.lblRoutingNumberValue.text = accountDetails.swiftCode;
+            this.view.lblRoutingNumber.isVisible = true;
+            this.view.flxSeparatorRounteNo.isVisible = true;
+            this.view.lblRoutingNumber.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.Manage.SwiftCode");
+            this.view.imgBank.isVisible = false;
+            // this.view.imgBank.src="externalbank.png";
+        } else if (transferModulePresentationController.getFlowType() === "SameBankRecipients") {
+            this.view.lblBankName.text = accountDetails.bankName;
+            this.view.lblBankBranchValue.text = accountDetails.bankName;
+            this.view.flxAccounts.isVisible = false;
+            this.view.lblRoutingNumberValue.isVisible = false;
+            this.view.lblRoutingNumber.isVisible = false;
+            this.view.flxSeparatorRounteNo.isVisible = false;
+            this.view.imgBank.isVisible = false;
+        } else {
+            this.view.lblBankName.text = accountDetails.bankName;
+            this.view.lblBankBranchValue.text = accountDetails.bankName;
+            this.view.flxAccounts.isVisible = true;
+            this.view.lblRoutingNumberValue.isVisible = true;
+            this.view.lblRoutingNumberValue.text = accountDetails.routingNumber;
+            this.view.lblRoutingNumber.isVisible = true;
+            this.view.flxSeparatorRounteNo.isVisible = true;
+            this.view.lblRoutingNumber.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.Manage.RoutingNumber");
+            this.view.imgBank.isVisible = false;
+            //  this.view.imgBank.src="externalbank.png";
+        }
+    },
+    setContractDetails: function() {
+        var transferModulePresentationController = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("TransferModule");
+        var navMan = applicationManager.getNavigationManager();
+        navMan.setEntryPoint("contracts", navMan.getCurrentForm());
+        var flowType = transferModulePresentationController.presentationController.getFlowType();
+        var featureAction = transferModulePresentationController.presentationController.getFeatureAction(flowType);
+        transferModulePresentationController.presentationController.setFlowType("editTransfer");
+        transferModulePresentationController.presentationController.getContractDetails(featureAction);
+    },
+    bindGenericError: function(errorMsg) {
+        applicationManager.getPresentationUtility().dismissLoadingScreen();
+        var scopeObj = this;
+        applicationManager.getDataProcessorUtility().showToastMessageError(scopeObj, errorMsg);
+    },
+    editOptionsForIphone: function() {
+        var scope = this;
+        if (applicationManager.getDeviceUtilManager().isIPhone()) {
+            var actionSheetObject = new kony.ui.ActionSheet({
+                "title": null,
+                "message": null,
+                "showCompletionCallback": null
+            });
+            applicationManager.actionSheetObject = actionSheetObject;
+            var actionNickName = new kony.ui.ActionItem({
+                "title": applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.AccInfoEdit.Title"),
+                "style": constants.ACTION_STYLE_DEFAULT,
+                "action": scope.editBenificiaryName
+            });
+            applicationManager.actionSheetObject = actionSheetObject;
+            var actionLinkedCustomer = new kony.ui.ActionItem({
+                "title": applicationManager.getPresentationUtility().getStringFromi18n("kony.mb/billpay.EditLinkedId"),
+                "style": constants.ACTION_STYLE_DEFAULT,
+                "action": scope.view.btnEditLinkedCustomer.onClick
+            });
+            applicationManager.actionSheetObject = actionSheetObject;
+            var actionCancel = new kony.ui.ActionItem({
+                "title": applicationManager.getPresentationUtility().getStringFromi18n("kony.tab.common.CANCEL"),
+                "style": constants.ACTION_ITEM_STYLE_CANCEL,
+                "action": scope.view.flxEditOptions.onClick
+            });
+            actionSheetObject.addAction(actionNickName);
+            if (scope.isEditLinkedCustomerAvailable) actionSheetObject.addAction(actionLinkedCustomer);
+            actionSheetObject.addAction(actionCancel);
+            actionSheetObject.show();
+        }
+    }
+});
+define("TransferModule/frmManageTransferRecipientInfoControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Form_fcc1cb4f9c1e4b1b8d36360785dd6d8f: function AS_Form_fcc1cb4f9c1e4b1b8d36360785dd6d8f(eventobject) {
+        var self = this;
+        this.init();
+    },
+    AS_Form_b5c239a3f464495c961b0c9d9c4256c9: function AS_Form_b5c239a3f464495c961b0c9d9c4256c9(eventobject) {
+        var self = this;
+        this.preShow();
+    },
+    AS_BarButtonItem_je307569a36d4a0baa311e9646a59ec2: function AS_BarButtonItem_je307569a36d4a0baa311e9646a59ec2(eventobject) {
+        var self = this;
+        this.editOptionsForIphone();
+    }
+});
+define("TransferModule/frmManageTransferRecipientInfoController", ["TransferModule/userfrmManageTransferRecipientInfoController", "TransferModule/frmManageTransferRecipientInfoControllerActions"], function() {
+    var controller = require("TransferModule/userfrmManageTransferRecipientInfoController");
+    var controllerActions = ["TransferModule/frmManageTransferRecipientInfoControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

@@ -1,0 +1,10 @@
+{
+    "testCaseName": "AddInternationalRecipitent_SameName",
+    "testSuiteName": "Test Cases/RB/T24Droid/ManageBeneficiary",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/ManageBeneficiaries.js",
+        "Droid/TemporarySuite/Suite_31032020.js"
+    ]
+}

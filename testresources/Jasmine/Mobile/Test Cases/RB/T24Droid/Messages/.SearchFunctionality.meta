@@ -1,0 +1,10 @@
+{
+    "testCaseName": "SearchFunctionality",
+    "testSuiteName": "Test Cases/RB/Droid/Messages",
+    "channelName": "Mobile",
+    "usedBy": [
+        "Droid/T24RB/Messages.js",
+        "Droid/T24RB/HealthCheck.js"
+    ],
+    "userCode": true
+}

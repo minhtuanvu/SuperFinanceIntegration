@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Verify_AddP2PRecipient",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/xyz.js",
+        "Droid/RB/Transfers.js"
+    ]
+}

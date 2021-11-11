@@ -1,0 +1,14 @@
+{
+    "testCaseName": "BeforeEachIT",
+    "testSuiteName": "Test Cases/Common/Droid/SME",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/SME/SME_MyBills.js",
+        "Droid/SME/SME_Transfers.js",
+        "Droid/SME/SME_SettingsSuite.js",
+        "Droid/SME/SME_SanitySuite.js",
+        "Droid/SME/SME_Logout.js",
+        "Droid/SME/SME_ManageRecipient.js"
+    ]
+}

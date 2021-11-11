@@ -1,0 +1,23 @@
+{
+    "AS_Form_fbce55476735441e88f315973deb0fd9": {
+        "id": "AS_Form_fbce55476735441e88f315973deb0fd9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeCreditCardDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "c3dd2c4f9620421f99d934467b8411dd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_preShow_ca16d75fddc740ab920f525c20494c54",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.preShow();",
+            "callbackType": null
+        }]
+    }
+}

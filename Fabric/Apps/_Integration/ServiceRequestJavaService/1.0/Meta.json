@@ -1,0 +1,43 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "amazon-kinesis-client-1.11.2.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "infinity-authtoken-manager.jar",
+    "type" : "jar"
+  }, {
+    "name" : "servicerequestapi-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "lz4-java-1.6.0.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "aws-java-sdk-dynamodb-1.11.603.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "zstd-jni-1.4.0-1.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "protobuf-java-2.6.1.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "kafka-clients-2.3.0.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "snappy-java-1.1.7.3.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "aws-java-sdk-cloudwatch-1.11.603.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "DBPFramework.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "aws-java-sdk-kinesis-1.11.603.jar",
+    "type" : "dependentJar"
+  } ]
+}

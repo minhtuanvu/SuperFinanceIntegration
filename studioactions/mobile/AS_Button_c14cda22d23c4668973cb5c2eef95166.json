@@ -1,0 +1,29 @@
+{
+    "AS_Button_c14cda22d23c4668973cb5c2eef95166": {
+        "id": "AS_Button_c14cda22d23c4668973cb5c2eef95166",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmTransferActivitiesTransfersEurope",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a66a13b337f3485e829879dac1640d69"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_bac95aed585249258aa05b1677e81475",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmTransferActivitiesRecurring",
+            "friendlyName": "frmTransferActivitiesRecurring",
+            "formKUID": "aafbedd5e8114c2696200020bb3af556",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "MoneyMovementModule",
+            "isCustomInput": false
+        }]
+    }
+}

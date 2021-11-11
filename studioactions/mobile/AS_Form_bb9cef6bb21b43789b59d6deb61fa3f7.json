@@ -1,0 +1,24 @@
+{
+    "AS_Form_bb9cef6bb21b43789b59d6deb61fa3f7": {
+        "id": "AS_Form_bb9cef6bb21b43789b59d6deb61fa3f7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmP2PTransfer",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d8a206ed0264479281ee28fd3e303071"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_h9da904b61bc4d16bf4c65e37135e1e6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Back Navigation Disabled\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

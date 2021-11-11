@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferExternalAccount",
+    "testSuiteName": "Test Cases/RB/IOS/ManageRecipients",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_ManageRecipientExternalAccount.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "6 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "6c568b37-fee5-f150-0ea9-e0b08148bd5f",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Manage Beneficiaries\");\nawait listOfRecipients(\"External Account\");\nawait selectAccountAndInitiateTransfer(ManageRecipient.recipientName.externalAccount);\nawait selectFromAccount(Transfers.ownAccount.fromAccount);\nawait enterAmount();\nawait oneTimeTransfer();",
+                        "comment": "// - [6 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

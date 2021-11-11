@@ -1,0 +1,39 @@
+{
+    "testCaseName": "TransferExternalAccountScheduleOnce",
+    "testSuiteName": "Test Cases/SME/IOS/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/SME/SME_TransfersSuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "4 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "cbc92a73-fbb1-4eb2-d096-a72bcb460a3c",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await goToTransfers();\nawait searchInFromAndToScreen(\"Check\", \"ExtAccIOS\");\nawait enterAmount();\nawait transferScheduledOnce();",
+                        "comment": "// - [4 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

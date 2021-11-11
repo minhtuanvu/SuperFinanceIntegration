@@ -1,0 +1,28 @@
+{
+  "operationConfig" : {
+    "name" : "editBBCustomerServiceLimit8796",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpAdminConsoleServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "editBBCustomerServiceLimit"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DbxUser",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

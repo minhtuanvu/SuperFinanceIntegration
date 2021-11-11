@@ -1,0 +1,29 @@
+{
+    "AS_Segment_fce564f9427e4445a3e6abab2518ec20": {
+        "id": "AS_Segment_fce564f9427e4445a3e6abab2518ec20",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCombinedDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d57f11df12ab4d4183c54016e1675adc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f37ca36c0b6a458fa992dd4590639b10",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.bringFlxDashboardToFront();",
+            "parentId": null
+        }]
+    }
+}

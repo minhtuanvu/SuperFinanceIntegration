@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "RB_TransferOwnAccount",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "Common/IOS/RB/Transfers.js",
+        "RB/IOS/TransferOwnAccount/SearchOwnAccount.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountOneTime.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountScheduleOnce.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_DailyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_DailyNumberOfTransfers.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_HalfYearlyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_HalfYearlyNumberOfTransfers.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_MonhtlyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_MonthlyNumberOfTransfers.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_QuarterlyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_QuarterlyNumberOfTransfers.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_WeeklyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_WeeklyNumberOfTransfers.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_YearlyDateRange.js",
+        "RB/IOS/TransferOwnAccount/TransferOwnAccountSchedule_YearlyNumberOfTransfers.js"
+    ],
+    "usedBy": []
+}

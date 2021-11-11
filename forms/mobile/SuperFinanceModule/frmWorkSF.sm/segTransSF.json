@@ -1,0 +1,161 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgTransSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "vehicle_fusion.png"
+            },
+            "lblTransAmtSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "-€ 34.50"
+            },
+            "lblTransDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Oct 1, 2021"
+            },
+            "lblTransTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Taxi"
+            }
+        },
+        {
+            "imgTransSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "food_work.png"
+            },
+            "lblTransAmtSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "-€ 12.00"
+            },
+            "lblTransDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Oct 2, 2021"
+            },
+            "lblTransTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Food"
+            }
+        },
+        {
+            "imgTransSF": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "internet_fusion.png"
+            },
+            "lblTransAmtSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "-€ 80.00"
+            },
+            "lblTransDescSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Oct 4, 2021"
+            },
+            "lblTransTitleSF": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Roaming Recharge"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "74%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segTransSF",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ef40449a62294d3d9c809bfd4213cdfe",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxTransSF",
+    "pf": "frmWorkSF",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "hd7e647a68b14cbcb91bbba0dfcfc6fa",
+    "rowcounter": 2,
+    "rowfocusskin": "s90b5e3ccc7a4ae2a1c39e1ebad3ec00",
+    "rowskin": "s90b5e3ccc7a4ae2a1c39e1ebad3ec00",
+    "rowtemplate": "flxWorkTransSF",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxImgSF": "flxImgSF",
+        "flxMainSF": "flxMainSF",
+        "flxParentSF": "flxParentSF",
+        "flxTransTitleSF": "flxTransTitleSF",
+        "flxWorkTransSF": "flxWorkTransSF",
+        "imgTransSF": "imgTransSF",
+        "lblTransAmtSF": "lblTransAmtSF",
+        "lblTransDescSF": "lblTransDescSF",
+        "lblTransTitleSF": "lblTransTitleSF"
+    },
+    "zindex": 1
+}

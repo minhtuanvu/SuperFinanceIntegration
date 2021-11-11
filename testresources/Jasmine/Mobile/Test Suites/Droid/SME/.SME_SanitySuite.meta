@@ -1,0 +1,25 @@
+{
+    "groupName": "Test Suites/Droid/SME",
+    "testSuiteName": "SME_SanitySuite",
+    "testCaseInfo": [
+        "Common/Droid/SME/BeforeEachIT.js",
+        "Common/Droid/SME/MyBills.js",
+        "Common/Droid/SME/Transfers.js",
+        "SME/Droid/AccountsDashboard/changeFilter.js",
+        "SME/Droid/Settings/VerifyClickProfile2Settings.js",
+        "SME/Droid/MyBills/PayBills_AddPayee.js",
+        "SME/Droid/MyBills/OneTimeBillPaymentCreditCard.js",
+        "SME/Droid/MyBills/SearchBill.js",
+        "SME/Droid/MyBills/DeletePayee.js",
+        "SME/Droid/ManageRecipient/addRecipientSameBank.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_DateRange.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferQTR_DateRange_P2P.js",
+        "SME/Droid/Transfer/Verify_ScheduledTransferDaily_NoOfOccurances_P2P.js",
+        "SME/Droid/ManageRecipient/deleteRecipientSameBank.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_SME_Sanity.js",
+        "SanityPack_Android.js"
+    ]
+}

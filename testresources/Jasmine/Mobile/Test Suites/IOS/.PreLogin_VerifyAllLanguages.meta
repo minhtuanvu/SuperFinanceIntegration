@@ -1,0 +1,22 @@
+{
+    "groupName": "Test Suites/IOS",
+    "testSuiteName": "PreLogin_VerifyAllLanguages",
+    "testCaseInfo": [
+        "Common/IOS/Util/PreLogin/PreLogin_VerifyLanguage_UK_English.js",
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js",
+        "Common/IOS/Util/PreLogin/PreLogin_VerifyLanguage_Spanish.js",
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js",
+        "Common/IOS/Util/PreLogin/PreLogin_VerifyLanguage_French.js",
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js",
+        "Common/IOS/Util/PreLogin/PreLogin_VerifyLanguage_German.js",
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js",
+        "Common/IOS/Util/PreLogin/PreLogin_VerifyLanguage_US_English.js",
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Logout.js"
+    ],
+    "usedBy": []
+}

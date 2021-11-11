@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "smsOTP2422",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">              <map inputpath=\"response_in\" outputpath=\"response_out\">                            <map inputpath=\"SMSStatus\" outputpath=\"errorMessage\"/>      \t                    <map inputpath=\"errorCode\" outputpath=\"errorCode\"/>                    <map inputpath=\"requestId\" outputpath=\"requestId\"/>                <map inputpath=\"securityKey\" outputpath=\"securityKey\"/>        </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Sms\",\"xy\":\"770 100\",\"__gohashid\":2383},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices (1.0).smsOTP\",\"xy\":\"150 100\",\"__gohashid\":2384}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:Sms\",\"fromPort\":\"target\",\"toPort\":\"target:Sms\",\"visible\":true,\"common\":false,\"__gohashid\":2390},{\"from\":\"target:Sms\",\"to\":\"target:Sms:fields\",\"fromPort\":\"target:Sms\",\"toPort\":\"target:Sms:fields\",\"visible\":true,\"common\":false,\"__gohashid\":2391}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "smsOTP"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Sms",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

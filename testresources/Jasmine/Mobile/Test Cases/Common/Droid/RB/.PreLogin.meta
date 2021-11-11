@@ -1,0 +1,10 @@
+{
+    "testCaseName": "PreLogin",
+    "testSuiteName": "Test Cases/Common/Droid/RB",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/RB/RB_PreLogin_Support.js",
+        "Droid/RB/RB_SettingsSuite.js"
+    ]
+}

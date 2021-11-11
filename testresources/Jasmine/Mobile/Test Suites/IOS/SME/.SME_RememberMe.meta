@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_RememberMe",
+    "testCaseInfo": [
+        "SME/IOS/Login/LoginWithoutRememberMe.js",
+        "SME/IOS/Login/LoginWithRememberMe.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSSME.js"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/IOS/RB",
+    "testSuiteName": "SME_TransferSameBankOneTime",
+    "testCaseInfo": [
+        "Common/IOS/SME/LoginAndWaitForDashboard.js",
+        "Common/IOS/Util/Transfer/GoToTransfer.js",
+        "Common/IOS/Util/Transfer/SearchSameBankInFromAndToScreen.js",
+        "Common/IOS/Util/Transfer/EnterAmount.js",
+        "Common/IOS/Util/Transfer/OneTimeTransfer.js",
+        "Common/IOS/Util/Logout.js"
+    ],
+    "usedBy": [
+        "TestPlanIOSSME.js"
+    ]
+}

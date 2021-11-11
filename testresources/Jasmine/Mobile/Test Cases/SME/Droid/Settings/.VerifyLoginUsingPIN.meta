@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifyLoginUsingPIN",
+    "testSuiteName": "Test Cases/RB/Droid/Settings",
+    "channelName": "Mobile",
+    "usedBy": [
+        "SettingsSuite.js"
+    ],
+    "userCode": true
+}

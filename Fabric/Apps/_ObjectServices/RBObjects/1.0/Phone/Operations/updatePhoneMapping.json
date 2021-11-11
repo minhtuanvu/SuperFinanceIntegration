@@ -1,0 +1,31 @@
+{
+  "operationConfig" : {
+    "name" : "updatePhone8527",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"request_in\" outputpath=\"request_out\">            <set-param inputpath=\"extension\" outputpath=\"Extension\"/>            <set-param inputpath=\"phoneNumber\" outputpath=\"Value\"/>            <set-param inputpath=\"isPrimary\" outputpath=\"isPrimary\"/>            <set-param inputpath=\"Description\" outputpath=\"Description\"/>            <set-param inputpath=\"id\" outputpath=\"id\"/>            <set-param inputpath=\"IsPreferredContactMethod\" outputpath=\"IsPreferredContactMethod\"/>            <set-param inputpath=\"PreferredContactTime\" outputpath=\"PreferredContactTime\"/>    <set-param inputpath=\"receivePromotions\" outputpath=\"receivePromotions\"/>    <set-param inputpath=\"type\" outputpath=\"type\"/>    <set-param inputpath=\"countryType\" outputpath=\"countryType\"/>  </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"result\" outputpath=\"result\"/><set-param inputpath=\"error\" outputpath=\"error\"/></map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Phone\",\"xy\":\"150 100\",\"__gohashid\":7855},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpProductServices (1.0).updatePhone\",\"xy\":\"770 100\",\"__gohashid\":7856}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:Phone\",\"fromPort\":\"source\",\"toPort\":\"source:Phone\",\"visible\":true,\"common\":false,\"__gohashid\":22506},{\"from\":\"source:Phone\",\"to\":\"source:Phone:fields\",\"fromPort\":\"source:Phone\",\"toPort\":\"source:Phone:fields\",\"visible\":true,\"common\":false,\"__gohashid\":22507},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:error:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:error:\",\"visible\":true,\"common\":false,\"__gohashid\":22508},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:Extension:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:Extension:\",\"visible\":true,\"common\":false,\"__gohashid\":22509},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:id:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:id:\",\"visible\":true,\"common\":false,\"__gohashid\":22510},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:isPrimary:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:isPrimary:\",\"visible\":true,\"common\":false,\"__gohashid\":22511},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:phoneNumber:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:phoneNumber:\",\"visible\":true,\"common\":false,\"__gohashid\":22512},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:Description:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:Description:\",\"visible\":true,\"common\":false,\"__gohashid\":22513},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:result:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:result:\",\"visible\":true,\"common\":false,\"__gohashid\":22514},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:IsPreferredContactMethod:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:IsPreferredContactMethod:\",\"visible\":true,\"common\":false,\"__gohashid\":22515},{\"from\":\"source:Phone:fields\",\"to\":\"source:Phone:PreferredContactTime:\",\"fromPort\":\"source:Phone:fields\",\"toPort\":\"source:Phone:PreferredContactTime:\",\"visible\":true,\"common\":false,\"__gohashid\":22516},{\"from\":\"target\",\"to\":\"target:parameters\",\"fromPort\":\"target\",\"toPort\":\"target:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":22517},{\"from\":\"target:parameters\",\"to\":\"target:Description:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:Description:\",\"visible\":true,\"common\":false,\"__gohashid\":22518},{\"from\":\"target:parameters\",\"to\":\"target:Extension:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:Extension:\",\"visible\":true,\"common\":false,\"__gohashid\":22519},{\"from\":\"target:parameters\",\"to\":\"target:id:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:id:\",\"visible\":true,\"common\":false,\"__gohashid\":22520},{\"from\":\"target:parameters\",\"to\":\"target:IsPreferredContactMethod:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:IsPreferredContactMethod:\",\"visible\":true,\"common\":false,\"__gohashid\":22521},{\"from\":\"target:parameters\",\"to\":\"target:isPrimary:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:isPrimary:\",\"visible\":true,\"common\":false,\"__gohashid\":22522},{\"from\":\"target:parameters\",\"to\":\"target:PreferredContactTime:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:PreferredContactTime:\",\"visible\":true,\"common\":false,\"__gohashid\":22523},{\"from\":\"target:parameters\",\"to\":\"target:Value:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:Value:\",\"visible\":true,\"common\":false,\"__gohashid\":22524}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "updatePhone"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Phone",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : false
+  }
+}

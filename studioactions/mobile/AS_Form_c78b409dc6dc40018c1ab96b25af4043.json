@@ -1,0 +1,24 @@
+{
+    "AS_Form_c78b409dc6dc40018c1ab96b25af4043": {
+        "id": "AS_Form_c78b409dc6dc40018c1ab96b25af4043",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmInternationalTransfer",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f3e35eca72b1418bb2751fb6e677d70c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ae72177b0fe74055ae378da3ea8fe1b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.print(\"Back Navigation Disabled\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

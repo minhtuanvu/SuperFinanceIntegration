@@ -1,0 +1,32 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.dbputilities.customersecurityservices.postprocessors.CreateBackendIdentifierPostProcessor,com.kony.dbputilities.customersecurityservices.postprocessor.EnrollOrganizationPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "EnrollOrganization1178",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"organizationId\" outputpath=\"organizationId\"/><set-param inputpath=\"features\" outputpath=\"features\"/><set-param inputpath=\"Type\" outputpath=\"Type\"/><set-param inputpath=\"Description\" outputpath=\"Description\"/><set-param inputpath=\"Address\" outputpath=\"Address\"/><set-param inputpath=\"AccountsList\" outputpath=\"AccountsList\"/><set-param inputpath=\"AuthorizedSignatoryGroupId\" outputpath=\"AuthorizedSignatoryGroupId\"/><set-param inputpath=\"Membership\" outputpath=\"Membership\"/><set-param inputpath=\"AuthorizedSignatory\" outputpath=\"AuthorizedSignatory\"/><set-param inputpath=\"serviceKey\" outputpath=\"serviceKey\"/><set-param inputpath=\"Name\" outputpath=\"Name\"/><set-param inputpath=\"Communication\" outputpath=\"Communication\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "EnrollOrganization"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Organization",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

@@ -1,0 +1,43 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "PaymentsinT24Transact",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_VerifyDuplicateEntry.js",
+        "RB/T24Droid/Payments/VerifySwitftCode_International.js",
+        "RB/T24Droid/Payments/VerifySwitftCode_SameBank.js",
+        "RB/T24Droid/Payments/ModifySameBankTransactionDetails.js",
+        "RB/T24Droid/Payments/MakePaymentSameBankRecipitent.js",
+        "RB/T24Droid/Payments/VerifyBankName_InternationalAcc.js",
+        "RB/T24Droid/Payments/VerifyBankName_SameBank.js",
+        "RB/T24Droid/Payments/RecurringPayment_InternationalAccount.js",
+        "RB/T24Droid/Payments/RecurringPayment_SameBank.js",
+        "RB/T24Droid/Payments/OneTimePayment_SameBank_CurrDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_International_CurrDate.js",
+        "RB/T24Droid/Payments/VerifyDataTruncated_SameBank.js",
+        "RB/T24Droid/Payments/InstantDomesticPayment_CurrDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_Domestic_CurrDate.js",
+        "RB/T24Droid/Payments/RecurringPayment_Domestic.js",
+        "RB/T24Droid/Payments/VerifyBankName_Domestic.js",
+        "RB/T24Droid/Payments/OneTimePayment_SameBank_FutureDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_International_FutureDate.js",
+        "RB/T24Droid/Payments/InstantDomesticPayment_FutureDate.js",
+        "RB/T24Droid/Payments/OneTimePayment_Domestic_FutureDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_DomesticInstant_CurrDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_DomesticInstant_FutureDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_DomesticNormal_CurrDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_DomesticNormal_FutureDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_International_CurrDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_International_FutureDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_SameBank_CurrDate.js",
+        "RB/T24Droid/PaymentsToNewRecipient/OneTimePayment_NewRecipient_SameBank_FutureDate.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

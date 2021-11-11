@@ -1,0 +1,29 @@
+{
+    "AS_Image_d88aff863d2843e1afeef01c13d0ee41": {
+        "id": "AS_Image_d88aff863d2843e1afeef01c13d0ee41",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmP2PTransferType",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fc8dc89c378e4a069709d7991a7812d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_i32ac298efb14c0eaf395c27a96005e5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var navMan = applicationManager.getNavigationManager();\nnavMan.goBack();",
+            "parentId": null
+        }]
+    }
+}

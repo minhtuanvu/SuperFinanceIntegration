@@ -1,0 +1,40 @@
+{
+    "testCaseName": "SearchBill",
+    "testSuiteName": "Test Cases/SME/IOS/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/SME/SME_MyBills.js",
+        "IOS/SME/SME_SanitySuite.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "d2140bba-8ba1-7cf1-75e1-9e8afce40bb6",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMyBillsPage();\nawait searchBill(\"credit\");",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

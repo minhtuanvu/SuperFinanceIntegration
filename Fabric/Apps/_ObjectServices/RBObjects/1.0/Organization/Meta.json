@@ -1,0 +1,26 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateOrganization" : "updateOrganizationMapping",
+    "verifyDbxOrganizationUser" : "verifyDbxOrganizationUserMapping",
+    "getDbxOrganizationUsers" : "getDbxOrganizationUsersMapping",
+    "getOrganizationName" : "getOrganizationNameMapping",
+    "editDbxOrganization" : "editDbxOrganizationMapping",
+    "CreateMicroOrganizationEmployeeForAdmin" : "CreateMicroOrganizationEmployeeForAdminMapping",
+    "getOrganizationGroupActionLimits" : "getOrganizationGroupActionLimitsMapping",
+    "createOrganization" : "createOrganizationMapping",
+    "enrollOrganization" : "enrollOrganizationMapping",
+    "createDbxOrganization" : "createDbxOrganizationMapping",
+    "getDbxOrganizationDetails" : "getDbxOrganizationDetailsMapping",
+    "CreateSmallOrganizationEmployeeForAdmin" : "CreateSmallOrganizationEmployeeForAdminMapping",
+    "validateTin" : "validateTinMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

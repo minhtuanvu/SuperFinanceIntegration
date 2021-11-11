@@ -1,0 +1,10 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-customerfeedback.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "UserAgentUtils-1.21.jar",
+    "type" : "jar"
+  } ]
+}

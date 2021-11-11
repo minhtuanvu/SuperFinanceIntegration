@@ -1,0 +1,67 @@
+define("WealthModule/userfrmConvertCurrencyAckController", {
+    init: function() {
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+        this.view.preShow = this.preShow;
+        this.view.postShow = this.postShow;
+    },
+    preShow: function() {
+        if (kony.os.deviceInfo().name === "iPhone") {
+            this.view.flxHeader.isVisible = false;
+            this.view.flxFullScroll.top = '0dp';
+        }
+        this.initActions();
+    },
+    initActions: function() {
+        this.view.btnView.onClick = this.onViewOrder;
+        this.view.btnClose.onClick = this.onClose;
+    },
+    postShow: function() {
+        this.setUIData();
+    },
+    setUIData: function() {
+        var wealthMod = applicationManager.getModulesPresentationController("WealthModule");
+        var formatUtil = applicationManager.getFormatUtilManager();
+        var data = wealthMod.getWealthObject();
+        var currency1 = data.sellCurrency.substr(0, 3);
+        var currency2 = data.buyCurrency.substr(0, 3);
+        this.view.lblFromVal.text = data.sellCurrency;
+        this.view.lblFromAmountVal.text = formatUtil.formatAmountandAppendCurrencySymbol(data.sellAmount, currency1);
+        this.view.lblToVal.text = data.buyCurrency;
+        this.view.lblToAmountVal.text = formatUtil.formatAmountandAppendCurrencySymbol(data.buyAmount, currency2);
+        if (scope_WealthPresentationController.convertNowFlow === true) {
+            this.view.lblOption.text = kony.i18n.getLocalizedString("i18n.wealth.convertNow");
+            var today = new Date();
+            this.view.lblDate.text = String(today.getMonth() + 1).padStart(2, '0') + '/' + String(today.getDate()).padStart(2, '0') + '/' + today.getFullYear();
+        } else {
+            this.view.lblOption.text = kony.i18n.getLocalizedString("i18n.wealth.scheduledon");
+        }
+    },
+    onViewOrder: function() {},
+    onClose: function() {
+        var wealthMod = applicationManager.getModulesPresentationController("WealthModule");
+        wealthMod.setVerifyFlow(false);
+        wealthMod.clearWealthData();
+        var params = {
+            "portfolioId": scope_WealthPresentationController.portfolioId,
+            "navPage": "Portfolio",
+            "graphDuration": "OneY"
+        };
+        wealthMod.getPortfolioAndGraphDetails(params);
+    }
+});
+define("WealthModule/frmConvertCurrencyAckControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Form_c24d9389fffd4e10a8cc22b7a505e20c: function AS_Form_c24d9389fffd4e10a8cc22b7a505e20c(eventobject) {
+        var self = this;
+        this.init();
+    }
+});
+define("WealthModule/frmConvertCurrencyAckController", ["WealthModule/userfrmConvertCurrencyAckController", "WealthModule/frmConvertCurrencyAckControllerActions"], function() {
+    var controller = require("WealthModule/userfrmConvertCurrencyAckController");
+    var controllerActions = ["WealthModule/frmConvertCurrencyAckControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

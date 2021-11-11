@@ -1,0 +1,12 @@
+{
+    "testCaseName": "VerifyExchangeRates",
+    "testSuiteName": "Test Cases/RB/T24Droid/ExchangeRates",
+    "channelName": "Mobile",
+    "_currentForm": "",
+    "timeout": 120000,
+    "usedBy": [
+        "Droid/T24RB/ExchangeRates.js",
+        "Droid/T24RB/HealthCheck.js"
+    ],
+    "userCode": true
+}

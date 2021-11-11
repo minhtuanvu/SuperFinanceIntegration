@@ -1,0 +1,21 @@
+{
+    "AS_FlexContainer_hea847808c334789bc3733d52fdd93d2": {
+        "id": "AS_FlexContainer_hea847808c334789bc3733d52fdd93d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua2ed622554743d093324eea75ddbe83"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ab94ddf9811848208f55742d4d364a31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//block on touch",
+            "parentId": null
+        }]
+    }
+}

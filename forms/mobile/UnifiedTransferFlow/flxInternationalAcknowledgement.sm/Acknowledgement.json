@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "field12Label": "{i.kony.i18n.verifyDetails.exchangeRate}:",
+        "field12Value": "{\"text\":\"{$.c.exchangeRate}\",\"fieldType\":\"label\"}",
+        "field13Value": "{ \"text\": \"{$.c.selectedFeesPaidBy}\", \"fieldType\": \"label\" }",
+        "field14Label": "{i.kony.i18n.verifyDetails.totalDebitAmount}:",
+        "field14Value": "{\"text\":\"{$.c.totalAmount}\",\"fieldType\":\"label\"}",
+        "field16Value": "{ \"text\": \"{$.c.paymentType}\", \"fieldType\": \"label\" }",
+        "field17Value": "{\"text\":\"{$.c.swiftCode}\",\"fieldType\":\"label\"}",
+        "field6Label": "",
+        "field6Value": "",
+        "field7Label": "{i.kony.i18n.verifyDetails.accountNumber}",
+        "field7Value": "{ \"text\": \"{$.c.accountNumber}\", \"fieldType\": \"label\" }",
+        "field9Label": "{i.kony.i18n.verifyDetails.sendOn}:"
+    },
+    "id": "Acknowledgement",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bd09d7cc8e8b44128b228a3c4d617179",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxContent",
+    "pf": "flxInternationalAcknowledgement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b3cf767ff93543c7aff4e892026c174c",
+    "wType": "UserWidgetInstance"
+}

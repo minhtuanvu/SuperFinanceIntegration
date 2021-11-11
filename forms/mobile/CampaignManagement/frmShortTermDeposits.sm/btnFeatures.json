@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1404527d97d4bbc8c76fc4ea01aff77",
+    "_text_": "FEATURES",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "FEATURES"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s1404527d97d4bbc8c76fc4ea01aff77",
+    "id": "btnFeatures",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "h95a0429b9c8408dae182ddb9d8486c2",
+    "name": "kony.ui.Button",
+    "parent": "flxProductDetailsTabs",
+    "pf": "frmShortTermDeposits",
+    "texti18n": "kony.mb.NAO.Features",
+    "wType": "Button",
+    "zindex": 2
+}

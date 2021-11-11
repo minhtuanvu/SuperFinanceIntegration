@@ -1,0 +1,9 @@
+{
+    "testCaseName": "verifyCreditCardAccountLandingPage",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingCreditCard",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "IOS/RB/RB_AccountsLandingCreditCard.js"
+    ]
+}

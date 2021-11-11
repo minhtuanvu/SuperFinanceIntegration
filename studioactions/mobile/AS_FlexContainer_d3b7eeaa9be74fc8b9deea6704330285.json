@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_d3b7eeaa9be74fc8b9deea6704330285": {
+        "id": "AS_FlexContainer_d3b7eeaa9be74fc8b9deea6704330285",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "ICSegUnifiedTransferHeader",
+            "type": "templates",
+            "platform": "",
+            "KUID": "bd91cf5637324d5d9d7646aba1c754f5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j971cce43f1e4048b6e2fffe37641af5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " return self.rowOnClick.call(this, null, null);",
+            "parentId": null
+        }]
+    }
+}

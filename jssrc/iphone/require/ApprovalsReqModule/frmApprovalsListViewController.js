@@ -1,0 +1,51 @@
+define("ApprovalsReqModule/userfrmApprovalsListViewController", {
+    _isApprovalsOrRequests: "",
+    _constantsSkin: {
+        "headerImgUp": "arrowupblue.png",
+        "imgReject": "cancelreject.png",
+        "imgApprove": "approvetick.png",
+        "flxApproveSkin": "sknFlx1a98ff",
+        "flxRejectSkin": "sknflxf6f6f6Bcg"
+    },
+    _approvalsReqModule: null,
+    /*
+     *init is called when the form is loaded , initialisation happen here
+     *
+     */
+    init: function() {
+        try {
+            kony.print("Entered init");
+            var navManager = applicationManager.getNavigationManager();
+            var currentForm = navManager.getCurrentForm();
+            applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+            this._approvalsReqModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("ApprovalsReqModule");
+            this.view.preShow = this.preShowForm;
+        } catch (e) {
+            kony.print("Exception in init::" + e);
+        }
+    },
+    //preShowForm is called when the form is pre loaded 
+    preShowForm: function() {
+        try {
+            kony.print("Entered preShowForm");
+            var navManager = applicationManager.getNavigationManager();
+            var currentForm = navManager.getCurrentForm();
+            applicationManager.getPresentationFormUtility().logFormName(currentForm);
+            /* this.initActions();
+             this.resetForm();
+             this.fetchDataBasedOnPermissions();*/
+        } catch (e) {
+            kony.print("Exception in preShowForm::" + e);
+        }
+    },
+});
+define("ApprovalsReqModule/frmApprovalsListViewControllerActions", {
+    /* 
+    This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+});
+define("ApprovalsReqModule/frmApprovalsListViewController", ["ApprovalsReqModule/userfrmApprovalsListViewController", "ApprovalsReqModule/frmApprovalsListViewControllerActions"], function() {
+    var controller = require("ApprovalsReqModule/userfrmApprovalsListViewController");
+    var controllerActions = ["ApprovalsReqModule/frmApprovalsListViewControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

@@ -1,0 +1,24 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_SettingsSuite",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/Settings/VerifySetDefaultAccount.js",
+        "RB/Droid/Settings/VerifyAccountPreview.js",
+        "RB/Droid/Settings/VerifyonclickProfileName.js"
+    ],
+    "usedBy": [
+        "Droid_RB_SME_Suite.js"
+    ]
+}

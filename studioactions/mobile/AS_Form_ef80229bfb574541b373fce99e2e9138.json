@@ -1,0 +1,23 @@
+{
+    "AS_Form_ef80229bfb574541b373fce99e2e9138": {
+        "id": "AS_Form_ef80229bfb574541b373fce99e2e9138",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmFinancialHelpAcknowledgement",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f75ec8d24d354149bc88a71195eb7c48"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_init_c139eee04b28498199095279b0b95dcf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "callbackType": null
+        }]
+    }
+}

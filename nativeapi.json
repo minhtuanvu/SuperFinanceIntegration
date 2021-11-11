@@ -1,0 +1,323 @@
+{
+    "Metadata": {
+        "Version": {
+            "iOS": "2.0"
+        }
+    },
+    "NativeFunctionAPI": {
+        "Android": {
+            "17.1.0": {
+                "GPay-Android-17.1.0": {
+                    "enable": false,
+                    "filename": "GPay-Android-17.1.0.zip",
+                    "isDefault": false,
+                    "os": "17.1.0",
+                    "platform": "Android",
+                    "title": "GPay"
+                }
+            },
+            "2.5.00": {
+                "SamsungPay-Android-2.5.00": {
+                    "enable": false,
+                    "filename": "SamsungPay-Android-2.5.00.zip",
+                    "isDefault": false,
+                    "os": "2.5.00",
+                    "platform": "Android",
+                    "title": "SamsungPay"
+                }
+            },
+            "4.0": {
+                "Kony_FileStorage-Android-4.0": {
+                    "enable": true,
+                    "filename": "Kony_FileStorage-Android-4.0.zip",
+                    "isDefault": true,
+                    "os": "4.0",
+                    "platform": "Android",
+                    "title": "Kony_FileStorage"
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "enable": true,
+                    "filename": "Kony_SDKCommons-Android-4.0.zip",
+                    "isDefault": true,
+                    "os": "4.0",
+                    "platform": "Android",
+                    "title": "Kony_SDKCommons"
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "enable": true,
+                    "filename": "Kony_SyncV2-Android-4.0.zip",
+                    "isDefault": true,
+                    "os": "4.0",
+                    "platform": "Android",
+                    "title": "Kony_SyncV2"
+                },
+                "Kony_WebSocket-Android-4.0": {
+                    "ci": true,
+                    "enable": true,
+                    "filename": "Kony_WebSocket-Android-4.0.zip",
+                    "isDefault": true,
+                    "os": "4.0",
+                    "platform": "Android",
+                    "title": "Kony_WebSocket"
+                },
+                "konympsocialshare-Android-4.0": {
+                    "enable": true,
+                    "filename": "konympsocialshare-Android-4.0.zip",
+                    "isDefault": false,
+                    "os": "4.0",
+                    "platform": "Android",
+                    "title": "konympsocialshare"
+                },
+                "android.speech-Android-4.0": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.speech-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util.logging-Android-4.0": {
+                    "title": "java.util.logging",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "java.util.logging-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.speech.tts-Android-4.0": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.speech.tts-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.preference-Android-4.0": {
+                    "title": "android.preference",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.preference-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.webkit-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "java.util-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.content-Android-4.0": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.content-Android-4.0.zip",
+                    "enable": true
+                }
+            },
+            "6.0": {},
+            "API level 23": {
+                "java.util.logging-Android-4.0": {
+                    "enable": true,
+                    "filename": "java.util.logging-Android-4.0.zip",
+                    "isDefault": false,
+                    "os": "API level 23",
+                    "platform": "Android",
+                    "title": "java.util.logging",
+                    "url": "java.util.logging-Android-4.0.zip"
+                }
+            }
+        },
+        "iOS": {
+            "11.0": {
+                "Kony_FileStorage-iOS-11.0": {
+                    "enable": true,
+                    "filename": "Kony_FileStorage-iOS-11.0.zip",
+                    "isDefault": true,
+                    "nfiversion": "2.0",
+                    "os": "11.0",
+                    "platform": "iOS",
+                    "title": "Kony_FileStorage"
+                },
+                "Kony_SDKCommons-iOS-11.0": {
+                    "enable": true,
+                    "filename": "Kony_SDKCommons-iOS-11.0.zip",
+                    "isDefault": true,
+                    "nfiversion": "2.0",
+                    "os": "11.0",
+                    "platform": "iOS",
+                    "title": "Kony_SDKCommons"
+                },
+                "Kony_SyncV2-iOS-11.0": {
+                    "enable": true,
+                    "filename": "Kony_SyncV2-iOS-11.0.zip",
+                    "isDefault": true,
+                    "nfiversion": "2.0",
+                    "os": "11.0",
+                    "platform": "iOS",
+                    "title": "Kony_SyncV2"
+                },
+                "Kony_WebSocket-iOS-11.0": {
+                    "ci": true,
+                    "enable": true,
+                    "filename": "Kony_WebSocket-iOS-11.0.zip",
+                    "isDefault": true,
+                    "nfiversion": "2.0",
+                    "os": "11.0",
+                    "platform": "iOS",
+                    "title": "Kony_WebSocket"
+                },
+                "Speech-iOS-11.0": {
+                    "enable": true,
+                    "filename": "Speech-iOS-11.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "11.0",
+                    "platform": "iOS",
+                    "title": "Speech"
+                },
+                "Foundation-iOS-11.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "isDefault": false,
+                    "filename": "Foundation-iOS-11.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "AVFoundation-iOS-11.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "isDefault": false,
+                    "filename": "AVFoundation-iOS-11.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            },
+            "12.0": {
+                "KonympSocialShare-iOS-12.0": {
+                    "enable": true,
+                    "filename": "KonympSocialShare-iOS-12.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "12.0",
+                    "platform": "iOS",
+                    "title": "KonympSocialShare"
+                }
+            },
+            "13.0": {
+                "MobileCoreServices-iOS-13.0": {
+                    "checksum": "782285702ae772af96b7d998f4585219c9177ce9",
+                    "enable": true,
+                    "filename": "MobileCoreServices-iOS-13.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "13.0",
+                    "platform": "iOS",
+                    "title": "MobileCoreServices"
+                },
+                "UIKit-iOS-13.0": {
+                    "checksum": "5bdeabfa26b241c1078c1d28ec5008b5a5061e90",
+                    "enable": true,
+                    "filename": "UIKit-iOS-13.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "13.0",
+                    "platform": "iOS",
+                    "title": "UIKit"
+                },
+                "HealthKit-iOS-13.0": {
+                    "title": "HealthKit",
+                    "platform": "iOS",
+                    "os": "13.0",
+                    "isDefault": false,
+                    "filename": "HealthKit-iOS-13.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "HealthKitUI-iOS-13.0": {
+                    "title": "HealthKitUI",
+                    "platform": "iOS",
+                    "os": "13.0",
+                    "isDefault": false,
+                    "filename": "HealthKitUI-iOS-13.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            },
+            "14.0": {
+                "AVFoundation-iOS-14.0": {
+                    "checksum": "2fbc9fcc9c76035e125c7d5d1c0a994aa7ece0fe",
+                    "enable": true,
+                    "filename": "AVFoundation-iOS-14.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "14.0",
+                    "platform": "iOS",
+                    "title": "AVFoundation"
+                },
+                "Foundation-iOS-14.0": {
+                    "checksum": "228b0e0dae49b080a39da396874aa78cb6c64708",
+                    "enable": true,
+                    "filename": "Foundation-iOS-14.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "14.0",
+                    "platform": "iOS",
+                    "title": "Foundation"
+                },
+                "PassKit-iOS-14.0": {
+                    "checksum": "935dff46680edafb277865c7414b88b47dc7b8e3",
+                    "enable": false,
+                    "filename": "KonyHIDIntegration-iOS-14.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "14.0",
+                    "platform": "iOS",
+                    "title": "PassKit",
+                    "url": "/visualizer/nativeframeworks/2.0/ios/3.0/PassKit-iOS-14.0.zip"
+                },
+                "UIKit-iOS-14.0": {
+                    "checksum": "160e5448de3e769b94a0e94748501795e4fe6e8d",
+                    "enable": false,
+                    "filename": "UIKit-iOS-14.0.zip",
+                    "isDefault": false,
+                    "nfiversion": "2.0",
+                    "os": "14.0",
+                    "platform": "iOS",
+                    "title": "UIKit",
+                    "url": "/visualizer/nativeframeworks/2.0/ios/3.0/UIKit-iOS-14.0.zip"
+                },
+                "KonyHIDIntegration-iOS-14.0": {
+                    "title": "KonyHIDIntegration",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "KonyHIDIntegration-iOS-14.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                },
+                "Speech-iOS-14.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "14.0",
+                    "isDefault": false,
+                    "filename": "Speech-iOS-14.0.zip",
+                    "nfiversion": "2.0",
+                    "enable": true
+                }
+            }
+        }
+    }
+}

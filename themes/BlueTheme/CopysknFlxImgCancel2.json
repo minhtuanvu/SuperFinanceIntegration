@@ -1,0 +1,19 @@
+{
+    "android": {
+        "background_image": "dailpadcancel.png",
+        "bg_type": "image"
+    },
+    "background_image": "dailpadcancel.png",
+    "bg_type": "image",
+    "border_color": "000000ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "iphone": {
+        "background_image": "dailpadcancel.png",
+        "bg_type": "image"
+    },
+    "isDefaultSkin": false,
+    "kuid": "sdcc9c57ffef42a8b12b0019567a43df",
+    "wType": "FlexContainer"
+}

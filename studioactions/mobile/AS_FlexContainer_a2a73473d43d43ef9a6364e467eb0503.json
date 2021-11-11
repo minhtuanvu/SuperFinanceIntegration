@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_a2a73473d43d43ef9a6364e467eb0503": {
+        "id": "AS_FlexContainer_a2a73473d43d43ef9a6364e467eb0503",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmManageNewCardName",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a5e8d3d8b1424cdd818539fddb55c8c5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d671f3010bfa474ab2ae0b91e2899a8e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var authMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule(\"AuthModule\"); \nauthMod.presentationController.commonFunctionForNavigation(\"frmLogin\");",
+            "callbackType": null
+        }]
+    }
+}

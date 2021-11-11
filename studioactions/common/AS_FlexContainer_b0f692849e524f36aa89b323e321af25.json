@@ -1,0 +1,27 @@
+{
+    "AS_FlexContainer_b0f692849e524f36aa89b323e321af25": {
+        "id": "AS_FlexContainer_b0f692849e524f36aa89b323e321af25",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "userwidgetmodel",
+            "type": "userwidgets",
+            "KUID": "u086795c01b1490a887e77d842bc96d4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jb15c65dec2045f79ed205296235fa30",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShowCreatePassword",
+            "display": "preShowCreatePassword",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

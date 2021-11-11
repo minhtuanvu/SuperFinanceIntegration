@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "ApplyCustomRole1304",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"customRoleId\" outputpath=\"customRoleId\"/>\n        <set-param inputpath=\"customRoleName\" outputpath=\"customRoleName\"/>\n        <set-param inputpath=\"users\" outputpath=\"users\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CustomRole\",\"xy\":\"194 114\",\"__gohashid\":211},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpProductServices (1.0).ApplyCustomRole\",\"xy\":\"770 100\",\"__gohashid\":212}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleId:\",\"to\":\"target:customRoleId:\",\"fromPort\":\"source:CustomRole:customRoleId:\",\"toPort\":\"target:customRoleId:\",\"__gohashid\":229},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleName:\",\"to\":\"target:customRoleName:\",\"fromPort\":\"source:CustomRole:customRoleName:\",\"toPort\":\"target:customRoleName:\",\"__gohashid\":230},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":6700,\"from\":\"source:CustomRole:users:\",\"to\":\"target:users:\",\"fromPort\":\"source:CustomRole:users:\",\"toPort\":\"target:users:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "ApplyCustomRole"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CustomRole",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

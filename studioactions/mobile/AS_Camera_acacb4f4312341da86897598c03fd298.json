@@ -1,0 +1,24 @@
+{
+    "AS_Camera_acacb4f4312341da86897598c03fd298": {
+        "id": "AS_Camera_acacb4f4312341da86897598c03fd298",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUploadCheckImages",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ic0658423272421c9413a75b3eb62572"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

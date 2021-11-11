@@ -1,0 +1,7 @@
+PayeeManagerConfig = {
+    "ModuleName": "PayeeManager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "PayeeManager/BusinessControllers/BusinessController"
+    }
+};

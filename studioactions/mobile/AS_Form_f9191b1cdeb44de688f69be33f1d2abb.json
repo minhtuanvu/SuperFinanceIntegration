@@ -1,0 +1,22 @@
+{
+    "AS_Form_f9191b1cdeb44de688f69be33f1d2abb": {
+        "id": "AS_Form_f9191b1cdeb44de688f69be33f1d2abb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboardWealth",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b96909bc2f0f47fca6cc1b2e2e49f311"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_postShow_dad50e86b3ae4fd7aab83703d202f76e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.postShow();"
+        }]
+    }
+}

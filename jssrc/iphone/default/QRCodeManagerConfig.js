@@ -1,0 +1,7 @@
+QRCodeManagerConfig = {
+    "ModuleName": "QRCodeManager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "QRCodeManager/BusinessControllers/BusinessController"
+    }
+};

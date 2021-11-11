@@ -1,0 +1,77 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.payperson.postprocessors.GetPayPersonPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "getPayPersonList8850",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"searchString\" outputpath=\"searchString\"/><set-param inputpath=\"offset\" outputpath=\"offset\"/><set-param inputpath=\"limit\" outputpath=\"limit\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"order\" outputpath=\"order\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">          <map inputpath=\"response_in\" outputpath=\"response_out\">                    <map inputpath=\"payperson\" outputpath=\"PayPerson\">                              <set-param inputpath=\"email\" outputpath=\"email\"/>                              <set-param inputpath=\"firstName\" outputpath=\"firstName\"/>                              <set-param inputpath=\"name\" outputpath=\"name\"/>                              <set-param inputpath=\"nickName\" outputpath=\"nickName\"/>                                                     <set-param inputpath=\"id\" outputpath=\"PayPersonId\"/>                              <set-param inputpath=\"phone\" outputpath=\"phone\"/>                              <set-param inputpath=\"primaryContactForSending\" outputpath=\"primaryContactForSending\"/>                              <set-param inputpath=\"secondaryEmail\" outputpath=\"secondaryEmail\"/>                              <set-param inputpath=\"secondaryEmail2\" outputpath=\"secondaryEmail2\"/>                              <set-param inputpath=\"secondaryPhoneNumber\" outputpath=\"secondaryPhoneNumber\"/>                              <set-param inputpath=\"secondaryPhoneNumber2\" outputpath=\"secondaryPhoneNumber2\"/>                    </map>      \t    <set-param inputpath=\"success\" outputpath=\"success\"/>\t    <set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>        </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"PayPerson\",\"xy\":\"770 100\",\"__gohashid\":362007},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices (1.0).getPayPersonList\",\"xy\":\"150 100\",\"__gohashid\":362008}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:PayPerson:email:\",\"to\":\"target:PayPerson:email:\",\"fromPort\":\"source:PayPerson:email:\",\"toPort\":\"target:PayPerson:email:\",\"visible\":true,\"common\":true,\"__gohashid\":364818},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:nickName:\",\"to\":\"target:PayPerson:nickName:\",\"fromPort\":\"source:PayPerson:nickName:\",\"toPort\":\"target:PayPerson:nickName:\",\"visible\":true,\"common\":true,\"__gohashid\":364825},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:PayPersonId:\",\"to\":\"target:PayPerson:PayPersonId:\",\"fromPort\":\"source:PayPerson:PayPersonId:\",\"toPort\":\"target:PayPerson:PayPersonId:\",\"visible\":true,\"common\":true,\"__gohashid\":364832},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:phone:\",\"to\":\"target:PayPerson:phone:\",\"fromPort\":\"source:PayPerson:phone:\",\"toPort\":\"target:PayPerson:phone:\",\"visible\":true,\"common\":true,\"__gohashid\":364839},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:primaryContactForSending:\",\"to\":\"target:PayPerson:primaryContactForSending:\",\"fromPort\":\"source:PayPerson:primaryContactForSending:\",\"toPort\":\"target:PayPerson:primaryContactForSending:\",\"visible\":true,\"common\":true,\"__gohashid\":364846},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:secondaryEmail:\",\"to\":\"target:PayPerson:secondaryEmail:\",\"fromPort\":\"source:PayPerson:secondaryEmail:\",\"toPort\":\"target:PayPerson:secondaryEmail:\",\"visible\":true,\"common\":true,\"__gohashid\":364853},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:secondaryEmail2:\",\"to\":\"target:PayPerson:secondaryEmail2:\",\"fromPort\":\"source:PayPerson:secondaryEmail2:\",\"toPort\":\"target:PayPerson:secondaryEmail2:\",\"visible\":true,\"common\":true,\"__gohashid\":364860},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:secondaryPhoneNumber:\",\"to\":\"target:PayPerson:secondaryPhoneNumber:\",\"fromPort\":\"source:PayPerson:secondaryPhoneNumber:\",\"toPort\":\"target:PayPerson:secondaryPhoneNumber:\",\"visible\":true,\"common\":true,\"__gohashid\":364867},{\"category\":\"Mapping\",\"from\":\"source:PayPerson:secondaryPhoneNumber2:\",\"to\":\"target:PayPerson:secondaryPhoneNumber2:\",\"fromPort\":\"source:PayPerson:secondaryPhoneNumber2:\",\"toPort\":\"target:PayPerson:secondaryPhoneNumber2:\",\"visible\":true,\"common\":true,\"__gohashid\":364874},{\"from\":\"target\",\"to\":\"target:PayPerson\",\"fromPort\":\"target\",\"toPort\":\"target:PayPerson\",\"visible\":true,\"common\":false,\"__gohashid\":34733},{\"from\":\"target:PayPerson\",\"to\":\"target:PayPerson:fields\",\"fromPort\":\"target:PayPerson\",\"toPort\":\"target:PayPerson:fields\",\"visible\":true,\"common\":false,\"__gohashid\":34734},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:email:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:email:\",\"visible\":true,\"common\":false,\"__gohashid\":34735},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:errmsg:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":34736},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:name:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:name:\",\"visible\":true,\"common\":false,\"__gohashid\":34737},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:limit:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:limit:\",\"visible\":true,\"common\":false,\"__gohashid\":34738},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:nickName:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:nickName:\",\"visible\":true,\"common\":false,\"__gohashid\":34739},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:offset:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:offset:\",\"visible\":true,\"common\":false,\"__gohashid\":34740},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:order:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:order:\",\"visible\":true,\"common\":false,\"__gohashid\":34741},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:PayPersonId:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:PayPersonId:\",\"visible\":true,\"common\":false,\"__gohashid\":34742},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:phone:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:phone:\",\"visible\":true,\"common\":false,\"__gohashid\":34743},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:primaryContactForSending:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:primaryContactForSending:\",\"visible\":true,\"common\":false,\"__gohashid\":34744},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:searchString:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:searchString:\",\"visible\":true,\"common\":false,\"__gohashid\":34745},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:secondaryEmail:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:secondaryEmail:\",\"visible\":true,\"common\":false,\"__gohashid\":34746},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:secondaryEmail2:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:secondaryEmail2:\",\"visible\":true,\"common\":false,\"__gohashid\":34747},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:secondaryPhoneNumber:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:secondaryPhoneNumber:\",\"visible\":true,\"common\":false,\"__gohashid\":34748},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:secondaryPhoneNumber2:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:secondaryPhoneNumber2:\",\"visible\":true,\"common\":false,\"__gohashid\":34749},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:sortBy:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:sortBy:\",\"visible\":true,\"common\":false,\"__gohashid\":34750},{\"from\":\"target:PayPerson:fields\",\"to\":\"target:PayPerson:success:\",\"fromPort\":\"target:PayPerson:fields\",\"toPort\":\"target:PayPerson:success:\",\"visible\":true,\"common\":false,\"__gohashid\":34751},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":34752},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":34753},{\"from\":\"source:parameters\",\"to\":\"source:success:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:success:\",\"visible\":true,\"common\":false,\"__gohashid\":34754},{\"from\":\"source\",\"to\":\"source:PayPerson\",\"fromPort\":\"source\",\"toPort\":\"source:PayPerson\",\"visible\":true,\"common\":false,\"__gohashid\":34755},{\"from\":\"source:PayPerson\",\"to\":\"source:PayPerson:parameters\",\"fromPort\":\"source:PayPerson\",\"toPort\":\"source:PayPerson:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":34756},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:email:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:email:\",\"visible\":true,\"common\":false,\"__gohashid\":34757},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:firstName:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:firstName:\",\"visible\":true,\"common\":false,\"__gohashid\":34758},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:lastName:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:lastName:\",\"visible\":true,\"common\":false,\"__gohashid\":34759},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:nickName:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:nickName:\",\"visible\":true,\"common\":false,\"__gohashid\":34760},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:PayPersonId:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:PayPersonId:\",\"visible\":true,\"common\":false,\"__gohashid\":34761},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:phone:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:phone:\",\"visible\":true,\"common\":false,\"__gohashid\":34762},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:primaryContactForSending:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:primaryContactForSending:\",\"visible\":true,\"common\":false,\"__gohashid\":34763},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:secondaryEmail:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:secondaryEmail:\",\"visible\":true,\"common\":false,\"__gohashid\":34764},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:secondaryEmail2:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:secondaryEmail2:\",\"visible\":true,\"common\":false,\"__gohashid\":34765},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:secondaryPhoneNumber:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:secondaryPhoneNumber:\",\"visible\":true,\"common\":false,\"__gohashid\":34766},{\"from\":\"source:PayPerson:parameters\",\"to\":\"source:PayPerson:secondaryPhoneNumber2:\",\"fromPort\":\"source:PayPerson:parameters\",\"toPort\":\"source:PayPerson:secondaryPhoneNumber2:\",\"visible\":true,\"common\":false,\"__gohashid\":34767}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getPayPersonList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "PayPerson",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

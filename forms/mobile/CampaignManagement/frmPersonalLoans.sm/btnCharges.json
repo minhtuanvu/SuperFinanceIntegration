@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s7ffc563022e4df4920056fdbf66660e",
+    "_text_": "Amount & Interests",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "CHARGES"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s7ffc563022e4df4920056fdbf66660e",
+    "id": "btnCharges",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "e3279c823ce04468907f01c309b1516e",
+    "name": "kony.ui.Button",
+    "parent": "flxProductDetailsTabs",
+    "pf": "frmPersonalLoans",
+    "wType": "Button",
+    "zindex": 2
+}

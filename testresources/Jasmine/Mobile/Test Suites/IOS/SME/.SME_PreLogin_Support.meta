@@ -1,0 +1,14 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_PreLogin_Support",
+    "testCaseInfo": [
+        "Common/IOS/SME/BeforeEachPreLogin.js",
+        "SME/IOS/PreLogin/PreLogin_Support_FAQ_TnC.js",
+        "SME/IOS/PreLogin/PreLogin_Support_VerifyAppVersion.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_SME_Regression.js",
+        "TestPlanIOSSMEandRB.js",
+        "TestPlanIOS_SME_Sanity.js"
+    ]
+}

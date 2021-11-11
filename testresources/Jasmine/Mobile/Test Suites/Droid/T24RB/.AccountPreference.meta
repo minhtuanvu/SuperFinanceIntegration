@@ -1,0 +1,15 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "AccountPreference",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/Settings.js",
+        "RB/T24Droid/AccountSettings/DisableEStatement.js",
+        "RB/T24Droid/AccountSettings/EnableEStatement.js",
+        "RB/T24Droid/AccountSettings/VerifyCancelEditAccountPreferences.js"
+    ],
+    "usedBy": [
+        "tempPlan.js"
+    ]
+}

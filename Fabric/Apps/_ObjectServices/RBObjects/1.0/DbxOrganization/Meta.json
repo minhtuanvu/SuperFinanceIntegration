@@ -1,0 +1,26 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateOrganization" : "updateOrganizationMapping",
+    "getCompanyDetails" : "getCompanyDetailsMapping",
+    "CreateMicroOrganizationEmployeeForAdmin" : "CreateMicroOrganizationEmployeeForAdminMapping",
+    "getListOfOrganizationsByStatus" : "getListOfOrganizationsByStatusMapping",
+    "createOrganization" : "createOrganizationMapping",
+    "updateOrganizationStatus" : "updateOrganizationStatusMapping",
+    "updateOrganizationEmployee" : "updateOrganizationEmployeeMapping",
+    "getOrganizationBusinessTypeSignatories" : "getOrganizationBusinessTypeSignatoriesMapping",
+    "unLinkOrgAccounts" : "unLinkOrgAccountsMapping",
+    "CreateSmallOrganizationEmployeeForAdmin" : "CreateSmallOrganizationEmployeeForAdminMapping",
+    "EditOrganizationEmployeeForAdmin" : "EditOrganizationEmployeeForAdminMapping",
+    "suspendOrganisationFeatures" : "suspendOrganisationFeaturesMapping",
+    "getOrganizationAccountsHolderDetails" : "getOrganizationAccountsHolderDetailsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

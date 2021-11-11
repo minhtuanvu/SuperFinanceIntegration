@@ -1,0 +1,23 @@
+{
+    "AS_Form_h2d2d5eb97f24496aabca1ab3d453f51": {
+        "id": "AS_Form_h2d2d5eb97f24496aabca1ab3d453f51",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmEuropeTransferFromAccount",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ab0ea725d7fd471b823d4576b90212d0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_cf5d6750d34542888c48a3a2f01b2b8b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null
+        }]
+    }
+}

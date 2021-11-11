@@ -1,0 +1,29 @@
+{
+    "AS_FlexScrollContainer_h9f63cbd7474459e88c437b8b585fcb4": {
+        "id": "AS_FlexScrollContainer_h9f63cbd7474459e88c437b8b585fcb4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCombinedDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d57f11df12ab4d4183c54016e1675adc"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_befbd1f3a4fc4bd28969d1a97d610872",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.bringFlxDashboardHeaderToFront()",
+            "parentId": null
+        }]
+    }
+}

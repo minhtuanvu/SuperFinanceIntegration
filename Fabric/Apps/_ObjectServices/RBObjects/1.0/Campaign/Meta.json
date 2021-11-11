@@ -1,0 +1,16 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getCampaignSpecificationsPreLogin" : "getCampaignSpecificationsPreLoginMapping",
+    "ignoreCampaignForCustomer" : "ignoreCampaignForCustomerMapping",
+    "getCampaignSpecifications" : "getCampaignSpecificationsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

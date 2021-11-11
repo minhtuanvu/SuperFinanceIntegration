@@ -1,0 +1,21 @@
+{
+    "groupName": "Test Suites/Droid/T24RB",
+    "testSuiteName": "TransferbetweenAccountinT24Transact",
+    "testCaseInfo": [
+        "Common/Droid/T24RB/BeforeEach.js",
+        "Common/Droid/T24RB/AccountsDashBoard.js",
+        "Common/Droid/T24RB/AllAccounts.js",
+        "Common/Droid/T24RB/TransfersAndPayement.js",
+        "Common/Droid/T24RB/ManageBeneficiaries.js",
+        "RB/T24Droid/Transfers/RecurringTransfer_OwnAccount.js",
+        "RB/T24Droid/Transfers/TransferOwnAccount_CurrDate.js",
+        "RB/T24Droid/Transfers/TransferOwnAccount_FutureDate.js",
+        "RB/T24Droid/Transfers/ModifyTransferDetails_OwnAccount.js",
+        "RB/T24Droid/Transfers/VerifyPaymentMethod_TransferOwnAccount.js",
+        "RB/T24Droid/Transfers/TransferOwnAccount_FromAccountsDashboard.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression_T24.js",
+        "tempPlan.js"
+    ]
+}

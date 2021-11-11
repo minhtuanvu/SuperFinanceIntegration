@@ -1,0 +1,74 @@
+{
+  "operationConfig" : {
+    "name" : "getProductList6094",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"accountType\" outputpath=\"accountType\"/><set-param inputpath=\"StateId\" outputpath=\"StateId\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">            <map inputpath=\"product\" outputpath=\"Products\">                  <set-param inputpath=\"description\" outputpath=\"productDescription\"/>                  <set-param inputpath=\"id\" outputpath=\"productId\"/>            </map>    \t<set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/>      </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Products\",\"xy\":\"770 100\",\"__gohashid\":57451},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpProductServices.getProductList\",\"xy\":\"150 100\",\"__gohashid\":57452}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:Products:productDescription:\",\"to\":\"target:Products:productDescription:\",\"fromPort\":\"source:Products:productDescription:\",\"toPort\":\"target:Products:productDescription:\",\"visible\":true,\"common\":true,\"__gohashid\":59990},{\"category\":\"Mapping\",\"from\":\"source:Products:productId:\",\"to\":\"target:Products:productId:\",\"fromPort\":\"source:Products:productId:\",\"toPort\":\"target:Products:productId:\",\"visible\":true,\"common\":true,\"__gohashid\":59997},{\"from\":\"target\",\"to\":\"target:Products\",\"fromPort\":\"target\",\"toPort\":\"target:Products\",\"visible\":true,\"common\":false,\"__gohashid\":267318},{\"from\":\"target:Products\",\"to\":\"target:Products:fields\",\"fromPort\":\"target:Products\",\"toPort\":\"target:Products:fields\",\"visible\":true,\"common\":false,\"__gohashid\":267319},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:accountType:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:accountType:\",\"visible\":true,\"common\":false,\"__gohashid\":267320},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:errmsg:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":267321},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:productDescription:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:productDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":267322},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:productId:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:productId:\",\"visible\":true,\"common\":false,\"__gohashid\":267323},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:StateId:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:StateId:\",\"visible\":true,\"common\":false,\"__gohashid\":267324},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:features:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:features:\",\"visible\":true,\"common\":false,\"__gohashid\":267325},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:info:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:info:\",\"visible\":true,\"common\":false,\"__gohashid\":267326},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:productType:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:productType:\",\"visible\":true,\"common\":false,\"__gohashid\":267327},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:productTypeId:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:productTypeId:\",\"visible\":true,\"common\":false,\"__gohashid\":267328},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:rates:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:rates:\",\"visible\":true,\"common\":false,\"__gohashid\":267329},{\"from\":\"target:Products:fields\",\"to\":\"target:Products:termsAndConditions:\",\"fromPort\":\"target:Products:fields\",\"toPort\":\"target:Products:termsAndConditions:\",\"visible\":true,\"common\":false,\"__gohashid\":267330},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":267331},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":267332},{\"from\":\"source\",\"to\":\"source:Products\",\"fromPort\":\"source\",\"toPort\":\"source:Products\",\"visible\":true,\"common\":false,\"__gohashid\":267333},{\"from\":\"source:Products\",\"to\":\"source:Products:parameters\",\"fromPort\":\"source:Products\",\"toPort\":\"source:Products:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":267334},{\"from\":\"source:Products:parameters\",\"to\":\"source:Products:productDescription:\",\"fromPort\":\"source:Products:parameters\",\"toPort\":\"source:Products:productDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":267335},{\"from\":\"source:Products:parameters\",\"to\":\"source:Products:productId:\",\"fromPort\":\"source:Products:parameters\",\"toPort\":\"source:Products:productId:\",\"visible\":true,\"common\":false,\"__gohashid\":267336}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getProductList"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Products",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true
+  }
+}

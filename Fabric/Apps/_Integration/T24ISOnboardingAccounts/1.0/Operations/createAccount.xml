@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="createAccount" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://_$_T24_ACCOUNTS_HOST_URL_$_/v1.0.0/holdings/products"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.kony.dbx.util.ServiceURLProvider"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false">
+        <header datatype="" name="" passthrough="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="INFINITY" description="" encode="false" format="None" formatvalue="" name="channelName" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="INFINITY">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="companyId" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ActivityId" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ProductId" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CurrencyId" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CustomerId" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CustomerRole" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CoApplicantCustomerId" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="CoApplicantCustomerRole" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Features" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="StatementType" order="" paramOrder="9" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="LimitAmount" order="" paramOrder="10" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Term" order="" paramOrder="11" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Amount" order="" paramOrder="12" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;header&quot;: {&#10;        &quot;override&quot;: {&#10;            &quot;overrideDetails&quot;: []&#10;        }&#10;    },&#10;    &quot;body&quot;: {&#10;      #if($CoApplicantCustomerId != &quot;&quot;)&#10;      &quot;customerIds&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$CustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CustomerRole&quot;&#10;            },&#10;            {&#10;                &quot;customerId&quot;: &quot;$CoApplicantCustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CoApplicantCustomerRole&quot;&#10;            }&#10;        ],&#10;      #else&#10;      &quot;customerIds&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$CustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CustomerRole&quot;&#10;            }&#10;        ],&#10;      #end&#10;   #if($StatementType != &quot;&quot;)&#10;      &quot;statement&quot; : {&#10;        &quot;printAttributes&quot;: [&#10;          {&#10;            &quot;printAttributeValues&quot;: &quot;$StatementType&quot;&#10;          }&#10;         ]&#10;      },&#10;      #end&#10;      #if($Features.getAllRecords().size()&gt;0)&#10;      &quot;facility&quot;: {&#10;        &quot;services&quot;: [&#10;          #set ($size = $Features.getAllRecords().size())&#10;          #set($index=0)&#10;          #foreach $Features&#10;           #set($index = $index+1)&#10;            {&#10;             &quot;customerOption&quot;: &quot;$!customerOption&quot;&#10;            }#if($index &lt; $size),#end&#10;            #end&#10;          ]&#10;      },&#10;      #end&#10;      #if($LimitAmount != &quot;&quot;)&#10;      &quot;limit&quot; : {&#10;        &quot;limitAmount&quot; : &quot;$LimitAmount&quot;&#10;      },&#10;      #end&#10;       #if($Term != &quot;&quot;)&#10;      &quot;commitment&quot; : {&#10;        &quot;term&quot; : &quot;$Term&quot;,&#10;         &quot;amount&quot;: &quot;$Amount&quot;&#10;      },&#10;        &quot;settlement&quot;: {&#10;            &quot;settlement&quot;: [&#10;                {&#10;                    &quot;payinSettlement&quot;: &quot;&quot;,&#10;                    &quot;payoutSettlement&quot;: &quot;&quot;&#10;                }&#10;            ]&#10;        },&#10;      #end&#10;        &quot;productId&quot;: &quot;$ProductId&quot;,&#10;        &quot;currencyId&quot;: &quot;$CurrencyId&quot;,&#10;        &quot;activityId&quot;: &quot;$ActivityId&quot;&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;header&quot;: {&#10;        &quot;override&quot;: {&#10;            &quot;overrideDetails&quot;: []&#10;        }&#10;    },&#10;    &quot;body&quot;: {&#10;      #if($CoApplicantCustomerId != &quot;&quot;)&#10;      &quot;customerIds&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$CustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CustomerRole&quot;&#10;            },&#10;            {&#10;                &quot;customerId&quot;: &quot;$CoApplicantCustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CoApplicantCustomerRole&quot;&#10;            }&#10;        ],&#10;      #else&#10;      &quot;customerIds&quot;: [&#10;            {&#10;                &quot;customerId&quot;: &quot;$CustomerId&quot;,&#10;                &quot;customerRole&quot;: &quot;$CustomerRole&quot;&#10;            }&#10;        ],&#10;      #end&#10;   #if($StatementType != &quot;&quot;)&#10;      &quot;statement&quot; : {&#10;        &quot;printAttributes&quot;: [&#10;          {&#10;            &quot;printAttributeValues&quot;: &quot;$StatementType&quot;&#10;          }&#10;         ]&#10;      },&#10;      #end&#10;      #if($Features.getAllRecords().size()&gt;0)&#10;      &quot;facility&quot;: {&#10;        &quot;services&quot;: [&#10;          #set ($size = $Features.getAllRecords().size())&#10;          #set($index=0)&#10;          #foreach $Features&#10;           #set($index = $index+1)&#10;            {&#10;             &quot;customerOption&quot;: &quot;$!customerOption&quot;&#10;            }#if($index &lt; $size),#end&#10;            #end&#10;          ]&#10;      },&#10;      #end&#10;      #if($LimitAmount != &quot;&quot;)&#10;      &quot;limit&quot; : {&#10;        &quot;limitAmount&quot; : &quot;$LimitAmount&quot;&#10;      },&#10;      #end&#10;       #if($Term != &quot;&quot;)&#10;      &quot;commitment&quot; : {&#10;        &quot;term&quot; : &quot;$Term&quot;,&#10;         &quot;amount&quot;: &quot;$Amount&quot;&#10;      },&#10;        &quot;settlement&quot;: {&#10;            &quot;settlement&quot;: [&#10;                {&#10;                    &quot;payinSettlement&quot;: &quot;&quot;,&#10;                    &quot;payoutSettlement&quot;: &quot;&quot;&#10;                }&#10;            ]&#10;        },&#10;      #end&#10;        &quot;productId&quot;: &quot;$ProductId&quot;,&#10;        &quot;currencyId&quot;: &quot;$CurrencyId&quot;,&#10;        &quot;activityId&quot;: &quot;$ActivityId&quot;&#10;    }&#10;}">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="true"/>
+</service>

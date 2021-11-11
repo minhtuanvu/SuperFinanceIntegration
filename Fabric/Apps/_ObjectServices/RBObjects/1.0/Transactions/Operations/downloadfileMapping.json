@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "GetTransactionsDownloaded9922",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"accountID\" outputpath=\"accountID\"/>\n        <set-param inputpath=\"accountNumber\" outputpath=\"accountNumber\"/>\n        <set-param inputpath=\"filters\" outputpath=\"filters\"/>\n        <set-param inputpath=\"firstRecordNumber\" outputpath=\"firstRecordNumber\"/>\n        <set-param inputpath=\"generatedBy\" outputpath=\"generatedBy\"/>\n        <set-param inputpath=\"lastRecordNumber\" outputpath=\"lastRecordNumber\"/>\n        <set-param inputpath=\"searchEndDate\" outputpath=\"searchEndDate\"/>\n        <set-param inputpath=\"searchStartDate\" outputpath=\"searchStartDate\"/>\n        <set-param inputpath=\"searchTransactionType\" outputpath=\"searchTransactionType\"/>\n        <set-param inputpath=\"searchType\" outputpath=\"searchType\"/>\n        <set-param inputpath=\"title\" outputpath=\"title\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Transactions\",\"xy\":\"150 100\",\"__gohashid\":109408},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpNonProductServices (1.0).GetTransactionsDownloaded\",\"xy\":\"770 100\",\"__gohashid\":109409}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":130995,\"from\":\"source:Transactions:accountID:\",\"to\":\"target:accountID:\",\"fromPort\":\"source:Transactions:accountID:\",\"toPort\":\"target:accountID:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":131264,\"from\":\"source:Transactions:accountNumber:\",\"to\":\"target:accountNumber:\",\"fromPort\":\"source:Transactions:accountNumber:\",\"toPort\":\"target:accountNumber:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":134168,\"from\":\"source:Transactions:filters:\",\"to\":\"target:filters:\",\"fromPort\":\"source:Transactions:filters:\",\"toPort\":\"target:filters:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":136474,\"from\":\"source:Transactions:generatedBy:\",\"to\":\"target:generatedBy:\",\"fromPort\":\"source:Transactions:generatedBy:\",\"toPort\":\"target:generatedBy:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":138460,\"from\":\"source:Transactions:title:\",\"to\":\"target:title:\",\"fromPort\":\"source:Transactions:title:\",\"toPort\":\"target:title:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":140345,\"from\":\"source:Transactions:searchStartDate:\",\"to\":\"target:searchStartDate:\",\"fromPort\":\"source:Transactions:searchStartDate:\",\"toPort\":\"target:searchStartDate:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":141221,\"from\":\"source:Transactions:searchEndDate:\",\"to\":\"target:searchEndDate:\",\"fromPort\":\"source:Transactions:searchEndDate:\",\"toPort\":\"target:searchEndDate:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":142458,\"from\":\"source:Transactions:searchTransactionType:\",\"to\":\"target:searchTransactionType:\",\"fromPort\":\"source:Transactions:searchTransactionType:\",\"toPort\":\"target:searchTransactionType:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":143853,\"from\":\"source:Transactions:searchType:\",\"to\":\"target:searchType:\",\"fromPort\":\"source:Transactions:searchType:\",\"toPort\":\"target:searchType:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":144927,\"from\":\"source:Transactions:lastRecordNumber:\",\"to\":\"target:lastRecordNumber:\",\"fromPort\":\"source:Transactions:lastRecordNumber:\",\"toPort\":\"target:lastRecordNumber:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":145672,\"from\":\"source:Transactions:firstRecordNumber:\",\"to\":\"target:firstRecordNumber:\",\"fromPort\":\"source:Transactions:firstRecordNumber:\",\"toPort\":\"target:firstRecordNumber:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetTransactionsDownloaded"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Transactions",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

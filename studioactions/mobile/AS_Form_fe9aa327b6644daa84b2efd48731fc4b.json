@@ -1,0 +1,28 @@
+{
+    "AS_Form_fe9aa327b6644daa84b2efd48731fc4b": {
+        "id": "AS_Form_fe9aa327b6644daa84b2efd48731fc4b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBillPayLiteActivation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "hbeb03887e814940afd05af0885931ec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__dce489870dfc411ea978fa0aa2548278",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

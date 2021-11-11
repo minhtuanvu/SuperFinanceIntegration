@@ -1,0 +1,135 @@
+{
+    "testCaseName": "VerifyOrderOfAccounts",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsDashboard",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_AccountsDashboard.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Wait For",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "frmUnifiedDashboard.segAccounts",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "4c2499fb-4fc5-c1f3-3ce9-2e8daff0c5b4",
+                "messageType": "waitFor",
+                "messageData": {
+                    "widgetType": "waitFor",
+                    "metadata": {
+                        "waitFor": "frmUnifiedDashboard.segAccounts"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Scroll To Row",
+            "actionIconClassName": "assets/widget_icons/scroll.svg",
+            "activeActionIconClassName": "assets/widget_icons/activescroll.svg",
+            "entity": "frmUnifiedDashboard.segAccounts",
+            "metaEditable": false,
+            "dispMeta": "[0,3]",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isScrollToWidgetEnabled": true,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "a9d36e4f-81d6-30df-299d-f236084fd01c",
+                "messageType": "scrollToRow",
+                "messageData": {
+                    "widgetType": "scrollToRow",
+                    "metadata": {
+                        "scrollToWidget": "frmUnifiedDashboard.segAccounts[0,3]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "displayReady": true,
+            "actionName": "Click",
+            "actionIconClassName": "assets/widget_icons/tap.svg",
+            "activeActionIconClassName": "assets/widget_icons/activetap.svg",
+            "entity": "frmUnifiedDashboard.segAccounts[0,3].flxViewContainer",
+            "contextMenu": {
+                "isScrollToRowEnabled": true,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "messageData": {
+                    "widgetPath": "frmUnifiedDashboard.segAccounts[0,3].flxViewContainer",
+                    "widgetType": "flexcontainer",
+                    "actionType": "click"
+                },
+                "UUID": "38968DB2-FFB8-4891-9DD0-8FBFE12E6735",
+                "messageType": "Record"
+            },
+            "codeNotReady": false,
+            "metaEditable": false
+        },
+        {
+            "actionName": "Wait",
+            "actionIconClassName": "assets/widget_icons/loading.svg",
+            "activeActionIconClassName": "assets/widget_icons/activeloading.svg",
+            "entity": "Wait in ms",
+            "metaEditable": true,
+            "dispMeta": "1000",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "actualMessage": {
+                "UUID": "6ffc36c8-953b-6ff8-ff7e-7ce241aa1538",
+                "messageType": "Wait",
+                "messageData": {
+                    "widgetType": "Wait",
+                    "metadata": {
+                        "waitTimeMS": "1000"
+                    }
+                }
+            },
+            "codeNotReady": false
+        },
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "30 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "8b5a4c12-53ad-4dbc-53fb-44b321a072a9",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "let segDetails = kony.automation.widget.getWidgetProperty([\"frmUnifiedDashboard\",\"segAccounts\"],\"data\");\n\t\tlet i=0;\n\t\t\n\t\tfor(i=0; i<5; i++){\n\t\tverifyOrderOfAccounts(i);\n\t\t}\n\t\t\n\t\tfunction verifyOrderOfAccounts(i){\n\t\tswitch(i){\n\t\tcase 0:\n\t\texpect(segDetails[0][1][i].accountType).toEqual(\"Savings\");\n\t\tbreak;\n\t\t\n\t\tcase 1:\n\t\texpect(segDetails[0][1][i].accountType).toEqual(\"Checking\");\n\t\tbreak;\n\t\t\n\t\tcase 2:\n\t\texpect(segDetails[0][1][i].accountType).toEqual(\"Credit Card\");\n\t\tbreak;\n\t\t\n\t\tcase 3:\n\t\texpect(segDetails[0][1][i].accountType).toEqual(\"Loan\");\n\t\tbreak;\n\t\t\n\t\tcase 4:\n\t\texpect(segDetails[0][1][i].accountType).toEqual(\"Deposit\");\n\t\tbreak;\n\t\t}\n\t}",
+                        "comment": "// - [30 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

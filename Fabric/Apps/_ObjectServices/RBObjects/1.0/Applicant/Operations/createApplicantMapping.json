@@ -1,0 +1,32 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.kony.dbputilities.mfa.preprocessors.CreateApplicantPreProcessor",
+    "responseProcessorName" : "com.kony.dbputilities.customersecurityservices.postprocessor.CreateApplicantPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "createDbxApplicant2575",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "createDbxApplicant"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Applicant",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

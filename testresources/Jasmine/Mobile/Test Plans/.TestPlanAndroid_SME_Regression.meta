@@ -1,0 +1,13 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "TestPlanAndroid_SME_Regression",
+    "testSuiteInfo": [
+        "Droid/SME/SME_PreLogin_Support.js",
+        "Droid/SME/SME_Login.js",
+        "Droid/SME/SME_AccountsDashboard.js",
+        "Droid/SME/SME_SettingsSuite.js",
+        "Droid/SME/SME_MyBills.js",
+        "Droid/SME/SME_Transfers.js",
+        "Droid/SME/SME_Logout.js"
+    ]
+}

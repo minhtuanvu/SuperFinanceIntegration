@@ -1,0 +1,205 @@
+define("WealthModule/userfrmReportController", {
+    // reportTypeData: {},
+    dateRange: {},
+    reportData: "",
+    downloadData: [],
+    init: function() {
+        this.view.preShow = this.preShow;
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "YES", currentForm);
+    },
+    preShow: function() {
+        var navManager = applicationManager.getNavigationManager();
+        // this.reportTypeData = navManager.getCustomInfo("frmReportType");
+        this.reportData = scope_WealthPresentationController.reportData;
+        // if(this.reportTypeData === undefined){
+        if (scope_WealthPresentationController.reportType == "") {
+            scope_WealthPresentationController.reportType = this.reportData.response.reportTypeList[0].reportType;
+            scope_WealthPresentationController.reportParams = this.reportData.response.reportTypeList[0].downloadParams;
+        }
+        //  else{
+        this.view.lblAccSummary.text = scope_WealthPresentationController.reportType;
+        //  }
+        this.dateRange = scope_WealthPresentationController.selectedDateRangeDetails;
+        this.setLblPreviousDays();
+        if (applicationManager.getPresentationFormUtility().getDeviceName() !== "iPhone") {
+            this.view.flxHeader.isVisible = true;
+        } else {
+            this.view.flxHeader.isVisible = false;
+        }
+        this.view.flxTimePeriod.setVisibility(true);
+        this.view.flxReportType.setVisibility(true);
+        this.view.segDownload.setVisibility(false);
+        var data = this.reportData.response.downloadTypeList;
+        this.downloadData = [];
+        for (var list in data) {
+            var storeData = {
+                docName: data[list].downloadType,
+                downloadParams: data[list].downloadParams
+            };
+            this.downloadData.push(storeData);
+        }
+        this.view.segDownload.widgetDataMap = {
+            lblType: "docName"
+        };
+        this.view.segDownload.removeAll();
+        this.view.segDownload.setData(this.downloadData);
+        this.initActions();
+        this.checkPermissions();
+    },
+    initActions: function() {
+        this.view.customHeader.flxBack.onClick = this.goBack;
+        this.view.btnTglReport.skin = "sknBtnFFFFFFSSPSB15px";
+        this.view.btnTglStatement.skin = "sknbtn000000SSPSB15px";
+        this.view.flxBtn.setVisibility(true);
+        this.view.flxPreviousDays.onTouchEnd = this.showDatePicker;
+        this.view.flxAccountSummary.onTouchEnd = this.showReportTypes;
+        this.view.btnTglReport.onClick = this.reportStatementToggle.bind(this, this.view.btnTglReport);
+        this.view.btnTglStatement.onClick = this.reportStatementToggle.bind(this, this.view.btnTglStatement);
+        this.view.btnGetReport.onClick = this.downloadStatement;
+        this.view.segDownload.onRowClick = this.downloadStatementinSeg;
+    },
+    setLblPreviousDays: function() {
+        var forUtility = applicationManager.getFormatUtilManager();
+        if (this.dateRange) {
+            if (this.dateRange.selectedPeriod == "previous30DaysSelected") {
+                this.view.lblPreviousDays.text = kony.i18n.getLocalizedString("i18n.wealth.previous30Days");
+            } else if (this.dateRange.selectedPeriod == "3MonthsSelected") {
+                this.view.lblPreviousDays.text = kony.i18n.getLocalizedString("i18n.wealth.threeMonths");
+            } else if (this.dateRange.selectedPeriod == "6MonthsSelected") {
+                this.view.lblPreviousDays.text = kony.i18n.getLocalizedString("i18n.wealth.sixMonths");
+            } else if (this.dateRange.selectedPeriod == "lastYearSelected") {
+                this.view.lblPreviousDays.text = kony.i18n.getLocalizedString("i18n.wealth.lastYear");
+            } else {
+                var startDateObj = this.dateRange.startDate.split("-");
+                var formattedstartDate = startDateObj[1] + "/" + startDateObj[2] + "/" + startDateObj[0];
+                var endDateObj = this.dateRange.endDate.split("-");
+                var formattedendDate = endDateObj[1] + "/" + endDateObj[2] + "/" + endDateObj[0];
+                this.view.lblPreviousDays.text = formattedstartDate + " - " + formattedendDate;
+            }
+        } else {
+            this.view.lblPreviousDays.text = kony.i18n.getLocalizedString("i18n.wealth.previous30Days");
+        }
+    },
+    reportStatementToggle: function(widgetInfo) {
+        let skin1 = this.view.btnTglReport.skin;
+        let skin2 = this.view.btnTglStatement.skin;
+        this.view.btnTglReport.skin = (skin1 === "sknBtnFFFFFFSSPSB15px") ? "sknbtn000000SSPSB15px" : "sknBtnFFFFFFSSPSB15px";
+        this.view.btnTglStatement.skin = (skin2 === "sknBtnFFFFFFSSPSB15px") ? "sknbtn000000SSPSB15px" : "sknBtnFFFFFFSSPSB15px";
+        if (widgetInfo.id === "btnTglReport") {
+            this.loadReport();
+        } else {
+            this.loadStatement();
+        }
+    },
+    goBack: function() {
+        var params = {
+            "portfolioId": scope_WealthPresentationController.portfolioId,
+            "navPage": "Portfolio",
+            "graphDuration": "OneM"
+        };
+        var wealthModule = applicationManager.getModulesPresentationController("WealthModule");
+        wealthModule.getPortfolioAndGraphDetails(params);
+    },
+    loadReport: function() {
+        this.view.flxTimePeriod.setVisibility(true);
+        this.view.flxReportType.setVisibility(true);
+        this.view.segDownload.setVisibility(false);
+        this.view.flxBtn.setVisibility(true);
+    },
+    loadStatement: function() {
+        this.view.flxTimePeriod.setVisibility(false);
+        this.view.flxReportType.setVisibility(false);
+        this.view.segDownload.setVisibility(true);
+        this.view.flxBtn.setVisibility(false);
+    },
+    downloadStatementinSeg: function() {
+        var rowIndex = this.view.segDownload.selectedRowIndex[1];
+        let downloadTypeParams = this.downloadData[rowIndex].downloadParams;
+        scope_WealthPresentationController.downloadParams = {};
+        scope_WealthPresentationController.downloadParams.navPage = "Reports";
+        var wealthModule = applicationManager.getModulesPresentationController("WealthModule");
+        wealthModule.getDownloadList(downloadTypeParams);
+    },
+    downloadStatement: function() {
+        let downloadParams = scope_WealthPresentationController.reportParams;
+        scope_WealthPresentationController.downloadParams = {};
+        scope_WealthPresentationController.downloadParams.navPage = "Reports";
+        var wealthModule = applicationManager.getModulesPresentationController("WealthModule");
+        wealthModule.getDownloadList(downloadParams);
+    },
+    onClickDownloadMessage: function(base64String, filename) {
+        try {
+            this.view.socialshare.shareWithBase64(base64String, filename);
+        } catch (error) {
+            applicationManager.getPresentationUtility().dismissLoadingScreen();
+        }
+    },
+    showDatePicker: function() {
+        var navManager = applicationManager.getNavigationManager();
+        //  var selectedValue = this.view.lblPrevio =usDays.text;
+        var selectedValue = this.view.lblPreviousDays.text;
+        var dataSet = {};
+        var period;
+        if (selectedValue == "Previous 30 days") {
+            period = "previous30DaysSelected";
+        } else if (selectedValue == "3 Months") {
+            period = "3MonthsSelected";
+        } else if (selectedValue == "6 Months") {
+            period = "6MonthsSelected";
+        } else if (selectedValue == "Last year") {
+            period = "lastYearSelected";
+        } else {
+            period = "freeDateSelected";
+        }
+        //  dataSet.searchValue = this.view.tbxSearch.text;
+        dataSet.selectedDays = period;
+        navManager.setCustomInfo('frmReport', dataSet);
+        navManager.navigateTo("frmDateRange");
+    },
+    showReportTypes: function() {
+        var navManager = applicationManager.getNavigationManager();
+        //    navManager.navigateTo("frmReportType");
+        // var data;
+        // data.reportTypeData = this.reportTypeData;
+        navManager.setCustomInfo("frmReportType", this.reportData.response.reportTypeList);
+        navManager.navigateTo("frmReportType");
+    },
+    checkPermissions: function() {
+        let generateReportPermission = applicationManager.getConfigurationManager().checkUserPermission("WEALTH_REPORT_MANAGEMENT_REPORT_CREATE");
+        this.view.flxBtn.setVisibility(generateReportPermission);
+        this.view.flxTimePeriod.setVisibility(generateReportPermission);
+        this.view.flxReportType.setVisibility(generateReportPermission);
+        let downloadStatementPermission = applicationManager.getConfigurationManager().checkUserPermission("WEALTH_REPORT_MANAGEMENT_REPORT_DOWNLOAD");
+        if (generateReportPermission && downloadStatementPermission) {
+            this.view.lblCommon.setVisibility(false);
+            this.view.flxReport.setVisibility(generateReportPermission);
+            this.view.flxStatement.setVisibility(downloadStatementPermission);
+        } else {
+            this.view.lblCommon.setVisibility(true);
+            this.view.flxReport.setVisibility(false);
+            this.view.flxStatement.setVisibility(false);
+            this.view.segDownload.setVisibility(downloadStatementPermission);
+            this.view.lblCommon.text = generateReportPermission ? "Generate Report" : "Download Statement";
+        }
+    }
+});
+define("WealthModule/frmReportControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Form_j5521ac18b434bc5be6411d6589c502a: function AS_Form_j5521ac18b434bc5be6411d6589c502a(eventobject) {
+        var self = this;
+        this.init();
+    },
+    AS_BarButtonItem_i7a8b19b05ab437ea4764582e5866972: function AS_BarButtonItem_i7a8b19b05ab437ea4764582e5866972(eventobject) {
+        var self = this;
+        this.goBack();
+    }
+});
+define("WealthModule/frmReportController", ["WealthModule/userfrmReportController", "WealthModule/frmReportControllerActions"], function() {
+    var controller = require("WealthModule/userfrmReportController");
+    var controllerActions = ["WealthModule/frmReportControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

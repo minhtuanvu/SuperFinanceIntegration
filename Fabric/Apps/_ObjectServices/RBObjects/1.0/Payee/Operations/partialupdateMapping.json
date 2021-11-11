@@ -1,0 +1,38 @@
+{
+  "customCode" : {
+    "responseProcessorName" : "com.kony.postprocessors.UpdateBillPayeeObjectServicePostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "editPayee1103",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"payeeNickName\" outputpath=\"payeeNickName\"/><set-param inputpath=\"zipCode\" outputpath=\"zipCode\"/><set-param inputpath=\"phoneExtension\" outputpath=\"phoneExtension\"/><set-param inputpath=\"companyName\" outputpath=\"companyName\"/><set-param inputpath=\"accountNumber\" outputpath=\"accountNumber\"/><set-param inputpath=\"EBillEnable\" outputpath=\"EBillEnable\"/><set-param inputpath=\"payeeName\" outputpath=\"payeeName\"/><set-param inputpath=\"cityName\" outputpath=\"cityName\"/><set-param inputpath=\"phoneCountryCode\" outputpath=\"phoneCountryCode\"/><set-param inputpath=\"street\" outputpath=\"street\"/><set-param inputpath=\"addressLine1\" outputpath=\"addressLine1\"/><set-param inputpath=\"addressLine2\" outputpath=\"addressLine2\"/><set-param inputpath=\"payeeId\" outputpath=\"payeeId\"/><set-param inputpath=\"state\" outputpath=\"state\"/><set-param inputpath=\"email\" outputpath=\"email\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"success\" outputpath=\"success\"/><set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "editPayee"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Payee",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true,
+        "delete" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

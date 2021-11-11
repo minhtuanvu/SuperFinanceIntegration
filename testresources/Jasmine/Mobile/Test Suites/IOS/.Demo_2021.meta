@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS",
+    "testSuiteName": "Demo_2021",
+    "testCaseInfo": [
+        "Common/IOS/RB/LoginAndWaitForDashboard.js",
+        "RB/IOS/PreLogin/PreLogin_Support_VerifyAppVersion.js"
+    ],
+    "usedBy": [
+        "DemoIOS.js"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "testCaseName": "Verify_ScheduledTransferMonthly_NoOfOccurances",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

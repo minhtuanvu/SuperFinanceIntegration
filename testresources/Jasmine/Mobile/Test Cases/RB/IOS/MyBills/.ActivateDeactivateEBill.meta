@@ -1,0 +1,39 @@
+{
+    "testCaseName": "ActivateDeactivateEBill",
+    "testSuiteName": "Test Cases/RB/IOS/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "7 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "684b3e30-98b8-fe69-d329-7dcdbb6b3933",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMyBillsPage();\nawait searchPayee(myBills.payeeName.automation);\nawait activateDeactivateEBill();\nawait deviceBack();\nawait deviceBack();\nawait goBackToDashboard();\n",
+                        "comment": "// - [7 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

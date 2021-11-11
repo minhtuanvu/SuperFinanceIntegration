@@ -1,0 +1,118 @@
+define("MoneyMovementModule/userfrmMMConfirmationController", {
+    init: function() {
+        var scope = this;
+        var currentFormObject = kony.application.getCurrentForm();
+        var currentForm = currentFormObject.id;
+        applicationManager.getPresentationFormUtility().initCommonActions(this, "CALLBACK", currentForm, scope.navigateCustomBack);
+    },
+    navigateCustomBack: function() {
+        var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
+        accountMod.presentationController.showDashboard();
+    },
+    preShow: function() {
+        if (kony.os.deviceInfo().name === "iPhone") {
+            this.view.flxHeader.isVisible = false;
+        }
+        this.initActions();
+        this.setupUI();
+        var navManager = applicationManager.getNavigationManager();
+        var currentForm = navManager.getCurrentForm();
+        applicationManager.getPresentationFormUtility().logFormName(currentForm);
+    },
+    initActions: function() {
+        var scope = this;
+        var moneyMovementModule = applicationManager.getModulesPresentationController("MoneyMovementModule");
+        var navMan = applicationManager.getNavigationManager();
+        this.view.customHeader.btnRight.onClick = this.cancelOnClick;
+        scope.view.btnDashboard.onClick = function() {
+            moneyMovementModule.haveLimitsBeenFetched = false;
+            var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
+            accountMod.presentationController.showDashboard();
+        };
+        scope.view.btnNewTransfer.onClick = function() {
+            var navMan = applicationManager.getNavigationManager();
+            //navMan.setEntryPoint("ManageMMFlow","frmMMTransferFromAccount");
+            navMan.setEntryPoint("centralmoneymovement", "frmDashboardAggregated");
+            navMan.setEntryPoint("startFromFlow", "frmMMTransferFromAccount");
+            moneyMovementModule.clearMMFlowAtributes();
+            moneyMovementModule.getFromAndToAccounts();
+        };
+        scope.view.btnToAccount.onClick = function() {
+            moneyMovementModule.haveLimitsBeenFetched = false;
+            var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
+            accountMod.presentationController.showDashboard();
+        };
+    },
+    setupUI: function() {
+        var moneyMovementModule = applicationManager.getModulesPresentationController("MoneyMovementModule");
+        var transactionManager = applicationManager.getTransactionManager();
+        var transferObject = transactionManager.getTransactionObject();
+        if (!kony.sdk.isNullOrUndefined(transferObject.errmsg)) {
+            this.view.flxConfirmationMain.isVisible = false;
+            this.view.flxFailure.isVisible = true;
+            this.view.flxButtons.isVisible = false;
+            this.view.lblError.text = transferObject.errmsg;
+        } else {
+            var navigationManager = applicationManager.getNavigationManager();
+            var approvalStatus = navigationManager.getCustomInfo("frmMMConfirmation");
+            if (approvalStatus && approvalStatus === "Pending") {
+                this.view.lblSuccessMessage.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.ApprovalRequests.TransactionApproval");
+            } else {
+                if (transferObject.isScheduled === "0") this.view.lblSuccessMessage.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.TransferSuccessfully");
+                else this.view.lblSuccessMessage.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.TransferScheduled");
+            }
+            this.view.flxConfirmationMain.isVisible = true;
+            this.view.flxFailure.isVisible = false;
+            this.view.flxButtons.isVisible = true;
+            if (moneyMovementModule.isLoansAccountType) {
+                this.view.lblSavedRecipient.isVisible = true;
+                this.view.lblSavedRecipient.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.loans.AckMessage");
+            } else {
+                this.view.lblSavedRecipient.isVisible = false;
+            }
+            this.setSegmentData();
+            //var navManager = applicationManager.getNavigationManager();
+            //navManager.setEntryPoint("Feedback","frmMMConfirmation");
+            //var feedbackModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("FeedBackModule");
+            //feedbackModule.presentationController.showFeedbackPopup({from : "transaction"});
+        }
+        applicationManager.getPresentationUtility().dismissLoadingScreen();
+    },
+    setSegmentData: function() {
+        var moneyMovementPresentationController = applicationManager.getModulesPresentationController("MoneyMovementModule");
+        var segData = moneyMovementPresentationController.getConfirmationScreenData();
+        this.view.segDetails.widgetDataMap = this.getWidgetDataMap();
+        this.view.segDetails.setData(segData);
+    },
+    getWidgetDataMap: function() {
+        var map = {
+            lblTitle: "property",
+            lblDetails: "value",
+            flxAccountType: "flxAccountType",
+            imgAccountType: "imgAccountType"
+        }
+        return map;
+    },
+    cancelOnClick: function() {
+        var moneyMovementModule = applicationManager.getModulesPresentationController("MoneyMovementModule");
+        moneyMovementModule.cancelCommon();
+    },
+});
+define("MoneyMovementModule/frmMMConfirmationControllerActions", {
+    /*
+        This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+    AS_Form_f0fff1b04d1149d181104afde7bba03e: function AS_Form_f0fff1b04d1149d181104afde7bba03e(eventobject) {
+        var self = this;
+        this.init();
+    },
+    AS_Form_c1311f5e11844409ba58bb4fa07f97f7: function AS_Form_c1311f5e11844409ba58bb4fa07f97f7(eventobject) {
+        var self = this;
+        this.preShow();
+    }
+});
+define("MoneyMovementModule/frmMMConfirmationController", ["MoneyMovementModule/userfrmMMConfirmationController", "MoneyMovementModule/frmMMConfirmationControllerActions"], function() {
+    var controller = require("MoneyMovementModule/userfrmMMConfirmationController");
+    var controllerActions = ["MoneyMovementModule/frmMMConfirmationControllerActions"];
+    return kony.visualizer.mixinControllerActions(controller, controllerActions);
+});

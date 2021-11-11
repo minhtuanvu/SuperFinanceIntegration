@@ -1,0 +1,10 @@
+{
+    "testCaseName": "VerifyCustomViewApplied",
+    "testSuiteName": "Test Cases/RB/T24Droid/CustomView",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/TemporarySuite/tempSuite.js",
+        "Droid/T24RB/CustomViews.js"
+    ]
+}

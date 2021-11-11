@@ -1,0 +1,29 @@
+{
+  "operationConfig" : {
+    "name" : "createTravelNotification6410",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"StartDate\" outputpath=\"StartDate\"/><set-param inputpath=\"additionNotes\" outputpath=\"additionNotes\"/><set-param inputpath=\"Destinations\" outputpath=\"Destinations\"/><set-param inputpath=\"phonenumber\" outputpath=\"phonenumber\"/><set-param inputpath=\"Channel_id\" outputpath=\"Channel_id\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/><set-param inputpath=\"EndDate\" outputpath=\"EndDate\"/><set-param inputpath=\"Cards\" outputpath=\"Cards\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpAdminConsoleServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createTravelNotification"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Cards",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

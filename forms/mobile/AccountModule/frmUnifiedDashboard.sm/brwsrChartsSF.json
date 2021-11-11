@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "enablenativecommunication": true,
+    "htmlstring": "Browser",
+    "id": "brwsrChartsSF",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bounces": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e6ce323a6e8a48cca908a67361c87ac1",
+    "localurl": "w4248f63bff242daa65f2ac0589e5264",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "flxPfmChartsMainSF",
+    "pf": "frmUnifiedDashboard",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "url": "",
+    "vizProps": {
+        "runJS": false
+    },
+    "wType": "Browser",
+    "zindex": 1
+}

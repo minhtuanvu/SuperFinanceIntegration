@@ -1,0 +1,23 @@
+{
+    "AS_Button_f9628f91c9404f17afec47a7b2ea7ec3": {
+        "id": "AS_Button_f9628f91c9404f17afec47a7b2ea7ec3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLoanAmount",
+            "type": "forms",
+            "platform": null,
+            "KUID": "f9f98871d20b4eafb1d228fbce68ce57"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_dec9da0ea93f4b3dba50042698703ea2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setKeypadChar(0);",
+            "callbackType": null
+        }]
+    }
+}

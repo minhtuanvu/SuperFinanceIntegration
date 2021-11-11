@@ -1,0 +1,9 @@
+{
+    "testCaseName": "VerifyInterestDetails_SavingsAcc",
+    "testSuiteName": "Test Cases/RB/T24Droid/AccountsOverview",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/AccountsOverview.js"
+    ]
+}

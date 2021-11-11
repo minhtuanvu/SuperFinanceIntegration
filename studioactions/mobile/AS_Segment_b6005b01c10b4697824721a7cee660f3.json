@@ -1,0 +1,29 @@
+{
+    "AS_Segment_b6005b01c10b4697824721a7cee660f3": {
+        "id": "AS_Segment_b6005b01c10b4697824721a7cee660f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmDepositToAccount",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e0920451fb974d00bb850360adc6e95c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_i8e295e989f547dca2a5ed9f72fcfbc1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onRowClick();",
+            "callbackType": null
+        }]
+    }
+}

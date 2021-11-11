@@ -1,0 +1,28 @@
+{
+    "AS_Form_fc21c67b5cc842159d6dec2b86001f54": {
+        "id": "AS_Form_fc21c67b5cc842159d6dec2b86001f54",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSecurityQuestions",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fbe17ad81094490ba316991e96532fc1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___a01d6efbc36946b6bd52d198a47d1457",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "preShow",
+            "display": "preShow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

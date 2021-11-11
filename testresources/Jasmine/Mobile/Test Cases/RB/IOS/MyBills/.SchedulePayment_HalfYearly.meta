@@ -1,0 +1,39 @@
+{
+    "testCaseName": "SchedulePayment_HalfYearly",
+    "testSuiteName": "Test Cases/RB/IOS/MyBills",
+    "channelName": "Mobile",
+    "usedBy": [
+        "IOS/RB/RB_MyBills.js"
+    ],
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "8 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": true,
+            "actualMessage": {
+                "UUID": "936b33f3-04dd-fc09-f9cf-3e5666767d7f",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMyBillsPage();\nawait searchPayee(myBills.payeeName.creditCard);\nawait clickOnPayBill();\nawait enterBillAmount();\nawait selectFrequencyBillPay(\"HalfY\");\nawait selectDateRange_BillPay();\nawait enterNoteValue_BillPay(\"automation\");\nawait goBackToDashboard();",
+                        "comment": "// - [8 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "timeout": 0
+}

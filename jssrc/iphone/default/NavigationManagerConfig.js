@@ -1,0 +1,7 @@
+NavigationManagerConfig = {
+    "ModuleName": "NavigationManager",
+    "BusinessControllerConfig": {
+        "CommandHandler": [],
+        "BusinessControllerClass": "NavigationManager/BusinessControllers/BusinessController"
+    }
+};

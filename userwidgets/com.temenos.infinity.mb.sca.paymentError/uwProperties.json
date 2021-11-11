@@ -1,0 +1,144 @@
+{
+    "classname": "paymentError",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b7fb44665f8843fcbb0453d514322a6c",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickTryAgain",
+                    "pw": {
+                        "displayName": "onClickTryAgain",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b8f99339d43a487f9a8323561a659bff",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickNewTransfer",
+                    "pw": {
+                        "displayName": "onClickNewTransfer",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [
+                "Text Fields"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "kony.mb.sca.transferFailed",
+                    "group": "General",
+                    "kuid": "d3bc49c02fac42b680a7b182756f897c",
+                    "originalPropertyKey": "lblErrorTitleText",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblErrorTitleText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Title Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony.mb.sca.approvalRequestFailed",
+                    "group": "General",
+                    "kuid": "d84bb27c29584351b1c76cc2a6f7b466",
+                    "originalPropertyKey": "lblErrorDescriptionText",
+                    "propertyIndex": 2,
+                    "propertyKey": "lblErrorDescriptionText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Error Description Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony.mb.sca.tryAgain",
+                    "group": "General",
+                    "kuid": "e4554fd6c5a14a8f91910b026665f948",
+                    "originalPropertyKey": "btnTryAgainText",
+                    "propertyIndex": 3,
+                    "propertyKey": "btnTryAgainText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Btn Try Again Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony.mb.sca.newTransfer",
+                    "group": "General",
+                    "kuid": "f0121ddd2053409fa9cfbce268130458",
+                    "originalPropertyKey": "btnNewTransferText",
+                    "propertyIndex": 4,
+                    "propertyKey": "btnNewTransferText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Btn New Transfer Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "kony.mb.sca.Acknowledgement",
+                    "group": "General",
+                    "kuid": "dd31f9c5500547188d77f79496a44e69",
+                    "originalPropertyKey": "lblAcknowledgementText",
+                    "propertyIndex": 5,
+                    "propertyKey": "lblAcknowledgementText",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Header Text",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j20c2fa766714d1792b7c0fbe6baac32",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.temenos.infinity.mb.sca",
+    "version": "1.0.0"
+}

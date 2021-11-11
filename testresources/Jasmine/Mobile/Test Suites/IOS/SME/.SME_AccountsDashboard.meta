@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites/IOS/SME",
+    "testSuiteName": "SME_AccountsDashboard",
+    "testCaseInfo": [
+        "Common/IOS/RB/BeforeEachIT.js",
+        "SME/IOS/AccountsDashboard/ViewAllTransactions.js"
+    ],
+    "usedBy": [
+        "TestPlanIOS_SME_Regression.js"
+    ]
+}

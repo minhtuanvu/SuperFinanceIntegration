@@ -1,0 +1,27 @@
+{
+    "AS_Form_j52722bfdac6440ebe40cb154d93e07a": {
+        "id": "AS_Form_j52722bfdac6440ebe40cb154d93e07a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }, {
+            "datatype": "AnyObject?",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "frmDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g7c53c05f9ea4214bc7b308008ead153"
+        },
+        "language": "swift",
+        "actions": [{
+            "id": "ADD_SNIPPET__ee297439258a4c73ae17c715e559593a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "Accounts.getSharedInstance().setAccountsData(form,context!);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "groupName": "Test Plans",
+    "testRunnerName": "SanityPack_Android",
+    "testSuiteInfo": [
+        "Droid/RB/RB_SanitySuite.js",
+        "Droid/SME/SME_SanitySuite.js"
+    ]
+}

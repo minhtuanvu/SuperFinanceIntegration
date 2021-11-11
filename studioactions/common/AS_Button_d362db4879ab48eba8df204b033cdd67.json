@@ -1,0 +1,16 @@
+{
+    "AS_Button_d362db4879ab48eba8df204b033cdd67": {
+        "id": "AS_Button_d362db4879ab48eba8df204b033cdd67",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h21f98b3d36d42f896ef0332b42c3b94",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.handler.toggleMainMenu();"
+        }]
+    }
+}

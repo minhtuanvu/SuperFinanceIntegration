@@ -1,0 +1,10 @@
+{
+    "testCaseName": "VerifyAccountPreview",
+    "testSuiteName": "Test Cases/RB/Droid/Settings",
+    "channelName": "Mobile",
+    "usedBy": [
+        "SettingsSuite.js",
+        "Droid/RB/SettingsSuite.js"
+    ],
+    "userCode": true
+}

@@ -1,0 +1,30 @@
+{
+  "operationConfig" : {
+    "name" : "updateUserDetails2403",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"country\" outputpath=\"country\"/><set-param inputpath=\"areAccountStatementTermsAccepted\" outputpath=\"areAccountStatementTermsAccepted\"/><set-param inputpath=\"default_account_wire\" outputpath=\"default_account_wire\"/><set-param inputpath=\"city\" outputpath=\"city\"/><set-param inputpath=\"default_from_account_p2p\" outputpath=\"default_from_account_p2p\"/><set-param inputpath=\"phoneExtension\" outputpath=\"phoneExtension\"/><set-param inputpath=\"default_account_transfers\" outputpath=\"default_account_transfers\"/><set-param inputpath=\"default_to_account_p2p\" outputpath=\"default_to_account_p2p\"/><set-param inputpath=\"default_account_billPay\" outputpath=\"default_account_billPay\"/><set-param inputpath=\"secondaryemail2\" outputpath=\"secondaryemail2\"/><set-param inputpath=\"password\" outputpath=\"password\"/><set-param inputpath=\"userImage\" outputpath=\"userImage\"/><set-param inputpath=\"pin\" outputpath=\"pin\"/><set-param inputpath=\"addressLine1\" outputpath=\"addressLine1\"/><set-param inputpath=\"addressLine2\" outputpath=\"addressLine2\"/><set-param inputpath=\"default_account_payments\" outputpath=\"default_account_payments\"/><set-param inputpath=\"state\" outputpath=\"state\"/><set-param inputpath=\"default_account_deposit\" outputpath=\"default_account_deposit\"/><set-param inputpath=\"secondaryphone\" outputpath=\"secondaryphone\"/><set-param inputpath=\"email\" outputpath=\"email\"/><set-param inputpath=\"secondaryemail\" outputpath=\"secondaryemail\"/><set-param inputpath=\"oldpassword\" outputpath=\"oldpassword\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/><set-param inputpath=\"zipcode\" outputpath=\"zipcode\"/><set-param inputpath=\"default_account_cardless\" outputpath=\"default_account_cardless\"/><set-param inputpath=\"secondaryphone2\" outputpath=\"secondaryphone2\"/><set-param inputpath=\"phoneCountryCode\" outputpath=\"phoneCountryCode\"/><set-param inputpath=\"phone\" outputpath=\"phone\"/><set-param inputpath=\"alertsTurnedOn\" outputpath=\"alertsTurnedOn\"/><set-param inputpath=\"showBillPayFromAccPopup\" outputpath=\"showBillPayFromAccPopup\"/><set-param inputpath=\"areDepositTermsAccepted\" outputpath=\"areDepositTermsAccepted\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"success\" outputpath=\"success\"/><set-param inputpath=\"errmsg\" outputpath=\"errmsg\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "updateUserDetails"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "User",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false
+  }
+}

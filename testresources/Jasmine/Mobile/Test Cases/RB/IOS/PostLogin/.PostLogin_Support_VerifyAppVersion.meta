@@ -1,0 +1,39 @@
+{
+    "testCaseName": "PostLogin_Support_VerifyAppVersion",
+    "testSuiteName": "Test Cases/RB/IOS/PostLogin",
+    "channelName": "Mobile",
+    "steps": [
+        {
+            "actionName": "Code Snippet",
+            "actionIconClassName": "assets/widget_icons/code_snippet.svg",
+            "activeActionIconClassName": "assets/widget_icons/activecode_snippet.svg",
+            "entity": "",
+            "isCodeSnippet": true,
+            "dispMeta": "2 lines",
+            "contextMenu": {
+                "isAssertEnabled": false,
+                "isWaitForEnabled": false,
+                "isScrollToWidgetEnabled": false,
+                "isScrollToRowEnabled": false,
+                "isScreenShotEnabled": true
+            },
+            "isExpanded": false,
+            "actualMessage": {
+                "UUID": "da1e5d79-27be-8fe6-d36a-d0543f75f501",
+                "messageType": "CodeBlock",
+                "messageData": {
+                    "widgetType": "CodeBlock",
+                    "metadata": {
+                        "rawCode": "await openMenu(\"Support\");\nawait PostLogin_VerifyAppVersion();",
+                        "comment": "// - [2 lines]"
+                    }
+                }
+            },
+            "codeNotReady": false
+        }
+    ],
+    "usedBy": [
+        "IOS/RB/RB_PostLogin_Support.js"
+    ],
+    "timeout": 0
+}

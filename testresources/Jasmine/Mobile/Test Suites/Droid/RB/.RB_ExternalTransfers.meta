@@ -1,0 +1,38 @@
+{
+    "groupName": "Test Suites/Droid/RB",
+    "testSuiteName": "RB_ExternalTransfers",
+    "testCaseInfo": [
+        "Common/Droid/RB/BeforeEachIT.js",
+        "Common/Droid/RB/AccountsDashBoard.js",
+        "Common/Droid/RB/AllAccounts.js",
+        "Common/Droid/RB/ManageRecipients.js",
+        "Common/Droid/RB/Messages.js",
+        "Common/Droid/RB/MyBills.js",
+        "Common/Droid/RB/MyMoney.js",
+        "Common/Droid/RB/PostLogin.js",
+        "Common/Droid/RB/PreLogin.js",
+        "Common/Droid/RB/Settings.js",
+        "Common/Droid/RB/TransferActivities.js",
+        "Common/Droid/RB/Transfers.js",
+        "RB/Droid/TransferToExternalBank/APreRequisiteTo_AddExternalbankreciptent.js",
+        "RB/Droid/TransferToExternalBank/CancelTransfer.js",
+        "RB/Droid/TransferToExternalBank/DailySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/DailySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToExternalBank/HalfYearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/HalfYearlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToExternalBank/MonthlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/MonthlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToExternalBank/OneTimeTransfer.js",
+        "RB/Droid/TransferToExternalBank/QuarterlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/QuarterlySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToExternalBank/SheduledOneTimeTransfer.js",
+        "RB/Droid/TransferToExternalBank/VerifySearch_From_To_AccList.js",
+        "RB/Droid/TransferToExternalBank/WeeklySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/WeeklySheduledTransfer-Occurences.js",
+        "RB/Droid/TransferToExternalBank/YearlySheduledTransfer-DateRange.js",
+        "RB/Droid/TransferToExternalBank/YearlySheduledTransfer-Occurences.js"
+    ],
+    "usedBy": [
+        "TestPlanAndroid_RB_Regression.js"
+    ]
+}

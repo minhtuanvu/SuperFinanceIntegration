@@ -1,0 +1,7 @@
+{
+    "testCaseName": "verifyBillPayment",
+    "testSuiteName": "Test Cases/RB/IOS/AccountsLandingCreditCard",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": []
+}

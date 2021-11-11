@@ -1,0 +1,12 @@
+{
+  "type" : "svcdriven",
+  "description" : "Testing purpose",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

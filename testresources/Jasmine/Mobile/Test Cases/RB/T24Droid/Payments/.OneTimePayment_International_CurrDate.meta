@@ -1,0 +1,11 @@
+{
+    "testCaseName": "OneTimePayment_International_CurrDate",
+    "testSuiteName": "Test Cases/RB/T24Droid/Payments",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/T24RB/Payments.js",
+        "Droid/T24RB/HealthCheck.js",
+        "Droid/T24RB/PaymentsinT24Transact.js"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Verify_OneTimeTransfer",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "TransfersOwnAccount.js",
+        "Droid/RB/TransfersOwnAccount.js"
+    ],
+    "userCode": true
+}

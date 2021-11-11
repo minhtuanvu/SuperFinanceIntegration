@@ -1,0 +1,10 @@
+{
+    "testCaseName": "VerifyCompletedTransfer",
+    "testSuiteName": "Test Cases/RB/T24Droid/ManageTransactions",
+    "channelName": "Mobile",
+    "userCode": true,
+    "usedBy": [
+        "Droid/TemporarySuite/Suite_06042021.js",
+        "Droid/T24RB/ManageTransactions.js"
+    ]
+}

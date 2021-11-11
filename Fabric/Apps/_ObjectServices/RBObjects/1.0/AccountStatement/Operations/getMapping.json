@@ -1,0 +1,75 @@
+{
+  "operationConfig" : {
+    "name" : "getAccountStatements1235",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly"
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"accountID\" outputpath=\"Account_id\"/>  </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"accountstatement\" outputpath=\"AccountStatement\">            <set-param inputpath=\"description\" outputpath=\"StatementDescription\"/>            <set-param inputpath=\"statementLink\" outputpath=\"StatementLink\"/>            <set-param inputpath=\"month\" outputpath=\"StatementMonth\"/>            <set-param inputpath=\"Account_id\" outputpath=\"accountID\"/>        </map>    </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"AccountStatement\",\"xy\":\"150 100\",\"__gohashid\":14684},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpNonProductServices.getAccountStatements\",\"xy\":\"770 100\",\"__gohashid\":14685}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:AccountStatement\",\"fromPort\":\"source\",\"toPort\":\"source:AccountStatement\",\"visible\":true,\"common\":false,\"__gohashid\":14699},{\"from\":\"source:AccountStatement\",\"to\":\"source:AccountStatement:fields\",\"fromPort\":\"source:AccountStatement\",\"toPort\":\"source:AccountStatement:fields\",\"visible\":true,\"common\":false,\"__gohashid\":14700},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:StatementDescription:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:StatementDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":14701},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:StatementLink:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:StatementLink:\",\"visible\":true,\"common\":false,\"__gohashid\":14702},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:StatementMonth:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:StatementMonth:\",\"visible\":true,\"common\":false,\"__gohashid\":14703},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:accountID:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:accountID:\",\"visible\":true,\"common\":false,\"__gohashid\":14704},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:format:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:format:\",\"visible\":true,\"common\":false,\"__gohashid\":14705},{\"from\":\"source:AccountStatement:fields\",\"to\":\"source:AccountStatement:year:\",\"fromPort\":\"source:AccountStatement:fields\",\"toPort\":\"source:AccountStatement:year:\",\"visible\":true,\"common\":false,\"__gohashid\":14706},{\"from\":\"target\",\"to\":\"target:parameters\",\"fromPort\":\"target\",\"toPort\":\"target:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":14707},{\"from\":\"target:parameters\",\"to\":\"target:Account_id:\",\"fromPort\":\"target:parameters\",\"toPort\":\"target:Account_id:\",\"visible\":true,\"common\":false,\"__gohashid\":14708}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"AccountStatement\",\"xy\":\"770 100\",\"__gohashid\":19200},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getAccountStatements\",\"xy\":\"150 100\",\"__gohashid\":19201}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:AccountStatement\",\"fromPort\":\"target\",\"toPort\":\"target:AccountStatement\",\"visible\":true,\"common\":false,\"__gohashid\":19221},{\"from\":\"target:AccountStatement\",\"to\":\"target:AccountStatement:fields\",\"fromPort\":\"target:AccountStatement\",\"toPort\":\"target:AccountStatement:fields\",\"visible\":true,\"common\":false,\"__gohashid\":19222},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:StatementDescription:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:StatementDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":19223},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:StatementLink:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:StatementLink:\",\"visible\":true,\"common\":false,\"__gohashid\":19224},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:StatementMonth:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:StatementMonth:\",\"visible\":true,\"common\":false,\"__gohashid\":19225},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:accountID:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:accountID:\",\"visible\":true,\"common\":false,\"__gohashid\":19226},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:format:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:format:\",\"visible\":true,\"common\":false,\"__gohashid\":19227},{\"from\":\"target:AccountStatement:fields\",\"to\":\"target:AccountStatement:year:\",\"fromPort\":\"target:AccountStatement:fields\",\"toPort\":\"target:AccountStatement:year:\",\"visible\":true,\"common\":false,\"__gohashid\":19228},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":19229},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":19230},{\"from\":\"source\",\"to\":\"source:AccountStatement\",\"fromPort\":\"source\",\"toPort\":\"source:AccountStatement\",\"visible\":true,\"common\":false,\"__gohashid\":19231},{\"from\":\"source:AccountStatement\",\"to\":\"source:AccountStatement:parameters\",\"fromPort\":\"source:AccountStatement\",\"toPort\":\"source:AccountStatement:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":19232},{\"from\":\"source:AccountStatement:parameters\",\"to\":\"source:AccountStatement:accountID:\",\"fromPort\":\"source:AccountStatement:parameters\",\"toPort\":\"source:AccountStatement:accountID:\",\"visible\":true,\"common\":false,\"__gohashid\":19233},{\"from\":\"source:AccountStatement:parameters\",\"to\":\"source:AccountStatement:StatementDescription:\",\"fromPort\":\"source:AccountStatement:parameters\",\"toPort\":\"source:AccountStatement:StatementDescription:\",\"visible\":true,\"common\":false,\"__gohashid\":19234},{\"from\":\"source:AccountStatement:parameters\",\"to\":\"source:AccountStatement:StatementLink:\",\"fromPort\":\"source:AccountStatement:parameters\",\"toPort\":\"source:AccountStatement:StatementLink:\",\"visible\":true,\"common\":false,\"__gohashid\":19235},{\"from\":\"source:AccountStatement:parameters\",\"to\":\"source:AccountStatement:StatementMonth:\",\"fromPort\":\"source:AccountStatement:parameters\",\"toPort\":\"source:AccountStatement:StatementMonth:\",\"visible\":true,\"common\":false,\"__gohashid\":19236},{\"category\":\"Mapping\",\"from\":\"source:AccountStatement:StatementDescription:\",\"to\":\"target:AccountStatement:StatementDescription:\",\"fromPort\":\"source:AccountStatement:StatementDescription:\",\"toPort\":\"target:AccountStatement:StatementDescription:\",\"visible\":true,\"common\":true,\"__gohashid\":21688},{\"category\":\"Mapping\",\"from\":\"source:AccountStatement:StatementLink:\",\"to\":\"target:AccountStatement:StatementLink:\",\"fromPort\":\"source:AccountStatement:StatementLink:\",\"toPort\":\"target:AccountStatement:StatementLink:\",\"visible\":true,\"common\":true,\"__gohashid\":21695},{\"category\":\"Mapping\",\"from\":\"source:AccountStatement:StatementMonth:\",\"to\":\"target:AccountStatement:StatementMonth:\",\"fromPort\":\"source:AccountStatement:StatementMonth:\",\"toPort\":\"target:AccountStatement:StatementMonth:\",\"visible\":true,\"common\":true,\"__gohashid\":21702},{\"category\":\"Mapping\",\"from\":\"source:AccountStatement:accountID:\",\"to\":\"target:AccountStatement:accountID:\",\"fromPort\":\"source:AccountStatement:accountID:\",\"toPort\":\"target:AccountStatement:accountID:\",\"visible\":true,\"common\":true,\"__gohashid\":21709}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpNonProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAccountStatements"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "AccountStatement",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : true
+  }
+}

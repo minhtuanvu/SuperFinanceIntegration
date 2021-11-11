@@ -1,0 +1,10 @@
+{
+    "testCaseName": "Verify_TransferScheduleOnce",
+    "testSuiteName": "Test Cases/RB/Droid/Transfer",
+    "channelName": "Mobile",
+    "usedBy": [
+        "TransfersOwnAccount.js",
+        "Droid/RB/xyz.js"
+    ],
+    "userCode": true
+}
