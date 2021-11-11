@@ -44,6 +44,7 @@ define({
   },
   //speechTxtArr : [""],
   preshowInsights:function(){
+    this.view.btnNextSF.text = "Next";
     //step 1
     this.view.flxSteps1SF.isVisible = true;
     this.view.flxStep1aSF.isVisible = true;
@@ -57,6 +58,7 @@ define({
     this.view.flxSteps3SF.isVisible = false;
   },
   postShowInsights : function(){
+    alert("postshow");
     this.view.texttospeech.speakOut("Hello");
     kony.timer.schedule("insights1a1",function(){
       this.view.texttospeech.speakOut("With the current market conditions, your equities are overweight while your FX and securities are underweight. It is time to rebalance although this will have tax implications.");
@@ -157,10 +159,10 @@ define({
   tempSegDta : [],
   onLoadShow:function(){
     // this.bindEventsShow(); //by vineela
-    var masterdata = [{flxGroups:{skin:"skninActive"},lblSchemeName:"Fusion Bank",lblSchemePercent:"2.45% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"skninActive"},lblSchemeName:"Vontobel",lblSchemePercent:"2.75% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"skninActive"},lblSchemeName:"Lombard Odier",lblSchemePercent:"2.12% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"skninActive"},lblSchemeName:"Bank of Atlantis",lblSchemePercent:"2.00% Interest",flxCircles:{"isVisible":true},flxLneSF:{isVisible:false}}];
+    var masterdata = [{flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Fusion Bank",lblSchemePercent:"2.45% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Vontobel",lblSchemePercent:"2.75% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Lombard Odier",lblSchemePercent:"2.12% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Bank of Atlantis",lblSchemePercent:"2.00% Interest",flxCircles:{"isVisible":true},flxLneSF:{isVisible:false}}];
     this.tempSegDta = masterdata;
     this.view.segScheme.setData(masterdata);
   },
@@ -184,12 +186,12 @@ define({
     kony.print("selected row"+rowIndex);
     for(var i=0;i<this.tempSegDta.length;i++){
       if(rowIndex == i){
-        this.tempSegDta[i].flxGroups.skin = "sknOnActive";
+        this.tempSegDta[i].flxGroups.skin = "sknFlxSelectedSF";
         this.view.lblScheduleText.text ="Scheduling call with "+this.tempSegDta[i].lblSchemeName;
         this.view.texttospeech.speakOut("Scheduling call with "+this.tempSegDta[i].lblSchemeName);
       }
       else{
-        this.tempSegDta[i].flxGroups.skin = "skninActive"; 
+        this.tempSegDta[i].flxGroups.skin = "sknFlxUnSelectedSF"; 
       }
     }
     kony.print("segment data---->"+JSON.stringify(this.tempSegDta));

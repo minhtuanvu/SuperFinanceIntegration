@@ -6,7 +6,7 @@
     },
     "_height_": {
         "type": "string",
-        "value": "2dp"
+        "value": "1dp"
     },
     "_margin_": [
         0,
@@ -25,7 +25,7 @@
     "_skin_": "sa8211131cc146a2ad47116da9873fae",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "92%"
     },
     "allboxes": [],
     "autogrowmode": 0,
