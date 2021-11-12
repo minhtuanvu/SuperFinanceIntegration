@@ -41,7 +41,7 @@
     "id": "flxGradient",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "g162a09001e2420b89d2766b5b9eaf84",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

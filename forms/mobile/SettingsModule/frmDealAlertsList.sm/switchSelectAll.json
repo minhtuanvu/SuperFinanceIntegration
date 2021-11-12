@@ -42,7 +42,6 @@
     "kuid": "e600bcb784db4fdd84874b04a469794c",
     "leftsidetext": "     ",
     "name": "kony.ui.Switch",
-    "onslide": null,
     "osPlatform": "iphone",
     "osVersion": "iOS7",
     "parent": "flxSelectAll",

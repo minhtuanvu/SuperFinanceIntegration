@@ -19,6 +19,17 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
     "canUpdateUI": true,
     "children": [
         "confirmationAlertPopup"
@@ -52,7 +63,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "and_Pixel3",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

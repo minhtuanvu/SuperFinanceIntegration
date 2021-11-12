@@ -48,7 +48,7 @@
     "kuid": "a2bd66155a1a4f57a00be79a0693abf2",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSignUpContainer",
+    "parent": "flxGroupPass",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -111,7 +111,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "flxGroup1",
     "pf": "frmSettings",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

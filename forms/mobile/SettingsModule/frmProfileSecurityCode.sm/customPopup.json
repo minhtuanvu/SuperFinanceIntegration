@@ -1,14 +1,11 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
-    "_android_": {},
     "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100%"
     },
-    "_iphone_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -32,9 +29,6 @@
     "_top_": {
         "type": "string",
         "value": "0dp"
-    },
-    "_vizProps_": {
-        "hidewidgethierarchy": false
     },
     "_width_": {
         "type": "string",

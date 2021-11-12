@@ -25,7 +25,7 @@
     "_skin_": "s7b436962d6a4647b197083ac7d03d38",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -34,6 +34,10 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "lblBankIDChange",
         "flxShadowOne",
@@ -50,7 +54,7 @@
     "kuid": "ebcefdf871854a79829c7aa9d7ecc15b",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxBody",
+    "parent": "FlexGroupWraps",
     "pf": "frmAlertsDealsAndSecurity",
     "snapgridsize": 10,
     "snaptogrid": true,

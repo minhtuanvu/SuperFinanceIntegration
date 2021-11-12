@@ -89,7 +89,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxTransactionFrequency",
+    "parent": "FlexGroupContactType",
     "pf": "frmProfileContactType",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

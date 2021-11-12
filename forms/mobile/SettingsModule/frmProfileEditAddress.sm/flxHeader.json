@@ -42,7 +42,7 @@
     "enablescrolling": true,
     "id": "flxHeader",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ef6bb4da21b54109859cffd8d2a0d12d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

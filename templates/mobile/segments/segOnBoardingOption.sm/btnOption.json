@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "44dp"
@@ -32,6 +31,9 @@
         "type": "string",
         "value": "85%"
     },
+    "accessibilityconfig": {
+        "a11yLabel": "1 year    -    2 year"
+    },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
@@ -49,19 +51,16 @@
     "focusskin": "s8fb41acf6204e6dba430c8e800e083d",
     "id": "btnOption",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "isvisible": true,
     "kuid": "ee00dd755fc34a3bbc39c65864365ed2",
     "name": "kony.ui.Button",
     "parent": "flxOnBoardingOption",
     "pf": "segOnBoardingOption",
     "wType": "Button",
-    "zindex": 1,
-    "accessibilityconfig": {
-        "a11yLabel": "1 year    -    2 year"
-    },
-    "iphone": {
-        "psp": {
-            "showProgressIndicator": false
-        }
-    }
+    "zindex": 1
 }

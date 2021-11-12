@@ -69,7 +69,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "f48d9b3407d54e6d854def60062d8719",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
@@ -79,7 +79,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxEditCommunication",
+    "parent": "flxPrefGroup",
     "pf": "frmAlertsCommunicationEdit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -98,7 +98,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorrequired": false,
     "showscrollbars": false,

@@ -21,7 +21,7 @@
         63,
         58
     ],
-    "_skin_": "s6c1771750c54d6fa6c7ce582c117624",
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
     "_title_": "Settings",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -50,7 +50,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhoneX",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmSettings",
@@ -120,7 +120,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "GalaxyS8",
+    "prevDevice": "Pixel3",
     "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

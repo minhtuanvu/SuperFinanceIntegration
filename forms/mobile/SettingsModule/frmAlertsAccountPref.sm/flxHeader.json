@@ -54,7 +54,7 @@
         "render": true
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "j2b3d8a725c242f6883c54d38a2255d6",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

@@ -77,7 +77,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxTransactionFrequency",
+    "parent": "FlexGroupLocation",
     "pf": "frmProfileSelectLocation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

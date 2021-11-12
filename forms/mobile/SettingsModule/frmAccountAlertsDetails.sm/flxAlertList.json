@@ -47,7 +47,7 @@
     "kuid": "b6ff674cbc3c46cab94970665fbca25f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxsegments",
+    "parent": "FlexGroupAlertsWp",
     "pf": "frmAccountAlertsDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

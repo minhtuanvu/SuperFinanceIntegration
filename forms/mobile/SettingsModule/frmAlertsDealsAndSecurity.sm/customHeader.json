@@ -102,7 +102,8 @@
                 "kuid": "faecb2420597407a9cba825d0036d1a6",
                 "srcKUID": "a54167a680ef4852826dcbc71ac31f89",
                 "wType": "Image"
-            }
+            },
+            "src": "backbutton.png"
         },
         "imgSearch": {
             "__events__": {},
@@ -110,7 +111,8 @@
                 "kuid": "g770fdac4bb949cb928593fb578de000",
                 "srcKUID": "d5b6a4c443884b6e920a9e69bfa3cf50",
                 "wType": "Image"
-            }
+            },
+            "src": "searchicon.png"
         },
         "lblLocateUs": {
             "__events__": {},

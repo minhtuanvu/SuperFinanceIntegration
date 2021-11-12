@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s86a65722f964482bbe370643876a3b9",
+    "_skin_": "s1d113eb869a44fb80f26f742ac23497",
     "_top_": {
         "type": "string",
         "value": "56dp"
@@ -44,14 +44,7 @@
     "canUpdateUI": true,
     "children": [
         "flxBodyTxt",
-        "flxBankIDChange",
-        "flxPasswordChange",
-        "flxPasswordExpired",
-        "flxAddressOrPhoneChange",
-        "flxNewPayeeAdded",
-        "flxPayeeDetailsUpdated",
-        "flxNewDealsAvailable",
-        "flxDealsExpiringInOneday"
+        "FlexGroupWraps"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_bottom_": {
         "type": "string",
-        "value": "60dp"
+        "value": "0dp"
     },
     "_data_": [
         {
@@ -156,7 +156,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMain",
+    "parent": "flxLanguageGroup",
     "pf": "frmSettingsChangeLanguage",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

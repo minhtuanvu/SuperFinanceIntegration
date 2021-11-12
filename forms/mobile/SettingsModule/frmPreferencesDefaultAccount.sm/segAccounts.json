@@ -313,7 +313,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "FlxGroupDefAccnt",
     "pf": "frmPreferencesDefaultAccount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

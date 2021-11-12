@@ -51,7 +51,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone8Zoomed",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

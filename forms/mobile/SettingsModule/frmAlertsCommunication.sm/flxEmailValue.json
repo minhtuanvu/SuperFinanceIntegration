@@ -51,7 +51,7 @@
     "kuid": "f5dacbd6907244ebb75b34ba97ef6692",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxViewAlertCommunication",
+    "parent": "FlexGroupcom2",
     "pf": "frmAlertsCommunication",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

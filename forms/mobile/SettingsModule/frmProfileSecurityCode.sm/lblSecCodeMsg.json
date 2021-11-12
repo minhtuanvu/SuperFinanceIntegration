@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -22,7 +21,7 @@
     "_text_": "Please enter the 6 digit security code sent to your phone number ",
     "_top_": {
         "type": "string",
-        "value": "56dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
@@ -60,7 +59,7 @@
     "isvisible": true,
     "kuid": "a46e771021354a82ab3917582acc2d40",
     "name": "kony.ui.Label",
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupResend",
     "pf": "frmProfileSecurityCode",
     "texti18n": "kony.mb.Profile.SecCodeMsg",
     "textstyle": {},

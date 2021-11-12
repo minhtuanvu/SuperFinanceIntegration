@@ -76,7 +76,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "h5255290ebf64f979ab3ac354d624f1d",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
@@ -86,7 +86,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupTpp",
     "pf": "frmSelectTPP",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

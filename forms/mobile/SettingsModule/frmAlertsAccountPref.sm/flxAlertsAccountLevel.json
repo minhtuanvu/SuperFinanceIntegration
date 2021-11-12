@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s855577bd126466e893f29b96f87516e",
+    "_skin_": "s1d113eb869a44fb80f26f742ac23497",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -47,7 +47,7 @@
         "flxShadow",
         "flxSeperator2",
         "flxDescription",
-        "segTransactions",
+        "FlexGroupPref",
         "flxNoTransactions",
         "flxNoP2P",
         "flxNoAccounts"

@@ -59,7 +59,7 @@
     "isvisible": true,
     "kuid": "c32d9982cbbf4ee9914408808b9e3b66",
     "name": "kony.ui.Label",
-    "parent": "flxResidentialAddressWrapper",
+    "parent": "FlexGroup0cf8658eb8c934e",
     "pf": "frmProfileEditAddress",
     "texti18n": "kony.mb.common.Country",
     "textstyle": {},

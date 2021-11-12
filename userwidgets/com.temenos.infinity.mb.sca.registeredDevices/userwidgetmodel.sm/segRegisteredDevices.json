@@ -14,8 +14,8 @@
         {}
     ],
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_indicator_": "none",
     "_left_": {
@@ -43,7 +43,7 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "01",
@@ -158,7 +158,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxRegisteredDevicesMain",
+    "parent": "flxGroupDevices",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -177,7 +177,7 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "aaaaaa00",
+    "separatorcolor": "292d3f00",
     "separatorrequired": true,
     "separatorthickness": 1,
     "showscrollbars": false,

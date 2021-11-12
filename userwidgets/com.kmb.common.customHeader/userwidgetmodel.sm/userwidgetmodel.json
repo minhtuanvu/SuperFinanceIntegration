@@ -19,6 +19,17 @@
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
+    "breakpointInfo": {
+        "b1": {
+            "width": 1366
+        },
+        "b2": {
+            "width": 1024
+        },
+        "b3": {
+            "width": 640
+        }
+    },
     "canUpdateUI": true,
     "children": [
         "customHeader"
@@ -49,7 +60,6 @@
     "prevDevice": "GalaxyS7",
     "prevPlatform": "android",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone7",
     "titleBarSkin": "se5e723fae5149a0a3ebdd1bbdc41985",
     "titlebar": true,
     "type": 3,

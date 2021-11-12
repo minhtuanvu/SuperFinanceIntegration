@@ -106,7 +106,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxBody",
+    "parent": "FlexGroupAlertAcct2",
     "pf": "frmAlertsAccountDetail",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

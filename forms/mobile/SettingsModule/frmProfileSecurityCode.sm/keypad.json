@@ -1,14 +1,11 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
-    "_android_": {},
     "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100%"
     },
-    "_iphone_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -33,9 +30,6 @@
         "type": "string",
         "value": "0dp"
     },
-    "_vizProps_": {
-        "hidewidgethierarchy": false
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -45,6 +39,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "btnDecimalSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dcd7082ff849434ea1cc63eb43e92e5a",
+                "srcKUID": "f3ec633d055b44cdb257796946e3145a",
+                "wType": "Button"
+            }
+        },
         "btnEight": {
             "__events__": {
                 "ide_onClick": "AS_Button_dd5d7b04bfb443e1949457b76d30cc23"

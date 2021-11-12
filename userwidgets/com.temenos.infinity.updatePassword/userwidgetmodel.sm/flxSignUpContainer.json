@@ -37,13 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "lblCurrentPassword",
-        "flxPassword",
-        "lblNewPassword",
-        "flxNewPassword",
-        "flxSecurityRequirements",
-        "lblRenterNewPassword",
-        "flxReEnterNewPassword"
+        "flxGroupPass"
     ],
     "clipbounds": true,
     "containerweight": 100,

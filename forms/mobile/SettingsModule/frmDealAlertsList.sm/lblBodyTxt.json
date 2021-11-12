@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -25,7 +25,7 @@
     "_text_": "",
     "_width_": {
         "type": "string",
-        "value": "320dp"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "accessibilityconfig": {
@@ -40,7 +40,7 @@
     "canUpdateUI": true,
     "centery": {
         "type": "string",
-        "value": "49.83%"
+        "value": "50%"
     },
     "containerweight": 100,
     "contentalignment": 5,

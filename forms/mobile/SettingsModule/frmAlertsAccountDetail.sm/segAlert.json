@@ -111,7 +111,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -149,7 +149,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxBody",
+    "parent": "FlexGroupAlertAcct1",
     "pf": "frmAlertsAccountDetail",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

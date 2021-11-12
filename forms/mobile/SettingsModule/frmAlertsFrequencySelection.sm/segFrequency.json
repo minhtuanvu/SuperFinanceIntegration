@@ -107,7 +107,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxAlertFrequency",
+    "parent": "FlexGroupFreqAlert",
     "pf": "frmAlertsFrequencySelection",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -128,7 +128,8 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorrequired": false,
+    "separatorcolor": "292d3f00",
+    "separatorrequired": true,
     "showscrollbars": false,
     "viewtype": "tableview",
     "vizProps": {},

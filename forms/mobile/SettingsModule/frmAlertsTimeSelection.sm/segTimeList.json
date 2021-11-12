@@ -69,7 +69,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "56dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -107,7 +107,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxAlertsTime",
+    "parent": "FlexGroup0c691ccd723b246",
     "pf": "frmAlertsTimeSelection",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -128,7 +128,8 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorrequired": false,
+    "separatorcolor": "292d3f00",
+    "separatorrequired": true,
     "showscrollbars": false,
     "viewtype": "tableview",
     "vizProps": {},

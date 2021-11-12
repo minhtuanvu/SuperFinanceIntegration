@@ -75,8 +75,8 @@
         }
     ],
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_indicator_": "none",
     "_left_": {
@@ -109,7 +109,7 @@
             "dockSectionHeaders": true
         }
     },
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "04",
@@ -136,10 +136,6 @@
     "isvisible": true,
     "kuid": "fb3003b145e548928683c33e708adb6d",
     "masterdata": {},
-    "minheight": {
-        "type": "string",
-        "value": "85%"
-    },
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
     "pageoffdotimage": "pageoffdot.png",
@@ -147,7 +143,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxAlertsAccountType",
+    "parent": "FlexGroupPref2",
     "pf": "frmAlertsAccountPref",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

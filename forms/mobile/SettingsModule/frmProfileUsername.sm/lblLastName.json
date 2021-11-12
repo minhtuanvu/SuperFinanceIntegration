@@ -67,7 +67,7 @@
     "kuid": "b51cb375dceb44b3ba7508321643680b",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupUserName",
     "pf": "frmProfileUsername",
     "texti18n": "kony.mb.Profile.EnterNewUsername",
     "textstyle": {},

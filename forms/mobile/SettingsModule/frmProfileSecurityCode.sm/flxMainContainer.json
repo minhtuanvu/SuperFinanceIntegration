@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "68%"
@@ -23,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "s967aa8bc66a4d2e9e5422fe9a40c608",
     "_top_": {
         "type": "string",
         "value": "56dp"
@@ -36,16 +35,14 @@
     "android": {
         "height": {
             "type": "string",
-            "value": "59%"
+            "value": "61%"
         }
     },
     "canUpdateUI": true,
     "children": [
         "flxSecurityCode",
-        "flxInputSecurityCode",
-        "btnVerifySecCode",
-        "lblSecCodeMsg",
-        "btnResend"
+        "FlexGroupResend",
+        "btnVerifySecCode"
     ],
     "clipbounds": false,
     "containerweight": 100,

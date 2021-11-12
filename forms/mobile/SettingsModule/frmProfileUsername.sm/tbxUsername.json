@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "45dp"
     },
     "_left_": {
         "type": "string",
@@ -28,6 +28,10 @@
     },
     "_skin_": "sdc14f85f7984e13bb5ed2544fe80fe6",
     "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "accessibilityconfig": {
         "a11yLabel": "Enter Here"
     },
@@ -45,10 +49,6 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

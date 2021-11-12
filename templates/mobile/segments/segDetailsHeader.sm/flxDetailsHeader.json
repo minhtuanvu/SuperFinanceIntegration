@@ -50,6 +50,7 @@
     "enablescrolling": true,
     "id": "flxDetailsHeader",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "da2f6aebdb9a4c8e967870f728d60307",

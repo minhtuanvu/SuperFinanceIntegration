@@ -52,7 +52,7 @@
     "kuid": "d03335e1cb044b94b42808b3b516c62f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxResidentialAddressWrapper",
+    "parent": "FlexGroup0cf8658eb8c934e",
     "pf": "frmProfileEditAddress",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

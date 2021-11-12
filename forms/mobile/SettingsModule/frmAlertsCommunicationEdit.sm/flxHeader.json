@@ -43,7 +43,7 @@
     "id": "flxHeader",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "c251684d0f564c0d8e1f9f29f4b6a89c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

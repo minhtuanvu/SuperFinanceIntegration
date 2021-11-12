@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segDetails",
+        "FlexGroupPersonals",
         "CopyflxDetailsMain0e8eb796111bb40"
     ],
     "clipbounds": true,

@@ -25,7 +25,7 @@
     "_skin_": "s7b436962d6a4647b197083ac7d03d38",
     "_top_": {
         "type": "string",
-        "value": "145dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -50,7 +50,7 @@
     "kuid": "b6bb9126e042425893de7f82d6f756fa",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxBody",
+    "parent": "FlexGroupWraps",
     "pf": "frmAlertsDealsAndSecurity",
     "snapgridsize": 10,
     "snaptogrid": true,

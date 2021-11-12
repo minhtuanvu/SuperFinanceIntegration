@@ -62,7 +62,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "g68efac0f1bb4274af0bbfafa241f9e7",
     "name": "kony.ui.Label",
     "parent": "flxSettingsHeader",

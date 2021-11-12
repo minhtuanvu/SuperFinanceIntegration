@@ -35,7 +35,7 @@
     "canUpdateUI": true,
     "children": [
         "flxEditSubHeader",
-        "segEditComunicationDetails"
+        "flxPrefGroup"
     ],
     "clipbounds": true,
     "containerweight": 100,

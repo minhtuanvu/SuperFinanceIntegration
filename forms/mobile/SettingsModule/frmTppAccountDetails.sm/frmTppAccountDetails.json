@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        60,
+        63,
         61
     ],
     "_skin_": "sfd374011f8943daa0815da0aecd0408",
@@ -37,9 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "flxHeader",
-        "flxBodyText",
-        "flxSeparator",
-        "flxSegment"
+        "FlxMain"
     ],
     "containerweight": 100,
     "controllerInfo": {

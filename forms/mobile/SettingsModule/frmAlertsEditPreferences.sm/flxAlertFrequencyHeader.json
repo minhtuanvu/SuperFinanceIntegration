@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "scc780d0e23b429d8785ff59321ae26b",
+    "_skin_": "se5ba8e7565141db83fd4d722c7a87b0",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -45,11 +45,11 @@
     "id": "flxAlertFrequencyHeader",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "c8a82ca20d154d3ab66757b44a9259f9",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxsegments",
+    "parent": "FlexGroupEdits",
     "pf": "frmAlertsEditPreferences",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

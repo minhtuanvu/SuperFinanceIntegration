@@ -107,7 +107,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxAlertFrequency",
+    "parent": "FlexGroup0e39f95b5bce744",
     "pf": "frmAlertFrequency",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

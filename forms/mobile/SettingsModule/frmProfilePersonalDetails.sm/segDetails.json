@@ -145,7 +145,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxDetailsMain",
+    "parent": "FlexGroupPersonals",
     "pf": "frmProfilePersonalDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

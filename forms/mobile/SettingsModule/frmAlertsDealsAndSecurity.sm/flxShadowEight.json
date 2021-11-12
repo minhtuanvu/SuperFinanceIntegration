@@ -40,7 +40,7 @@
     "enablescrolling": true,
     "id": "flxShadowEight",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b469f97b64b1409c9192205cc6cc182d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

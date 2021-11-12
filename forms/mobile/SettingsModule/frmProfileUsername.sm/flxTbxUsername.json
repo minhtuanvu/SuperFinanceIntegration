@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
@@ -47,7 +47,7 @@
     "kuid": "c30f3bed07ef48a196194a61c723ffab",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupUserName",
     "pf": "frmProfileUsername",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

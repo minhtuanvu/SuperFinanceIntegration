@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        60,
+        63,
         55
     ],
     "_skin_": "sfd374011f8943daa0815da0aecd0408",
@@ -48,7 +48,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmProfileUsername",
@@ -68,7 +68,9 @@
     "iphone": {
         "needAppMenu": false,
         "psp": {
+            "configureStatusBarStyle": true,
             "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
             "titleBarAttributes": {
                 "backBarButtonItem": {
                     "enabled": true,
@@ -117,9 +119,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone7",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
@@ -146,6 +148,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
     "texti18n": "kony.mb.ProfileChangeUsername.Title",
     "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
     "titlebar": false,

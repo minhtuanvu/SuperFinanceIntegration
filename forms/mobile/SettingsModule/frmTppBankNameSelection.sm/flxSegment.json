@@ -33,7 +33,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segAccounts"
+        "FlexGroupBankGrps"
     ],
     "clipbounds": true,
     "containerweight": 100,

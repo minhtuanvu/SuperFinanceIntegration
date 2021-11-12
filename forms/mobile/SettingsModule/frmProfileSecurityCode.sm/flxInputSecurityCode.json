@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "40dp"
@@ -22,7 +21,7 @@
     "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_top_": {
         "type": "string",
-        "value": "105dp"
+        "value": "60dp"
     },
     "_width_": {
         "type": "string",
@@ -52,7 +51,7 @@
     "kuid": "d7c624f859344d05a92b494fb7e50b29",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupResend",
     "pf": "frmProfileSecurityCode",
     "snapgridsize": 10,
     "snaptogrid": true,

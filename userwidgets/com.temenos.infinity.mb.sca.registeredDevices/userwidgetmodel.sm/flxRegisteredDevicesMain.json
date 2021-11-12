@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segRegisteredDevices"
+        "flxGroupDevices"
     ],
     "clipbounds": true,
     "containerweight": 100,
