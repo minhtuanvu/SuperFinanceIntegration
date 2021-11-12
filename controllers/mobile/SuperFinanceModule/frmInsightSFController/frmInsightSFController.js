@@ -121,7 +121,7 @@ define({
       this.view.lblInsightsStepSF.text = "Step: 3/3";
     }
     
-    this.view.texttospeech.speakOut("you have transaction on this 6th of May amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
+    this.view.texttospeech.speakOut("you have transaction on this 6th of Dec amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
     this.view.btnNextSF.onClick = null;
     this.view.flxSteps3SF.isVisible = true;
     this.view.flxSteps2SF.isVisible = false;

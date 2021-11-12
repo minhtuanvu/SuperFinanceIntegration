@@ -18,10 +18,10 @@
         0
     ],
     "_skin_": "s6fe497ae28042268eb03244bac647f1",
-    "_text_": "Hello Mike, I am going to keep this short. </br>There are three things that need your </br>attention, today.",
+    "_text_": "Hello Mike, I am going to keep this short. <br/>There are three things that need your <br/>attention, today.",
     "_width_": {
-        "type": "string",
-        "value": "85%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "canUpdateUI": true,

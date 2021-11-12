@@ -4410,6 +4410,7 @@
   <item type="id" name="flxCircles"/>
   <item type="id" name="lblSchemeName"/>
   <item type="id" name="lblSchemePercent"/>
+  <item type="id" name="flxLneSF"/>
   <item type="id" name="tmpMenu"/>
   <item type="id" name="CopyflxMenu"/>
   <item type="id" name="tmpP2PDown"/>
@@ -5725,6 +5726,21 @@
   <item type="id" name="lblCrntMonthSF"/>
   <item type="id" name="brwsrChartsSF"/>
   <item type="id" name="lblNoDataSF"/>
+  <item type="id" name="flxTammyPopupOverlaySF"/>
+  <item type="id" name="flxTammyPopupSF"/>
+  <item type="id" name="flxTammyPopupLineSF"/>
+  <item type="id" name="flxTammyPopupMsgSF"/>
+  <item type="id" name="flxMikePopupDesc"/>
+  <item type="id" name="Label0id025d55614246"/>
+  <item type="id" name="rchTxtMikePopupSF"/>
+  <item type="id" name="FlexContainer0a3eeb66bde0546"/>
+  <item type="id" name="Label0c2a807fc740143"/>
+  <item type="id" name="FlexContainer0f42ff872d59d40"/>
+  <item type="id" name="Label0edb0342f744d44"/>
+  <item type="id" name="flxTammyPopupShallWeBeginSF"/>
+  <item type="id" name="lblShallBeginSF"/>
+  <item type="id" name="flxTammyPopupTammySF"/>
+  <item type="id" name="Image0c71ff978255b4a"/>
   <item type="id" name="frmViewCombinedStatements"/>
   <item type="id" name="flxStartEndDate"/>
   <item type="id" name="lblDateRangeSeprator"/>
