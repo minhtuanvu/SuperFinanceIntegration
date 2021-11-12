@@ -6680,6 +6680,25 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
       catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
+    },
+    
+    onclickTammyInDashboardHeader: function() {
+      try {
+        	this.view.flxTammyPopupOverlaySF.setVisibility(true);
+        this.view.flxTammyPopupOverlaySF.onClick = this.doNothing.bind();
+         } catch(err) {
+        throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
+      }
+    },
+    
+     onclickTammyInDashboardPopup: function() {
+      try {
+        	this.view.flxTammyPopupOverlaySF.setVisibility(false);
+            var ntf = new kony.mvc.Navigation("SuperFinanceModule/frmInsightSF");
+    		ntf.navigate();
+         } catch(err) {
+        throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
+      }
     }
 
   };

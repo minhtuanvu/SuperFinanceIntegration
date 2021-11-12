@@ -1,0 +1,28 @@
+{
+    "AS_FlexContainer_i1915d963e14469caa284b1f2d8c41d0": {
+        "id": "AS_FlexContainer_i1915d963e14469caa284b1f2d8c41d0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9e614cc940c46799370cb0f77cf2c88"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__f0a8eb1f4b234fc78b690e4edd88ad16",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onclickTammyInDashboardHeader",
+            "display": "onclickTammyInDashboardHeader",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

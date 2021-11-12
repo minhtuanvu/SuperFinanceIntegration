@@ -1,4 +1,6 @@
-define({ 
+define({
+  
+  insightStepsArr:[],
 
   setApproachesType : function(){
     this.view.segApproaches.removeAll();
@@ -58,7 +60,16 @@ define({
     this.view.flxSteps3SF.isVisible = false;
   },
   postShowInsights : function(){
-    alert("postshow");
+    kony.print("@@@@@ postShowInsights ::::: ");
+    var insightStepsLen = this.insightStepsArr.length;
+    kony.print("@@@@@ insightStepsLen is ::::: "+insightStepsLen);
+    if(insightStepsLen==0) {
+      this.insightStepsArr.push("step1");
+      this.view.flxChangeProgressSF.width = "33.3%";
+      this.view.lblInsightsStepSF.text = "Step: 1/3";
+    }
+    
+    //alert("postshow");
     this.view.texttospeech.speakOut("Hello");
     kony.timer.schedule("insights1a1",function(){
       this.view.texttospeech.speakOut("With the current market conditions, your equities are overweight while your FX and securities are underweight. It is time to rebalance although this will have tax implications.");
@@ -100,6 +111,16 @@ define({
     this.view.btnNextSF.onClick = this.bindEventsShow;
   },
   showStep3 : function(){
+    
+    kony.print("@@@@@ showStep3 ::::: ");
+    var insightStepsLen = this.insightStepsArr.length;
+    kony.print("@@@@@ insightStepsLen is ::::: "+insightStepsLen);
+    if(insightStepsLen==2) {
+      this.insightStepsArr.push("step3");
+      this.view.flxChangeProgressSF.width = "100%";
+      this.view.lblInsightsStepSF.text = "Step: 3/3";
+    }
+    
     this.view.texttospeech.speakOut("you have transaction on this 6th of May amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
     this.view.btnNextSF.onClick = null;
     this.view.flxSteps3SF.isVisible = true;
@@ -113,6 +134,10 @@ define({
     this.view.flxTammyLogoSF.onClick = this.onClickTammyOnStep3;
   },
   onClickTammyOnStep3 : function(){
+    
+    this.insightStepsArr = [];
+    kony.print("@@@@@ onClickTammyOnStep3 setting Arr empty ::::: ");
+    
     this.view.flxStep3R1SF.isVisible = true;
     this.view.btnNextSF.onClick = this.disableInsights;
     kony.timer.schedule("step3", function(){
@@ -132,6 +157,15 @@ define({
     accountMod.presentationController.showDashboard();
   },
   bindEventsShow:function(){
+    
+    kony.print("@@@@@ bindEventsShow ::::: ");
+    var insightStepsLen = this.insightStepsArr.length;
+    kony.print("@@@@@ insightStepsLen is ::::: "+insightStepsLen);
+    if(insightStepsLen==1) {
+      this.insightStepsArr.push("step2");
+      this.view.flxChangeProgressSF.width = "66.6%";
+      this.view.lblInsightsStepSF.text = "Step: 2/3";
+    }
     //by vineela
     this.view.flxSteps1SF.isVisible = false;
     this.view.flxSteps2SF.isVisible = true;

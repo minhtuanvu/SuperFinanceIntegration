@@ -32,6 +32,14 @@ define({
         var self = this;
         return self.navigate2RequestsPending.call(this);
     },
+    AS_FlexContainer_i1915d963e14469caa284b1f2d8c41d0: function AS_FlexContainer_i1915d963e14469caa284b1f2d8c41d0(eventobject) {
+        var self = this;
+        return self.onclickTammyInDashboardHeader.call(this);
+    },
+    AS_FlexContainer_e1f45b178f9c4e71a6c8dbeb1494c562: function AS_FlexContainer_e1f45b178f9c4e71a6c8dbeb1494c562(eventobject) {
+        var self = this;
+        return self.onclickTammyInDashboardPopup.call(this);
+    },
     AS_Form_afdd309d4f7840038605f9d642d03cb8: function AS_Form_afdd309d4f7840038605f9d642d03cb8(eventobject) {
         var self = this;
         this.init();

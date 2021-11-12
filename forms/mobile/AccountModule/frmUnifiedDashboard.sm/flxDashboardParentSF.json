@@ -41,7 +41,8 @@
         "flxAccountsMainSF",
         "flxGoalsMainSF",
         "flxOverlaySF",
-        "flxPfmChartsMainSF"
+        "flxPfmChartsMainSF",
+        "flxTammyPopupOverlaySF"
     ],
     "clipbounds": true,
     "containerweight": 100,

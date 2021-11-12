@@ -2,7 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "37%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -18,37 +22,35 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
+    "_skin_": "s428a6f139d641fbb7b5def782bc819a",
+    "_top_": {
         "type": "string",
-        "value": "6%"
+        "value": "62%"
     },
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_width_": {
         "type": "string",
-        "value": "15%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "imgTammySF"
+        "flxTammyPopupLineSF",
+        "flxTammyPopupMsgSF",
+        "flxTammyPopupShallWeBeginSF",
+        "flxTammyPopupTammySF"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxTammyLogoSF",
-    "ide_onClick": "AS_FlexContainer_i1915d963e14469caa284b1f2d8c41d0",
+    "id": "flxTammyPopupSF",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jbd31c6c979642dea522ee14032cdb38",
-    "layouttype": 2,
+    "kuid": "d0d7073a8db1455a985257138384bd6a",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxTammyMainSF",
+    "parent": "flxTammyPopupOverlaySF",
     "pf": "frmUnifiedDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -56,6 +58,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
