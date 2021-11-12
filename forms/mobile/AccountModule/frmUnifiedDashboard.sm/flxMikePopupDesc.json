@@ -2,11 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "33%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "20%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -34,13 +30,18 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "Label0id025d55614246"
+        "Label0id025d55614246",
+        "rchTxtMikePopupSF"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0acc34bf10e174a",
+    "id": "flxMikePopupDesc",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

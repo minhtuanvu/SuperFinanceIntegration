@@ -75,7 +75,9 @@
             }
         },
         "flxLifestyleSF": {
-            "__events__": {},
+            "__events__": {
+                "ide_onClick": "AS_FlexContainer_g956932439544e86a144e5566d416c8d"
+            },
             "__info__": {
                 "kuid": "ia951acb5e8940eca78dfb2b640243d6",
                 "srcKUID": "fdd8b7059b42455e811aa3eebfdb67fc",

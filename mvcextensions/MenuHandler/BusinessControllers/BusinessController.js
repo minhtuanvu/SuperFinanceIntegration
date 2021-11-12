@@ -166,8 +166,8 @@ define([], function() {
           var locateMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("LocateUsModule");
           locateMod.presentationController.presentLocateUsView(true,scope);
           break;
-       case configManager.constants.MENUWEALTHDASHBOARD :
-		  scope.view.flxHamburger.isVisible = false;
+        case configManager.constants.MENUWEALTHDASHBOARD :
+          scope.view.flxHamburger.isVisible = false;
           var customerId = applicationManager.getUserPreferencesManager().primaryCustomerId.id;
           var params = {"customerId": customerId};
           var wealthModule = applicationManager.getModulesPresentationController("WealthModule");
@@ -178,16 +178,16 @@ define([], function() {
           wealthModule.currency = "";
           wealthModule.getPortfolioList(params);
           break;
-		case configManager.constants.MENUWEALTHWATCHLIST :
-		  scope.view.flxHamburger.isVisible = false;
+        case configManager.constants.MENUWEALTHWATCHLIST :
+          scope.view.flxHamburger.isVisible = false;
           var customerId = applicationManager.getUserPreferencesManager().primaryCustomerId.id;
           var params = {"customerId": customerId};
           var wealthModule = applicationManager.getModulesPresentationController("WealthModule");
-         // wealthModule.newAccount = {};
-         // wealthModule.newAccountsArr = [];
-         // wealthModule.balanceArr = [];
-         // wealthModule.amount = "";
-         // wealthModule.currency = "";
+          // wealthModule.newAccount = {};
+          // wealthModule.newAccountsArr = [];
+          // wealthModule.balanceArr = [];
+          // wealthModule.amount = "";
+          // wealthModule.currency = "";
           wealthModule.getWatchlist();
           break;
         case configManager.constants.MENUCONTACT :
@@ -203,9 +203,9 @@ define([], function() {
             navMan.navigateTo("UnifiedTransferFlow/frmSelectTransferType");
           }
           else
-            {
-              navMan.navigateTo("UnifiedTransferFlow/frmP2PTransferType");
-            }
+          {
+            navMan.navigateTo("UnifiedTransferFlow/frmP2PTransferType");
+          }
           break;
         case configManager.constants.MENUTRANSFERS:
           //#ifdef tabrcandroid
@@ -216,7 +216,7 @@ define([], function() {
           //#endif
           //#ifdef kony_tablet_transferflow
           var navMan = applicationManager.getNavigationManager();
-		  navMan.setCustomInfo("removeAttachments",true);
+          navMan.setCustomInfo("removeAttachments",true);
           scope.view.flxHamburger.isVisible = false;
           var transMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("TransactionModule");
           transMod.presentationController.getTransactions();
@@ -241,7 +241,7 @@ define([], function() {
         case configManager.constants.MENUSENDMONEY:
           applicationManager.getPresentationUtility().showLoadingScreen();
           var navMan = applicationManager.getNavigationManager();
-		  navMan.setCustomInfo("removeAttachments",true);
+          navMan.setCustomInfo("removeAttachments",true);
           navMan.setEntryPoint("europeTransferFlow","frmDashboardAggregated");
           var transferModPresentationController = applicationManager.getModulesPresentationController("TransferModule");
           transferModPresentationController.setEuropeFlowType("EXTERNAL");
@@ -806,16 +806,34 @@ define([], function() {
         if (data[i].text === configManager.constants.MENUNOTIFICATIONS && !kony.sdk.isNullOrUndefined(notificationCount) && notificationCount !== "0" ) {
           if(!alertsbadgeShown && (!kony.sdk.isNullOrUndefined(previousUnreadCount) && Number(previousUnreadCount) >= Number(notificationCount))){
             if(!applicationManager.getDeviceUtilManager().isIPhone())
-              scope.view.customHeader.imgBack.src = "hamburger.png";
-            data[i].img = {"src" : "notification.png"};
+              //this.view.HeaderSF.imgMenuSF
+              //by vineela
+              if (scope.view.HeaderSF) {
+                scope.view.HeaderSF.imgMenuSF.src = "menu_fusion.png"; 
+              }
+            //by vineela for normal header forms
+              else{
+                scope.view.customHeader.imgBack.src = "hamburger.png";
+              }
+            //scope.view.customHeader.imgBack.src = "hamburger.png";
+            //data[i].img = {"src" : "notification.png"};
           }
           else{
             alertsNotifiModule.presentationController.setAlertsBadgeStatus(true);
             if(applicationManager.getDeviceUtilManager().isIPhone())
               scope.view.customFooter.imgMore.src = "moreunread.png";
-            else
-              scope.view.customHeader.imgBack.src = "hamburgerdot.png";
-            data[i].img = {"src" : "notificationunread.png"};
+            else{
+              //by vineela
+              if (scope.view.HeaderSF) {
+                scope.view.HeaderSF.imgMenuSF.src = "menu_fusion.png"; 
+              }
+              ////by vineela for normal header forms
+              else{
+                scope.view.customHeader.imgBack.src = "hamburger.png";
+              }
+            }
+            //scope.view.customHeader.imgBack.src = "hamburgerdot.png";
+            //data[i].img = {"src" : "notificationunread.png"};
           }
           data[i].info = {"text": notificationCount,"isVisible":true};
           data[i].backGround = {"isVisible":true}; 
@@ -836,16 +854,36 @@ define([], function() {
       scope.view.Hamburger.segHamburger.onRowClick= function(){
         hamburgerOnRowClick();};
     }
-    setMenuData();
-    if (scope.view.customHeader) {
-      scope.view.customHeader.flxBack.onClick = function() {
+    setMenuData(); 
+    //by vineela
+    if (scope.view.HeaderSF) {
+      kony.print("flxMenu headersf 1st if");
+      //if (scope.view.customHeader) {
+      scope.view.HeaderSF.flxMenuSF.onClick = function() {
+        kony.print("flxMenu onclick");
+        //scope.view.customHeader.flxBack.onClick = function() {
         setProfilePic();
         setLastLoginTime();
         setUserName();
         setMenuData();
         showOrHideHamburgerUI();
       };
-    } else if (scope.view.customSearch) {
+    }
+    //by vineela for normal header forms
+    else if(scope.view.customHeader){
+      kony.print("flxMenu headersf 1st if");
+      //if (scope.view.customHeader) {
+      scope.view.customHeader.flxBack.onClick = function() {
+        kony.print("flxMenu onclick");
+        //scope.view.customHeader.flxBack.onClick = function() {
+        setProfilePic();
+        setLastLoginTime();
+        setUserName();
+        setMenuData();
+        showOrHideHamburgerUI();
+      };
+    }
+    else if (scope.view.customSearch) {
       scope.view.customSearch.flxBack.onClick = function() {
         setProfilePic();
         setLastLoginTime();
@@ -891,6 +929,7 @@ define([], function() {
     }
     else if(applicationManager.getDeviceUtilManager().isIPhone()){
       scope.view.customFooter.flxMore.onClick = function(){
+        //by vineela
         setProfilePic();
         setLastLoginTime();
         setUserName();

@@ -35,7 +35,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Label0a05f09e4cc9743"
+        "lblShallBeginSF"
     ],
     "clipbounds": true,
     "containerweight": 100,

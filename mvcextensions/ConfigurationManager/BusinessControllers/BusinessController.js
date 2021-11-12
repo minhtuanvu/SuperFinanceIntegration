@@ -2847,7 +2847,27 @@ define(['CommonUtilities'], function(CommonUtilities) {
    * @returns {Array}
    */
   ConfigurationManager.prototype.getMoreMenuItems = function() {
-    return this.moreMenuItems;
+    //by vineela
+    if(this.features.indexOf("MANAGE_ACCOUNT_STATEMENTS")<0 ){
+      for(i=0;i<this.hamburgerMenuItems.length;i++){
+        if ( this.hamburgerMenuItems[i].text === this.constants.MENUACCOUNTSTATEMENTS)          
+          break;              
+      }
+      this.hamburgerMenuItems.splice(i,1);
+    }
+    if(this.AggregatedExternalAccountEnabled){
+      kony.print("hamburgermenu aggregated enabled--->"+JSON.stringify(this.hamburgerMenuItems));
+      return this.hamburgerMenuItems;}
+    else
+    {
+      for(i=0;i<this.hamburgerMenuItems.length;i++)
+        if(this.hamburgerMenuItems[i].text==this.constants.MENUMANAGEOTHERBANKACCOUNTS)
+          break;
+      this.hamburgerMenuItems.splice(i,1);
+      kony.print("hamburgermenu else--->"+JSON.stringify(this.hamburgerMenuItems));
+      return this.hamburgerMenuItems;
+    }
+    //return this.moreMenuItems;
   };
   /* Get Menu Items for More Menu from configurations for Ipad
    * @returns {Array}

@@ -42,7 +42,8 @@
         "flxGoalsMainSF",
         "flxOverlaySF",
         "flxPfmChartsMainSF",
-        "flxTammyPopupOverlaySF"
+        "flxTammyPopupOverlaySF",
+        "texttospeech"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -2,6 +2,11 @@ define({
     /*
         This is an auto generated file and any modifications to it may result in corruption of the action sequence.
     */
+    AS_FlexContainer_d98a63ddfe7e4b3c8e1902d1fd64a3bf: function AS_FlexContainer_d98a63ddfe7e4b3c8e1902d1fd64a3bf(eventobject) {
+        var self = this;
+        var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
+        accountMod.presentationController.showDashboard();
+    },
     AS_FlexContainer_e4e98be0fcfa4db49dbbd4a2a0cb6988: function AS_FlexContainer_e4e98be0fcfa4db49dbbd4a2a0cb6988(eventobject) {
         var self = this;
         this.navigateToWealth();

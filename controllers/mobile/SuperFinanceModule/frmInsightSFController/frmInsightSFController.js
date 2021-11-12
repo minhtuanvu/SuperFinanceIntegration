@@ -215,6 +215,7 @@ define({
     //       "skin": "sknOnActive"
     //     };
     //     this.view.segScheme.setDataAt(segrowvalues, rowIndex);
+    this.view.segScheme.removeAll();
     this.view.flxScheduleCallWp.isVisible=true;
     //var rowIndex = this.view.segScheme.selectedRowIndex[0];
     kony.print("selected row"+rowIndex);
@@ -228,7 +229,6 @@ define({
         this.tempSegDta[i].flxGroups.skin = "sknFlxUnSelectedSF"; 
       }
     }
-    kony.print("segment data---->"+JSON.stringify(this.tempSegDta));
     this.view.segScheme.setData(this.tempSegDta);
     //this.view.flxNextWrapper.isVisible=false;
   },

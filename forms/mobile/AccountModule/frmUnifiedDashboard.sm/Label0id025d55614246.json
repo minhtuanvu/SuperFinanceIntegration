@@ -54,10 +54,10 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "h05a22f753ad4fb2ad7ea41492e3874f",
     "name": "kony.ui.Label",
-    "parent": "FlexContainer0acc34bf10e174a",
+    "parent": "flxMikePopupDesc",
     "pf": "frmUnifiedDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

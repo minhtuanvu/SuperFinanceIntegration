@@ -466,7 +466,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         cachePolicy: kony.net.cache.RELOAD_IGNORING_LOCAL_CACHE_DATA,
         cacheStoragePolicy: kony.net.cache.MEMORY_ONLY
       };
-
+      this.view.flxTammyPopupOverlaySF.isVisible = false;
       applicationManager.getPresentationUtility().dismissLoadingScreen();// please let this be the last line of preshow
     },
     viewAllFilter : function(processedArry){
@@ -6681,22 +6681,23 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
     },
-    
+
     onclickTammyInDashboardHeader: function() {
       try {
-        	this.view.flxTammyPopupOverlaySF.setVisibility(true);
+        this.view.flxTammyPopupOverlaySF.setVisibility(true);
+        //this.view.texttospeech.speakOut("Hello Mike, I am going to keep this short. There are three things that need your attention, today. Shall we begin?");
         this.view.flxTammyPopupOverlaySF.onClick = this.doNothing.bind();
-         } catch(err) {
+      } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
     },
-    
-     onclickTammyInDashboardPopup: function() {
+
+    onclickTammyInDashboardPopup: function() {
       try {
-        	this.view.flxTammyPopupOverlaySF.setVisibility(false);
-            var ntf = new kony.mvc.Navigation("SuperFinanceModule/frmInsightSF");
-    		ntf.navigate();
-         } catch(err) {
+        this.view.flxTammyPopupOverlaySF.setVisibility(false);
+        var ntf = new kony.mvc.Navigation("SuperFinanceModule/frmInsightSF");
+        ntf.navigate();
+      } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
     }

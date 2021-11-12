@@ -126,7 +126,8 @@
                 "kuid": "f7d6775b5c1742b7b558ed2dcae33727",
                 "srcKUID": "i090a2d20e5c4991b029c8c2e1cb415e",
                 "wType": "Image"
-            }
+            },
+            "src": "logout.png"
         },
         "imgUser": {
             "__events__": {},
@@ -134,7 +135,8 @@
                 "kuid": "b586cfcd240340b885640ddf47de24d2",
                 "srcKUID": "f639aebdb9ee41e19c2eacddaba44285",
                 "wType": "Image"
-            }
+            },
+            "src": "userimg.png"
         },
         "lblLastLogin": {
             "__events__": {},

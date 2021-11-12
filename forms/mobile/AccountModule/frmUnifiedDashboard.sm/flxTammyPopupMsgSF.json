@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "22%"
+        "value": "25%"
     },
     "_left_": {
         "type": "string",
@@ -35,7 +35,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0acc34bf10e174a",
+        "flxMikePopupDesc",
         "FlexContainer0a3eeb66bde0546",
         "FlexContainer0f42ff872d59d40"
     ],

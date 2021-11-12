@@ -93,6 +93,7 @@ function generateDoughnutChart(dataset) {
       legend: {
         display: true,
         position: 'top',
+        itemStyle:{'font-color':'#fff'},//by vineela
         labels: {
           generateLabels: function() {
             var data = ctx.chart.data;
