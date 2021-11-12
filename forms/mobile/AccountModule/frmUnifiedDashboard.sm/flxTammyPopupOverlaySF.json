@@ -43,7 +43,7 @@
     "id": "flxTammyPopupOverlaySF",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "f666d15cf94f48f2ab28f82cdda07319",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
