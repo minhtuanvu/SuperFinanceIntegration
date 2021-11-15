@@ -458,6 +458,9 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
 
       this.view.flxOverlaySF.isVisible = false;
       this.view.flxDashboardParentSF.isVisible = true;
+      
+      this.view.lblGoodMorningSG.text = this.getMessageBasedOnTime();
+      
 
       //this.view.flxOverlaySF.isVisible = true;
       //this.view.flxDashboardParentSF.isVisible = false;
@@ -6351,7 +6354,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         var flxAccountsLogo = new kony.ui.FlexContainer({
           "autogrowMode": kony.flex.AUTOGROW_NONE,
           "clipBounds": true,
-          "height": "60dp",
+          "height": "50dp",
           "id": "flxAccountsLogo"+i,
           "isVisible": true,
           "layoutType": kony.flex.FREE_FORM,
@@ -6359,7 +6362,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "isModalContainer": false,
           "skin": this.accountsLstSF[i].sknLogoBg,
           "top": "5%",
-          "width": "60dp",
+          "width": "50dp",
           "zIndex": 1
         }, {}, {});
         flxAccountsLogo.setDefaultUnit(kony.flex.DP);
@@ -6387,7 +6390,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           //"skin":"CopysknLblWishesSF0c18fd868740140",
           "text": this.accountsLstSF[i].lblAccountTypeSF,
           "textStyle": {},
-          "top": "3%",
+          "top": "3dp",
           "width":"100%",
           "height":"preferred",
           "zIndex": 1
@@ -6406,7 +6409,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "skin": "sknLblAccBalSF",
           "text": "Account Balance",
           "textStyle": {},
-          "top": "5dp",
+          "top": "3dp",
           "width": "100%",
           "zIndex": 1
         }, {
@@ -6441,7 +6444,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "textStyle": {},
           "width": kony.flex.USE_PREFFERED_SIZE,
           "zIndex": 1,
-          "top": "5%"
+          "top": "3dp"
         }, {
           "contentAlignment": constants.CONTENT_ALIGN_BOTTOM_LEFT,
           "padding": [0, 0, 0, 0],
@@ -6451,7 +6454,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "textCopyable": false
         });
         var lblAccValue = new kony.ui.Label({
-          "top": "5%",
+          "top": "3dp",
           "left":"15dp",
           "width": "100%",
           "id": "lblAccValue"+i,
@@ -6685,7 +6688,8 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
     onclickTammyInDashboardHeader: function() {
       try {
         this.view.flxTammyPopupOverlaySF.setVisibility(true);
-        //this.view.texttospeech.speakOut("Hello Mike, I am going to keep this short. There are three things that need your attention, today. Shall we begin?");
+        this.view.texttospeech.speakOut("Hello");
+        this.view.texttospeech.speakOut("Hello Mike, I am going to keep this short. There are three things that need your attention, today. Shall we begin?");
         this.view.flxTammyPopupOverlaySF.onClick = this.doNothing.bind();
       } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
@@ -6697,6 +6701,26 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         this.view.flxTammyPopupOverlaySF.setVisibility(false);
         var ntf = new kony.mvc.Navigation("SuperFinanceModule/frmInsightSF");
         ntf.navigate();
+      } catch(err) {
+        throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
+      }
+    },
+    
+    getMessageBasedOnTime: function() {
+      try {
+        var myDate = new Date();
+        var hrs = myDate.getHours();
+
+        var greet;
+
+        if (hrs < 12)
+          greet = 'Good Morning';
+        else if (hrs >= 12 && hrs <= 17)
+          greet = 'Good Afternoon';
+        else if (hrs >= 17 && hrs <= 24)
+          greet = 'Good Evening';
+        
+        return greet;
       } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }

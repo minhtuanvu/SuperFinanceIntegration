@@ -73,6 +73,13 @@ function generateDoughnutChart(dataset) {
     tooltips: {
       enabled: false
     },
+    //Added this below legend for legend lables color white. By Prasad.
+    legend: {
+            display: true,
+            labels: {
+                fontColor: 'rgb(255,255,255)'
+            }
+        },
     plugins: {
       datalabels: {
         formatter: function(value, ctx) {
@@ -93,7 +100,7 @@ function generateDoughnutChart(dataset) {
       legend: {
         display: true,
         position: 'top',
-        itemStyle:{'font-color':'#fff'},//by vineela
+        
         labels: {
           generateLabels: function() {
             var data = ctx.chart.data;
