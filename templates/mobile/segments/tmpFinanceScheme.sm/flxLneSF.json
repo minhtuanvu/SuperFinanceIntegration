@@ -46,7 +46,7 @@
     "kuid": "f685d27ed9654be9ad0bc7619b039bd5",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxFinanceScheme",
+    "parent": "flxMainScheme",
     "pf": "tmpFinanceScheme",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

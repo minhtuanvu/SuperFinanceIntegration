@@ -12,7 +12,7 @@
         1
     ],
     "_padding_": [
-        0,
+        5,
         0,
         0,
         0
@@ -40,7 +40,7 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
+    "contentalignment": 4,
     "id": "lblScheduleText",
     "info": null,
     "ipad": {
@@ -57,6 +57,7 @@
     "isvisible": true,
     "kuid": "g34f125436954841a7eb0c22d57cdb6b",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "flxScheduleCallSF",
     "pf": "frmInsightSF",
     "retaincontentalignment": false,

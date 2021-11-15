@@ -48,7 +48,7 @@
     "id": "flxSteps3SF",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "d7fdbcf84d4141b3975029ef524b261b",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",

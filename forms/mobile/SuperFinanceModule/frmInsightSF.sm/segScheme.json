@@ -105,6 +105,7 @@
         "flxCircles": "flxCircles",
         "flxFinanceScheme": "flxFinanceScheme",
         "flxLneSF": "flxLneSF",
+        "flxMainScheme": "flxMainScheme",
         "lblSchemeName": "lblSchemeName",
         "lblSchemePercent": "lblSchemePercent"
     }

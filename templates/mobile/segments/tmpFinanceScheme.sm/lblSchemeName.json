@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "42dp"
     },
     "_margin_": [
         1,
@@ -62,7 +62,7 @@
     "isvisible": true,
     "kuid": "ae0a0f62daea4827a8721a24ec9e7557",
     "name": "kony.ui.Label",
-    "parent": "flxFinanceScheme",
+    "parent": "flxMainScheme",
     "pf": "tmpFinanceScheme",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -62,7 +62,7 @@
     "isvisible": true,
     "kuid": "efe726f27ea2448e85bb35fad91d2605",
     "name": "kony.ui.Label",
-    "parent": "flxFinanceScheme",
+    "parent": "flxMainScheme",
     "pf": "tmpFinanceScheme",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

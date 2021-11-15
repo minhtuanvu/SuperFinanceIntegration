@@ -1,5 +1,5 @@
 define({
-  
+
   insightStepsArr:[],
 
   setApproachesType : function(){
@@ -68,7 +68,7 @@ define({
       this.view.flxChangeProgressSF.width = "33.3%";
       this.view.lblInsightsStepSF.text = "Step: 1/3";
     }
-    
+
     //alert("postshow");
     this.view.texttospeech.speakOut("Hello");
     kony.timer.schedule("insights1a1",function(){
@@ -111,7 +111,6 @@ define({
     this.view.btnNextSF.onClick = this.bindEventsShow;
   },
   showStep3 : function(){
-    
     kony.print("@@@@@ showStep3 ::::: ");
     var insightStepsLen = this.insightStepsArr.length;
     kony.print("@@@@@ insightStepsLen is ::::: "+insightStepsLen);
@@ -119,9 +118,7 @@ define({
       this.insightStepsArr.push("step3");
       this.view.flxChangeProgressSF.width = "100%";
       this.view.lblInsightsStepSF.text = "Step: 3/3";
-    }
-    
-    this.view.texttospeech.speakOut("you have transaction on this 6th of Dec amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
+    }  
     this.view.btnNextSF.onClick = null;
     this.view.flxSteps3SF.isVisible = true;
     this.view.flxSteps2SF.isVisible = false;
@@ -132,12 +129,43 @@ define({
     this.view.flxExpenseSF.skin = "sknFlxPersonalSF";
     this.view.lblPersonalSF.text = "PERSONAL";
     this.view.flxTammyLogoSF.onClick = this.onClickTammyOnStep3;
+    var monNames = ["Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Oct","Nov","Dec"];
+    var nd = new Date();
+    var cDate = nd.getDate();
+    var cMon = monNames[nd.getMonth()];
+    var cYear = nd.getFullYear();
+    cDate = kony.os.toNumber(cDate) + 5;
+    if(cDate > 30){
+      cMon = monNames[(kony.os.toNumber(nd.getMonth())+1)];
+      cDate = 3;
+    }
+    kony.print("event date "+cDate+" "+cMon);
+    var superTxt = "";
+    cDate = kony.os.toNumber(cDate);
+    if (cDate > 3 && cDate < 21){
+      superTxt = "th"; 
+    }
+    switch (cDate % 10) {
+      case 1:  
+        superTxt = "st";
+        break;
+      case 2:  
+        superTxt = "nd";
+        break;
+      case 3:  
+        superTxt = "rd";
+        break;
+      default: 
+        superTxt = "th";
+    }
+    kony.print("superscript"+superTxt);
+    this.view.lblTmeandDteSF.text = "At 7PM "+cDate+superTxt+" "+cMon+", "+cYear;
+    this.view.texttospeech.speakOut("you have transaction on this "+cDate+superTxt+" of "+cMon+" amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
   },
   onClickTammyOnStep3 : function(){
-    
     this.insightStepsArr = [];
     kony.print("@@@@@ onClickTammyOnStep3 setting Arr empty ::::: ");
-    
+
     this.view.flxStep3R1SF.isVisible = true;
     this.view.btnNextSF.onClick = this.disableInsights;
     kony.timer.schedule("step3", function(){
@@ -157,7 +185,6 @@ define({
     accountMod.presentationController.showDashboard();
   },
   bindEventsShow:function(){
-    
     kony.print("@@@@@ bindEventsShow ::::: ");
     var insightStepsLen = this.insightStepsArr.length;
     kony.print("@@@@@ insightStepsLen is ::::: "+insightStepsLen);
@@ -193,10 +220,10 @@ define({
   tempSegDta : [],
   onLoadShow:function(){
     // this.bindEventsShow(); //by vineela
-    var masterdata = [{flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Fusion Bank",lblSchemePercent:"2.45% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Vontobel",lblSchemePercent:"2.75% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Lombard Odier",lblSchemePercent:"2.12% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
-                      {flxGroups:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Bank of Atlantis",lblSchemePercent:"2.00% Interest",flxCircles:{"isVisible":true},flxLneSF:{isVisible:false}}];
+    var masterdata = [{flxMainScheme:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Fusion Bank",lblSchemePercent:"2.45% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxMainScheme:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Vontobel",lblSchemePercent:"2.75% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxMainScheme:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Lombard Odier",lblSchemePercent:"2.12% Interest",flxCircles:{"isVisible":false},flxLneSF:{isVisible:true}},
+                      {flxMainScheme:{skin:"sknFlxUnSelectedSF"},lblSchemeName:"Bank of Atlantis",lblSchemePercent:"2.00% Interest",flxCircles:{"isVisible":true},flxLneSF:{isVisible:false}}];
     this.tempSegDta = masterdata;
     this.view.segScheme.setData(masterdata);
   },
@@ -216,20 +243,21 @@ define({
     //     };
     //     this.view.segScheme.setDataAt(segrowvalues, rowIndex);
     this.view.segScheme.removeAll();
-    this.view.flxScheduleCallWp.isVisible=true;
     //var rowIndex = this.view.segScheme.selectedRowIndex[0];
     kony.print("selected row"+rowIndex);
     for(var i=0;i<this.tempSegDta.length;i++){
       if(rowIndex == i){
-        this.tempSegDta[i].flxGroups.skin = "sknFlxSelectedSF";
+        this.tempSegDta[i].flxMainScheme.skin = "sknFlxSelectedSF";
         this.view.lblScheduleText.text ="Scheduling call with "+this.tempSegDta[i].lblSchemeName;
         this.view.texttospeech.speakOut("Scheduling call with "+this.tempSegDta[i].lblSchemeName);
       }
       else{
-        this.tempSegDta[i].flxGroups.skin = "sknFlxUnSelectedSF"; 
+        this.tempSegDta[i].flxMainScheme.skin = "sknFlxUnSelectedSF"; 
       }
     }
+    kony.print("seg dta"+JSON.stringify(this.tempSegDta));
     this.view.segScheme.setData(this.tempSegDta);
+    this.view.flxScheduleCallWp.isVisible=true;
     //this.view.flxNextWrapper.isVisible=false;
   },
 

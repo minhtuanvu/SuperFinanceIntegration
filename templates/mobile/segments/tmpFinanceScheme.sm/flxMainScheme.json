@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "15dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,35 +22,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s423b99916d2461a878aaf112e80fc17",
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "15dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [],
+    "children": [
+        "flxCircles",
+        "lblSchemeName",
+        "lblSchemePercent",
+        "flxLneSF"
+    ],
     "clipbounds": true,
     "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCircles",
+    "id": "flxMainScheme",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e1eb5a5f7816440f84ddb097d4366f17",
+    "kuid": "jafbef239bfc4b198788cd6bfabccdcc",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainScheme",
+    "parent": "flxFinanceScheme",
     "pf": "tmpFinanceScheme",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
