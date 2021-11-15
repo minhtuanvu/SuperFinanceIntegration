@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "8%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -22,36 +22,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "sb063e307dc44fb8ba58de0184ac0364",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "LeftSide22SF"
+        "imgMicrophone"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxStepsL22SF",
+    "id": "flxMicrophone",
     "info": null,
-    "iscustomlayout": false,
     "isvisible": false,
-    "kuid": "habaeb732c6447a8ba0ced3f64332b7b",
+    "kuid": "b2bf55fde5a6449cab557051d0cafdf1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSteps2SF",
-    "pf": "frmInsightSF",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
+    "parent": "speechtotext",
+    "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

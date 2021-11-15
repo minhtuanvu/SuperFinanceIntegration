@@ -123,6 +123,22 @@
                     "isDefault": false,
                     "filename": "android.content-Android-4.0.zip",
                     "enable": true
+                },
+                "android.support.v4.content-Android-4.0": {
+                    "title": "android.support.v4.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.support.v4.content-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.support.v4.app-Android-4.0": {
+                    "title": "android.support.v4.app",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "isDefault": false,
+                    "filename": "android.support.v4.app-Android-4.0.zip",
+                    "enable": true
                 }
             },
             "6.0": {},
@@ -135,6 +151,16 @@
                     "platform": "Android",
                     "title": "java.util.logging",
                     "url": "java.util.logging-Android-4.0.zip"
+                }
+            },
+            "5.0": {
+                "request-Android-5.0": {
+                    "title": "request",
+                    "platform": "Android",
+                    "os": "5.0",
+                    "isDefault": false,
+                    "filename": "request.zip",
+                    "enable": true
                 }
             }
         },
@@ -257,26 +283,6 @@
                 }
             },
             "14.0": {
-                "AVFoundation-iOS-14.0": {
-                    "checksum": "2fbc9fcc9c76035e125c7d5d1c0a994aa7ece0fe",
-                    "enable": true,
-                    "filename": "AVFoundation-iOS-14.0.zip",
-                    "isDefault": false,
-                    "nfiversion": "2.0",
-                    "os": "14.0",
-                    "platform": "iOS",
-                    "title": "AVFoundation"
-                },
-                "Foundation-iOS-14.0": {
-                    "checksum": "228b0e0dae49b080a39da396874aa78cb6c64708",
-                    "enable": true,
-                    "filename": "Foundation-iOS-14.0.zip",
-                    "isDefault": false,
-                    "nfiversion": "2.0",
-                    "os": "14.0",
-                    "platform": "iOS",
-                    "title": "Foundation"
-                },
                 "PassKit-iOS-14.0": {
                     "checksum": "935dff46680edafb277865c7414b88b47dc7b8e3",
                     "enable": false,
@@ -305,15 +311,6 @@
                     "os": "14.0",
                     "isDefault": false,
                     "filename": "KonyHIDIntegration-iOS-14.0.zip",
-                    "nfiversion": "2.0",
-                    "enable": true
-                },
-                "Speech-iOS-14.0": {
-                    "title": "Speech",
-                    "platform": "iOS",
-                    "os": "14.0",
-                    "isDefault": false,
-                    "filename": "Speech-iOS-14.0.zip",
                     "nfiversion": "2.0",
                     "enable": true
                 }

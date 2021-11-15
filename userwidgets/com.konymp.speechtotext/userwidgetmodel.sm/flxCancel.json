@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "8%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "6%"
     },
     "_margin_": [
         0,
@@ -22,39 +22,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "se76611b91584c16933a96bc30b63767",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "12%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "LeftSide22SF"
+        "imgCancel"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxStepsL22SF",
+    "id": "flxCancel",
+    "ide_onClick": "AS_FlexContainer_d47e8ef60b7c4f23917617225e9c2600",
     "info": null,
-    "iscustomlayout": false,
     "isvisible": false,
-    "kuid": "habaeb732c6447a8ba0ced3f64332b7b",
+    "kuid": "h8b3402b5e8e49e79b52c900baa665ae",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSteps2SF",
-    "pf": "frmInsightSF",
-    "retaincontentalignment": false,
-    "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
+    "parent": "flxAnim",
+    "pf": "userwidgetmodel",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 3
 }

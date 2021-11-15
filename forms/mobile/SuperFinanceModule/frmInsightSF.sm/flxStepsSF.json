@@ -41,7 +41,9 @@
         "flxApproachRequestSF",
         "flxTammyLogoSF",
         "btnNextSF",
-        "texttospeech"
+        "texttospeech",
+        "speechtotext",
+        "flxListenSF"
     ],
     "clipbounds": true,
     "containerweight": 100,

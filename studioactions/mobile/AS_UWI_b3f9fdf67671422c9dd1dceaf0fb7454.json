@@ -1,0 +1,31 @@
+{
+    "AS_UWI_b3f9fdf67671422c9dd1dceaf0fb7454": {
+        "id": "AS_UWI_b3f9fdf67671422c9dd1dceaf0fb7454",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "speechText",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g76976c5c119412db18d448bb7210a0f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__c99fb5922b3147b1a63546cbd46dd656",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "speechSuccessSample",
+            "display": "speechSuccessSample",
+            "inputparams": [{
+                "name": "speechTxt",
+                "value": " speechText"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

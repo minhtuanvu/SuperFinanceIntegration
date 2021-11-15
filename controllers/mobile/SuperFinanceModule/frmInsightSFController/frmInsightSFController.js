@@ -53,7 +53,10 @@ define({
     this.view.flxStep1bSF.isVisible = false;
     this.view.btnNextSF.isVisible = false;
     this.view.flxTammyLogoSF.isVisible = true;
-    this.view.flxTammyLogoSF.onClick = this.showStep1B;
+    this.view.flxListenSF.isVisible = false;
+    this.view.flxTammyLogoSF.onTouchStart = this.speechInsightsStart;
+    this.view.flxTammyLogoSF.onTouchEnd = this.speechInsightsStop;
+    //this.view.flxTammyLogoSF.onClick = this.showStep1B;
     //step2
     this.view.flxSteps2SF.isVisible = false;
     //step3
@@ -80,7 +83,43 @@ define({
       kony.timer.cancel("insights1a2");
     }.bind(this), 13, false);
   },
+  speechInsightsStart : function(){
+    this.view.speechtotext.onSpeechClick();
+    this.view.flxTammyLogoSF.isVisible = false;
+    this.view.flxListenSF.isVisible = true;
+  },
+  speechInsightsStop : function(){
+    this.view.speechtotext.onSpeechCancel();
+    this.view.flxTammyLogoSF.isVisible = true;
+    this.view.flxListenSF.isVisible = false;
+  },
+  speechInsightsSuccess:function(sTxt){
+    kony.print("sTxt---> "+sTxt);
+    var arrLen = this.insightStepsArr.length;
+    var stepNum = this.insightStepsArr[arrLen-1];
+    sTxt = sTxt.toLowerCase();
+    kony.print("step num---> "+stepNum);
+    if(stepNum == "step1"){
+      if((sTxt == "ok")||(sTxt == "sure")||(sTxt == "yes")){
+        kony.print("input ----> "+sTxt);
+        kony.timer.schedule("show1b",this.showStep1B,1,false);
+      }
+      else{
+        kony.print("try again1");
+      }
+    }
+    if(stepNum == "step3"){
+      if((sTxt == "ok")||(sTxt == "sure")||(sTxt == "yes")){
+        kony.print("input 3 ----> "+sTxt);
+        kony.timer.schedule("show3",this.onClickTammyOnStep3,1,false);
+      }
+      else{
+        kony.print("try again3");
+      }
+    }
+  },
   showStep1B : function(){
+    kony.timer.cancel("show1b");
     this.view.texttospeech.speakOut("There are 3 approaches based on predictive performance as per current market conditions. Let me know which one would like to select. Based on which I shall set up an advisory session with your RM John.");
     this.view.flxStep1aSF.isVisible = false;
     this.view.flxStep1bSF.isVisible = true;
@@ -128,7 +167,9 @@ define({
     this.view.btnNextSF.isVisible = false;
     this.view.flxExpenseSF.skin = "sknFlxPersonalSF";
     this.view.lblPersonalSF.text = "PERSONAL";
-    this.view.flxTammyLogoSF.onClick = this.onClickTammyOnStep3;
+    this.view.flxTammyLogoSF.onTouchStart = this.speechInsightsStart;
+    this.view.flxTammyLogoSF.onTouchEnd = this.speechInsightsStop;
+    //this.view.flxTammyLogoSF.onClick = this.onClickTammyOnStep3;
     var monNames = ["Jan","Feb","Mar","Apr","May","Jun","July","Aug","Sep","Oct","Nov","Dec"];
     var nd = new Date();
     var cDate = nd.getDate();
@@ -163,6 +204,7 @@ define({
     this.view.texttospeech.speakOut("you have transaction on this "+cDate+superTxt+" of "+cMon+" amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
   },
   onClickTammyOnStep3 : function(){
+    kony.timer.cancel("show3");
     this.insightStepsArr = [];
     kony.print("@@@@@ onClickTammyOnStep3 setting Arr empty ::::: ");
 

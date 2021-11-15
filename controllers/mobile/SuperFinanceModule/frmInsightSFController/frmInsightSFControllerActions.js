@@ -13,5 +13,9 @@ define({
     AS_Segment_eeebadb80cb94f1da946cbaab383ba45: function AS_Segment_eeebadb80cb94f1da946cbaab383ba45(eventobject, sectionNumber, rowNumber) {
         var self = this;
         return self.segValuesFunction.call(this, rowNumber);
+    },
+    AS_UWI_e0b46c62260a4f098daad6479fb514ee: function AS_UWI_e0b46c62260a4f098daad6479fb514ee(speechText) {
+        var self = this;
+        return self.speechInsightsSuccess.call(this, speechText);
     }
 });

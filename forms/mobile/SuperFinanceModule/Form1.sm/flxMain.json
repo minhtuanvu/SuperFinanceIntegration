@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "8%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -25,30 +25,31 @@
     "_skin_": "s966eaf1ea1441148b4828270a782f8b",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "LeftSide22SF"
+        "speechtotext",
+        "flxSample"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxStepsL22SF",
+    "id": "flxMain",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "habaeb732c6447a8ba0ced3f64332b7b",
+    "isvisible": true,
+    "kuid": "d661b676579b4f9695ea84e8b0842419",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSteps2SF",
-    "pf": "frmInsightSF",
+    "parent": "Form1",
+    "pf": "Form1",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

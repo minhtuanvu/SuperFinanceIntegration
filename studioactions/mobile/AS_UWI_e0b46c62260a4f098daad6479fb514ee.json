@@ -1,0 +1,31 @@
+{
+    "AS_UWI_e0b46c62260a4f098daad6479fb514ee": {
+        "id": "AS_UWI_e0b46c62260a4f098daad6479fb514ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "speechText",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmInsightSF",
+            "type": "forms",
+            "platform": "",
+            "KUID": "afa16596e1f245dea55e718ade621a40"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d95f2a6e5f8448e68d0c0b201f06f471",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "speechInsightsSuccess",
+            "display": "speechInsightsSuccess",
+            "inputparams": [{
+                "name": "sTxt",
+                "value": " speechText"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
