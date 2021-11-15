@@ -41,7 +41,7 @@
     "id": "flxSeparatorPushNotification",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "e7937d033fa044b1b826b2f028b8f013",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

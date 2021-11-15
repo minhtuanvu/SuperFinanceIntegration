@@ -5,10 +5,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         0,
         0,
@@ -22,15 +18,15 @@
         3
     ],
     "_placeholder_": "Enter Here",
-    "_right_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_skin_": "s5088eaae521414cbb3f061ad18edfa7",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
     },
     "accessibilityconfig": {
         "a11yLabel": "Enter Here"
@@ -49,6 +45,10 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
@@ -72,7 +72,7 @@
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "paddinginpixel": false,
-    "parent": "flxMainContainer",
+    "parent": "flxEnterMail",
     "pf": "frmProfileEnterEmailID",
     "placeholderi18n": "kony.mb.common.EnterHere",
     "placeholderskin": "s02afe62125c4caf9e25f4d951f19a6e",

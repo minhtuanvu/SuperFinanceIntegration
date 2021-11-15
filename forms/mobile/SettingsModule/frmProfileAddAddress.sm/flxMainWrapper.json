@@ -36,7 +36,6 @@
     "canUpdateUI": true,
     "children": [
         "flxSearch",
-        "flxEnterAddress",
         "flxPayeeAddress"
     ],
     "clipbounds": false,

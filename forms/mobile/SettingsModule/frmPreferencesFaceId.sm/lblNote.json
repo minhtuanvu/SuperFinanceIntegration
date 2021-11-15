@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "30dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,15 +17,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "30dp"
-    },
     "_skin_": "s03e5e9c2d80462ab01d26f08c23277d",
     "_text_": "Activation/Deactivation will not impact any other device that you use for Mobile Banking.",
     "_top_": {
         "type": "string",
         "value": "57dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
     },
     "_wrapping_": 2,
     "accessibilityconfig": {
@@ -42,6 +38,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "id": "lblNote",

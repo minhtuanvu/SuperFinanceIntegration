@@ -62,7 +62,7 @@
     "isvisible": false,
     "kuid": "cc8fb44d95b3413d9a9d7bbd41989315",
     "name": "kony.ui.Button",
-    "parent": "flxMainContainer",
+    "parent": "flxTrasactScoller",
     "pf": "frmPFMTransactionDetails",
     "texti18n": "kony.mb.transaction.disputeTransaction",
     "wType": "Button",

@@ -1065,11 +1065,16 @@
   <item type="id" name="flxGradient"/>
   <item type="id" name="flxErrorMsg"/>
   <item type="id" name="lblErrorMsg"/>
+  <item type="id" name="FlexGroupPasswords"/>
   <item type="id" name="flxCurrentPassword"/>
   <item type="id" name="lblCurrentPassword"/>
   <item type="id" name="tbxCurrentPassword"/>
   <item type="id" name="flxCurrentPasswordVisiblityToggle"/>
   <item type="id" name="imgCurrentPasswordVisiblityToggle"/>
+  <item type="id" name="flxBorderPass1"/>
+  <item type="id" name="CopyflxBorderPass0g782c9a9c1434d"/>
+  <item type="id" name="flxBorderPass03"/>
+  <item type="id" name="FlexContainer0d8ec6337ce0049"/>
   <item type="id" name="btnCreatePassword"/>
   <item type="id" name="flxSuccessContainer"/>
   <item type="id" name="flxSucess"/>
@@ -2092,15 +2097,20 @@
   <item type="id" name="flxCellSeperator"/>
   <item type="id" name="updatePassword"/>
   <item type="id" name="flxSignUpContainer"/>
+  <item type="id" name="flxGroupPass"/>
   <item type="id" name="txtCurrentPassword"/>
   <item type="id" name="flxPwdVisiblityToggle2"/>
   <item type="id" name="imghideOrShowPwd2"/>
+  <item type="id" name="flxBordersPass"/>
   <item type="id" name="txtNewPassword"/>
   <item type="id" name="imghideOrShowPwd"/>
+  <item type="id" name="flxBordersPass2"/>
   <item type="id" name="lblRenterNewPassword"/>
   <item type="id" name="flxReEnterNewPassword"/>
   <item type="id" name="txtReEnterPass"/>
   <item type="id" name="imgRenterPass"/>
+  <item type="id" name="flxBordersPass3"/>
+  <item type="id" name="FlxDummyWrp"/>
   <item type="id" name="btnUpdate"/>
   <item type="id" name="AddNewAccount"/>
   <item type="id" name="flxPayeeName"/>
@@ -3158,6 +3168,9 @@
   <item type="id" name="tbxCurrentPin"/>
   <item type="id" name="flxCurrentPinToggle"/>
   <item type="id" name="imgCurrentPinVisiblityToggle"/>
+  <item type="id" name="flxBorderPass2"/>
+  <item type="id" name="flxBorderPass3"/>
+  <item type="id" name="FlexContainer0c632f642502e4b"/>
   <item type="id" name="flxBtnChangePin"/>
   <item type="id" name="btnChangePin"/>
   <item type="id" name="flxSCALoginContainer"/>
@@ -3175,6 +3188,7 @@
   <item type="id" name="imgClearAmount"/>
   <item type="id" name="flxVerifyDetailsContainer"/>
   <item type="id" name="flxDetailsMain"/>
+  <item type="id" name="FlexGroupDetails"/>
   <item type="id" name="flxAccountDetails"/>
   <item type="id" name="lblAccountNumberDetail"/>
   <item type="id" name="flxModify1"/>
@@ -3197,6 +3211,7 @@
   <item type="id" name="flxRegisteredDevicesHeader"/>
   <item type="id" name="lblRegisteredDevices"/>
   <item type="id" name="flxRegisteredDevicesMain"/>
+  <item type="id" name="flxGroupDevices"/>
   <item type="id" name="segRegisteredDevices"/>
   <item type="id" name="flxRegisteredDevicesFooter"/>
   <item type="id" name="btnRegisterNewDevice"/>
@@ -9019,12 +9034,13 @@
   <item type="id" name="frmAccountAlertsDetails"/>
   <item type="id" name="flxBodyTxt"/>
   <item type="id" name="lblBodyTxt"/>
+  <item type="id" name="flxsegments"/>
+  <item type="id" name="FlexGroupAlertsWp"/>
   <item type="id" name="flxSelectAll"/>
   <item type="id" name="lblReceiveAlertsVia"/>
   <item type="id" name="flxSwitchSelectAll"/>
   <item type="id" name="flxSwitchToggleAll"/>
   <item type="id" name="switchSelectAll"/>
-  <item type="id" name="flxsegments"/>
   <item type="id" name="flxAlertSwitch"/>
   <item type="id" name="flxSMS"/>
   <item type="id" name="flxSwitchSMS"/>
@@ -9039,6 +9055,7 @@
   <item type="id" name="flxSeparatorPushNotification"/>
   <item type="id" name="switchPushNotification"/>
   <item type="id" name="frmAccountAlertsList"/>
+  <item type="id" name="FlexGroupAlerts3"/>
   <item type="id" name="frmAccountMinimumBalance"/>
   <item type="id" name="lblMinimumBalanceValue"/>
   <item type="id" name="lblMinimumBalance"/>
@@ -9047,6 +9064,7 @@
   <item type="id" name="switchPushNotifications"/>
   <item type="id" name="frmAlertFrequency"/>
   <item type="id" name="flxAlertFrequency"/>
+  <item type="id" name="FlexGroup0e39f95b5bce744"/>
   <item type="id" name="frmAlertGroupsList"/>
   <item type="id" name="flxEnableAlertsMainSwitch"/>
   <item type="id" name="switchReceiveAlerts"/>
@@ -9067,13 +9085,17 @@
   <item type="id" name="flxAlert"/>
   <item type="id" name="flxToggleSingleAccountAlertsRequired"/>
   <item type="id" name="imgSwitch"/>
+  <item type="id" name="FlexGroupAlertAcct1"/>
+  <item type="id" name="FlexGroupAlertAcct2"/>
   <item type="id" name="SegAlertSettingList"/>
   <item type="id" name="frmAlertsAccountPref"/>
   <item type="id" name="flxAlertsAccountLevel"/>
+  <item type="id" name="FlexGroupPref"/>
   <item type="id" name="flxAlertsAccountType"/>
   <item type="id" name="flxToastDummy1"/>
   <item type="id" name="flxDescription1"/>
   <item type="id" name="lblDescriptionAccTypes"/>
+  <item type="id" name="FlexGroupPref2"/>
   <item type="id" name="segTransactions1"/>
   <item type="id" name="flxNoTransactions1"/>
   <item type="id" name="lblNoAccountTypes"/>
@@ -9082,11 +9104,13 @@
   <item type="id" name="flxEnable"/>
   <item type="id" name="lblReceiveAlerts"/>
   <item type="id" name="flxAlertSeperator"/>
+  <item type="id" name="FlexGroup0ga4cbaa6b4a04e"/>
   <item type="id" name="segBalanceUpdateTime"/>
   <item type="id" name="frmAlertsCommunication"/>
   <item type="id" name="flxViewAlertCommunication"/>
   <item type="id" name="flxViewSubHeader"/>
   <item type="id" name="lblViewSubHeaderText"/>
+  <item type="id" name="FlexGroupcom1"/>
   <item type="id" name="flxPhoneNumShadow"/>
   <item type="id" name="flxPhoneNumSeperator"/>
   <item type="id" name="flxPhoneNumberValue"/>
@@ -9094,6 +9118,7 @@
   <item type="id" name="lblPhoneNumValue"/>
   <item type="id" name="flxPhoneNumImage"/>
   <item type="id" name="imgPhoneArrow"/>
+  <item type="id" name="FlexGroupcom2"/>
   <item type="id" name="flxEmailHeader"/>
   <item type="id" name="flxEmailShadow"/>
   <item type="id" name="lblEmailHeader"/>
@@ -9109,11 +9134,14 @@
   <item type="id" name="flxEditCommunication"/>
   <item type="id" name="flxEditSubHeader"/>
   <item type="id" name="lblEditSubHeader"/>
+  <item type="id" name="flxPrefGroup"/>
   <item type="id" name="segEditComunicationDetails"/>
   <item type="id" name="frmAlertsDaySelection"/>
   <item type="id" name="flxAlertsDay"/>
+  <item type="id" name="FlexGroupFreq"/>
   <item type="id" name="segDayDatesList"/>
   <item type="id" name="frmAlertsDealsAndSecurity"/>
+  <item type="id" name="FlexGroupWraps"/>
   <item type="id" name="flxBankIDChange"/>
   <item type="id" name="lblBankIDChange"/>
   <item type="id" name="flxToggleBankIDChange"/>
@@ -9168,6 +9196,7 @@
   <item type="id" name="switchRow"/>
   <item type="id" name="switchDisabled"/>
   <item type="id" name="lblData"/>
+  <item type="id" name="FlexGroupEdits"/>
   <item type="id" name="flxAlertFrequencyHeader"/>
   <item type="id" name="flxFrequencyShadow"/>
   <item type="id" name="lblEditFrequencyHeader"/>
@@ -9191,6 +9220,7 @@
   <item type="id" name="lblToValue1"/>
   <item type="id" name="flxKeyPadSeperator"/>
   <item type="id" name="frmAlertsFrequencySelection"/>
+  <item type="id" name="FlexGroupFreqAlert"/>
   <item type="id" name="frmAlertsList"/>
   <item type="id" name="flxAlertRowDummy"/>
   <item type="id" name="lblAlertName"/>
@@ -9215,6 +9245,7 @@
   <item type="id" name="flxButtonContainer"/>
   <item type="id" name="frmAlertsTimeSelection"/>
   <item type="id" name="flxAlertsTime"/>
+  <item type="id" name="FlexGroup0c691ccd723b246"/>
   <item type="id" name="segTimeList"/>
   <item type="id" name="frmChangePassword"/>
   <item type="id" name="frmChangePin"/>
@@ -9222,8 +9253,11 @@
   <item type="id" name="flxBodyText"/>
   <item type="id" name="flxSelectMessage"/>
   <item type="id" name="flxConsentData"/>
+  <item type="id" name="flxConsent1"/>
+  <item type="id" name="flxConsent2"/>
   <item type="id" name="frmCreatePassword"/>
   <item type="id" name="frmDealAlertsList"/>
+  <item type="id" name="FlexGroupAlerts"/>
   <item type="id" name="frmDeviceManagement"/>
   <item type="id" name="frmEBankingAccess"/>
   <item type="id" name="flxEnableEbanking"/>
@@ -9234,6 +9268,7 @@
   <item type="id" name="lblEnableAccountPreview"/>
   <item type="id" name="switchPreview"/>
   <item type="id" name="frmPreferencesDefaultAccount"/>
+  <item type="id" name="FlxGroupDefAccnt"/>
   <item type="id" name="frmPreferencesDefaultLogin"/>
   <item type="id" name="imgOption1"/>
   <item type="id" name="lblStatus1"/>
@@ -9266,6 +9301,7 @@
   <item type="id" name="frmPreferencesResetStep3"/>
   <item type="id" name="frmPreferencesTouchId"/>
   <item type="id" name="frmProfileAddAddress"/>
+  <item type="id" name="flxGroupWp"/>
   <item type="id" name="flxListBoxCountry"/>
   <item type="id" name="lstbxCountry"/>
   <item type="id" name="flxListBoxState"/>
@@ -9312,12 +9348,21 @@
   <item type="id" name="lblMarkasPrimary"/>
   <item type="id" name="lblMarkasPrimaryValue"/>
   <item type="id" name="frmProfileContactType"/>
+  <item type="id" name="FlexGroupContactType"/>
   <item type="id" name="frmProfileEditAddress"/>
+  <item type="id" name="FlexGroup0cf8658eb8c934e"/>
+  <item type="id" name="flxBorderLine"/>
+  <item type="id" name="CopyflxBorderLine0i76ab01e684e43"/>
+  <item type="id" name="flxBorderLine3"/>
+  <item type="id" name="flxBorderLine4"/>
+  <item type="id" name="FlexContainer0ad0fa74c94e943"/>
   <item type="id" name="btnDeleteAddress"/>
   <item type="id" name="frmProfileEditAddressList"/>
   <item type="id" name="lblUSer"/>
+  <item type="id" name="flxAddressGroups"/>
   <item type="id" name="segAddress"/>
   <item type="id" name="frmProfileEditEmails"/>
+  <item type="id" name="FlxGroupmails"/>
   <item type="id" name="segEmails"/>
   <item type="id" name="frmProfileEditPhoneNumberMain"/>
   <item type="id" name="flxEnterPhoneNumberDropdown"/>
@@ -9331,12 +9376,17 @@
   <item type="id" name="imgCheckboxInternational"/>
   <item type="id" name="lblInternational"/>
   <item type="id" name="flxPhoneType"/>
+  <item type="id" name="FlexGroupPhoneSeg"/>
   <item type="id" name="segDisplayType"/>
   <item type="id" name="frmProfileEditPhoneNumbers"/>
+  <item type="id" name="FlexGroupPhones"/>
   <item type="id" name="frmProfileEnterEmailID"/>
+  <item type="id" name="flxEnterMail"/>
   <item type="id" name="tbxEmail"/>
+  <item type="id" name="flxBorders"/>
   <item type="id" name="btnDeleteEmail"/>
   <item type="id" name="btnDeleteEmailCombinedUser"/>
+  <item type="id" name="flxFullbBGs"/>
   <item type="id" name="frmProfileEnterPhoneNumber"/>
   <item type="id" name="tbxPhoneNumber"/>
   <item type="id" name="frmProfilePersonalDetails"/>
@@ -9367,6 +9417,7 @@
   <item type="id" name="flxOfficeAddress"/>
   <item type="id" name="lblOfficeAddress"/>
   <item type="id" name="lblOfficeAddressValue"/>
+  <item type="id" name="FlexGroupPersonals"/>
   <item type="id" name="CopyflxDetailsMain0e8eb796111bb40"/>
   <item type="id" name="flxEditProfilePicture"/>
   <item type="id" name="flxTakePicture"/>
@@ -9376,28 +9427,42 @@
   <item type="id" name="lblChooseFromGallery"/>
   <item type="id" name="flxTopProfile"/>
   <item type="id" name="frmProfileSecurityCode"/>
+  <item type="id" name="FlexGroupResend"/>
   <item type="id" name="frmProfileSelectLocation"/>
+  <item type="id" name="FlexGroupLocation"/>
   <item type="id" name="segContactLocation"/>
   <item type="id" name="frmProfileUsername"/>
+  <item type="id" name="FlexGroupUserName"/>
+  <item type="id" name="flxBorderLines"/>
   <item type="id" name="frmSecurityAlertsSetting"/>
   <item type="id" name="frmSelectTPP"/>
+  <item type="id" name="FlexGroupTpp"/>
   <item type="id" name="segTPP"/>
   <item type="id" name="flxNoTpp"/>
   <item type="id" name="lblnoTpp"/>
   <item type="id" name="frmSettings"/>
   <item type="id" name="segSettingsLogin"/>
+  <item type="id" name="FlxGroup2"/>
   <item type="id" name="segSettingsDeviceManagement"/>
+  <item type="id" name="FlxGroup3"/>
   <item type="id" name="segSettingsProfile"/>
+  <item type="id" name="FlxGroup4"/>
   <item type="id" name="segSettingsAlerts"/>
+  <item type="id" name="FlxGroup5"/>
   <item type="id" name="segSettingsDefaultAccount"/>
+  <item type="id" name="FlxGroup6"/>
   <item type="id" name="segConsentManagement"/>
+  <item type="id" name="FlxGroup7"/>
   <item type="id" name="segManageAccountAcces"/>
   <item type="id" name="frmSettingsChangeLanguage"/>
+  <item type="id" name="flxLanguageGroup"/>
   <item type="id" name="segLanguages"/>
   <item type="id" name="btnUpdateLanguage"/>
   <item type="id" name="frmSettingsCountryCode"/>
   <item type="id" name="frmTppAccountDetails"/>
+  <item type="id" name="FlxMain"/>
   <item type="id" name="flxSegment"/>
+  <item type="id" name="FlexGrouptopAccnts"/>
   <item type="id" name="segAccountDetails"/>
   <item type="id" name="frmTppBankNameSelection"/>
   <item type="id" name="flxConsentAccounts"/>
@@ -9410,6 +9475,7 @@
   <item type="id" name="lblExpiredOn"/>
   <item type="id" name="flxBlockMessage"/>
   <item type="id" name="flxAccountHeader"/>
+  <item type="id" name="FlexGroupBankGrps"/>
   <item type="id" name="flxRevokeButton"/>
   <item type="id" name="btnRevoke"/>
   <item type="id" name="frmGoalSF"/>

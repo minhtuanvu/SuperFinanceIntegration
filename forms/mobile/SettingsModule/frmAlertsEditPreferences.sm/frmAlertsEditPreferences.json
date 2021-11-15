@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        63,
+        60,
         12
     ],
     "_skin_": "sfd374011f8943daa0815da0aecd0408",
@@ -55,7 +55,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmAlertsEditPreferences",
@@ -124,9 +124,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone11",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

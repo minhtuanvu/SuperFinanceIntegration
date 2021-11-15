@@ -41,7 +41,8 @@
     "children": [
         "flxCurrentPin",
         "flxNewPin",
-        "flxReEnterPin"
+        "flxReEnterPin",
+        "FlexContainer0c632f642502e4b"
     ],
     "clipbounds": true,
     "containerweight": 100,

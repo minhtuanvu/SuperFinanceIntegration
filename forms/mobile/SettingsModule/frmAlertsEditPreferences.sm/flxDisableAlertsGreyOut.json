@@ -26,7 +26,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1013d3d250e4631a47337d431f06b35",
+    "_skin_": "s32d8f6fd90645b3924ac3af44aa222c",
     "_top_": {
         "type": "string",
         "value": "-75%"
@@ -45,7 +45,7 @@
     "id": "flxDisableAlertsGreyOut",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "ae913304c1fa4a36873bb314bb2dcb38",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
@@ -58,5 +58,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 200
+    "zindex": 1
 }

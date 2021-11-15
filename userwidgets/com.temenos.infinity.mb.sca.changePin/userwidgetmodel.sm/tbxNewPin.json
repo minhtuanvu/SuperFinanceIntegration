@@ -9,10 +9,6 @@
         "type": "string",
         "value": "48dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         0,
         0,
@@ -26,12 +22,12 @@
         0
     ],
     "_placeholder_": "Enter New PIN",
-    "_right_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_skin_": "s5088eaae521414cbb3f061ad18edfa7",
     "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
     "accessibilityconfig": {
         "a11yLabel": "Password"
     },
@@ -41,6 +37,10 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

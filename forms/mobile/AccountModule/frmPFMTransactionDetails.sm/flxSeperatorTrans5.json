@@ -45,7 +45,7 @@
     "kuid": "e49917e27dce4002a97a5a46ba842842",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainContainer",
+    "parent": "flxInnerGRoups",
     "pf": "frmPFMTransactionDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

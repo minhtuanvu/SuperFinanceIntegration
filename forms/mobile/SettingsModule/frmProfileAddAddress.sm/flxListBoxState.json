@@ -29,7 +29,7 @@
     "_skin_": "sd12000ed20f4f13a696c130541d2028",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
@@ -52,7 +52,7 @@
     "kuid": "c5ffc0bbd82343bdba973232b2fe8bf4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxResidentialAddressWrapper",
+    "parent": "flxGroupWp",
     "pf": "frmProfileAddAddress",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

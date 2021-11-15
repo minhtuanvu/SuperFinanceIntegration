@@ -37,7 +37,8 @@
     "children": [
         "lblReEnterPin",
         "tbxReEnterPin",
-        "flxReEnterPinMatch"
+        "flxReEnterPinMatch",
+        "flxBorderPass3"
     ],
     "clipbounds": true,
     "containerweight": 100,

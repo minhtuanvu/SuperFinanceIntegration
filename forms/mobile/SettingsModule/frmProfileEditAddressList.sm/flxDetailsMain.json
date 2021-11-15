@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segAddress"
+        "flxAddressGroups"
     ],
     "clipbounds": true,
     "containerweight": 100,

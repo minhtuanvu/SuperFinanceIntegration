@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -40,6 +39,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "btnDecimalSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a94f78fc79e2448d80854a3589db91e7",
+                "srcKUID": "f3ec633d055b44cdb257796946e3145a",
+                "wType": "Button"
+            }
+        },
         "btnEight": {
             "__events__": {
                 "ide_onClick": "AS_Button_d995428196c94d1992d34e7680ead2d7"

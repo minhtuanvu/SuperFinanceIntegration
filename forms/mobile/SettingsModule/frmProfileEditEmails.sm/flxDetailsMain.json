@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segEmails"
+        "FlxGroupmails"
     ],
     "clipbounds": true,
     "containerweight": 100,

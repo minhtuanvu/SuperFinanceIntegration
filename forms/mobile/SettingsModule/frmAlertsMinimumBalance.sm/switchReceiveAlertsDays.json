@@ -47,7 +47,7 @@
     "leftsidetext": "     ",
     "name": "kony.ui.Switch",
     "onslide": null,
-    "osPlatform": "android",
+    "osPlatform": "iphone",
     "osVersion": "iOS7",
     "parent": "CopyflxEnable0jae88965766448",
     "pf": "frmAlertsMinimumBalance",

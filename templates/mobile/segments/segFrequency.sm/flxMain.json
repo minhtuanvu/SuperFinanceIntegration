@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -43,7 +42,7 @@
     "containerweight": 100,
     "disabledSkins": {},
     "enablescrolling": true,
-    "focusskin": "sf0f3ce615ad460eb77b8a7c9210a11d",
+    "focusskin": "s966eaf1ea1441148b4828270a782f8b",
     "id": "flxMain",
     "info": null,
     "iscustomlayout": false,

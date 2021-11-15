@@ -104,7 +104,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxConsentData",
+    "parent": "flxConsent1",
     "pf": "frmConsentManagement",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

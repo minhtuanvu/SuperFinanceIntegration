@@ -119,7 +119,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxDetailsMain",
+    "parent": "FlxGroupmails",
     "pf": "frmProfileEditEmails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

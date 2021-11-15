@@ -41,7 +41,7 @@
     "id": "flxSpace",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "a83e29a08ef5493f9c771a94cc145171",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

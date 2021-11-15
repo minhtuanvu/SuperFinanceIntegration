@@ -37,7 +37,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "FlexGroup0cf8658eb8c934e"
+        "FlexGroup0cf8658eb8c934e",
+        "FlexContainer0ad0fa74c94e943"
     ],
     "clipbounds": true,
     "containerweight": 100,

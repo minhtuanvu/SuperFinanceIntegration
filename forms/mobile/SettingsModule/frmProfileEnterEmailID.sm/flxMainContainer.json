@@ -40,7 +40,7 @@
     "canUpdateUI": true,
     "children": [
         "btnContinue",
-        "tbxEmail",
+        "flxEnterMail",
         "flxPrimary",
         "btnDeleteEmail",
         "btnDeleteEmailCombinedUser"

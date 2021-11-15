@@ -35,7 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "txtResidentialAddressLineOne"
+        "txtResidentialAddressLineOne",
+        "flxBorderLine"
     ],
     "clipbounds": false,
     "containerweight": 100,

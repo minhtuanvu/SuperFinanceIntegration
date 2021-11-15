@@ -63,7 +63,9 @@
     "iphone": {
         "needAppMenu": false,
         "psp": {
+            "configureStatusBarStyle": true,
             "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
             "titleBarAttributes": {
                 "backBarButtonItem": {
                     "enabled": true,
@@ -118,7 +120,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneX",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
@@ -142,6 +143,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
     "texti18n": "kony.mb.preferences.PinLogin",
     "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
     "titlebar": false,

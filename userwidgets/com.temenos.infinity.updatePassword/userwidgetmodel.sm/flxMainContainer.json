@@ -46,7 +46,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "i3ff87a33e304950b61753fcbe2487df",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "updatePassword",
     "pf": "userwidgetmodel",

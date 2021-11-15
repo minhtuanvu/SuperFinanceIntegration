@@ -217,7 +217,8 @@
                 "kuid": "dc1fb4c6722c4574a353af341e96ed39",
                 "srcKUID": "h5dde5ad7c964ebeb63e73f55211f8f1",
                 "wType": "Image"
-            }
+            },
+            "src": "cancelkeypad.png"
         },
         "imgClearKeypad": {
             "__events__": {
@@ -227,7 +228,8 @@
                 "kuid": "d23edf5f7fba464291656481839ed147",
                 "srcKUID": "fb1f23e980324fd58192f6e8a7048f86",
                 "wType": "Image"
-            }
+            },
+            "src": "transparentbox.png"
         },
         "keypad": {
             "__events__": {},

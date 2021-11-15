@@ -106,7 +106,8 @@
                 "kuid": "e69ac3dc933e41c4bbdda92538d6ea78",
                 "srcKUID": "a54167a680ef4852826dcbc71ac31f89",
                 "wType": "Image"
-            }
+            },
+            "src": "backbutton.png"
         },
         "imgSearch": {
             "__events__": {},

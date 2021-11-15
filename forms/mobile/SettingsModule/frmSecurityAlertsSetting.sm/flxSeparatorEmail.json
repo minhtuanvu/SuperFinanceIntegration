@@ -41,7 +41,7 @@
     "id": "flxSeparatorEmail",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "db345f181d354847a9bdbb915fce72d8",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

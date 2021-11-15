@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "segPhoneNumbers"
+        "FlexGroupPhones"
     ],
     "clipbounds": true,
     "containerweight": 100,

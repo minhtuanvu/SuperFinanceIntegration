@@ -40,7 +40,8 @@
     },
     "children": [
         "lblLastName",
-        "flxTbxUsername"
+        "flxTbxUsername",
+        "flxBorderLines"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -92,7 +92,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupWp",
     "pf": "frmPFMSelectTimePeriod",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

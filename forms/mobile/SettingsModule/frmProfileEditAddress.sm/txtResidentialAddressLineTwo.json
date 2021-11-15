@@ -5,10 +5,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         0,
         0,
@@ -22,15 +18,15 @@
         3
     ],
     "_placeholder_": "Optional",
-    "_right_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_skin_": "sdc14f85f7984e13bb5ed2544fe80fe6",
     "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
     },
     "accessibilityconfig": {
         "a11yLabel": "Optional"

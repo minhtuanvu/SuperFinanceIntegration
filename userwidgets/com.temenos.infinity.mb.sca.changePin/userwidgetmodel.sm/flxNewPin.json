@@ -37,7 +37,8 @@
     "children": [
         "lblPin",
         "tbxNewPin",
-        "flxNewPinToggle"
+        "flxNewPinToggle",
+        "flxBorderPass2"
     ],
     "clipbounds": true,
     "containerweight": 100,

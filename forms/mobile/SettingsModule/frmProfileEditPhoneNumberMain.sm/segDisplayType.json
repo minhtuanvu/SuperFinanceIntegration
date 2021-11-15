@@ -67,7 +67,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "45dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -94,7 +94,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
+    "isvisible": true,
     "kuid": "gc954c60477243b49230f3809c52a967",
     "masterdata": {},
     "name": "kony.ui.SegmentedUI2",
@@ -104,7 +104,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupPhoneSeg",
     "pf": "frmProfileEditPhoneNumberMain",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

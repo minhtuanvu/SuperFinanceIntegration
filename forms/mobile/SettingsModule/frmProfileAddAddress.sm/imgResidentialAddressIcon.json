@@ -41,7 +41,7 @@
     "isvisible": false,
     "kuid": "ddd83eec6ac84e8aa46ad9952c3a3ba1",
     "name": "kony.ui.Image2",
-    "parent": "flxResidentialAddressWrapper",
+    "parent": "flxGroupWp",
     "pf": "frmProfileAddAddress",
     "srcType": 1,
     "wType": "Image",

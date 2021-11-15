@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_bottom_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -18,7 +18,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s30f1652037f4814baf0802f245c0006",
+    "_skin_": "s1d113eb869a44fb80f26f742ac23497",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -44,7 +44,7 @@
     },
     "children": [
         "flxShowSpendingHeader",
-        "segCategories",
+        "FlexGroupWp",
         "flxCustomDateRange"
     ],
     "clipbounds": true,

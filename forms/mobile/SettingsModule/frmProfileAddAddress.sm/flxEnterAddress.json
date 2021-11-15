@@ -22,10 +22,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "scc780d0e23b429d8785ff59321ae26b",
+    "_skin_": "se5ba8e7565141db83fd4d722c7a87b0",
     "_top_": {
         "type": "string",
-        "value": "55dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
@@ -51,7 +51,7 @@
     "kuid": "fe48f43d727746949ba2caf027e85c5e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainWrapper",
+    "parent": "flxGroupWp",
     "pf": "frmProfileAddAddress",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

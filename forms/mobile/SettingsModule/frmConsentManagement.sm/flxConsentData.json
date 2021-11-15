@@ -35,8 +35,8 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "segConsentTypes",
-        "segEditConsent"
+        "flxConsent1",
+        "flxConsent2"
     ],
     "clipbounds": true,
     "containerweight": 100,

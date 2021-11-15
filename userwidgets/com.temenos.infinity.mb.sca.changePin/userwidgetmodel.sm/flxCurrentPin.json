@@ -37,6 +37,7 @@
     "children": [
         "lblCurrentPin",
         "tbxCurrentPin",
+        "flxBorderPass1",
         "flxCurrentPinToggle"
     ],
     "clipbounds": true,

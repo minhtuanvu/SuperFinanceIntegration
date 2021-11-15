@@ -36,6 +36,8 @@ define({
       this.view.customHeader.flxBack.setVisibility(false);
       this.view.flxButton.setVisibility(true);
 
+      this.view.flxConsent1.isVisible=false;
+      this.view.flxConsent2.isVisible=true;
       this.view.segConsentTypes.setVisibility(false);
       this.view.segEditConsent.setVisibility(true);
 
@@ -46,6 +48,8 @@ define({
       this.view.flxButton.setVisibility(false);
       this.view.segConsentTypes.setVisibility(true);
       this.view.segEditConsent.setVisibility(false);   
+      this.view.flxConsent1.isVisible=true;
+      this.view.flxConsent2.isVisible=false;
 
 
       var consentEditData = this.view.segEditConsent.data;
@@ -93,6 +97,7 @@ define({
     }
     this.view.customHeader.btnRight.setVisibility(viewEditBtn);  
     this.view.segConsentTypes.setVisibility(true);
+    this.view.flxConsent1.isVisible=true;
 
 
     //view
@@ -150,6 +155,7 @@ define({
     this.view.customHeader.flxBack.setVisibility(true);       
     this.view.flxButton.setVisibility(false);
     this.view.segEditConsent.setVisibility(false);
+      this.view.flxConsent2.isVisible=false;
 
     editConsentData = this.view.segEditConsent.data;
     var initialConsentData = this.view.segConsentTypes.data;
