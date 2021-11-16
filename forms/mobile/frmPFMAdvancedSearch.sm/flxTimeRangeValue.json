@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -52,7 +51,7 @@
     "kuid": "cd684b5fefaf4b75b5862b81d771349b",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "parent": "flxGroups2",
     "pf": "frmPFMAdvancedSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

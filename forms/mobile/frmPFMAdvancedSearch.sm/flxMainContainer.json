@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
         "value": "70dp"
@@ -23,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf9159f2a6c64cecba0c14c3fe3af05a",
+    "_skin_": "s1d113eb869a44fb80f26f742ac23497",
     "_top_": {
         "type": "string",
         "value": "0dp"

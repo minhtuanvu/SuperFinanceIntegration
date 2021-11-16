@@ -48,7 +48,9 @@
             "name": "flxSettingsController"
         }
     },
+    "disabledSkins": {},
     "enablescrolling": true,
+    "focusskin": "s7b436962d6a4647b197083ac7d03d38",
     "id": "flxSettings",
     "info": null,
     "isTemplate": true,

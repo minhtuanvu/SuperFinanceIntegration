@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizSegment2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_data_": [
         {
             "imgIcon": {
@@ -68,6 +67,9 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "02",
+    "disabledSkins": {
+        "rowFocusSkin": "se0c94cf5a474789965f32eaa0b5d5dc"
+    },
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
@@ -103,7 +105,6 @@
     "retainselection": false,
     "rowTemplateId": "jc879207586e40e9ace2d856f680d955",
     "rowcounter": 2,
-    "rowfocusskin": "s02d7ca459a74168b4573e79b9d8efec",
     "rowskin": "s18472307db04580a2a9cb6f4681ebec",
     "rowtemplate": "flxAdvanceSearch",
     "screenlevelwidget": false,
@@ -127,6 +128,7 @@
     "showscrollbars": false,
     "unselectimage": "remeberme.png",
     "viewtype": "tableview",
+    "vizProps": {},
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {

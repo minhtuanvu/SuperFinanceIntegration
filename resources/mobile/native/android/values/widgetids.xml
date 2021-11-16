@@ -470,6 +470,17 @@
   <item type="id" name="pdfgenerator"/>
   <item type="id" name="pdfGenBrowser"/>
   <item type="id" name="socialshare"/>
+  <item type="id" name="speechtotext"/>
+  <item type="id" name="flxMicrophone"/>
+  <item type="id" name="imgMicrophone"/>
+  <item type="id" name="flxAnim"/>
+  <item type="id" name="imgCancel"/>
+  <item type="id" name="lblListening"/>
+  <item type="id" name="imgGif"/>
+  <item type="id" name="flxAudioImg"/>
+  <item type="id" name="imgAudio"/>
+  <item type="id" name="flxText"/>
+  <item type="id" name="lblProgress"/>
   <item type="id" name="texttospeech"/>
   <item type="id" name="flxImage"/>
   <item type="id" name="imgSpeechOn"/>
@@ -1024,7 +1035,6 @@
   <item type="id" name="flxSeperator"/>
   <item type="id" name="flxActivationMsgMain"/>
   <item type="id" name="imgInfo"/>
-  <item type="id" name="flxText"/>
   <item type="id" name="lblText"/>
   <item type="id" name="flxTermsAndConditions"/>
   <item type="id" name="flxImgCheckBox"/>
@@ -3637,7 +3647,6 @@
   <item type="id" name="imgRecurrance"/>
   <item type="id" name="lblAccount"/>
   <item type="id" name="flxCancelEdit"/>
-  <item type="id" name="imgCancel"/>
   <item type="id" name="imgEdit"/>
   <item type="id" name="lblEdit"/>
   <item type="id" name="segBillPayHeader"/>
@@ -4422,6 +4431,7 @@
   <item type="id" name="flxtmpContainer"/>
   <item type="id" name="tmpFinanceScheme"/>
   <item type="id" name="flxFinanceScheme"/>
+  <item type="id" name="flxMainScheme"/>
   <item type="id" name="flxCircles"/>
   <item type="id" name="lblSchemeName"/>
   <item type="id" name="lblSchemePercent"/>
@@ -5409,7 +5419,9 @@
   <item type="id" name="imgShowTransactionTypes"/>
   <item type="id" name="flxTransactionTypes"/>
   <item type="id" name="segTransactionTypes"/>
+  <item type="id" name="flxGroupTransactions"/>
   <item type="id" name="frmPFMEditCategory"/>
+  <item type="id" name="FlexGroup0d3f1bf39688f41"/>
   <item type="id" name="segCategories"/>
   <item type="id" name="flxSeperatorTrans"/>
   <item type="id" name="frmPFMMyMoney"/>
@@ -5467,11 +5479,14 @@
   <item type="id" name="frmPFMSelectTimePeriod"/>
   <item type="id" name="flxShowSpendingHeader"/>
   <item type="id" name="lblShowSpending"/>
+  <item type="id" name="FlexGroupWp"/>
   <item type="id" name="flxCustomDateRange"/>
   <item type="id" name="lblCustomDateRange"/>
   <item type="id" name="flxViewChart"/>
   <item type="id" name="btnViewChart"/>
   <item type="id" name="frmPFMTransactionDetails"/>
+  <item type="id" name="flxTrasactScoller"/>
+  <item type="id" name="flxInnerGRoups"/>
   <item type="id" name="flxTransferredToTrans"/>
   <item type="id" name="lblTransferredToTrans"/>
   <item type="id" name="lblTransferredToValueTrans"/>
@@ -7933,6 +7948,7 @@
   <item type="id" name="lblSSNEleven"/>
   <item type="id" name="lblEnterSSNInfo"/>
   <item type="id" name="frmPFMAdvancedSearch"/>
+  <item type="id" name="flxGroups1"/>
   <item type="id" name="imgArrowTransactionType"/>
   <item type="id" name="flxTransactionTypeWrapper"/>
   <item type="id" name="lblTransactionTypeTitle"/>
@@ -7940,12 +7956,14 @@
   <item type="id" name="flxSeparatorTransactionType"/>
   <item type="id" name="flxTransactionTypeValue"/>
   <item type="id" name="segTransactionType"/>
+  <item type="id" name="flxGroups2"/>
   <item type="id" name="flxTimeRange"/>
   <item type="id" name="imgTimeRange"/>
   <item type="id" name="flxSeparatorTimeRange"/>
   <item type="id" name="flxTimeRangeWrapper"/>
   <item type="id" name="flxTimeRangeValue"/>
   <item type="id" name="segTimeRange"/>
+  <item type="id" name="flxFullCoverWp"/>
   <item type="id" name="frmPFMAdvanceSearchResults"/>
   <item type="id" name="frmPFMNote"/>
   <item type="id" name="flxNoteMain"/>
@@ -9478,6 +9496,8 @@
   <item type="id" name="FlexGroupBankGrps"/>
   <item type="id" name="flxRevokeButton"/>
   <item type="id" name="btnRevoke"/>
+  <item type="id" name="Form1"/>
+  <item type="id" name="flxSample"/>
   <item type="id" name="frmGoalSF"/>
   <item type="id" name="flxParentGoalSF"/>
   <item type="id" name="flxHeaderGoalSF"/>
@@ -9631,6 +9651,8 @@
   <item type="id" name="flxRequestDataSF"/>
   <item type="id" name="lblNotedSF"/>
   <item type="id" name="btnNextSF"/>
+  <item type="id" name="flxListenSF"/>
+  <item type="id" name="imgListenSF"/>
   <item type="id" name="frmSteps2"/>
   <item type="id" name="flxStepsGroup"/>
   <item type="id" name="frmWealthSF"/>

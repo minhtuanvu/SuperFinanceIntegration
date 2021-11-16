@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "40dp"
@@ -43,6 +42,11 @@
     "focusskin": "sd85a0f475ff4b3b9f0a5e4b82f68213",
     "id": "btnSearch",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "d7039d00de664b12acea1f4f401f45bb",
@@ -53,10 +57,5 @@
     "retainflexpositionproperties": false,
     "texti18n": "kony.mb.common.search",
     "wType": "Button",
-    "zindex": 1,
-    "iphone": {
-        "psp": {
-            "showProgressIndicator": false
-        }
-    }
+    "zindex": 1
 }

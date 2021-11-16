@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -124,8 +123,8 @@
                 "srcKUID": "c6589a12cf8e43e685fa0a5b4a9223f6",
                 "wType": "Label"
             },
-            "text": "Advance Search",
-            "i18n_text": "kony.mb.AdvanceSearch.Title"
+            "i18n_text": "kony.mb.AdvanceSearch.Title",
+            "text": "Advance Search"
         }
     },
     "id": "customHeader",

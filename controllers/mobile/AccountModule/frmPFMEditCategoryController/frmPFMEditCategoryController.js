@@ -143,7 +143,7 @@ define({
             categories.forEach(function(category) {
                 var tempJs = {};
                 if (selectedCategory === category.categoryId) {
-                    tempJs = self.setRowCategory("sknflxf1f1f1Rounded", "tick.png", true);
+                    tempJs = self.setRowCategory("slFbox", "tick.png", true);
                 } else {
                     tempJs = self.setRowCategory("slFbox", "tick.png", false);
                 }

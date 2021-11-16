@@ -51,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone8Zoomed",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "enablescrolling": true,
@@ -122,9 +122,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "GalaxyS8",
-    "prevPlatform": "android",
+    "platform": "android",
+    "prevDevice": "iPhone8Zoomed",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

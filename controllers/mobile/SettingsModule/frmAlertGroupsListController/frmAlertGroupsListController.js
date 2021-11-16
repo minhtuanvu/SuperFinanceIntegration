@@ -118,7 +118,7 @@ define({
       this.view.flxAlertGroupsContainer.add(type);
       this.view[i+"lblDataType"].text = alertGroups[i].alerttypetext_DisplayName;
       this.view[i+"flxAlertGroupRowDummy"].isVisible=true;
-      this.view[i+"flxAlertGroupRowDummy"].focusSkin = "sknFlxf9f9f9";
+      this.view[i+"flxAlertGroupRowDummy"].focusSkin = "sknBlackBorder";
       var isEnable = alertGroups[i].alertSubTypes ? true : false;
       this.view[i+"flxAlertGroupRowDummy"].setEnabled(isEnable);
       this.view[i+"flxImage"].isVisible = isEnable;

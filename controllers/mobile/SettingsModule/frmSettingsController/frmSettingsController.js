@@ -540,9 +540,11 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
     },
     setDeviceManagementDataUtility: function(){
       if(CommonUtilities.isSCAEnabled()){
+        this.view.FlxGroup2.isVisible = true;
         this.view.segSettingsDeviceManagement.setVisibility(true);
         this.setDeviceManagementData();
       } else {
+        this.view.FlxGroup2.isVisible = false;
         this.view.segSettingsDeviceManagement.setVisibility(false);        
       }
       this.view.flxMainContainer.forceLayout();

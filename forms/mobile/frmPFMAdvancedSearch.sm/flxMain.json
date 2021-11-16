@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -37,10 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flxSearch",
-        "flxTransactionType",
-        "flxTransactionTypeValue",
-        "flxTimeRange",
-        "flxTimeRangeValue",
+        "flxGroups1",
+        "flxGroups2",
         "flxFiltersMain"
     ],
     "clipbounds": true,

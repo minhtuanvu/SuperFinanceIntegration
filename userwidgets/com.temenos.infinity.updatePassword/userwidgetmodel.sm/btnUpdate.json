@@ -25,7 +25,7 @@
         0,
         0
     ],
-    "_skin_": "sc61e719c72447bf9f14db24bea23eb3",
+    "_skin_": "s30d39ca8c744d388569c1d52d0824b6",
     "_text_": "",
     "_width_": {
         "type": "string",
@@ -44,7 +44,7 @@
     "contentalignment": 5,
     "disabledSkins": {},
     "displaytext": true,
-    "focusskin": "sd85a0f475ff4b3b9f0a5e4b82f68213",
+    "focusskin": "s30d39ca8c744d388569c1d52d0824b6",
     "id": "btnUpdate",
     "info": null,
     "iphone": {

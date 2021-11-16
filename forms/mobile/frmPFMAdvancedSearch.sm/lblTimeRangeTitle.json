@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -29,6 +28,9 @@
         "value": "preferred"
     },
     "_wrapping_": 2,
+    "accessibilityconfig": {
+        "a11yLabel": "Time Range"
+    },
     "android": {
         "textStyle": {
             "letterSpacing": 0,
@@ -66,8 +68,5 @@
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
-    "zindex": 1,
-    "accessibilityconfig": {
-        "a11yLabel": "Time Range"
-    }
+    "zindex": 1
 }

@@ -259,7 +259,7 @@ define({
                     },
                     "lblName": {
                         "text":kony.i18n.getLocalizedString("kony.mb.PFM.CategorisedTransactions"),
-                        "skin": "sknLbl0095e4SSPRegular22px",
+                        "skin": "sknLblPopup",
                     },
                     "template": "flxSelectAccountTypes"
                 },
@@ -270,7 +270,7 @@ define({
                     },
                     "lblName": {
                         "text": kony.i18n.getLocalizedString("kony.mb.PFM.uncategorizedTransactions"),
-                        "skin": "sknLbl0095e4SSPRegular22px"
+                        "skin": "sknLblPopup"
                     },
                     "template": "flxSelectAccountTypes"
                 }

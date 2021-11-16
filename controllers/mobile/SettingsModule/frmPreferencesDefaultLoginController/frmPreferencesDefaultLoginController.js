@@ -128,10 +128,12 @@ define(['CommonUtilities'], function(CommonUtilities){
   navigateToPinFlow : function()
   {
     if(CommonUtilities.isSCAEnabled()){
+      alert("frmChangePin");
       let settingsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("SettingsModule");
       settingsModule.presentationController.commonFunctionForNavigation("frmChangePin");
     }
     else{
+      
       var navManager = applicationManager.getNavigationManager();
       var flags = navManager.getCustomInfo("frmPreferencesDefaultLogin");
       var settingsMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("SettingsModule");
@@ -144,6 +146,7 @@ define(['CommonUtilities'], function(CommonUtilities){
         settingsMod.presentationController.commonFunctionForNavigation("frmDevRegPin");
       }
       else{
+         alert("frmPreferencesPin");
         var msgData = {popUpMsg:""};
         navManager.setCustomInfo("frmPreferencesPin",msgData) ;
         settingsMod.presentationController.commonFunctionForNavigation("frmPreferencesPin");
