@@ -13,7 +13,6 @@ define({
   },
 
   navigateCustomBack: function () {
-    alert("EuropeTransfer");
     if (kony.os.deviceInfo().name === "iPhone")
       this.view.customSearchbox.tbxSearch.setFocus(false);
     var navMan = applicationManager.getNavigationManager();

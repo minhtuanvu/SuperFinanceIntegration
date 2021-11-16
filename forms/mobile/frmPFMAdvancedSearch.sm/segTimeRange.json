@@ -113,7 +113,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectimage": "radiobtn.png",
     "selectionbehavior": "singleselect",
     "selectionbehaviorconfig": {

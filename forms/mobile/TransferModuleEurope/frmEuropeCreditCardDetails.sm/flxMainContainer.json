@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
         "value": "40%"
@@ -27,7 +26,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7b436962d6a4647b197083ac7d03d38",
+    "_skin_": "s967aa8bc66a4d2e9e5422fe9a40c608",
     "_top_": {
         "type": "string",
         "value": "56dp"
@@ -40,10 +39,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxMinimumDue",
-        "flxStatementDue",
-        "flxOutstandingBalance",
-        "flxHowMuch"
+        "FlexGroupDetails"
     ],
     "clipbounds": true,
     "containerweight": 100,

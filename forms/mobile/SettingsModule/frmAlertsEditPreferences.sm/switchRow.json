@@ -52,7 +52,7 @@
     "leftsidetext": "     ",
     "name": "kony.ui.Switch",
     "nativeThumbLook": true,
-    "osPlatform": "android",
+    "osPlatform": "iphone",
     "osVersion": "iOS7",
     "parent": "flxChannelRowDummy",
     "pf": "frmAlertsEditPreferences",

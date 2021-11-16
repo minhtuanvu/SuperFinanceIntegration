@@ -1,9 +1,8 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
-    "_bottom_": {
-        "type": "string",
-        "value": "0dp"
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -23,46 +22,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sfb2d27aa9614b7886dc8ac89bc6900e",
+    "_skin_": "se5ba8e7565141db83fd4d722c7a87b0",
     "_top_": {
         "type": "string",
-        "value": "56dp"
+        "value": "100dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "allboxes": [],
+    "autogrowmode": 1,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "flxNoTransfer",
-        "btnToAccount"
+        "segTransactions"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxFailure",
+    "id": "flxGroupsWp",
     "info": null,
-    "iphone": {
-        "top": {
-            "type": "string",
-            "value": "0dp"
-        }
-    },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "c1e34217a8644d66ba1ec558212251cc",
+    "isvisible": true,
+    "kuid": "e2d65a8ee94f49b3a49dc40c0041f8ee",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmEuropeConfirmation",
-    "pf": "frmEuropeConfirmation",
+    "parent": "flxMainContainer",
+    "pf": "frmEuropeTransferFromAccount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "vizProps": {},
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

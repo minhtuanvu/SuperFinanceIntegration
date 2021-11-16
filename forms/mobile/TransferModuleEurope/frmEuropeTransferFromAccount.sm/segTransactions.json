@@ -539,8 +539,8 @@
         ]
     ],
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_indicator_": "none",
     "_left_": {
@@ -573,6 +573,7 @@
             "dockSectionHeaders": true
         }
     },
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "containerweight": 100,
     "counter": "14",
@@ -603,10 +604,6 @@
     "isvisible": true,
     "kuid": "i9380e183765452b8aeec57ee9617947",
     "masterdata": {},
-    "minheight": {
-        "type": "string",
-        "value": "85%"
-    },
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": true,
     "pageoffdotimage": "pageoffdot.png",
@@ -614,7 +611,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "flxGroupsWp",
     "pf": "frmEuropeTransferFromAccount",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -622,7 +619,7 @@
     "rowTemplateId": "c94ae77837714e0d93409a48f7dbafe3",
     "rowcounter": 4,
     "rowfocusskin": "s02d7ca459a74168b4573e79b9d8efec",
-    "rowskin": "s69f28c050df43fb9bf92e79f4534943",
+    "rowskin": "s02d7ca459a74168b4573e79b9d8efec",
     "rowtemplate": "flxAccountsNoImageTransfers",
     "screenlevelwidget": false,
     "seccounter": 1,

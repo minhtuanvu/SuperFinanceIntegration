@@ -15,6 +15,12 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        68,
+        12
+    ],
     "_skin_": "sfd374011f8943daa0815da0aecd0408",
     "_title_": "Acknowledgement",
     "addWidgetsdone": false,
@@ -45,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhoneXS",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmEuropeConfirmation",
@@ -65,7 +71,9 @@
     "iphone": {
         "needAppMenu": false,
         "psp": {
+            "configureStatusBarStyle": true,
             "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
             "titleBarAttributes": {
                 "backBarButtonItem": {
                     "enabled": true,
@@ -113,13 +121,12 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "Pixel3",
-    "prevPlatform": "android",
+    "platform": "android",
+    "prevDevice": "iPhoneXS",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXS",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
@@ -143,6 +150,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
     "texti18n": "kony.mb.MM.Acknowledgement",
     "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
     "titlebar": false,

@@ -175,7 +175,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxConfirmationDetails",
+    "parent": "FlexGroup2",
     "pf": "frmEuropeConfirmation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

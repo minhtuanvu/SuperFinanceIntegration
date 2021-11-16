@@ -201,7 +201,7 @@ define({
         },
         "lblName": {
           "text": "CATEGORISED TRANSACTIONS",
-          "skin": "sknLblda8b09SSP26px",
+          "skin": "sknLblPopup",
         },
         "template": "flxSelectAccountTypes"
       },
@@ -212,7 +212,7 @@ define({
                     },
                     "lblName": {
                       "text": "UNCATEGORISED TRANSACTIONS",
-                      "skin": "sknLbl0095e4SSPRegular26px"
+                      "skin": "sknLblPopup"
                     },
                     "template": "flxSelectAccountTypes"
                   }
@@ -272,12 +272,12 @@ define({
       var data = this.view.segTransactionTypes.data;
       if (selectedItem.lblName.text === "UNCATEGORISED TRANSACTIONS") {
         this.currentSelected = "uncategorised";
-        data = this.toggleSegmentElement(data, "sknLbl0095e4SSPRegular26px", "sknLblda8b09SSP26px", false, true, "UNCATEGORISED TRANSACTIONS");
+        data = this.toggleSegmentElement(data, "sknLblPopup", "sknLblPopup", false, true, "UNCATEGORISED TRANSACTIONS");
         this.setUncategorizedTransactions(transactions);
       } else {
         this.currentSelected = "categorised";
         this.setCategorizedTransactions(transactions);
-        data = this.toggleSegmentElement(data, "sknLblda8b09SSP26px", "sknLbl0095e4SSPRegular26px", true, false, "CATEGORISED TRANSACTIONS");
+        data = this.toggleSegmentElement(data, "sknLblPopup", "sknLblPopup", true, false, "CATEGORISED TRANSACTIONS");
       }
       this.view.segTransactionTypes.setData(data);
       applicationManager.getPresentationUtility().dismissLoadingScreen();

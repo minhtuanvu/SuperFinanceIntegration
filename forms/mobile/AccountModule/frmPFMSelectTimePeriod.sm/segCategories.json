@@ -120,7 +120,8 @@
         "unselectedStateImage": "radiobuttoninactive.png"
     },
     "selectionindicator": "imgIcon",
-    "separatorrequired": false,
+    "separatorcolor": "292d3f00",
+    "separatorrequired": true,
     "showscrollbars": false,
     "unselectimage": "radiobuttoninactive.png",
     "viewtype": "tableview",

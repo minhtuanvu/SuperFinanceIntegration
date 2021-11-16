@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -101,7 +100,8 @@
                 "kuid": "b98ac0c7d683450c89721f0d574e4a44",
                 "srcKUID": "j657ec465367414995d83c0c48f49c43",
                 "wType": "Image"
-            }
+            },
+            "src": "search.png"
         },
         "tbxSearch": {
             "__events__": {},

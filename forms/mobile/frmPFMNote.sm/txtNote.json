@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "180dp"
@@ -56,6 +55,7 @@
     "focusskin": "s4611b16243c40a4b0ba02fca4176234",
     "id": "txtNote",
     "info": null,
+    "iphone": {},
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
@@ -67,7 +67,7 @@
     "parent": "flxNoteMain",
     "pf": "frmPFMNote",
     "placeholderi18n": "kony.mb.PFM.EnterYourNoteHere",
-    "placeholderskin": "s1f5dd5e631048bb8d90705541864d24",
+    "placeholderskin": "s432581613dd4bd980d1a3d84b4b237a",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

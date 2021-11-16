@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -23,45 +22,42 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "se5ba8e7565141db83fd4d722c7a87b0",
     "_top_": {
         "type": "string",
-        "value": "100dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
-        "value": "47.37%"
+        "value": "50%"
     },
     "children": [
-        "imgTick",
-        "lblP2PSuccess",
-        "lblP2PMessage"
+        "segCurrencySelection"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxP2PSuccessful",
+    "id": "flxCurrencyGrp",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gdb1ecc1a7114b2fb566e00162f6c480",
-    "layouttype": 2,
+    "kuid": "fdc301a1e2ba4b4ea588cfc3aa63f982",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxP2PSuccess",
-    "pf": "frmEuropeConfirmation",
+    "parent": "flxMainContainer",
+    "pf": "frmEuropeSelectCurrency",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 5
+    "widgetalignment": 1
 }

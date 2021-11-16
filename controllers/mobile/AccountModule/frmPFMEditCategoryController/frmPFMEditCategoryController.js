@@ -57,7 +57,7 @@ define({
                     newData[i].flxArrow.skin = "slFbox";
                     newData[i].imgArrow.isVisible = false;
                 }
-                newData[rowIndex].flxArrow.skin = "sknflxf1f1f1Rounded";
+                newData[rowIndex].flxArrow.skin = "slFbox";
                 newData[rowIndex].imgArrow.isVisible = true;
                 scopeObj.selectedCategoryId = newData[rowIndex].categoryId;
                 scopeObj.selectedCategoryName = newData[rowIndex].lblCategory;

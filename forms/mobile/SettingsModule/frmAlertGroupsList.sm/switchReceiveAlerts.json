@@ -52,7 +52,7 @@
     "leftsidetext": "     ",
     "name": "kony.ui.Switch",
     "nativeThumbLook": true,
-    "osPlatform": "iphone",
+    "osPlatform": "spaip",
     "osVersion": "iOS7",
     "parent": "flxEnableAlertsMainSwitch",
     "pf": "frmAlertGroupsList",

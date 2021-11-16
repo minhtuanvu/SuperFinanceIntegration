@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -23,45 +22,43 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_skin_": "se5ba8e7565141db83fd4d722c7a87b0",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
-        "value": "47.37%"
+        "value": "50%"
     },
     "children": [
-        "imgCross",
-        "lblMessage",
-        "lblError"
+        "flxToAndFrom",
+        "flxConfirmationDetails"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxNoTransfer",
+    "id": "FlexGroupwps",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b1af7109ed6e49c190e3530d4e1ae4e2",
+    "kuid": "d32f73776d2b47ef8836b8c5b76e7a59",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxFailure",
-    "pf": "frmEuropeConfirmation",
+    "parent": "flxMMAmount",
+    "pf": "frmEuropeVerifyTransferDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 5
+    "widgetalignment": 1
 }

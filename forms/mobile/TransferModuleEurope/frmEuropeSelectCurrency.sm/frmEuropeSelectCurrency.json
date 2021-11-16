@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        69,
+        68,
         21
     ],
     "_skin_": "sfd374011f8943daa0815da0aecd0408",
@@ -50,7 +50,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhoneXS",
+    "device": "Pixel3",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "enablescrolling": false,
@@ -126,9 +126,9 @@
     "needappmenu": false,
     "needsindicatorduringpostshow": true,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "Pixel3",
-    "prevPlatform": "android",
+    "platform": "android",
+    "prevDevice": "iPhoneXS",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

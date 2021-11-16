@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6682d052a834431a45dbe7a34dacc68",
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -61,7 +61,9 @@
     "iphone": {
         "needAppMenu": false,
         "psp": {
+            "configureStatusBarStyle": true,
             "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
@@ -104,7 +106,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneX",
     "snapgridsize": 10,
     "snaptogrid": true,
     "spaan": {
@@ -128,6 +129,7 @@
     "spawinphone8": {
         "needAppMenu": false
     },
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
     "titleBarSkin": "se5e723fae5149a0a3ebdd1bbdc41985",
     "titlebar": true,
     "type": 3,

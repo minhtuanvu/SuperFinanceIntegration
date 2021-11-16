@@ -45,7 +45,7 @@
     "id": "flxDisableAlertsGreyOut",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ae913304c1fa4a36873bb314bb2dcb38",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

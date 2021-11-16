@@ -175,6 +175,7 @@ define({
               "segTransactions": "segTransactions"
             };
             this.view.segTransactions.setData(uncategorisedData);
+          this.view.flxGroupTransactions.isVisible=true;
             this.view.segTransactions.setVisibility(true);
             this.uncategorisedData = uncategorisedData;
         }
@@ -331,12 +332,12 @@ define({
             var data = this.view.segTransactionTypes.data;
             if (selectedItem.lblName.text === kony.i18n.getLocalizedString("kony.mb.PFM.uncategorizedTransactions")) {
               	this.currentSelected = "uncategorised";
-                data = this.toggleSegmentElement(data, "sknLbl0095e4SSPRegular26px", "sknLblda8b09SSP26px", false, true, kony.i18n.getLocalizedString("kony.mb.PFM.uncategorizedTransactions"));
+                data = this.toggleSegmentElement(data, "sknLblPopup", "sknLblPopup", false, true, kony.i18n.getLocalizedString("kony.mb.PFM.uncategorizedTransactions"));
                 this.setUncategorizedTransactions(transactions);
             } else {
               	this.currentSelected = "categorised";
                 this.setCategorizedTransactions(transactions);
-                data = this.toggleSegmentElement(data, "sknLblda8b09SSP26px", "sknLbl0095e4SSPRegular26px", true, false, kony.i18n.getLocalizedString("kony.mb.PFM.CategorisedTransactions"));
+                data = this.toggleSegmentElement(data, "sknLblPopup", "sknLblPopup", true, false, kony.i18n.getLocalizedString("kony.mb.PFM.CategorisedTransactions"));
             }
             this.view.segTransactionTypes.setData(data);
           	applicationManager.getPresentationUtility().dismissLoadingScreen();
@@ -434,7 +435,7 @@ define({
               filteredData.push(transactions[i]);
             }
           }
-        }
+        }        
         this.view.segTransactions.setData(filteredData);
       }
       catch(err) {

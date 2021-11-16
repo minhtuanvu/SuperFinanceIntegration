@@ -10027,9 +10027,12 @@
   <item type="id" name="lblAwaitingFunds"/>
   <item type="id" name="rtxtWarning"/>
   <item type="id" name="lblUploadFailedMsg"/>
+  <item type="id" name="FlexGroup1"/>
+  <item type="id" name="FlexGroup2"/>
   <item type="id" name="lblSupportingDocumentsTitle"/>
   <item type="id" name="flxSupportingDocumentsValue"/>
   <item type="id" name="segDetails2"/>
+  <item type="id" name="FlexGroup3"/>
   <item type="id" name="lblChargesBreakdown"/>
   <item type="id" name="frmEuropeCreditCardDetails"/>
   <item type="id" name="flxMinimumDue"/>
@@ -10075,6 +10078,7 @@
   <item type="id" name="frmEuropeNumberOfTransfers"/>
   <item type="id" name="frmEuropePaymentMedium"/>
   <item type="id" name="frmEuropeSelectCurrency"/>
+  <item type="id" name="flxCurrencyGrp"/>
   <item type="id" name="frmEuropeStartDate"/>
   <item type="id" name="frmEuropeTransactionDetails"/>
   <item type="id" name="flxToAccountType"/>
@@ -10109,12 +10113,14 @@
   <item type="id" name="flxYouSent"/>
   <item type="id" name="lblYouSent"/>
   <item type="id" name="frmEuropeTransferFromAccount"/>
+  <item type="id" name="flxGroupsWp"/>
   <item type="id" name="frmEuropeTransferReference"/>
   <item type="id" name="lblReferenceTitle"/>
   <item type="id" name="flxGroupReference"/>
   <item type="id" name="tbxReference"/>
   <item type="id" name="lblCount"/>
   <item type="id" name="frmEuropeTransferToAccount"/>
+  <item type="id" name="FlexGroupWps"/>
   <item type="id" name="frmEuropeTransferToAccountNewBen"/>
   <item type="id" name="flxBenBank"/>
   <item type="id" name="lblBenBank"/>
@@ -10126,6 +10132,7 @@
   <item type="id" name="flxToAccountEditFlow"/>
   <item type="id" name="lblToAccountEdit"/>
   <item type="id" name="lblToAccountValueEdit"/>
+  <item type="id" name="FlexGroupwps"/>
   <item type="id" name="imgAmountRightArrow"/>
   <item type="id" name="lblYouSendValue"/>
   <item type="id" name="lblExchangeRateValue"/>

@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "108dp"
@@ -52,7 +51,7 @@
     "kuid": "c85e368beaa84a2ab38c3f1d7ee3c226",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMainContainer",
+    "parent": "FlexGroupDetails",
     "pf": "frmEuropeCreditCardDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

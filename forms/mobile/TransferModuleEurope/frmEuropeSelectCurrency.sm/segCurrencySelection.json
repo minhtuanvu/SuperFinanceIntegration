@@ -324,15 +324,15 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "flxMainContainer",
+    "parent": "flxCurrencyGrp",
     "pf": "frmEuropeSelectCurrency",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainselection": false,
     "rowTemplateId": "d7b8b71be1b441a0ade3ebc71f49a78c",
     "rowcounter": 9,
-    "rowfocusskin": "sec47134c53840738acea176209ff716",
-    "rowskin": "s18472307db04580a2a9cb6f4681ebec",
+    "rowfocusskin": "s02d7ca459a74168b4573e79b9d8efec",
+    "rowskin": "s02d7ca459a74168b4573e79b9d8efec",
     "rowtemplate": "flxSelectCurrency",
     "screenlevelwidget": false,
     "seccounter": 0,

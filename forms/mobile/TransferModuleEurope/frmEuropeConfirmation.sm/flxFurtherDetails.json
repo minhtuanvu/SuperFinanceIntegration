@@ -48,7 +48,7 @@
     "kuid": "a62623fadbe74511bbb1357dbe963d67",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxConfirmationMain",
+    "parent": "FlexGroup3",
     "pf": "frmEuropeConfirmation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

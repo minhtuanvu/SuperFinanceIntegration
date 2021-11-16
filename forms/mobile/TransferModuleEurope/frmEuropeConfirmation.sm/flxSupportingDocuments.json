@@ -49,7 +49,7 @@
     "kuid": "af7ce65b562146ae9c0fd41b488266b6",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxConfirmationDetails",
+    "parent": "FlexGroup2",
     "pf": "frmEuropeConfirmation",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
