@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
@@ -40,12 +39,6 @@
     },
     "containerId": true,
     "containerweight": 100,
-    "context": {
-        "channel": "mobile",
-        "formID": "segAccountsNoImageMM",
-        "templateType": "segments",
-        "topLevelBox": null
-    },
     "id": "imgTick",
     "imagescalemode": 1,
     "info": null,

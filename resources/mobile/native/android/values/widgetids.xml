@@ -7965,6 +7965,7 @@
   <item type="id" name="segTimeRange"/>
   <item type="id" name="flxFullCoverWp"/>
   <item type="id" name="frmPFMAdvanceSearchResults"/>
+  <item type="id" name="FlexGroupwps"/>
   <item type="id" name="frmPFMNote"/>
   <item type="id" name="flxNoteMain"/>
   <item type="id" name="txtNote"/>
@@ -10132,7 +10133,6 @@
   <item type="id" name="flxToAccountEditFlow"/>
   <item type="id" name="lblToAccountEdit"/>
   <item type="id" name="lblToAccountValueEdit"/>
-  <item type="id" name="FlexGroupwps"/>
   <item type="id" name="imgAmountRightArrow"/>
   <item type="id" name="lblYouSendValue"/>
   <item type="id" name="lblExchangeRateValue"/>

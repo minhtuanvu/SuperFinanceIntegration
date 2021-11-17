@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s8ea0950d0594556bb6a819019b620d9",
+    "_skin_": "s967aa8bc66a4d2e9e5422fe9a40c608",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -53,6 +53,16 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxMainContainer",
     "pf": "frmEuropeTransferToAccount",
+    "responsiveconfig": {
+        "offset": {
+            "landscape": 0,
+            "portrait": 0
+        },
+        "span": {
+            "landscape": 6,
+            "portrait": 12
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,

@@ -1,5 +1,6 @@
 {
   "android": {
+    "font_name": "SourceSansPro-Regular",
     "font_size": 125,
     "isForked": false
   },
@@ -18,7 +19,7 @@
     "isForked": false
   },
   "fontSizeInPx": false,
-  "font_color": "424242ff",
+  "font_color": "ffffffff",
   "font_name": "Helvetica",
   "font_size": 125,
   "font_style": "normal",

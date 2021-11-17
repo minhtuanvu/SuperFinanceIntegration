@@ -44,7 +44,7 @@ define({
   },
 
   preShow: function () {
-    this.view.flxMainContainer.skin = "slfSbox";
+    this.view.flxMainContainer.skin = "sknBGFullScroll";
     var self = this;
     this.segmentHeight=0;
     if (this.view.flxHeaderSearchbox.height ==="40dp") {
@@ -59,13 +59,16 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "0dp";
+      this.view.flxGroupsWp.top="56dp";
     } else {
       this.view.flxHeader.isVisible = true;
       this.view.flxSearch.top = 0 + "dp";
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "56dp";
+      this.view.flxGroupsWp.top="56dp";
     }
+    
     this.initActions();
     this.setSegmentData(this.decideCatergoryOfContracts());
     this.addDummyRows();
@@ -197,6 +200,7 @@ define({
     }
     else {
       this.view.segTransactions.isVisible = false;
+      this.view.flxGroupsWp.isVisible = false;
       this.view.flxNoAccounts.isVisible = true;
       this.view.lblNoAccounts.isVisible = true;
       this.view.lblAddABankAccount.isVisible = true;
@@ -325,6 +329,7 @@ define({
     {
       this.view.flxNoTransactions.isVisible=false;
       this.view.segTransactions.isVisible=true;
+      this.view.flxGroupsWp.isVisible = true;
       this.view.segTransactions.setData(segData);
       this.segmentData=this.view.segTransactions.data;
     }
@@ -334,6 +339,7 @@ define({
       this.view.flxNoTransactions.isVisible=true;
       this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.NoResultsFound");
       this.view.segTransactions.isVisible=false;
+      this.view.flxGroupsWp.isVisible = false;
     }    
   },
 
@@ -399,16 +405,18 @@ define({
       if(this.segmentdata && this.segmentdata.length>0){
            this.view.segTransactions.setData(this.segmentdata);
            this.view.segTransactions.isVisible=true;
+        this.view.flxGroupsWp.isVisible = true;
            this.view.flxNoTransactions.isVisible=false;
          }
          else{
            this.view.segTransactions.isVisible=false;
+           this.view.flxGroupsWp.isVisible = false;
            this.view.flxNoTransactions.isVisible=true;
          }
     },
   showSearch: function() {
     var self = this;
-    this.view.flxMainContainer.skin = "sknFlxScrlffffff";
+    this.view.flxMainContainer.skin = "sknBGFullScroll";
     if (kony.os.deviceInfo().name === "iPhone") {
       if (this.view.flxHeaderSearchbox.height ==="40dp") {
        // this.view.flxHeaderSearchbox.isVisible = false;
@@ -437,6 +445,7 @@ define({
         this.view.customSearchbox.tbxSearch.setFocus(true);
         this.removeDummyRows();
         this.view.segTransactions.isVisible = false;
+        this.view.flxGroupsWp.isVisible = false;
         this.view.flxNoTransactions.isVisible = true;
         this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.SearchForAnAccount");
 		kony.timer.schedule("timerId", function() {
@@ -472,6 +481,7 @@ define({
         this.view.flxHeaderSearchbox.height ="40dp";
         this.view.customSearchbox.tbxSearch.text = "";
         this.view.segTransactions.isVisible = false;
+        this.view.flxGroupsWp.isVisible = false;
         this.view.flxNoTransactions.isVisible = true;
         this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.SearchForAnAccount");
         kony.timer.schedule("timerId", function() {
@@ -486,6 +496,8 @@ define({
     if (searchtext) {
       var data = this.segmentData;
       this.view.segTransactions.isVisible = true;
+      this.view.flxGroupsWp.isVisible = true;
+      this.view.flxGroupsWp.top="10dp";
       this.view.flxNoTransactions.isVisible = false;
       this.view.segTransactions.removeAll();
       var searchobj=[];
@@ -494,16 +506,19 @@ define({
         this.view.segTransactions.setData(searchobj);
       } else {
         this.view.segTransactions.isVisible = false;
+        this.view.flxGroupsWp.isVisible = false;
         this.view.flxNoTransactions.isVisible = true;
         this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.NoResultsFound");
       }
     } else {
       if (this.segmentData.length > 0) {
 		this.view.segTransactions.isVisible = false;
+        this.view.flxGroupsWp.isVisible = false;
         this.view.flxNoTransactions.isVisible = true;
         this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.SearchForAnAccount");
       } else {
         this.view.segTransactions.isVisible = false;
+        this.view.flxGroupsWp.isVisible = false;
         this.view.flxNoTransactions.isVisible = true;
         this.view.lblNoTransaction.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.MM.NoResultsFound");
       }
@@ -511,7 +526,7 @@ define({
   }, 
   
   cancelSearch: function() {
-    this.view.flxMainContainer.skin = "slfSbox";
+    this.view.flxMainContainer.skin = "sknBGFullScroll";
     this.view.flxHeaderSearchbox.height ="0dp";
     //this.view.flxHeaderSearchbox.isVisible = false;
    // this.view.flxSearch.isVisible = true;
@@ -523,6 +538,7 @@ define({
     this.view.flxGradient.top = "0dp";
     this.view.flxDescription.top = "55dp";
     this.view.segTransactions.top = "0dp";
+     this.view.flxGroupsWp.top="56dp";
     if (kony.os.deviceInfo().name === "iPhone") {
       this.view.flxHeader.isVisible = false;
       this.view.flxMainContainer.top = "0dp";
@@ -535,6 +551,7 @@ define({
       cancelSearchSegmentData=this.settingCancelSearchSegmentData();
       this.view.segTransactions.setData(cancelSearchSegmentData);
       this.addDummyRows();
+      this.view.flxGroupsWp.isVisible = true;
       this.view.segTransactions.isVisible = true;
       this.view.flxNoTransactions.isVisible = false;
     } else {

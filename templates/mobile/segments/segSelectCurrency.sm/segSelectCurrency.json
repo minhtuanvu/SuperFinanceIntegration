@@ -51,7 +51,6 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXR",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

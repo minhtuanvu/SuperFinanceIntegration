@@ -351,7 +351,7 @@ define({
           this.view.lblDollar.skin = "sknLblTransTitleSF";
           this.view.lblAmount.text = "0,00";
           this.view.lblExtension.text = "";
-        } else {
+        } else {         
           this.view.lblAmountWithFlag.skin = "sknLblA0A0A0ssp66px";
           this.view.lblAmountWithFlag.text = "0,00";
           this.view.lblExtensionWithFlag.text = "";
@@ -411,12 +411,12 @@ define({
           this.view.lblAmount.text = this.formatAmount(keypadStringCommas);
           this.view.lblExtension.text = this.getDecimalExtension(keypadStringCommas);
         } else {
-          this.view.lblAmountWithFlag.skin = "sknLbl000000ssp66px";
+          this.view.lblAmountWithFlag.skin = "sknLblA0A0A0ssp66px";
           this.view.lblAmountWithFlag.text = this.formatAmount(keypadStringCommas);
           this.view.lblExtensionWithFlag.text = this.getDecimalExtension(keypadStringCommas);
         }  
       } else {
-        this.view.lblAmountWithFlag.skin = "sknLbl000000ssp66px";
+        this.view.lblAmountWithFlag.skin = "sknLblA0A0A0ssp66px";
         this.view.lblAmountWithFlag.text = this.formatAmount(keypadStringCommas);
         this.view.lblExtensionWithFlag.text = this.getDecimalExtension(keypadStringCommas);
       }

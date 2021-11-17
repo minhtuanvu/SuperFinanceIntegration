@@ -46,6 +46,16 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxMainContainer",
     "pf": "frmEuropeTransferToAccount",
+    "responsiveconfig": {
+        "offset": {
+            "landscape": 0,
+            "portrait": 0
+        },
+        "span": {
+            "landscape": 6,
+            "portrait": 12
+        }
+    },
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

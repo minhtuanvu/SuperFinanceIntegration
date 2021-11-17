@@ -98,6 +98,7 @@ define({
       if (transferPresentationController.getEuropeFlowType() === "EXTERNAL") {
         this.setSavedRecipientLabel(transferObject);
 //         this.view.flxFurtherDetailsHeader.isVisible = true;
+        this.view.FlexGroup3.isVisible = true;
         this.view.flxFurtherDetails.isVisible = true;
       }
       else {
@@ -106,6 +107,7 @@ define({
           this.view.lblSavedRecipient.text = applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.loans.AckMessage");
 //           this.view.flxFurtherDetailsHeader.isVisible = false;
           this.view.flxFurtherDetails.isVisible = false;
+          this.view.FlexGroup3.isVisible = false;
         }
         else {
         	this.view.lblSavedRecipient.isVisible = false;

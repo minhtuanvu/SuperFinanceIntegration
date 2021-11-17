@@ -562,11 +562,11 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "95%"
     },
     "android": {
         "psp": {
@@ -575,6 +575,10 @@
     },
     "autogrowmode": 1,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "counter": "14",
     "enabledictionary": true,
@@ -662,6 +666,6 @@
         "lblDelete": "lblDelete",
         "lblHeader": "lblHeader"
     },
-    "widgetskin": "s69f28c050df43fb9bf92e79f4534943",
+    "widgetskin": "s5c7b11645de477592cbc37c8bc1e74f",
     "zindex": 1
 }
