@@ -56,7 +56,7 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       // this.view.flxGradient.isVisible = true;
-      this.view.FlexGroupWps.top="56dp";
+      this.view.FlexGroupWps.top="10dp";
       this.view.segTransactions.top = "0dp";
       this.view.flxMainContainer.top = "0dp";
     } else {
@@ -65,7 +65,7 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "56dp";
-      this.view.FlexGroupWps.top="56dp";
+      this.view.FlexGroupWps.top="10dp";
       // this.view.segTransactions.top = "0dp";
     }
     this.initActions();
@@ -475,6 +475,7 @@ define({
     if (searchtext) {
       var data = this.segmentData;
       this.view.segTransactions.isVisible = true;
+      this.view.FlexGroupWps.top="10dp";
       this.view.FlexGroupWps.isVisible = true;
       this.view.flxNoTransactions.isVisible = false;
       this.view.segTransactions.removeAll();

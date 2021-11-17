@@ -59,14 +59,14 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "0dp";
-      this.view.flxGroupsWp.top="56dp";
+      this.view.flxGroupsWp.top="10dp";
     } else {
       this.view.flxHeader.isVisible = true;
       this.view.flxSearch.top = 0 + "dp";
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "56dp";
-      this.view.flxGroupsWp.top="56dp";
+      this.view.flxGroupsWp.top="10dp";
     }
     
     this.initActions();
@@ -538,7 +538,7 @@ define({
     this.view.flxGradient.top = "0dp";
     this.view.flxDescription.top = "55dp";
     this.view.segTransactions.top = "0dp";
-     this.view.flxGroupsWp.top="56dp";
+     this.view.flxGroupsWp.top="10dp";
     if (kony.os.deviceInfo().name === "iPhone") {
       this.view.flxHeader.isVisible = false;
       this.view.flxMainContainer.top = "0dp";
