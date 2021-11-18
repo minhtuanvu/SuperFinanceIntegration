@@ -42,7 +42,7 @@
     "id": "flxSeparator",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "fba16e7f0c3a4893811100a648c170fe",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

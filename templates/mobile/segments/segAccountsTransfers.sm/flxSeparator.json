@@ -1,6 +1,5 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_bottom_": {
         "type": "string",
         "value": "0dp"
@@ -43,7 +42,7 @@
     "id": "flxSeparator",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "i42c7b016db547b296c092eaa60f4bbf",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
