@@ -21,7 +21,7 @@
         31,
         21
     ],
-    "_skin_": "s6c1771750c54d6fa6c7ce582c117624",
+    "_skin_": "s2057d044015488685f157c400536975",
     "_title_": "My Money",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -51,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmPFMMyMoney",
@@ -91,7 +91,19 @@
                 "barStyle": 0,
                 "hidesBackButton": true,
                 "kuid": "d3e06c5d897f45478d1f7ca750232d0d",
-                "leftBarButtonItems": [],
+                "leftBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_bb3b5ec16c8640dc9b2446e00eafe372",
+                        "info": {
+                            "image": "menu_fusion.png"
+                        },
+                        "kuid": "fa387368078b4451832ab0a26deed2cc",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
                 "renderTitleText": true,
@@ -112,9 +124,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone11",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

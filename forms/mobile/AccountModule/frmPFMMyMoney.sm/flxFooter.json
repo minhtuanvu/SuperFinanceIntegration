@@ -51,10 +51,14 @@
     "id": "flxFooter",
     "info": null,
     "iphone": {
+        "left": {
+            "type": "string",
+            "value": "0dp"
+        },
         "render": true
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b16f6b536396408aa6487e733907dcdd",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

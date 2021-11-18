@@ -432,7 +432,7 @@ define(['CommonUtilities'], function(CommonUtilities) {
       CHF: 'Fr.', //Swiss Franc
       AED: 'د.إ', //UAE
       RUB: '₽', //Russian
-	  HKD: 'HK$', //Hongkong Dollar
+      HKD: 'HK$', //Hongkong Dollar
     };
     this.wireTransferCurrency = {
       '$' : 'USD', // US Dollar
@@ -2894,16 +2894,36 @@ define(['CommonUtilities'], function(CommonUtilities) {
    * @returns {Array}
    */
   ConfigurationManager.prototype.getIOSAppMoreMenuItems = function() {
-    if(this.AggregatedExternalAccountEnabled)
-      return this.moreMenuItems;
+    //by vineela
+    if(this.features.indexOf("MANAGE_ACCOUNT_STATEMENTS")<0 ){
+      for(i=0;i<this.hamburgerMenuItems.length;i++){
+        if ( this.hamburgerMenuItems[i].text === this.constants.MENUACCOUNTSTATEMENTS)          
+          break;              
+      }
+      this.hamburgerMenuItems.splice(i,1);
+    }
+    if(this.AggregatedExternalAccountEnabled){
+      kony.print("hamburgermenu aggregated enabled--->"+JSON.stringify(this.hamburgerMenuItems));
+      return this.hamburgerMenuItems;}
     else
     {
-      for(i=0;i<this.moreMenuItems.length;i++)
-        if(this.moreMenuItems[i].text==this.constants.MENUMANAGEOTHERBANKACCOUNTS)
+      for(i=0;i<this.hamburgerMenuItems.length;i++)
+        if(this.hamburgerMenuItems[i].text==this.constants.MENUMANAGEOTHERBANKACCOUNTS)
           break;
-      this.moreMenuItems.splice(i,1);
-      return this.moreMenuItems;
+      this.hamburgerMenuItems.splice(i,1);
+      kony.print("hamburgermenu else--->"+JSON.stringify(this.hamburgerMenuItems));
+      return this.hamburgerMenuItems;
     }
+    //     if(this.AggregatedExternalAccountEnabled)
+    //       return this.moreMenuItems;
+    //     else
+    //     {
+    //       for(i=0;i<this.moreMenuItems.length;i++)
+    //         if(this.moreMenuItems[i].text==this.constants.MENUMANAGEOTHERBANKACCOUNTS)
+    //           break;
+    //       this.moreMenuItems.splice(i,1);
+    //       return this.moreMenuItems;
+    //     }
   };
   /**
    * Getter for Denomination amount values from configurations
@@ -4814,7 +4834,7 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_MARKET_AND_NEWS_TOP_NEWS_VIEW'
     ];
   };
-   /**
+  /**
         This method returns the list of permissions required to view detailed news
     **/
   ConfigurationManager.prototype.getNewsDetailsPermissionsList = function(){
@@ -4914,7 +4934,7 @@ define(['CommonUtilities'], function(CommonUtilities) {
   ConfigurationManager.prototype.mgmtOrderViewAckPermissions = function() {
     return ['WEALTH_ORDER_MGMT_ORDER_ACKNOWLEDGEMENT_VIEW'];
   };
-   /**
+  /**
            This method returns the list of permissions required to view order link
        **/
   ConfigurationManager.prototype.mgmtOrderViewOrderLinkPermissions = function() {
@@ -4928,7 +4948,7 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_PORTFOLIO_DETAILS_PERFORMANCE_VIEW'
     ];
   };
-  
+
   /**
   This method returns the list of permissions required to instrument details
   **/
@@ -4937,8 +4957,8 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_PRODUCT_DETAILS_INSTRUMENT_VIEW'
     ];
   };
-  
-   /**
+
+  /**
   This method returns the list of permissions required to instrument current possition
   **/
   ConfigurationManager.prototype.getInstrumentCurrentPositionPermissions= function(){
@@ -4946,8 +4966,8 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_PRODUCT_DETAILS_CURRENT_POSITION_VIEW'
     ];
   };
-  
-    /**
+
+  /**
   This method returns the list of permissions required to instrument pricing data
   **/
   ConfigurationManager.prototype.getInstrumentPricingDataPermissions= function(){
@@ -4955,8 +4975,8 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_PRODUCT_DETAILS_PRICING_DATA_VIEW'
     ];
   };
-  
-     /**
+
+  /**
   This method returns the list of permissions required to instrument news
   **/
   ConfigurationManager.prototype.getInstrumentNewsPermissions= function(){
@@ -4964,8 +4984,8 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_NEWS_AND_DOCUMENTS_STOCK_NEWS_VIEW'
     ];
   };
-  
-      /**
+
+  /**
   This method returns the list of permissions required to instrument documents
   **/
   ConfigurationManager.prototype.getInstrumentDocumentsPermissions= function(){
@@ -4973,7 +4993,7 @@ define(['CommonUtilities'], function(CommonUtilities) {
       'WEALTH_NEWS_AND_DOCUMENTS_DOCUMENTS_VIEW'
     ];
   };
-  
+
   /**
         This method returns the list of permissions required to view General Transactions
     **/

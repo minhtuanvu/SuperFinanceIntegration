@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_j0ae09a9972e44ba87fd5fad754d94a0": {
+        "id": "AS_FlexContainer_j0ae09a9972e44ba87fd5fad754d94a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmUnifiedDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f9e614cc940c46799370cb0f77cf2c88"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f850da688dc6422ebe68c92800f9f8b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.speechStopInsightsPopup();",
+            "parentId": null
+        }]
+    }
+}

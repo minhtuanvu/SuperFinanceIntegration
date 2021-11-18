@@ -45,7 +45,7 @@
     "iphone": {
         "bottom": {
             "type": "string",
-            "value": "63dp"
+            "value": "10dp"
         }
     },
     "iscustomlayout": false,

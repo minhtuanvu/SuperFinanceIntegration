@@ -87,7 +87,19 @@
                 "barStyle": 0,
                 "hidesBackButton": true,
                 "kuid": "d2110d9580794fcd923e0d9091d622e0",
-                "leftBarButtonItems": [],
+                "leftBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_gcb0fde7959544c0b4dd6d1ecfbd3216",
+                        "info": {
+                            "image": "menu_fusion.png"
+                        },
+                        "kuid": "aaad84a2160b41cd92c49d2935c13e1c",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
                 "renderTitleText": true,

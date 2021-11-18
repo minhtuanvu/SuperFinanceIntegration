@@ -805,23 +805,33 @@ define([], function() {
         //continue;
         if (data[i].text === configManager.constants.MENUNOTIFICATIONS && !kony.sdk.isNullOrUndefined(notificationCount) && notificationCount !== "0" ) {
           if(!alertsbadgeShown && (!kony.sdk.isNullOrUndefined(previousUnreadCount) && Number(previousUnreadCount) >= Number(notificationCount))){
-            if(!applicationManager.getDeviceUtilManager().isIPhone())
+            if(!applicationManager.getDeviceUtilManager().isIPhone()){
               //this.view.HeaderSF.imgMenuSF
               //by vineela
               if (scope.view.HeaderSF) {
                 scope.view.HeaderSF.imgMenuSF.src = "menu_fusion.png"; 
               }
-            //by vineela for normal header forms
+              //by vineela for normal header forms
               else{
                 scope.view.customHeader.imgBack.src = "hamburger.png";
               }
-            //scope.view.customHeader.imgBack.src = "hamburger.png";
-            //data[i].img = {"src" : "notification.png"};
+              //scope.view.customHeader.imgBack.src = "hamburger.png";
+            }
+            data[i].img = {"src" : "notification.png"};
           }
           else{
             alertsNotifiModule.presentationController.setAlertsBadgeStatus(true);
-            if(applicationManager.getDeviceUtilManager().isIPhone())
-              scope.view.customFooter.imgMore.src = "moreunread.png";
+            if(applicationManager.getDeviceUtilManager().isIPhone()){
+              //scope.view.customFooter.imgMore.src = "moreunread.png";
+              //by vineela
+              if (scope.view.HeaderSF) {
+                scope.view.HeaderSF.imgMenuSF.src = "menu_fusion.png"; 
+              }
+              ////by vineela for normal header forms
+              else{
+                scope.view.customHeader.imgBack.src = "hamburger.png";
+              }
+            }
             else{
               //by vineela
               if (scope.view.HeaderSF) {
@@ -832,6 +842,7 @@ define([], function() {
                 scope.view.customHeader.imgBack.src = "hamburger.png";
               }
             }
+
             //scope.view.customHeader.imgBack.src = "hamburgerdot.png";
             //data[i].img = {"src" : "notificationunread.png"};
           }
@@ -871,10 +882,21 @@ define([], function() {
     }
     //by vineela for normal header forms
     else if(scope.view.customHeader){
-      kony.print("flxMenu headersf 1st if");
-      //if (scope.view.customHeader) {
+      kony.print("custom header if");
+      //below if condition by vineela for settings menu
+      if(settingsHam == 1){
+        kony.print("settings ham----> "+settingsHam);
+        //if (scope.view.customHeader) {
+        //by vineela
+        setProfilePic();
+        setLastLoginTime();
+        setUserName();
+        setMenuData();
+        showOrHideHamburgerUI(); 
+        settingsHam = 0;
+      }
       scope.view.customHeader.flxBack.onClick = function() {
-        kony.print("flxMenu onclick");
+        kony.print("flxBack onclick");
         //scope.view.customHeader.flxBack.onClick = function() {
         setProfilePic();
         setLastLoginTime();
@@ -963,17 +985,31 @@ define([], function() {
     hideTitleBar = function() {
       var currForm = kony.application.getCurrentForm();
       if (applicationManager.getPresentationFormUtility().getDeviceName() === "iPhone") {
-        var titleBarAttributes = currForm.titleBarAttributes;
-        titleBarAttributes["navigationBarHidden"] = true;
-        currForm.titleBarAttributes = titleBarAttributes;
+        //by vineela for title bar
+        if(titleDisable == 1){
+          kony.print("title bar disable hide");
+          //titleDisable = 0;
+        }
+        else{
+          var titleBarAttributes = currForm.titleBarAttributes;
+          titleBarAttributes["navigationBarHidden"] = true;
+          currForm.titleBarAttributes = titleBarAttributes; 
+        }
       }
     };
     showTitleBar = function() {
       var currForm = kony.application.getCurrentForm();
       if (applicationManager.getPresentationFormUtility().getDeviceName() === "iPhone") {
-        var titleBarAttributes = currForm.titleBarAttributes;
-        titleBarAttributes["navigationBarHidden"] = false;
-        currForm.titleBarAttributes = titleBarAttributes;
+        //by vineela for title bar
+        if(titleDisable == 1){
+          kony.print("title bar disable show");
+          titleDisable = 0;
+        }
+        else{
+          var titleBarAttributes = currForm.titleBarAttributes;
+          titleBarAttributes["navigationBarHidden"] = false;
+          currForm.titleBarAttributes = titleBarAttributes;
+        }
       }
     };
   }

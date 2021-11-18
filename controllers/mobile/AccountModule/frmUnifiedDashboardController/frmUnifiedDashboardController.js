@@ -209,8 +209,9 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           this.view.flxTitle.isVisible = true;
           this.view.flxMenu.isVisible = false;
         } else {
+
           this.view.flxTitle.isVisible = false;
-          this.view.flxMenu.isVisible = true;
+          //this.view.flxMenu.isVisible = true;//by vineela
           this.view.flxDashboardHeader.horizontalScrollIndicator = false;
         }
         this.CATEGORY_COUNT = 9;
@@ -458,9 +459,9 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
 
       this.view.flxOverlaySF.isVisible = false;
       this.view.flxDashboardParentSF.isVisible = true;
-      
+
       this.view.lblGoodMorningSG.text = this.getMessageBasedOnTime();
-      
+
 
       //this.view.flxOverlaySF.isVisible = true;
       //this.view.flxDashboardParentSF.isVisible = false;
@@ -469,7 +470,12 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         cachePolicy: kony.net.cache.RELOAD_IGNORING_LOCAL_CACHE_DATA,
         cacheStoragePolicy: kony.net.cache.MEMORY_ONLY
       };
+      //by vineela for speech to text
       this.view.flxTammyPopupOverlaySF.isVisible = false;
+      this.view.imgInsightsSF.isVisible = true;
+      this.view.imgProcessingSF.isVisible = false;
+      // this.view.flxTammyPopupTammySF.onTouchStart = this.speechStartInsightsPopup;
+      //this.view.flxTammyPopupTammySF.onTouchEnd = this.speechStopInsightsPopup;
       applicationManager.getPresentationUtility().dismissLoadingScreen();// please let this be the last line of preshow
     },
     viewAllFilter : function(processedArry){
@@ -3143,15 +3149,15 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           kony.print("Exception in postshow" + JSON.stringify(e, null, 4));
         }catch(er){}
       }
-
-      try {
-        var titleBarAttributes = this.view.titleBarAttributes;
-        titleBarAttributes["navigationBarHidden"] = false;
-        this.view.titleBarAttributes = titleBarAttributes;
-      }
-      catch(err) {
-        kony.print("Exception in postshow" + JSON.stringify(err, null, 4));
-      }
+      //by vineela for title bar
+      //       try {
+      //         var titleBarAttributes = this.view.titleBarAttributes;
+      //         titleBarAttributes["navigationBarHidden"] = false;
+      //         this.view.titleBarAttributes = titleBarAttributes;
+      //       }
+      //       catch(err) {
+      //         kony.print("Exception in postshow" + JSON.stringify(err, null, 4));
+      //       }
 
       var date = new Date();
       var fetchedMonth = date.getMonth();
@@ -3566,6 +3572,8 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         }
       };
       this.view.flxInnerChartSizeToggle.onClick = this.animateDashboardFlex.bind(this);
+      //by vineela for title bar 
+      titleDisable = 1;
       var configManager = applicationManager.getConfigurationManager();
       var MenuHandler =  applicationManager.getMenuHandler();
       MenuHandler.setUpHamburgerForForm(scope, configManager.constants.MENUACCOUNTS);
@@ -6347,7 +6355,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "onClick": this.accountDetailsClick.bind(this,i),
           "isModalContainer": false,
           "skin": this.accountsLstSF[i].sknAccBg,
-          "width": "38%",
+          "width": "39%",
           "zIndex": 1
         }, {}, {});
         flxAccTypeDetails.setDefaultUnit(kony.flex.DP);
@@ -6361,7 +6369,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "left": "8%",
           "isModalContainer": false,
           "skin": this.accountsLstSF[i].sknLogoBg,
-          "top": "5%",
+          "top": "8%",
           "width": "50dp",
           "zIndex": 1
         }, {}, {});
@@ -6385,8 +6393,8 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         var lblAccType = new kony.ui.Label({
           "id": "lblAccType"+i,
           "isVisible": true,
-          "left": "15dp",
-          "skin": "sknLblWishesSF",
+          "left": "10dp",
+          "skin": "sknLblAccTypeSF",
           //"skin":"CopysknLblWishesSF0c18fd868740140",
           "text": this.accountsLstSF[i].lblAccountTypeSF,
           "textStyle": {},
@@ -6405,7 +6413,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         var lblAccBal = new kony.ui.Label({
           "id": "lblAccBal"+i,
           "isVisible": true,
-          "left": "15dp",
+          "left": "10dp",
           "skin": "sknLblAccBalSF",
           "text": "Account Balance",
           "textStyle": {},
@@ -6438,8 +6446,8 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         var lblAccCurrency = new kony.ui.Label({
           "id": "lblAccCurrency"+i,
           "isVisible": true,
-          "left": "15dp",
-          "skin": "sknLblWishesSF",
+          "left": "0dp",
+          "skin": "sknLblAccTypeSF",
           "text": this.accountsLstSF[i].lblCurrencyCodeSF,
           "textStyle": {},
           "width": kony.flex.USE_PREFFERED_SIZE,
@@ -6459,7 +6467,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           "width": "100%",
           "id": "lblAccValue"+i,
           "isVisible": true,
-          "skin": "sknLblWishesSF",
+          "skin": "sknLblAccTypeSF",
           "text": this.accountsLstSF[i].lblAccountBalValSF,
           "textStyle": {},
           "height": kony.flex.USE_PREFFERED_SIZE,
@@ -6655,6 +6663,35 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           //"color": self.hexToRgbA(self.chartColors[record.categoryId])
         });
       });
+      //by vineela for removing other and add amount to travel
+      if(pfmTravel == 0){
+        kony.print("pfmtravel 0");
+      }
+      else if(pfmTravel == 1){
+        var travelAmt = 0;
+        var otherAmt = 0;
+        kony.print("pfmtravel 1");
+        var chartLen = chartData.length;
+        chartLen = kony.os.toNumber(chartLen);
+        otherAmt = kony.os.toNumber(chartData[chartLen-1].value);
+        for(var i in chartData){
+          //           if(chartData[i].label == "Other"){
+          //             otherAmt = chartData[i].value;
+          //             otherAmt = kony.os.toNumber(otherAmt);
+          //             kony.print("Other Amt ---> "+otherAmt);
+          //           }
+          if(chartData[i].label == "Travel"){
+            travelAmt = chartData[i].value;
+            travelAmt = kony.os.toNumber(travelAmt);
+            kony.print("travelAmt before adding"+travelAmt);
+            kony.print("otherAmt before adding"+otherAmt);
+            travelAmt = travelAmt + otherAmt;
+            kony.print("travelAmt after adding"+travelAmt);
+            chartData[i].value = travelAmt.toString();
+          }
+        }
+        chartData.pop();
+      }
       kony.print("chartData----> "+JSON.stringify(chartData));
       var stringifiedData = "generateDoughnutChart(" + JSON.stringify(chartData) + ");";
       self.view.brwsrChartsSF.evaluateJavaScript(stringifiedData);
@@ -6690,7 +6727,8 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         this.view.flxTammyPopupOverlaySF.setVisibility(true);
         this.view.texttospeech.speakOut("Hello");
         this.view.texttospeech.speakOut("Hello Mike, I am going to keep this short. There are three things that need your attention, today. Shall we begin?");
-        this.view.flxTammyPopupOverlaySF.onClick = this.doNothing.bind();
+        // this.view.flxTammyPopupOverlaySF.onClick = this.doNothing.bind();
+
       } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
@@ -6705,7 +6743,7 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
     },
-    
+
     getMessageBasedOnTime: function() {
       try {
         var myDate = new Date();
@@ -6719,11 +6757,33 @@ define(['CampaignUtility','CommonUtilities'], function(CampaignUtility,CommonUti
           greet = 'Good Afternoon';
         else if (hrs >= 17 && hrs <= 24)
           greet = 'Good Evening';
-        
+
         return greet;
       } catch(err) {
         throw GlobalExceptionHandler.addMessageAndActionForException(err, "kony.error.processingError", GlobalExceptionHandler.ActionConstants.LOG, arguments.callee.name);
       }
+    },
+    speechStartInsightsPopup : function(){
+      kony.print("start");
+      this.view.speechtotext.onSpeechClick();
+      this.view.imgInsightsSF.isVisible = false;
+      this.view.imgProcessingSF.isVisible = true;
+    },
+    speechStopInsightsPopup : function(){
+      kony.print("stop");
+      this.view.speechtotext.onSpeechCancel();
+      this.view.imgInsightsSF.isVisible = true;
+      this.view.imgProcessingSF.isVisible = false;
+    },
+    speechInsightsCallBack : function(inTxt){
+      inTxt = inTxt.toLowerCase();      
+      if((inTxt == "ok")||(inTxt == "sure")||(inTxt == "yes")){
+        kony.print("popup speech---> "+inTxt);
+        this.onclickTammyInDashboardPopup();
+      }
+      else{
+        kony.print("try again insights popup");
+      } 
     }
 
   };

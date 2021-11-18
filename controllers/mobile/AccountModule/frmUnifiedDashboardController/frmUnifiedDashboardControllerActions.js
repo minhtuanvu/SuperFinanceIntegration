@@ -36,9 +36,13 @@ define({
         var self = this;
         return self.onclickTammyInDashboardHeader.call(this);
     },
-    AS_FlexContainer_e1f45b178f9c4e71a6c8dbeb1494c562: function AS_FlexContainer_e1f45b178f9c4e71a6c8dbeb1494c562(eventobject) {
+    AS_FlexContainer_j0ae09a9972e44ba87fd5fad754d94a0: function AS_FlexContainer_j0ae09a9972e44ba87fd5fad754d94a0(eventobject, x, y) {
         var self = this;
-        return self.onclickTammyInDashboardPopup.call(this);
+        this.speechStopInsightsPopup();
+    },
+    AS_FlexContainer_d03f115d3261463e8cfb1d1b52831a1e: function AS_FlexContainer_d03f115d3261463e8cfb1d1b52831a1e(eventobject, x, y) {
+        var self = this;
+        this.speechStartInsightsPopup();
     },
     AS_Form_afdd309d4f7840038605f9d642d03cb8: function AS_Form_afdd309d4f7840038605f9d642d03cb8(eventobject) {
         var self = this;
@@ -76,4 +80,8 @@ define({
         var self = this;
         return self.onFilterChanged.call(this, filter);
     },
+    AS_UWI_baabf2a752f740279d06ceed50c7277d: function AS_UWI_baabf2a752f740279d06ceed50c7277d(speechText) {
+        var self = this;
+        return self.speechInsightsCallBack.call(this, speechText);
+    }
 });

@@ -43,7 +43,7 @@
     "id": "flxFooter",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "dc28a336ced143dab30f44021f3c24b4",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

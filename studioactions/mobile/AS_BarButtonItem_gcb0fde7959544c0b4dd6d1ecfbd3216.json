@@ -1,0 +1,17 @@
+{
+    "AS_BarButtonItem_gcb0fde7959544c0b4dd6d1ecfbd3216": {
+        "id": "AS_BarButtonItem_gcb0fde7959544c0b4dd6d1ecfbd3216",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_b9d53f3c7c9c478a8c90b99c6c7caecc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "settingsHam = 1;\nvar configManager = applicationManager.getConfigurationManager();\nvar MenuHandler =  applicationManager.getMenuHandler();\nMenuHandler.setUpHamburgerForForm(this,configManager.constants.MENUSETTINGS);",
+            "parentId": null
+        }]
+    }
+}

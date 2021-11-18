@@ -19,6 +19,8 @@ define({
     navMan.destroyForms();
     navMan.clearEntryPointTable();
     MenuHandler.forceTouchFlow = "";
+    //by vineela
+    //pfmTravel = 0;
     kony.theme.setCurrentTheme ("DarkThemeSF", function onSuccess() {
       kony.print("Theme applyied successfully ");
     }, function onFailure() {

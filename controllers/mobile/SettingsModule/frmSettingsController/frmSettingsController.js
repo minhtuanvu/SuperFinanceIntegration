@@ -72,6 +72,8 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
       configurationSvc.getAllClientAppProperties((response) => {
         CommonUtilities.CLIENT_PROPERTIES = {...CommonUtilities.CLIENT_PROPERTIES, ...response};
       });
+      //by vineela
+      this.view.flxFooter.isVisible = false;
     },
     setFlowActions: function() {
         var scope = this;
@@ -100,8 +102,11 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
         this.view.flxFooter.isVisible = false;
       } else {
         this.view.flxHeader.isVisible = false;
-        this.view.flxFooter.isVisible = true;
-        this.view.flxMainContainer.bottom = "60dp";
+        //by vineela
+        this.view.flxFooter.isVisible = false;
+        //this.view.flxFooter.isVisible = true;
+        this.view.flxMainContainer.bottom = "0dp";
+        //this.view.flxMainContainer.bottom = "60dp";
         this.view.flxMainContainer.top = "0dp";
       }
       //        this.view.flxMainContainer.contentOffset = {x:0,y:0};

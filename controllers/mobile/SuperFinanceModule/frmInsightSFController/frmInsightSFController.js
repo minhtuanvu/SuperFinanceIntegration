@@ -71,17 +71,12 @@ define({
       this.view.flxChangeProgressSF.width = "33.3%";
       this.view.lblInsightsStepSF.text = "Step: 1/3";
     }
-
     //alert("postshow");
     this.view.texttospeech.speakOut("Hello");
     kony.timer.schedule("insights1a1",function(){
-      this.view.texttospeech.speakOut("With the current market conditions, your equities are overweight while your FX and securities are underweight. It is time to rebalance although this will have tax implications.");
+      this.view.texttospeech.speakOut("With the current market conditions, your equities are overweight while your FX and securities are underweight. It is time to rebalance although this will have tax implications. John has few recommendations for you. Would you like to see them?");
       kony.timer.cancel("insights1a1");
     }.bind(this),1,false);
-    kony.timer.schedule("insights1a2", function(){
-      this.view.texttospeech.speakOut("John has few recommendations for you. Would you like to see them?");
-      kony.timer.cancel("insights1a2");
-    }.bind(this), 13, false);
   },
   speechInsightsStart : function(){
     this.view.speechtotext.onSpeechClick();
@@ -166,7 +161,7 @@ define({
     this.view.flxTammyLogoSF.isVisible = true;
     this.view.btnNextSF.isVisible = false;
     this.view.flxExpenseSF.skin = "sknFlxPersonalSF";
-    this.view.lblPersonalSF.text = "PERSONAL";
+    this.view.lblPersonalSF.text = "OTHER";
     this.view.flxTammyLogoSF.onTouchStart = this.speechInsightsStart;
     this.view.flxTammyLogoSF.onTouchEnd = this.speechInsightsStop;
     //this.view.flxTammyLogoSF.onClick = this.onClickTammyOnStep3;
@@ -201,7 +196,7 @@ define({
     }
     kony.print("superscript"+superTxt);
     this.view.lblTmeandDteSF.text = "At 7PM "+cDate+superTxt+" "+cMon+", "+cYear;
-    this.view.texttospeech.speakOut("you have transaction on this "+cDate+superTxt+" of "+cMon+" amounting 1.099 Euros marked as Personal. Would you like to tag this under business expense?");
+    this.view.texttospeech.speakOut("you have transaction on this "+cDate+superTxt+" of "+cMon+" amounting 1.099 Euros marked as Other. Would you like to tag this under travel expense?");
   },
   onClickTammyOnStep3 : function(){
     kony.timer.cancel("show3");
@@ -211,7 +206,7 @@ define({
     this.view.flxStep3R1SF.isVisible = true;
     this.view.btnNextSF.onClick = this.disableInsights;
     kony.timer.schedule("step3", function(){
-      this.view.texttospeech.speakOut("The transaction of 1.099 Euros has been tagged under business expenses.");
+      this.view.texttospeech.speakOut("The transaction of 1.099 Euros has been tagged under travel expenses.");
       kony.timer.cancel("step3");
       this.view.flxStep3L3SF.isVisible =true;
       this.view.flxTammyLogoSF.onClick = null;
@@ -219,10 +214,11 @@ define({
       this.view.btnNextSF.isVisible = true;
       this.view.flxTammyLogoSF.isVisible = false;
       this.view.flxExpenseSF.skin = "sknFlxBusinessSF";
-      this.view.lblPersonalSF.text = "BUSINESS";
+      this.view.lblPersonalSF.text = "TRAVEL";
     }.bind(this), 1, false);
   },
   disableInsights : function(){
+    pfmTravel = 1;
     var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountModule");
     accountMod.presentationController.showDashboard();
   },

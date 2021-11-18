@@ -43,7 +43,8 @@
         "flxOverlaySF",
         "flxPfmChartsMainSF",
         "flxTammyPopupOverlaySF",
-        "texttospeech"
+        "texttospeech",
+        "speechtotext"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -19,7 +19,9 @@ define(['CampaignUtility'], function(CampaignUtility){
       try {
         if (applicationManager.getPresentationFormUtility().getDeviceName() === "iPhone") {
           this.view.flxHeader.isVisible = false;
-            this.view.flxFooter.isVisible = true;
+          //by vineela
+          this.view.flxFooter.isVisible = false;
+          //this.view.flxFooter.isVisible = true;
         } else {
           this.view.flxHeader.isVisible = true;
             this.view.flxFooter.isVisible = false;
@@ -265,7 +267,9 @@ define(['CampaignUtility'], function(CampaignUtility){
             // pfm value in the center of the Pie chart
             if (!kony.sdk.isNullOrUndefined(pieData) && pieData.length > 0)
             {
-              this.view.flxSpendingCenter.isVisible = true;
+              //by vineela
+              this.view.flxSpendingCenter.isVisible = false;
+              //this.view.flxSpendingCenter.isVisible = true;
             } 
             else 
             {
@@ -351,7 +355,9 @@ define(['CampaignUtility'], function(CampaignUtility){
                 // pfm value in the center of the Pie chart
                 if (!kony.sdk.isNullOrUndefined(tempData) && Object.keys(tempData).length > 0)
                 {
-                  this.view.flxSpendingCenter.isVisible = true;
+                  //by vineela
+                  this.view.flxSpendingCenter.isVisible = false;
+                  //this.view.flxSpendingCenter.isVisible = true;
                 }
                 else 
                 {

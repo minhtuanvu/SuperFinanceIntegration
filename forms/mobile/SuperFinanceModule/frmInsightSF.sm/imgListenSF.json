@@ -4,7 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -19,24 +23,21 @@
         0
     ],
     "_skin_": "s679032976ec4441b527ec218f32745a",
-    "_src_": "ai_listening.gif",
+    "_src_": "tammy.gif",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "60dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "id": "imgListenSF",
-    "imagescalemode": 1,
+    "imagescalemode": 0,
     "info": null,
+    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "jcf2c0a901d344f2b5f26cd3313f4f66",

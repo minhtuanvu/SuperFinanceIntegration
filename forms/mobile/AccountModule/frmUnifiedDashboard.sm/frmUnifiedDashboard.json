@@ -21,7 +21,7 @@
         31,
         31
     ],
-    "_skin_": "s566790d0ee0487183e0cb45da52b7ae",
+    "_skin_": "s2057d044015488685f157c400536975",
     "_title_": "My Accounts",
     "addWidgetsdone": false,
     "allboxes": [],
@@ -29,8 +29,7 @@
     "android": {
         "psp": {
             "windowSoftInputMode": 2
-        },
-        "titleBar": false
+        }
     },
     "bounces": false,
     "canUpdateUI": true,
@@ -61,7 +60,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "enablescrolling": false,
@@ -81,7 +80,9 @@
     },
     "iphone": {
         "psp": {
+            "configureStatusBarStyle": true,
             "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
             "titleBarAttributes": {
                 "backBarButtonItem": {
                     "enabled": true,
@@ -105,7 +106,7 @@
                 "translucent": false
             }
         },
-        "titleBar": true
+        "titleBar": false
     },
     "isvisible": true,
     "kuid": "f9e614cc940c46799370cb0f77cf2c88",
@@ -113,12 +114,13 @@
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone11",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
     "retainscrollposition": false,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
     "texti18n": "kony.mb.MyAccounts.Title",
     "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
     "titlebar": false,

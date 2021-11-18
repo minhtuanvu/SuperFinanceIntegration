@@ -17,5 +17,13 @@ define({
     AS_Form_c9294c1e0a0243fb9f426fd2dd224ffe: function AS_Form_c9294c1e0a0243fb9f426fd2dd224ffe(eventobject) {
         var self = this;
         this.pfmPreshow();
+    },
+    AS_BarButtonItem_bb3b5ec16c8640dc9b2446e00eafe372: function AS_BarButtonItem_bb3b5ec16c8640dc9b2446e00eafe372(eventobject) {
+        var self = this;
+        settingsHam = 1;
+        var scope = this;
+        var configManager = applicationManager.getConfigurationManager();
+        var MenuHandler = applicationManager.getMenuHandler();
+        MenuHandler.setUpHamburgerForForm(scope, configManager.constants.MENUPFMMYMONEY);
     }
 });
