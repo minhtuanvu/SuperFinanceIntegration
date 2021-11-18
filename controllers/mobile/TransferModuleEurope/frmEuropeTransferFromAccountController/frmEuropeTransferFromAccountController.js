@@ -59,19 +59,19 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "0dp";
-      this.view.flxGroupsWp.top="10dp";
+      this.view.flxGroupsWp.top="120dp";//previously it was 10dp by vineela
     } else {
       this.view.flxHeader.isVisible = true;
       this.view.flxSearch.top = 0 + "dp";
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "56dp";
-      this.view.flxGroupsWp.top="10dp";
+      this.view.flxGroupsWp.top="120dp";//previously it was 10dp by vineela
     }
     
     this.initActions();
     this.setSegmentData(this.decideCatergoryOfContracts());
-    this.addDummyRows();
+    //this.addDummyRows();//removed by vineela for checking
    // this.view.flxSearch.isVisible = true;
     this.view.flxSearch.height = "55dp";
    // this.view.flxDescription.isVisible = true;
@@ -497,7 +497,7 @@ define({
       var data = this.segmentData;
       this.view.segTransactions.isVisible = true;
       this.view.flxGroupsWp.isVisible = true;
-      this.view.flxGroupsWp.top="10dp";
+      this.view.flxGroupsWp.top="20dp";//by vineela previosuly it was 10dp
       this.view.flxNoTransactions.isVisible = false;
       this.view.segTransactions.removeAll();
       var searchobj=[];
@@ -538,7 +538,7 @@ define({
     this.view.flxGradient.top = "0dp";
     this.view.flxDescription.top = "55dp";
     this.view.segTransactions.top = "0dp";
-     this.view.flxGroupsWp.top="10dp";
+     this.view.flxGroupsWp.top="120dp";//by vineela previosuly it was 10dp
     if (kony.os.deviceInfo().name === "iPhone") {
       this.view.flxHeader.isVisible = false;
       this.view.flxMainContainer.top = "0dp";

@@ -54,7 +54,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel3",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "enablescrolling": false,
@@ -140,9 +140,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone11",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "PixelXL",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

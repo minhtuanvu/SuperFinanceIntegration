@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_bottom_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",

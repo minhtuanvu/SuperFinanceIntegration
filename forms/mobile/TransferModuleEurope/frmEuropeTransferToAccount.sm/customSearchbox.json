@@ -102,7 +102,8 @@
                 "kuid": "e962736116924a9db32ca3edf36f66c9",
                 "srcKUID": "j657ec465367414995d83c0c48f49c43",
                 "wType": "Image"
-            }
+            },
+            "src": "search.png"
         },
         "tbxSearch": {
             "__events__": {},

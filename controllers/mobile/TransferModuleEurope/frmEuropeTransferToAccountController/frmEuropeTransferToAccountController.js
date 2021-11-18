@@ -56,7 +56,7 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       // this.view.flxGradient.isVisible = true;
-      this.view.FlexGroupWps.top="10dp";
+      this.view.FlexGroupWps.top="120dp";//previously it was 10dp by vineela
       this.view.segTransactions.top = "0dp";
       this.view.flxMainContainer.top = "0dp";
     } else {
@@ -65,12 +65,12 @@ define({
       this.view.flxDescription.top = 55 + "dp";
       this.view.flxGradient.top = "0dp";
       this.view.flxMainContainer.top = "56dp";
-      this.view.FlexGroupWps.top="10dp";
+      this.view.FlexGroupWps.top="120dp";//previously it was 10dp by vineela
       // this.view.segTransactions.top = "0dp";
     }
     this.initActions();
     this.setSegmentData(this.decideCatergoryOfContracts());
-    this.addDummyRows();
+    //this.addDummyRows();
     this.view.flxSearch.height = "55dp";
     // this.view.flxSearch.isVisible = true;
     // this.view.flxDescription.isVisible = true;
@@ -475,7 +475,7 @@ define({
     if (searchtext) {
       var data = this.segmentData;
       this.view.segTransactions.isVisible = true;
-      this.view.FlexGroupWps.top="10dp";
+      this.view.FlexGroupWps.top="20dp";//previously it was 10dp by vineela
       this.view.FlexGroupWps.isVisible = true;
       this.view.flxNoTransactions.isVisible = false;
       this.view.segTransactions.removeAll();
@@ -517,7 +517,7 @@ define({
     this.view.flxGradient.top = "0dp";
     this.view.flxDescription.top = "55dp";
     this.view.segTransactions.top = "0dp";
-    this.view.FlexGroupWps.top="10dp";
+    this.view.FlexGroupWps.top="120dp";//previously it was 10dp by vineela
     if (kony.os.deviceInfo().name === "iPhone") {
       this.view.flxHeader.isVisible = false;
       this.view.flxMainContainer.top = "0dp";
